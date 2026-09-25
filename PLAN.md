@@ -1,84 +1,131 @@
-# desarrollo.com.py — Build Plan
+# desarrollo.com.py — Build Plan (v2, KWP-validated)
 
-Goal: the #1 Spanish-language site in Paraguay for "desarrollo de software / apps / web / IA", turning organic traffic into qualified WhatsApp + form leads (VenderCRM).
+Goal: the #1 Spanish-language site in Paraguay for software, apps, web, AI and integrations, turning organic traffic into qualified WhatsApp + form leads (VenderCRM).
 Out of scope: cybersecurity services (lives on ciberseguridad.com.py — cross-link only).
 
 ## 1. Positioning
 
-- **Promise:** "Software a medida, apps y soluciones con IA para empresas paraguayas — precios en guaraníes, factura legal, equipo local."
-- **Differentiators to repeat everywhere:** fixed-price quotes in Gs., SIFEN/e-kuatia electronic invoicing integration, Bancard / Pagopar / Tigo Money / Personal payments, WhatsApp-first, delivery in weeks (AI-accelerated dev), local support in Asunción + remote nationwide.
-- **Language:** Spanish (Paraguay). Guaraní greeting touches only in copy, not SEO pages.
+- **Promise:** "Software a medida, páginas web, integraciones y soluciones con IA para empresas paraguayas — precios en guaraníes, factura legal, equipo local."
+- **Differentiators:** SIFEN/facturación electrónica integration, Bancard + Pagopar payments, WhatsApp Business API, WordPress/Elementor/WooCommerce experts, hosting + correo corporativo included, fixed-price quotes in Gs., fast AI-accelerated delivery.
+- **Language:** Spanish (es-PY).
 
-## 2. Services (money pages, ordered by lead value × search demand)
+## 2. KWP insights (Paraguay, monthly)
 
-| # | Service | URL | Notes |
+Biggest volumes are **platform/brand terms where businesses need a developer**, not "agency" terms:
+
+| Keyword | Vol | Use |
+|---|---|---|
+| bancard | 14,800 | Integration pillar + guides |
+| whatsapp business | 14,800 | WhatsApp API / chatbot pillar + guides |
+| factura | 4,400 | Facturación electrónica cluster |
+| sifen | 2,900 | **Top money cluster** |
+| facturación electrónica | 2,400 | Top money cluster |
+| pagopar | 2,400 | Integration pillar + guides |
+| ecommerce | 1,900 | E-commerce pillar (NOT "tienda online") |
+| crm | 1,600 | CRM pillar |
+| wordpress | 1,000 | WordPress pillar |
+| marketing digital | 1,000 | Link to SEO page only (not core) |
+| páginas web | 720 | Web pillar (main commercial term) |
+| sitio web | 590 | Web pillar synonym |
+| erp / sistemas erp | 590 / 260 | ERP pillar |
+| programación | 480 | Jobs/careers + blog, not a service page |
+| landing page | 320 | Dedicated service page |
+| hosting | 320 | Hosting + email page |
+| woocommerce | 210 | Sub-page of e-commerce |
+| desarrollo de software / desarrollador de software | 170 | Software pillar |
+| crear página web | 170 | Web pillar + guide |
+| kommo crm | 140 | CRM guide / implementation |
+| diseño web / programadores | 140 | Web pillar / outsourcing |
+| api whatsapp | 110 | WhatsApp API page |
+| sistema de gestión | 110 | Sistemas de gestión page |
+| sistema contable | 90 | Sistemas sub-page |
+| ingeniería de software | 90 | Jobs/careers content |
+
+**Rules from the data**
+- Weak intent → do NOT build money pages for: "tienda online" (shoppers searching shops), "crear página web gratis", "inteligencia artificial" (people want ChatGPT), "ia de google", "whatsapp business descargar", "agencia de marketing". Target these only with guides that pivot to a CTA.
+- Brand terms (bancard, pagopar, sifen, whatsapp business, wordpress, kommo, odoo) = informational traffic → guides + "integración X" service pages capture the business owners among them.
+- Volumes on "software a medida", "desarrollo apps" are tiny (10–30) but high CPC → still build, they convert.
+
+## 3. Services (money pages, ordered by traffic × lead value)
+
+| # | Service | URL | Main keywords |
 |---|---|---|---|
-| 1 | Desarrollo de software a medida | /desarrollo-de-software | Pillar page, highest ticket |
-| 2 | Desarrollo web / diseño de páginas web | /paginas-web | Highest volume; tiers: landing, institucional, corporativa |
-| 3 | Tiendas online / e-commerce | /tienda-online | Bancard, Pagopar, WooCommerce, Shopify, custom |
-| 4 | Desarrollo de apps móviles | /desarrollo-de-apps | iOS + Android, React Native/Flutter |
-| 5 | Inteligencia artificial para empresas | /inteligencia-artificial | Umbrella for 6–8 |
-| 6 | Chatbots y agentes IA para WhatsApp | /chatbot-whatsapp | Huge PY fit (WhatsApp nation) |
-| 7 | Automatización de procesos | /automatizacion | n8n/Make/Zapier, RPA, Excel→system |
-| 8 | Integraciones y APIs | /integraciones | SIFEN facturación electrónica, bancos, ERPs |
-| 9 | Sistemas de gestión (ERP / CRM / inventario / facturación) | /sistemas-de-gestion | Sub-pages per system type |
-| 10 | SaaS & MVP para startups | /desarrollo-mvp | Founders, fixed-scope MVP |
-| 11 | Mantenimiento y soporte / hosting | /mantenimiento-web | Recurring revenue |
-| 12 | Consultoría y outsourcing de programadores | /outsourcing-programadores | Staff augmentation, also for foreign clients |
-| 13 | Posicionamiento SEO + marketing web | /seo | Upsell with web builds |
+| 1 | Facturación electrónica SIFEN (integración + sistema) | /facturacion-electronica-sifen | sifen, facturación electrónica, factura, facturador electronico, sistema de facturacion |
+| 2 | Integración de pagos Bancard / Pagopar | /integracion-pagos | bancard, pagopar, + sub-pages /integracion-bancard, /integracion-pagopar |
+| 3 | Páginas web / diseño web | /paginas-web | páginas web, sitio web, diseño web, crear página web |
+| 4 | WhatsApp Business API + chatbots | /whatsapp-business-api | whatsapp business, api whatsapp, chatbot, bot whatsapp |
+| 5 | E-commerce (WooCommerce / custom) | /ecommerce | ecommerce, woocommerce, pagina web con carrito |
+| 6 | WordPress & Elementor | /wordpress | wordpress, elementor, woocommerce wordpress |
+| 7 | CRM (implementación Kommo/Odoo/a medida) | /crm | crm, sistema crm, kommo crm, odoo crm |
+| 8 | ERP y sistemas de gestión | /sistemas-erp | erp, sistemas erp, sistema de gestión, sistema contable, sistema de inventario, punto de venta |
+| 9 | Desarrollo de software a medida | /desarrollo-de-software | desarrollo de software, software a medida, empresas de desarrollo de software |
+| 10 | Desarrollo de apps | /desarrollo-de-apps | crear app, desarrollo de apps, aplicaciones móviles |
+| 11 | IA y automatización para empresas | /inteligencia-artificial | automatización, agentes ia, ia empresas |
+| 12 | Landing pages | /landing-page | landing page, crear landing page |
+| 13 | Hosting, dominios .com.py y correo corporativo | /hosting | hosting, hosting wordpress, dominio, correo corporativo |
+| 14 | Mantenimiento web | /mantenimiento-web | recurring revenue |
+| 15 | Programadores / outsourcing | /programadores | programadores, desarrollador web, desarrollador full stack |
+| 16 | SEO | /seo | seo, agencia seo, posicionamiento web |
 
-## 3. SEO architecture
+## 4. Content clusters
 
-- **Pillars:** the 13 service pages above, each 1,500–2,500 words, FAQ schema, price block, process, stack, CTA.
-- **Industry pages** (/soluciones/{industria}): inmobiliarias, clínicas, estudios contables, abogados, restaurantes, logística, agro/ganadería, colegios, gimnasios, retail/farmacias, cooperativas, concesionarias. Each = problem → software we build → example → CTA.
-- **City pages** (/desarrollo-web-{ciudad}): Asunción, Ciudad del Este, Encarnación, San Lorenzo, Luque, Fernando de la Mora, Lambaré, Capiatá, Pedro Juan Caballero, Villarrica. Unique local content (no spinning).
-- **Price pages (big lead magnets):** "cuánto cuesta una página web en Paraguay", "precio de una app", "costo de software a medida", "precio chatbot WhatsApp".
-- **Calculators/tools:** cotizador de página web, cotizador de app, calculadora ROI de automatización, generador de brief de proyecto → all end in lead form.
-- **Blog/guías (40 at launch, then 8/month):** facturación electrónica SIFEN, cómo elegir agencia, WordPress vs a medida, IA para pymes, integrar Bancard, apps en Paraguay, etc.
-- **Portfolio / casos** (/casos): 6–10 case studies (use own sites: propia.com.py, alquilar.com.py, contador.com.py, VenderCRM…).
-- **Technical SEO:** sitemap.xml, hreflang es-PY, LocalBusiness + ProfessionalService + Service + FAQPage + BreadcrumbList schema, Core Web Vitals green, internal linking hub-and-spoke, Google Business Profile (Asunción).
+- **Guides (brand-term traffic):** cómo integrar Bancard (vPOS, QR), comisiones Pagopar, Bancard vs Pagopar, qué es SIFEN y quién debe facturar, cómo emitir factura electrónica, requisitos DNIT/e-kuatia, WhatsApp Business vs API, cómo conectar WhatsApp API, Kommo vs Odoo, qué es un ERP, WordPress vs Wix, cómo crear una página web para mi negocio, landing page ejemplos, mejor hosting para WordPress en Paraguay, cómo crear correo corporativo.
+- **Price pages:** cuánto cuesta una página web en Paraguay, precio de una app, costo de integración SIFEN, precio chatbot WhatsApp, costo de ecommerce.
+- **Calculators:** cotizador página web, cotizador app, calculadora de costo SIFEN (facturas/mes → plan), ROI automatización. All end in lead form.
+- **Industry pages** (/soluciones/*): inmobiliarias, clínicas, contadores, abogados, restaurantes, logística, agro, colegios, gimnasios, retail/farmacias, cooperativas, concesionarias.
+- **City pages:** Asunción, Ciudad del Este, Encarnación, San Lorenzo, Luque, Fernando de la Mora, Lambaré, Capiatá, Pedro Juan Caballero, Villarrica.
+- **Casos:** propia.com.py, alquilar.com.py, contador.com.py, VenderCRM, etc.
 
-## 4. Conversion
+## 5. Jobs & careers section (SEO + talent pipeline)
 
-- Sticky WhatsApp button + form on every page → VenderCRM (`/api/v1/leads`), lead value per service in `content/lead-values.php`.
-- Every calculator result gated by "enviar cotización" (name, WhatsApp, company).
-- Trust: price ranges in Gs., RUC/factura, testimonials, team, guarantee, "respuesta en 1 hora hábil".
-- Offers: free 30-min consultoría, free web audit, "MVP en 30 días".
+- /empleos — live openings (JobPosting schema → Google Jobs), open application form (CV upload → VenderCRM pipeline "Candidatos").
+- /empleos/{rol}: programador web, desarrollador full stack, desarrollador WordPress, desarrollador PHP, React, móvil, diseñador UX/UI, pasantías.
+- Career content: sueldo de un programador en Paraguay (salary guide, big link magnet), cómo ser programador, trabajo remoto de programador, ingeniería de software en Paraguay (universidades), roadmap desarrollador full stack, cursos de programación recomendados.
+- Rule: JobPosting schema only on real openings; expire with `validThrough`.
 
-## 5. Stack
+## 6. Conversion
 
-Start from `antonmarklundcom/php-site-template` (static HTML + PHP, Hostinger shared hosting, PY market module, `verify.sh`). No DB needed. Calculators in vanilla JS. Lead form → VenderCRM. Images via the webimg pipeline (only when explicitly requested).
+- Sticky WhatsApp + form on every page → VenderCRM (`/api/v1/leads`), lead value per service in `content/lead-values.php` (SIFEN, ERP, software highest).
+- Calculators gated by "recibir cotización" (nombre, WhatsApp, empresa, RUC optional).
+- Trust: prices "desde Gs.", factura legal, testimonials, "respuesta en 1 hora hábil".
+- Offers: consultoría gratis 30 min, auditoría web gratis, "MVP en 30 días".
 
-## 6. Build phases — one PR each
+## 7. Stack
+
+`antonmarklundcom/php-site-template` (static HTML + PHP, Hostinger, PY market module, `verify.sh`). Vanilla JS calculators. No DB. Images only when the owner explicitly asks.
+
+## 8. Build phases — one PR each
 
 Foundation lane (sequential, Opus medium):
 
-| PR | Scope | Done when |
-|---|---|---|
-| **PR1 – Scaffold** | Copy template, PY market module, brand config, colors/fonts, header/footer/nav (mega-menu: Servicios, Soluciones, Precios, Casos, Blog), 404, robots, sitemap generator, schema helpers | `verify.sh` green, deploy to Hostinger |
-| **PR2 – Home + core pages** | Home, /nosotros, /contacto, /precios hub, /casos hub, legal pages, cross-link to ciberseguridad.com.py | Lighthouse ≥95 |
-| **PR3 – Lead engine** | Contact form → VenderCRM, WhatsApp CTA, lead values per service, thank-you page, GA4/GSC events | Test lead lands in CRM |
+| PR | Scope |
+|---|---|
+| **PR1 – Scaffold** | Template, PY module, brand, header/footer, mega-menu (Servicios, Integraciones, Soluciones, Precios, Casos, Guías, Empleos), 404, robots, sitemap, schema helpers |
+| **PR2 – Core pages** | Home, /nosotros, /contacto, /precios hub, /casos hub, legal, ciberseguridad.com.py cross-link |
+| **PR3 – Lead engine** | Forms → VenderCRM, WhatsApp CTA, lead values, thank-you, GA4/GSC events |
 
-Content lane (parallel, Opus low/medium, each PR owns its own files):
+Content lane (parallel, Opus low/medium, each PR owns its files):
 
 | PR | Scope |
 |---|---|
-| **PR4** | Service pillars 1–4 (software, web, e-commerce, apps) |
-| **PR5** | Service pillars 5–9 (IA, chatbot WhatsApp, automatización, integraciones, sistemas de gestión + 4 sub-pages: ERP, CRM, inventario, facturación electrónica) |
-| **PR6** | Service pillars 10–13 (MVP, mantenimiento, outsourcing, SEO) |
-| **PR7** | 4 price pages + 2 calculators (web, app) |
-| **PR8** | 2 calculators (ROI automatización, brief generator) + /herramientas hub |
-| **PR9** | 12 industry pages (/soluciones/*) |
-| **PR10** | 10 city pages |
-| **PR11** | Portfolio: 6–10 case studies |
-| **PR12** | Blog system + first 20 guides |
-| **PR13** | Guides 21–40 + FAQ hub + glossary (/glosario) |
-| **PR14** | SEO QA: internal-link audit, schema validation, sitemap, image alt, CWV, broken links |
+| **PR4** | SIFEN pillar + 4 guides + SIFEN calculator |
+| **PR5** | Payments: /integracion-pagos, Bancard, Pagopar pages + 4 guides |
+| **PR6** | Web: páginas web, landing page, WordPress, ecommerce (+WooCommerce), hosting/correo, mantenimiento |
+| **PR7** | WhatsApp API/chatbot, IA/automatización, CRM, ERP/sistemas (+ sub-pages: contable, inventario, punto de venta) |
+| **PR8** | Software a medida, apps, programadores/outsourcing, SEO |
+| **PR9** | 5 price pages + web & app calculators + /herramientas hub |
+| **PR10** | 12 industry pages |
+| **PR11** | 10 city pages |
+| **PR12** | Casos (6–10) |
+| **PR13** | Jobs: /empleos, role pages, application form, JobPosting schema, salary guide + 5 career articles |
+| **PR14** | Blog system + remaining guides to 40 |
+| **PR15** | SEO QA: internal links, schema validation, sitemap, CWV, broken links |
 
-Post-launch: GBP setup, 8 articles/month, monthly GSC review → expand pages ranking 8–20.
+Post-launch: GBP (Asunción), 8 articles/month, monthly GSC review → expand pages ranking 8–20.
 
-## 7. Instructions for the builder session
+## 9. Builder rules
 
-- Each PR: read this file, only touch files for that PR, run `verify.sh`, keep Spanish (es-PY), prices in Gs. with "desde" ranges, one H1, meta title ≤60 chars, meta description ≤155, FAQ schema on every money page, ≥5 internal links per page.
-- Do not generate images unless the owner explicitly asks.
-- Never offer cybersecurity services; link to ciberseguridad.com.py instead.
+- Read this file; touch only your PR's files; run `verify.sh`.
+- es-PY, prices "desde Gs.", one H1, title ≤60, description ≤155, FAQ schema on money pages, ≥5 internal links/page.
+- Never offer cybersecurity; link to ciberseguridad.com.py.
+- No image generation unless the owner explicitly asks.
