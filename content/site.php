@@ -46,8 +46,8 @@ return [
     // While both are null the header pill, the floating button and every
     // service CTA point at /contacto/ instead of wa.me — see
     // partials/whatsapp-fab.php.
-    'phone'    => null,
-    'whatsapp' => null,
+    'phone'    => '+595 995 628 862',
+    'whatsapp' => '+595 995 628 862',
     'email'    => null,
 
     // --- address ------------------------------------------------------------
