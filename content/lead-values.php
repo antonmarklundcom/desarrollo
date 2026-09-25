@@ -61,7 +61,7 @@ $__base = [
 
     /* Which services the WhatsApp menu offers, in order, after the current
        page's own service. Keep it short: four is plenty. */
-    'whatsappMenu' => ['servicio-ejemplo'],
+    'whatsappMenu' => ['paginas-web', 'facturacion-electronica-sifen', 'desarrollo-de-software', 'whatsapp-business-api'],
 
     /* The record for a page that names no service: an article without one, a
        legal page, the homepage. Never null — every form resolves to something. */
@@ -81,50 +81,21 @@ $__base = [
     /* One record per key in content/services.php. verify.sh fails when a service
        has none — an untagged lead is a lead nobody can route. */
     'services' => [
-        'servicio-ejemplo' => [
-            'example' => true,
-            'menuLabel'    => 'Servicio de ejemplo',
-            'need'         => 'software',
-            'tier'         => 'A',
-            'whatsappText' => 'Hola, quisiera consultar por el servicio de ejemplo.',
-            'nextStep'     => [
-                'Le respondemos dentro del siguiente día hábil.',
-                'Tenga a mano la documentación que pedimos en "qué necesitamos de usted".',
-            ],
-            'crmTag'       => 'servicio-ejemplo',
-            'nextLink'     => [
-                'path'  => '/herramientas/herramienta-ejemplo/',
-                'label' => 'Mientras tanto, haga la cuenta',
-            ],
-        ],
     ],
 
     /* One record per key in content/tools.php. A calculator lead is worth less
        than a service lead — that is the whole point of tiering them. */
     'tools' => [
-        'herramienta-ejemplo' => [
-            'example' => true,
-            'menuLabel'    => 'Calculadora de ejemplo',
-            'need'         => 'software',
-            'tier'         => 'C',
-            'whatsappText' => 'Hola, usé la calculadora de ejemplo y quisiera confirmar el resultado.',
-            'nextStep'     => [
-                'Le respondemos dentro del siguiente día hábil.',
-                'Guarde el resultado que calculó: se lo revisamos con usted.',
-            ],
-            'crmTag'       => 'herramienta-ejemplo',
-            'nextLink'     => null,
-        ],
     ],
 
     /* One record per chip in content/ui.php 'needs'. A lead from a page with no
        service of its own takes the tier of the chip the visitor picked, and
        borrows that chip's service copy when it names one. */
     'needs' => [
-        'web'         => ['tier' => 'B', 'crmTag' => 'necesidad-web',         'service' => null],
-        'software'    => ['tier' => 'A', 'crmTag' => 'necesidad-software',    'service' => null],
-        'integracion' => ['tier' => 'A', 'crmTag' => 'necesidad-integracion', 'service' => null],
-        'soporte'     => ['tier' => 'C', 'crmTag' => 'necesidad-soporte',     'service' => null],
+        'web'         => ['tier' => 'B', 'crmTag' => 'necesidad-web',         'service' => 'paginas-web'],
+        'software'    => ['tier' => 'A', 'crmTag' => 'necesidad-software',    'service' => 'desarrollo-de-software'],
+        'integracion' => ['tier' => 'A', 'crmTag' => 'necesidad-integracion', 'service' => 'facturacion-electronica-sifen'],
+        'soporte'     => ['tier' => 'C', 'crmTag' => 'necesidad-soporte',     'service' => 'mantenimiento-web'],
         'otro'        => ['tier' => 'C', 'crmTag' => 'consulta-general',      'service' => null],
     ],
 ];

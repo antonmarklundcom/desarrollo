@@ -1,8 +1,7 @@
 <?php
-/** /casos/ — stub until its content phase sets 'stub' => false and switches to templates/page.php. */
+/** /casos/ — content lives in content/pages.php. */
 
 require __DIR__ . '/../lib/bootstrap.php';
 
-$__m  = page_meta('/casos/');
-$page = ['title' => $__m['title'], 'description' => $__m['description'], 'path' => '/casos/', 'noindex' => true];
-require ROOT_DIR . '/templates/page-stub.php';
+$path = '/casos/';
+require ROOT_DIR . '/templates/page.php';
