@@ -7,7 +7,6 @@
 declare(strict_types=1);
 
 return [
-    // LINKPASS service=programadores
     [
         'slug'        => 'sueldo-de-un-programador-en-paraguay',
         'title'       => 'Sueldo de un programador en Paraguay: qué lo define y rangos orientativos',
@@ -16,9 +15,8 @@ return [
         'date'        => '2026-08-01',
         'updated'     => null,
         'tags'        => ['Carrera', 'Programación', 'Sueldos'],
-        'service'     => null,
+        'service'     => 'programadores',
     ],
-    // LINKPASS service=desarrollo-de-software
     [
         'slug'        => 'como-ser-desarrollador-full-stack',
         'title'       => 'Cómo ser desarrollador full stack: ruta de aprendizaje práctica',
@@ -27,9 +25,8 @@ return [
         'date'        => '2026-08-04',
         'updated'     => null,
         'tags'        => ['Carrera', 'Programación', 'Full stack'],
-        'service'     => null,
+        'service'     => 'desarrollo-de-software',
     ],
-    // LINKPASS service=programadores
     [
         'slug'        => 'desarrollador-junior-sin-experiencia',
         'title'       => 'Desarrollador junior sin experiencia: cómo conseguir el primer empleo',
@@ -38,9 +35,8 @@ return [
         'date'        => '2026-08-07',
         'updated'     => null,
         'tags'        => ['Carrera', 'Programación', 'Primer empleo'],
-        'service'     => null,
+        'service'     => 'programadores',
     ],
-    // LINKPASS service=programadores
     [
         'slug'        => 'pasantias-de-programacion-en-paraguay',
         'title'       => 'Pasantías de programación en Paraguay: cómo encontrarlas y aprovecharlas',
@@ -49,9 +45,8 @@ return [
         'date'        => '2026-08-10',
         'updated'     => null,
         'tags'        => ['Carrera', 'Programación', 'Pasantías'],
-        'service'     => null,
+        'service'     => 'programadores',
     ],
-    // LINKPASS service=desarrollo-de-software
     [
         'slug'        => 'ingenieria-de-software-en-paraguay',
         'title'       => 'Ingeniería de software en Paraguay: carreras, alternativas y cómo elegir',
@@ -60,9 +55,8 @@ return [
         'date'        => '2026-08-13',
         'updated'     => null,
         'tags'        => ['Carrera', 'Programación', 'Formación'],
-        'service'     => null,
+        'service'     => 'desarrollo-de-software',
     ],
-    // LINKPASS service=programadores
     [
         'slug'        => 'cursos-de-programacion-recomendados',
         'title'       => 'Cursos de programación recomendados: cómo elegir uno que sirva',
@@ -71,9 +65,8 @@ return [
         'date'        => '2026-08-16',
         'updated'     => null,
         'tags'        => ['Carrera', 'Programación', 'Formación'],
-        'service'     => null,
+        'service'     => 'programadores',
     ],
-    // LINKPASS service=programadores
     [
         'slug'        => 'trabajo-remoto-para-programadores-paraguayos',
         'title'       => 'Trabajo remoto para programadores paraguayos: cómo prepararse',
@@ -82,9 +75,8 @@ return [
         'date'        => '2026-08-19',
         'updated'     => null,
         'tags'        => ['Carrera', 'Programación', 'Trabajo remoto'],
-        'service'     => null,
+        'service'     => 'programadores',
     ],
-    // LINKPASS service=desarrollo-de-software
     [
         'slug'        => 'software-a-medida-vs-software-enlatado',
         'title'       => 'Software a medida vs software enlatado: cómo decidir en su empresa',
@@ -93,9 +85,8 @@ return [
         'date'        => '2026-08-22',
         'updated'     => null,
         'tags'        => ['Empresas', 'Software', 'Decisiones'],
-        'service'     => null,
+        'service'     => 'desarrollo-de-software',
     ],
-    // LINKPASS service=desarrollo-de-software
     [
         'slug'        => 'como-elegir-una-empresa-de-desarrollo-de-software',
         'title'       => 'Cómo elegir una empresa de desarrollo de software sin equivocarse',
@@ -104,9 +95,8 @@ return [
         'date'        => '2026-08-25',
         'updated'     => null,
         'tags'        => ['Empresas', 'Software', 'Proveedores'],
-        'service'     => null,
+        'service'     => 'desarrollo-de-software',
     ],
-    // LINKPASS service=wordpress
     [
         'slug'        => 'wordpress-o-sitio-a-medida',
         'title'       => 'WordPress o sitio a medida: cuál conviene para su empresa',
@@ -115,9 +105,8 @@ return [
         'date'        => '2026-08-28',
         'updated'     => null,
         'tags'        => ['Empresas', 'Sitios web', 'WordPress'],
-        'service'     => null,
+        'service'     => 'wordpress',
     ],
-    // LINKPASS service=whatsapp-business-api
     [
         'slug'        => 'whatsapp-para-vender-mas',
         'title'       => 'WhatsApp para vender más: cómo ordenar la atención y no perder clientes',
@@ -126,9 +115,8 @@ return [
         'date'        => '2026-08-31',
         'updated'     => null,
         'tags'        => ['Empresas', 'WhatsApp', 'Ventas'],
-        'service'     => null,
+        'service'     => 'whatsapp-business-api',
     ],
-    // LINKPASS service=facturacion-electronica-sifen
     [
         'slug'        => 'facturacion-electronica-obligatoria-que-cambia-para-su-empresa',
         'title'       => 'Facturación electrónica obligatoria: qué cambia para su empresa',
@@ -137,9 +125,8 @@ return [
         'date'        => '2026-09-03',
         'updated'     => null,
         'tags'        => ['Empresas', 'Facturación electrónica', 'SIFEN'],
-        'service'     => null,
+        'service'     => 'facturacion-electronica-sifen',
     ],
-    // LINKPASS service=integracion-pagos
     [
         'slug'        => 'como-cobrar-online-en-paraguay',
         'title'       => 'Cómo cobrar online en Paraguay: opciones para su empresa',
@@ -148,9 +135,8 @@ return [
         'date'        => '2026-09-06',
         'updated'     => null,
         'tags'        => ['Empresas', 'Pagos', 'Comercio electrónico'],
-        'service'     => null,
+        'service'     => 'integracion-pagos',
     ],
-    // LINKPASS service=sistemas-erp
     [
         'slug'        => 'erp-para-pymes-paraguayas',
         'title'       => 'ERP para pymes paraguayas: qué es, cuándo conviene y cómo elegir',
@@ -159,9 +145,8 @@ return [
         'date'        => '2026-09-09',
         'updated'     => null,
         'tags'        => ['Empresas', 'ERP', 'Gestión'],
-        'service'     => null,
+        'service'     => 'sistemas-erp',
     ],
-    // LINKPASS service=crm
     [
         'slug'        => 'crm-para-pymes-como-empezar',
         'title'       => 'CRM para pymes: cómo empezar sin complicarse',
@@ -170,9 +155,8 @@ return [
         'date'        => '2026-09-12',
         'updated'     => null,
         'tags'        => ['Empresas', 'CRM', 'Ventas'],
-        'service'     => null,
+        'service'     => 'crm',
     ],
-    // LINKPASS service=desarrollo-de-software
     [
         'slug'        => 'que-es-una-api-explicado-para-empresarios',
         'title'       => 'Qué es una API, explicado para empresarios',
@@ -181,9 +165,8 @@ return [
         'date'        => '2026-09-15',
         'updated'     => null,
         'tags'        => ['Empresas', 'Integraciones', 'API'],
-        'service'     => null,
+        'service'     => 'desarrollo-de-software',
     ],
-    // LINKPASS service=seo
     [
         'slug'        => 'por-que-su-pagina-web-no-aparece-en-google',
         'title'       => 'Por qué su página web no aparece en Google y cómo solucionarlo',
@@ -192,9 +175,8 @@ return [
         'date'        => '2026-09-18',
         'updated'     => null,
         'tags'        => ['Empresas', 'SEO', 'Sitios web'],
-        'service'     => null,
+        'service'     => 'seo',
     ],
-    // LINKPASS service=desarrollo-de-software
     [
         'slug'        => 'cuanto-tarda-desarrollar-un-software',
         'title'       => 'Cuánto tarda desarrollar un software y qué lo acelera o demora',
@@ -203,9 +185,8 @@ return [
         'date'        => '2026-09-20',
         'updated'     => null,
         'tags'        => ['Empresas', 'Software', 'Planificación'],
-        'service'     => null,
+        'service'     => 'desarrollo-de-software',
     ],
-    // LINKPASS service=paginas-web
     [
         'slug'        => 'mantener-o-rehacer-su-sitio-web',
         'title'       => 'Mantener o rehacer su sitio web: cómo tomar la decisión',
@@ -214,9 +195,8 @@ return [
         'date'        => '2026-09-22',
         'updated'     => null,
         'tags'        => ['Empresas', 'Sitios web', 'Mantenimiento'],
-        'service'     => null,
+        'service'     => 'paginas-web',
     ],
-    // LINKPASS service=automatizacion-ia
     [
         'slug'        => 'ia-en-empresas-paraguayas-casos-practicos',
         'title'       => 'IA en empresas paraguayas: casos prácticos que se pueden construir',
@@ -225,6 +205,6 @@ return [
         'date'        => '2026-09-24',
         'updated'     => null,
         'tags'        => ['Empresas', 'Inteligencia artificial', 'Automatización'],
-        'service'     => null,
+        'service'     => 'automatizacion-ia',
     ],
 ];
