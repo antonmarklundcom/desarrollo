@@ -109,7 +109,44 @@ return [
                        . 'empresas paraguayas, con alcance y precio por escrito en cada proyecto.',
         'h1'          => 'Nosotros',
         'lead'        => 'Un equipo de desarrollo que conoce cómo se factura, se cobra y se vende en Paraguay.',
-        'stub'        => true,
+        'sections'    => [
+            [
+                'h2'   => 'Qué construimos',
+                'body' => [
+                    'Desarrollamos páginas web, tiendas online, sistemas a medida e integraciones para '
+                        . 'empresas paraguayas: facturación electrónica con SIFEN, cobros con pasarelas '
+                        . 'locales, WhatsApp Business conectado a un CRM y portales con miles de '
+                        . 'registros.',
+                    'Preferimos resolver un problema concreto del negocio —vender más, facturar sin '
+                        . 'errores, dejar de cargar lo mismo dos veces— antes que entregar tecnología '
+                        . 'por la tecnología misma.',
+                ],
+            ],
+            [
+                'h2'   => 'Cómo trabajamos',
+                'body' => [
+                    'Cada proyecto empieza con una conversación sobre lo que necesita y termina en una '
+                        . 'propuesta por escrito: alcance, plazos y precio en guaraníes. Lo que no está '
+                        . 'en la propuesta no se cobra sin su aprobación.',
+                    'Trabajamos de forma remota con clientes de todo el país. Usted ve el avance en un '
+                        . 'sitio de pruebas, las consultas se resuelven por WhatsApp o videollamada y, '
+                        . 'cuando el proyecto lo justifica, coordinamos una reunión presencial.',
+                    'Al terminar le entregamos accesos, dominio y código a su nombre. Si después quiere '
+                        . 'seguir con nosotros para mantenimiento, lo acordamos aparte; si prefiere otro '
+                        . 'proveedor, se lleva todo.',
+                ],
+            ],
+            [
+                'h2'   => 'Sitios hermanos',
+                'body' => [
+                    'Hay temas que tratamos en sitios dedicados. Para seguridad informática, auditorías '
+                        . 'y protección de datos, visite ciberseguridad.com.py. Para ofertas de empleo '
+                        . 'en todo Paraguay, trabajo.com.py. Para novedades y guías sobre inteligencia '
+                        . 'artificial, inteligenciaartificial.com.py.',
+                ],
+            ],
+        ],
+        'stub'        => false,
         'changefreq'  => 'yearly',
         'priority'    => '0.5',
     ],
@@ -120,18 +157,92 @@ return [
                        . 'CRM y sitios de servicios profesionales, con qué resolvió cada uno.',
         'h1'          => 'Proyectos',
         'lead'        => 'Lo que construimos y qué resolvió cada proyecto.',
-        'stub'        => true,
+        'sections'    => [
+            [
+                'h2'   => 'propia.com.py: portal inmobiliario',
+                'body' => [
+                    'Un portal de avisos de propiedades en venta y alquiler en Paraguay. Permite buscar '
+                        . 'por ciudad, barrio, tipo de propiedad y precio, ver cada ficha con fotos y '
+                        . 'ubicación, y estimar la cuota de financiación de una compra.',
+                    'Está desarrollado como aplicación web moderna en Node.js con base de datos MySQL, '
+                        . 'importación masiva de avisos y páginas optimizadas para buscadores.',
+                ],
+            ],
+            [
+                'h2'   => 'alquilar.com.py: alquileres',
+                'body' => [
+                    'Un sitio enfocado en alquileres: departamentos, casas y otros inmuebles para '
+                        . 'alquilar, con páginas por ciudad y zona y contacto directo con el anunciante.',
+                    'Está construido para cargar rápido en el celular y posicionar búsquedas locales, '
+                        . 'con un contenido pensado para quien busca dónde vivir.',
+                ],
+            ],
+            [
+                'h2'   => 'contador.com.py: sitio para un estudio contable',
+                'body' => [
+                    'Un sitio para servicios contables e impositivos que, además de presentar los '
+                        . 'servicios, ofrece calculadoras gratuitas para cálculos contables e impositivos '
+                        . 'frecuentes y guías prácticas que atraen consultas desde Google.',
+                    'Está hecho en PHP liviano, sin base de datos, con formularios que envían cada '
+                        . 'consulta directamente al CRM.',
+                ],
+            ],
+            [
+                'h2'   => 'VenderCRM: CRM con WhatsApp para pymes',
+                'body' => [
+                    'Un CRM pensado para pymes que venden por WhatsApp: reúne los contactos que llegan '
+                        . 'de los formularios web y de WhatsApp, los ordena en un embudo de ventas y '
+                        . 'permite hacer seguimiento a cada oportunidad.',
+                    'Recibe los leads de los sitios mediante una API y es la herramienta donde terminan '
+                        . 'las consultas de los proyectos anteriores.',
+                ],
+            ],
+        ],
+        'stub'        => false,
         'changefreq'  => 'monthly',
         'priority'    => '0.6',
     ],
 
     '/trabaja-con-nosotros/' => [
-        'title'       => 'Trabajá con nosotros',
+        'title'       => 'Trabaje con nosotros',
         'description' => 'Buscamos programadores, desarrolladores WordPress y full stack en '
                        . 'Paraguay. Envíe su perfil y conozca cómo trabajamos.',
-        'h1'          => 'Trabajá con nosotros',
+        'h1'          => 'Trabaje con nosotros',
         'lead'        => 'Buscamos programadores que disfruten resolver problemas reales de empresas.',
-        'stub'        => true,
+        'sections'    => [
+            [
+                'h2'   => 'Perfiles que buscamos',
+                'body' => [
+                    'Programador PHP: sitios y sistemas en PHP, formularios, integraciones con APIs y '
+                        . 'bases de datos MySQL.',
+                    'Desarrollador full stack: aplicaciones web con Node.js o PHP en el servidor y '
+                        . 'JavaScript moderno en el navegador, de la base de datos a la interfaz.',
+                    'Desarrollador WordPress: temas, plugins, WooCommerce y migraciones de sitios '
+                        . 'existentes.',
+                    'Desarrollador React o móvil: interfaces en React y aplicaciones para Android e iOS.',
+                    'Pasantías: estudiantes de informática o carreras afines que quieran aprender en '
+                        . 'proyectos reales, con tareas acotadas y revisión de código.',
+                ],
+            ],
+            [
+                'h2'   => 'Cómo postularse',
+                'body' => [
+                    'Escríbanos por el formulario de contacto o por WhatsApp e incluya la palabra '
+                        . '"Trabajo" en el mensaje. Cuéntenos qué perfil le interesa, con qué '
+                        . 'tecnologías trabajó y agregue un enlace a su portafolio, GitHub o proyectos.',
+                    'No hace falta título ni años de experiencia si puede mostrar lo que hizo. '
+                        . 'Respondemos cuando hay un proyecto que encaja con su perfil.',
+                ],
+            ],
+            [
+                'h2'   => 'Ofertas de empleo en todo Paraguay',
+                'body' => [
+                    'Este sitio no publica ofertas de terceros. Para ofertas de empleo en todo '
+                        . 'Paraguay, en informática y en otros rubros, visite trabajo.com.py.',
+                ],
+            ],
+        ],
+        'stub'        => false,
         'changefreq'  => 'monthly',
         'priority'    => '0.4',
     ],
