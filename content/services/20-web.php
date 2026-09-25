@@ -171,9 +171,9 @@ return [
             ],
         ],
         'cta'       => ['label' => 'Pedir presupuesto de página web', 'whatsappText' => ''],
-        'related'   => ['landing-page', 'wordpress', 'ecommerce', 'seo'],
+        'related' => ['landing-page', 'wordpress', 'ecommerce', 'seo', 'hosting', 'mantenimiento-web'],
         'guides'    => ['como-crear-una-pagina-web-para-mi-negocio', 'wordpress-vs-wix', 'checklist-seo-para-su-sitio'],
-        'articles'  => [],
+        'articles' => ['cuanto-cuesta-una-pagina-web-en-paraguay'],
         'toolLinks' => [
             [
                 'path'  => '/herramientas/cotizador-pagina-web/',
@@ -485,7 +485,7 @@ return [
             ],
         ],
         'cta'       => ['label' => 'Consultar por WordPress', 'whatsappText' => ''],
-        'related'   => ['paginas-web', 'woocommerce', 'mantenimiento-web'],
+        'related' => ['paginas-web', 'woocommerce', 'mantenimiento-web', 'hosting'],
         'guides'    => ['wordpress-vs-wix', 'elementor-vs-desarrollo-a-medida'],
         'articles'  => [],
         'toolLinks' => [],
@@ -636,9 +636,9 @@ return [
             ],
         ],
         'cta'       => ['label' => 'Cotizar mi tienda online', 'whatsappText' => ''],
-        'related'   => ['woocommerce', 'paginas-web', 'mantenimiento-web'],
+        'related' => ['woocommerce', 'paginas-web', 'mantenimiento-web', 'integracion-pagos'],
         'guides'    => ['como-crear-una-tienda-online-en-paraguay'],
-        'articles'  => [],
+        'articles' => ['costo-de-un-ecommerce-en-paraguay'],
         'toolLinks' => [
             [
                 'path'  => '/herramientas/cotizador-pagina-web/',

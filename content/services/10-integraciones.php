@@ -163,9 +163,9 @@ return [
             ],
         ],
         'cta'       => ['label' => 'Cotizar integración SIFEN', 'whatsappText' => ''],
-        'related'   => ['integraciones-api', 'integracion-pagos'],
+        'related' => ['integraciones-api', 'integracion-pagos', 'punto-de-venta', 'sistemas-erp'],
         'guides'    => ['que-es-sifen', 'ekuatia-vs-sistema-de-facturacion', 'marangatu-facturacion-electronica', 'como-emitir-factura-en-ekuatia'],
-        'articles'  => [],
+        'articles' => ['costo-de-integrar-sifen'],
         'toolLinks' => [
             [
                 'path'  => '/herramientas/costo-integracion-sifen/',
@@ -329,7 +329,7 @@ return [
             ],
         ],
         'cta'       => ['label' => 'Consultar integración de pagos', 'whatsappText' => ''],
-        'related'   => ['integracion-bancard', 'integracion-pagopar', 'integracion-tigo-money'],
+        'related' => ['integracion-bancard', 'integracion-pagopar', 'integracion-tigo-money', 'ecommerce'],
         'guides'    => ['bancard-vs-pagopar', 'como-integrar-bancard', 'pagopar-comisiones-y-como-funciona', 'tigo-money-para-comercios'],
         'articles'  => [],
         'toolLinks' => [],
@@ -941,9 +941,9 @@ return [
             ],
         ],
         'cta'       => ['label' => 'Consultar WhatsApp API', 'whatsappText' => ''],
-        'related'   => ['integraciones-api', 'integracion-pagos'],
+        'related' => ['integraciones-api', 'integracion-pagos', 'crm', 'automatizacion-ia'],
         'guides'    => ['whatsapp-business-vs-api'],
-        'articles'  => [],
+        'articles' => ['precio-chatbot-whatsapp'],
         'toolLinks' => [],
     ],
 

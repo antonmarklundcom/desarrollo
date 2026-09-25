@@ -154,12 +154,23 @@ return [
     // none. Sectors, not clients: nothing to verify.
     'industries' => [
         'eyebrow' => 'Rubros',
-        'title'   => 'Rubros que atendemos',
+        'title'   => 'Soluciones por rubro',
         'lead'    => 'Cada rubro tiene sus propias trampas. Estos son los que trabajamos.',
         // Each item is either a plain string or ['label' => ..., 'path' => ...]
         // pointing at a segment page in content/segmentos.php.
         'items'   => [
-            ['label' => 'Rubro de ejemplo', 'path' => '/segmentos/rubro-ejemplo/'],
+            ['label' => 'Inmobiliarias', 'path' => '/soluciones/inmobiliarias/'],
+            ['label' => 'Clínicas', 'path' => '/soluciones/clinicas/'],
+            ['label' => 'Estudios contables', 'path' => '/soluciones/estudios-contables/'],
+            ['label' => 'Abogados', 'path' => '/soluciones/abogados/'],
+            ['label' => 'Restaurantes', 'path' => '/soluciones/restaurantes/'],
+            ['label' => 'Logística', 'path' => '/soluciones/logistica/'],
+            ['label' => 'Agro', 'path' => '/soluciones/agro/'],
+            ['label' => 'Colegios', 'path' => '/soluciones/colegios/'],
+            ['label' => 'Gimnasios', 'path' => '/soluciones/gimnasios/'],
+            ['label' => 'Comercios y farmacias', 'path' => '/soluciones/comercios-y-farmacias/'],
+            ['label' => 'Cooperativas', 'path' => '/soluciones/cooperativas/'],
+            ['label' => 'Concesionarias', 'path' => '/soluciones/concesionarias/'],
         ],
     ],
 

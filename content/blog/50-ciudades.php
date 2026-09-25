@@ -16,7 +16,7 @@ return [
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'Páginas web'],
-        'service'     => null,
+        'service'     => 'paginas-web',
     ],
     [
         'slug'        => 'cuanto-cuesta-una-app-en-paraguay',
@@ -27,7 +27,7 @@ return [
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'Aplicaciones'],
-        'service'     => null,
+        'service'     => 'desarrollo-de-apps',
     ],
     [
         'slug'        => 'costo-de-integrar-sifen',
@@ -38,7 +38,7 @@ return [
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'SIFEN', 'Facturación electrónica'],
-        'service'     => null,
+        'service'     => 'facturacion-electronica-sifen',
     ],
     [
         'slug'        => 'precio-chatbot-whatsapp',
@@ -49,7 +49,7 @@ return [
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'WhatsApp'],
-        'service'     => null,
+        'service'     => 'whatsapp-business-api',
     ],
     [
         'slug'        => 'costo-de-un-ecommerce-en-paraguay',
@@ -60,6 +60,6 @@ return [
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'Ecommerce'],
-        'service'     => null,
+        'service'     => 'ecommerce',
     ],
 ];

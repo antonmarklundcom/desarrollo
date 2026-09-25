@@ -1,15 +1,12 @@
 <?php
 /**
  * Phase "infra": sector landing pages under /soluciones/<slug>/. Same shape as content/segmentos.php.
- * leadSlug/bundle point at infra services only for now; each LINKPASS comment names
- * the intended slugs for the final cross-link pass.
  */
 
 declare(strict_types=1);
 
 return [
 
-    // LINKPASS: leadSlug=crm bundle=[crm, paginas-web, whatsapp-business-api, facturacion-electronica-sifen, integracion-pagos]
     'inmobiliarias' => [
         'path'            => '/soluciones/inmobiliarias/',
         'navLabel'        => 'Inmobiliarias',
@@ -21,8 +18,8 @@ return [
             'h1'      => 'Software y web para inmobiliarias',
             'lead'    => 'Las consultas llegan por portales, WhatsApp e Instagram, y sin un sistema que las ordene los interesados se enfrían antes de que alguien los llame.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'crm',
+        'bundle'   => ['crm', 'paginas-web', 'whatsapp-business-api', 'facturacion-electronica-sifen', 'integracion-pagos'],
         'traps'    => [
             ['title' => 'Consultas repartidas en teléfonos personales', 'text' => 'Cuando un agente se va, se lleva los contactos y el historial de cada interesado.'],
             ['title' => 'Fichas de propiedades duplicadas', 'text' => 'La misma propiedad cargada a mano en el sitio y en cada portal, con precios que no coinciden.'],
@@ -51,7 +48,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=desarrollo-de-software bundle=[desarrollo-de-software, whatsapp-business-api, paginas-web, facturacion-electronica-sifen, integracion-pagos]
     'clinicas' => [
         'path'            => '/soluciones/clinicas/',
         'navLabel'        => 'Clínicas y consultorios',
@@ -63,8 +59,8 @@ return [
             'h1'      => 'Software para clínicas y consultorios',
             'lead'    => 'Las recepcionistas pasan el día confirmando turnos por teléfono, y cada paciente que no se presenta es una hora de agenda perdida.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'desarrollo-de-software',
+        'bundle'   => ['desarrollo-de-software', 'whatsapp-business-api', 'paginas-web', 'facturacion-electronica-sifen', 'integracion-pagos'],
         'traps'    => [
             ['title' => 'Agenda en papel o en varias planillas', 'text' => 'Turnos superpuestos y huecos que nadie ve a tiempo.'],
             ['title' => 'Sin recordatorios automáticos', 'text' => 'Los pacientes olvidan el turno y la agenda queda vacía.'],
@@ -89,7 +85,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=facturacion-electronica-sifen bundle=[facturacion-electronica-sifen, sistemas-erp, automatizacion-ia, desarrollo-de-software]
     'estudios-contables' => [
         'path'            => '/soluciones/estudios-contables/',
         'navLabel'        => 'Estudios contables',
@@ -101,8 +96,8 @@ return [
             'h1'      => 'Software para estudios contables',
             'lead'    => 'Cada mes los comprobantes llegan por WhatsApp, correo y en papel, y el estudio corre para cumplir vencimientos ante la DNIT.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'facturacion-electronica-sifen',
+        'bundle'   => ['facturacion-electronica-sifen', 'sistemas-erp', 'automatizacion-ia', 'desarrollo-de-software'],
         'traps'    => [
             ['title' => 'Comprobantes por todos los canales', 'text' => 'Horas de trabajo solo en juntar y ordenar lo que envía cada cliente.'],
             ['title' => 'Vencimientos en la memoria de alguien', 'text' => 'Un olvido se traduce en multas para el cliente y en reclamos para el estudio.'],
@@ -126,7 +121,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=desarrollo-de-software bundle=[desarrollo-de-software, paginas-web, crm, automatizacion-ia]
     'abogados' => [
         'path'            => '/soluciones/abogados/',
         'navLabel'        => 'Estudios jurídicos',
@@ -138,8 +132,8 @@ return [
             'h1'      => 'Software y web para abogados',
             'lead'    => 'Plazos procesales, expedientes y honorarios repartidos entre carpetas, agendas y correos personales.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'desarrollo-de-software',
+        'bundle'   => ['desarrollo-de-software', 'paginas-web', 'crm', 'automatizacion-ia'],
         'traps'    => [
             ['title' => 'Plazos en agendas individuales', 'text' => 'Si el abogado responsable se ausenta, nadie más ve el vencimiento.'],
             ['title' => 'Correo del estudio en cuentas gratuitas', 'text' => 'Resta seriedad y deja la correspondencia del cliente fuera del control del estudio.'],
@@ -163,7 +157,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=punto-de-venta bundle=[punto-de-venta, facturacion-electronica-sifen, integracion-pagos, whatsapp-business-api, paginas-web]
     'restaurantes' => [
         'path'            => '/soluciones/restaurantes/',
         'navLabel'        => 'Restaurantes',
@@ -175,8 +168,8 @@ return [
             'h1'      => 'Software para restaurantes',
             'lead'    => 'En hora pico, las comandas en papel, los pedidos de WhatsApp y las apps de delivery compiten por la misma cocina.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'punto-de-venta',
+        'bundle'   => ['punto-de-venta', 'facturacion-electronica-sifen', 'integracion-pagos', 'whatsapp-business-api', 'paginas-web'],
         'traps'    => [
             ['title' => 'Pedidos que se pierden entre canales', 'text' => 'WhatsApp, teléfono y apps sin una pantalla única en cocina.'],
             ['title' => 'Stock de insumos sin control', 'text' => 'Se descubre que falta un ingrediente cuando ya se vendió el plato.'],
@@ -200,7 +193,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=desarrollo-de-software bundle=[desarrollo-de-software, desarrollo-de-apps, sistemas-erp, facturacion-electronica-sifen, whatsapp-business-api]
     'logistica' => [
         'path'            => '/soluciones/logistica/',
         'navLabel'        => 'Logística y transporte',
@@ -212,8 +204,8 @@ return [
             'h1'      => 'Software para logística y transporte',
             'lead'    => 'El cliente llama para preguntar dónde está su envío, y la respuesta depende de que alguien consiga hablar con el chofer.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'desarrollo-de-software',
+        'bundle'   => ['desarrollo-de-software', 'desarrollo-de-apps', 'sistemas-erp', 'facturacion-electronica-sifen', 'whatsapp-business-api'],
         'traps'    => [
             ['title' => 'Estados de envío por teléfono', 'text' => 'Horas de atención dedicadas a responder la misma pregunta.'],
             ['title' => 'Comprobantes de entrega en papel', 'text' => 'Se pierden, llegan tarde a administración y demoran la facturación.'],
@@ -237,7 +229,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=sistemas-erp bundle=[sistemas-erp, desarrollo-de-apps, facturacion-electronica-sifen, desarrollo-de-software]
     'agro' => [
         'path'            => '/soluciones/agro/',
         'navLabel'        => 'Agro y ganadería',
@@ -249,8 +240,8 @@ return [
             'h1'      => 'Software para el agro y la ganadería',
             'lead'    => 'Lo que pasa en el campo llega a la oficina días después, en cuadernos o mensajes, y las decisiones se toman con datos viejos.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'sistemas-erp',
+        'bundle'   => ['sistemas-erp', 'desarrollo-de-apps', 'facturacion-electronica-sifen', 'desarrollo-de-software'],
         'traps'    => [
             ['title' => 'Registros de campo en papel', 'text' => 'Aplicaciones, pesajes y movimientos que se transcriben tarde y con errores.'],
             ['title' => 'Apps que no funcionan sin señal', 'text' => 'Herramientas pensadas para la ciudad que fallan en el establecimiento.'],
@@ -274,7 +265,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=desarrollo-de-software bundle=[desarrollo-de-software, integracion-pagos, facturacion-electronica-sifen, whatsapp-business-api, paginas-web]
     'colegios' => [
         'path'            => '/soluciones/colegios/',
         'navLabel'        => 'Colegios',
@@ -286,8 +276,8 @@ return [
             'h1'      => 'Software para colegios',
             'lead'    => 'Cobrar cuotas, avisar a los padres y emitir facturas ocupa a la administración más que cualquier otra tarea.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'desarrollo-de-software',
+        'bundle'   => ['desarrollo-de-software', 'integracion-pagos', 'facturacion-electronica-sifen', 'whatsapp-business-api', 'paginas-web'],
         'traps'    => [
             ['title' => 'Cuotas cobradas en ventanilla', 'text' => 'Filas, efectivo y conciliaciones manuales cada mes.'],
             ['title' => 'Avisos por grupos informales', 'text' => 'Información que no llega a todos y datos de familias en chats sin control.'],
@@ -311,7 +301,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=desarrollo-de-apps bundle=[desarrollo-de-apps, integracion-pagos, whatsapp-business-api, paginas-web, facturacion-electronica-sifen]
     'gimnasios' => [
         'path'            => '/soluciones/gimnasios/',
         'navLabel'        => 'Gimnasios',
@@ -323,8 +312,8 @@ return [
             'h1'      => 'Software para gimnasios',
             'lead'    => 'Socios con la cuota vencida que siguen entrando, clases llenas sin reserva y renovaciones que nadie recuerda.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'desarrollo-de-apps',
+        'bundle'   => ['desarrollo-de-apps', 'integracion-pagos', 'whatsapp-business-api', 'paginas-web', 'facturacion-electronica-sifen'],
         'traps'    => [
             ['title' => 'Control de acceso manual', 'text' => 'En la recepción no se sabe quién está al día.'],
             ['title' => 'Cobro mes a mes en efectivo', 'text' => 'Cada renovación depende de que el socio se acuerde.'],
@@ -348,7 +337,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=punto-de-venta bundle=[punto-de-venta, facturacion-electronica-sifen, ecommerce, integracion-pagos, sistemas-erp]
     'comercios-y-farmacias' => [
         'path'            => '/soluciones/comercios-y-farmacias/',
         'navLabel'        => 'Comercios y farmacias',
@@ -360,8 +348,8 @@ return [
             'h1'      => 'Software para comercios y farmacias',
             'lead'    => 'Stock que no coincide con la góndola, productos que vencen en el depósito y una caja que tarda en facturar.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'punto-de-venta',
+        'bundle'   => ['punto-de-venta', 'facturacion-electronica-sifen', 'ecommerce', 'integracion-pagos', 'sistemas-erp'],
         'traps'    => [
             ['title' => 'Stock que nadie actualiza', 'text' => 'Se vende en la tienda online algo que no hay en el local.'],
             ['title' => 'Vencimientos sin control', 'text' => 'En farmacias, lotes que vencen sin que nadie los vea venir.'],
@@ -385,7 +373,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=sistemas-erp bundle=[sistemas-erp, desarrollo-de-apps, integracion-pagos, facturacion-electronica-sifen, whatsapp-business-api]
     'cooperativas' => [
         'path'            => '/soluciones/cooperativas/',
         'navLabel'        => 'Cooperativas',
@@ -397,8 +384,8 @@ return [
             'h1'      => 'Software para cooperativas',
             'lead'    => 'Los socios quieren consultar su saldo y pagar su cuota desde el celular, y el sistema central no fue pensado para eso.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'sistemas-erp',
+        'bundle'   => ['sistemas-erp', 'desarrollo-de-apps', 'integracion-pagos', 'facturacion-electronica-sifen', 'whatsapp-business-api'],
         'traps'    => [
             ['title' => 'Todo pasa por la ventanilla', 'text' => 'Consultas simples que llenan la sede.'],
             ['title' => 'Canales digitales aislados del core', 'text' => 'Apps que muestran datos desactualizados porque no están integradas.'],
@@ -422,7 +409,6 @@ return [
         ],
     ],
 
-    // LINKPASS: leadSlug=crm bundle=[crm, paginas-web, whatsapp-business-api, sistemas-erp, facturacion-electronica-sifen]
     'concesionarias' => [
         'path'            => '/soluciones/concesionarias/',
         'navLabel'        => 'Concesionarias',
@@ -434,8 +420,8 @@ return [
             'h1'      => 'Software para concesionarias',
             'lead'    => 'Un interesado en un vehículo consulta a tres concesionarias el mismo día: gana la que responde primero y hace el seguimiento.',
         ],
-        'leadSlug' => 'correo-corporativo',
-        'bundle'   => ['hosting', 'correo-corporativo'],
+        'leadSlug' => 'crm',
+        'bundle'   => ['crm', 'paginas-web', 'whatsapp-business-api', 'sistemas-erp', 'facturacion-electronica-sifen'],
         'traps'    => [
             ['title' => 'Leads sin seguimiento', 'text' => 'Consultas de la web y redes que nadie retoma después del primer contacto.'],
             ['title' => 'Catálogo desactualizado', 'text' => 'Vehículos vendidos que siguen publicados.'],

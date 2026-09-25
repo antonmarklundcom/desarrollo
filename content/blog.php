@@ -29,18 +29,6 @@ foreach (glob(__DIR__ . '/blog/*.php') ?: [] as $__f) {
 }
 
 $__base = [
-    [
-        'example' => true,
-        'slug'        => 'articulo-ejemplo',
-        'title'       => 'Artículo de ejemplo: cómo se estructura una nota del blog',
-        'seoTitle'    => 'Artículo de ejemplo',
-        'description' => 'Artículo de ejemplo: el índice vive en content/blog.php y el cuerpo en el '
-                       . 'propio archivo de ruta, que arma $sections y llama a la plantilla.',
-        'date'        => '2026-09-04',
-        'updated'     => null,
-        'tags'        => ['Ejemplo'],
-        'service'     => 'servicio-ejemplo',
-    ],
 ];
 foreach ($__parts as $__p) { $__base = array_merge($__base, $__p); }
 unset($__parts, $__p, $__f);

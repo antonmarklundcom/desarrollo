@@ -21,8 +21,8 @@ $__city = static function (string $slug, string $name, string $meta, string $lea
             'h1'      => 'Páginas web y desarrollo de software en ' . $name,
             'lead'    => $lead,
         ],
-        'leadSlug' => 'servicio-ejemplo',
-        'bundle'   => ['servicio-ejemplo'],
+        'leadSlug' => 'paginas-web',
+        'bundle'   => ['paginas-web', 'desarrollo-de-software', 'facturacion-electronica-sifen', 'whatsapp-business-api'],
         'traps'    => $traps,
         'sections' => [
             [
@@ -67,7 +67,6 @@ $__city = static function (string $slug, string $name, string $meta, string $lea
 
 return [
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-asuncion' => $__city(
         'asuncion', 'Asunción',
         'Páginas web y desarrollo de software en Asunción para empresas de servicios, comercios y '
@@ -94,7 +93,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-ciudad-del-este' => $__city(
         'ciudad-del-este', 'Ciudad del Este',
         'Páginas web y desarrollo de software en Ciudad del Este para el comercio fronterizo: '
@@ -121,7 +119,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-encarnacion' => $__city(
         'encarnacion', 'Encarnación',
         'Páginas web en Encarnación para turismo, hotelería, gastronomía y comercio: reservas, '
@@ -148,7 +145,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-san-lorenzo' => $__city(
         'san-lorenzo', 'San Lorenzo',
         'Páginas web y desarrollo de software en San Lorenzo para comercios, institutos, clínicas y '
@@ -175,7 +171,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-luque' => $__city(
         'luque', 'Luque',
         'Páginas web en Luque para comercios, talleres, joyerías y empresas de logística cerca del '
@@ -200,7 +195,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-fernando-de-la-mora' => $__city(
         'fernando-de-la-mora', 'Fernando de la Mora',
         'Desarrollo web en Fernando de la Mora para distribuidoras, comercios y talleres: páginas, '
@@ -225,7 +219,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-lambare' => $__city(
         'lambare', 'Lambaré',
         'Páginas web en Lambaré para comercios de barrio, profesionales, gastronomía y servicios, '
@@ -250,7 +243,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-capiata' => $__city(
         'capiata', 'Capiatá',
         'Desarrollo web en Capiatá para industrias, depósitos, distribuidoras y comercios sobre la '
@@ -275,7 +267,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-pedro-juan-caballero' => $__city(
         'pedro-juan-caballero', 'Pedro Juan Caballero',
         'Páginas web en Pedro Juan Caballero para el comercio de frontera con Brasil: catálogos en '
@@ -300,7 +291,6 @@ return [
         ]
     ),
 
-    // LINKPASS: leadSlug=paginas-web bundle=[paginas-web, desarrollo-de-software, facturacion-electronica-sifen, whatsapp-business-api]
     'desarrollo-web-villarrica' => $__city(
         'villarrica', 'Villarrica',
         'Páginas web y desarrollo de software en Villarrica para comercios, educación, turismo y '
