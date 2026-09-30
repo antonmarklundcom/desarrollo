@@ -136,7 +136,7 @@ return [
         'path'            => '/guias/que-es-sifen/',
         'title'           => 'Qué es SIFEN',
         'navLabel'        => 'Qué es SIFEN',
-        'seoTitle'        => 'Qué es SIFEN y quién debe usarlo',
+        'seoTitle'        => 'Qué es SIFEN (DNIT) y quién factura',
         'metaDescription' => 'Qué es SIFEN, el sistema de facturación electrónica de la DNIT, quién debe '
                            . 'facturar electrónicamente en Paraguay y cómo empezar a hacerlo.',
         'lastReviewed'    => $__rev,
@@ -357,6 +357,6 @@ return [
         ],
         'relatedService' => 'whatsapp-business-api',
         'toolLink'       => null,
-        'related'        => [],
+        'related'        => ['como-automatizar-procesos-con-ia', 'kommo-vs-odoo'],
     ],
 ];

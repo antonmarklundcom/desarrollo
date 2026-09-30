@@ -344,3 +344,47 @@ function lead_label(string $slug): string
 
     return (string) ($page['navLabel'] ?? $page['title'] ?? $slug);
 }
+
+/**
+ * One image record from content/images.php, or null when the slot has none —
+ * every caller hides the slot rather than rendering a broken image.
+ *
+ *   image_for('home')                  the homepage hero
+ *   image_for('service', $slug)        a service page hero and its card
+ *   image_for('segment', $slug)        a /soluciones/ page hero and its rubro tile
+ *   image_for('about', 'workspace')    the homepage "quiénes somos" slots
+ */
+function image_for(string $group, ?string $key = null): ?array
+{
+    $images = content('images');
+    $record = $key === null ? ($images[$group] ?? null) : ($images[$group][$key] ?? null);
+
+    if (!is_array($record) || empty($record['base']) || !is_file(ROOT_DIR . $record['base'] . '-' . max($record['widths']) . '.webp')) {
+        return null;
+    }
+
+    return $record;
+}
+
+/**
+ * A <picture> with AVIF and WebP srcsets for an image_for() record. The files
+ * follow the webimg naming, <base>-<width>.<avif|webp>, and every width listed
+ * in the record exists for both formats. The hero passes $eager so the LCP
+ * image is fetched with high priority instead of lazily.
+ */
+function picture(array $img, string $class = '', string $sizes = '100vw', bool $eager = false): string
+{
+    $set = static fn (string $ext): string => implode(', ', array_map(
+        static fn (int $w): string => $img['base'] . '-' . $w . '.' . $ext . ' ' . $w . 'w',
+        $img['widths']
+    ));
+    $fallback = $img['base'] . '-' . max($img['widths']) . '.webp';
+
+    return '<picture' . ($class !== '' ? ' class="' . e($class) . '"' : '') . '>'
+         . '<source type="image/avif" srcset="' . e($set('avif')) . '" sizes="' . e($sizes) . '">'
+         . '<source type="image/webp" srcset="' . e($set('webp')) . '" sizes="' . e($sizes) . '">'
+         . '<img src="' . e($fallback) . '" alt="' . e($img['alt']) . '" width="' . (int) $img['w']
+         . '" height="' . (int) $img['h'] . '"'
+         . ($eager ? ' fetchpriority="high"' : ' loading="lazy"') . ' decoding="async">'
+         . '</picture>';
+}

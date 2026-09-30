@@ -14,6 +14,9 @@
  *                        without the home crumb — jsonld_breadcrumbs() prepends it
  *   faq          array   [['q' => ..., 'a' => ...], ...] → FAQPage
  *   article      array   ['headline','datePublished','dateModified','image']
+ *   service      array   a content/services.php record → Service, provided by the
+ *                        organisation. No offers/price: prices stay null until
+ *                        the owner confirms them (content/precios.php)
  *   jsonld       array   extra raw JSON-LD blocks
  */
 
@@ -60,7 +63,7 @@ function seo_canonical(array $page): string
  */
 function seo_og_image(array $page): string
 {
-    $image = $page['ogImage'] ?? '/assets/img/og-default.png';
+    $image = $page['ogImage'] ?? '/assets/img/og-default.jpg';
 
     return str_starts_with($image, 'http') ? $image : url($image);
 }
@@ -93,7 +96,7 @@ function jsonld_organization(): array
         '@id'        => url('/') . '#organization',
         'name'       => (string) site('name'),
         'url'        => url('/'),
-        'image'      => url('/assets/img/og-default.png'),
+        'image'      => url('/assets/img/og-default.jpg'),
         'areaServed' => ['@type' => 'Country', 'name' => site('country') ?? market_country()],
     ];
 
@@ -221,16 +224,91 @@ function jsonld_article(array $article, array $page): ?array
 }
 
 /**
+ * Service, for a page built from a content/services.php record. It points at
+ * the organisation block by @id instead of repeating it, and names the parent
+ * service for sub-pages (Bancard under Integración de pagos, …) so the catalogue
+ * reads as a hierarchy.
+ */
+function jsonld_service(array $service, array $page): ?array
+{
+    if ($service === []) {
+        return null;
+    }
+
+    $data = [
+        '@context'    => 'https://schema.org',
+        '@type'       => 'Service',
+        '@id'         => seo_canonical($page) . '#service',
+        'name'        => $service['title'],
+        'serviceType' => $service['navLabel'] ?? $service['title'],
+        'description' => $service['metaDescription'],
+        'url'         => seo_canonical($page),
+        'provider'    => ['@id' => url('/') . '#organization'],
+        'areaServed'  => ['@type' => 'Country', 'name' => site('country') ?? market_country()],
+        'availableLanguage' => market_locale(),
+    ];
+
+    if (!empty($page['ogImage'])) {
+        $data['image'] = seo_og_image($page);
+    }
+
+    if (!empty($service['parent']) && ($parent = services($service['parent'])) !== null) {
+        $data['isRelatedTo'] = ['@type' => 'Service', 'name' => $parent['title'], 'url' => url($parent['path'])];
+    }
+
+    return $data;
+}
+
+/**
+ * WebSite, for the homepage only: names the site so search engines can show it
+ * as the result's site name.
+ */
+function jsonld_website(): array
+{
+    return [
+        '@context'  => 'https://schema.org',
+        '@type'     => 'WebSite',
+        '@id'       => url('/') . '#website',
+        'name'      => (string) site('name'),
+        'url'       => url('/'),
+        'inLanguage' => market_locale(),
+        'publisher' => ['@id' => url('/') . '#organization'],
+    ];
+}
+
+/**
  * Every JSON-LD block this page should emit, in order.
  */
 function seo_jsonld(array $page): array
 {
     $blocks = [jsonld_organization()];
 
+    /* The homepage carries the whole catalogue on the organisation and names
+       the site; every other page only references the organisation by @id. */
+    if (($page['path'] ?? '') === '/') {
+        $catalog = [];
+        foreach (services() as $catService) {
+            if (!empty($catService['parent'])) {
+                continue;
+            }
+            $catalog[] = [
+                '@type'       => 'Offer',
+                'itemOffered' => ['@type' => 'Service', 'name' => $catService['title'], 'url' => url($catService['path'])],
+            ];
+        }
+        $blocks[0]['hasOfferCatalog'] = [
+            '@type'           => 'OfferCatalog',
+            'name'            => ui('nav.services'),
+            'itemListElement' => $catalog,
+        ];
+        $blocks[] = jsonld_website();
+    }
+
     foreach ([
         jsonld_breadcrumbs($page['breadcrumbs'] ?? []),
         jsonld_faq($page['faq'] ?? []),
         jsonld_article($page['article'] ?? [], $page),
+        jsonld_service($page['service'] ?? [], $page),
     ] as $block) {
         if ($block !== null) {
             $blocks[] = $block;

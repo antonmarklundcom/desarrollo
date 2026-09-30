@@ -51,7 +51,7 @@ return [
     '/precios/' => [
         'title'       => 'Precios de páginas web y software',
         'description' => 'Cómo cotizamos páginas web, integraciones y software en Paraguay: qué '
-                       . 'mueve el precio, qué incluye cada plan y cómo pedir su presupuesto.',
+                       . 'mueve el precio, qué incluye cada plan y cómo pedir tu presupuesto.',
         'h1'          => 'Precios',
         'lead'        => 'Cada proyecto se cotiza en guaraníes, con el alcance por escrito antes de empezar.',
         'stub'        => false,
@@ -64,7 +64,7 @@ return [
         'description' => 'Cotizadores gratuitos para estimar el costo de una página web, una app o '
                        . 'una integración SIFEN, y calcular el retorno de automatizar procesos.',
         'h1'          => 'Cotizadores y calculadoras',
-        'lead'        => 'Estime su proyecto en dos minutos y reciba el presupuesto confirmado por WhatsApp.',
+        'lead'        => 'Estimá tu proyecto en dos minutos y recibí el presupuesto confirmado por WhatsApp.',
         'stub'        => false,
         'changefreq'  => 'monthly',
         'priority'    => '0.7',
@@ -75,7 +75,7 @@ return [
         'description' => 'Guías paso a paso: facturación electrónica con SIFEN y ekuatia, cobros con '
                        . 'Bancard, Pagopar y Tigo Money, WordPress, dominios y correo corporativo.',
         'h1'          => 'Guías paso a paso',
-        'lead'        => 'Cómo hacerlo usted mismo, y cuándo conviene que lo hagamos nosotros.',
+        'lead'        => 'Cómo hacerlo vos mismo, y cuándo conviene que lo hagamos nosotros.',
         'stub'        => false,
         'changefreq'  => 'weekly',
         'priority'    => '0.7',
@@ -94,7 +94,7 @@ return [
 
     '/contacto/' => [
         'title'       => 'Contacto y presupuesto',
-        'description' => 'Pida su presupuesto de software, página web o integración. Le respondemos '
+        'description' => 'Pedí tu presupuesto de software, página web o integración. Te respondemos '
                        . 'con una propuesta por escrito y el precio en guaraníes.',
         'h1'          => '',
         'lead'        => '',
@@ -125,22 +125,22 @@ return [
             [
                 'h2'   => 'Cómo trabajamos',
                 'body' => [
-                    'Cada proyecto empieza con una conversación sobre lo que necesita y termina en una '
+                    'Cada proyecto empieza con una conversación sobre lo que necesitás y termina en una '
                         . 'propuesta por escrito: alcance, plazos y precio en guaraníes. Lo que no está '
-                        . 'en la propuesta no se cobra sin su aprobación.',
-                    'Trabajamos de forma remota con clientes de todo el país. Usted ve el avance en un '
+                        . 'en la propuesta no se cobra sin tu aprobación.',
+                    'Trabajamos de forma remota con clientes de todo el país. Vos ves el avance en un '
                         . 'sitio de pruebas, las consultas se resuelven por WhatsApp o videollamada y, '
                         . 'cuando el proyecto lo justifica, coordinamos una reunión presencial.',
-                    'Al terminar le entregamos accesos, dominio y código a su nombre. Si después quiere '
-                        . 'seguir con nosotros para mantenimiento, lo acordamos aparte; si prefiere otro '
-                        . 'proveedor, se lleva todo.',
+                    'Al terminar te entregamos accesos, dominio y código a tu nombre. Si después querés '
+                        . 'seguir con nosotros para mantenimiento, lo acordamos aparte; si preferís otro '
+                        . 'proveedor, te llevás todo.',
                 ],
             ],
             [
                 'h2'   => 'Sitios hermanos',
                 'body' => [
                     'Hay temas que tratamos en sitios dedicados. Para seguridad informática, auditorías '
-                        . 'y protección de datos, visite ciberseguridad.com.py. Para ofertas de empleo '
+                        . 'y protección de datos, visitá ciberseguridad.com.py. Para ofertas de empleo '
                         . 'en todo Paraguay, trabajo.com.py. Para novedades y guías sobre inteligencia '
                         . 'artificial, inteligenciaartificial.com.py.',
                 ],
@@ -204,10 +204,10 @@ return [
     ],
 
     '/trabaja-con-nosotros/' => [
-        'title'       => 'Trabaje con nosotros',
+        'title'       => 'Trabajá con nosotros',
         'description' => 'Buscamos programadores, desarrolladores WordPress y full stack en '
-                       . 'Paraguay. Envíe su perfil y conozca cómo trabajamos.',
-        'h1'          => 'Trabaje con nosotros',
+                       . 'Paraguay. Enviá tu perfil por el formulario o WhatsApp y conocé cómo trabajamos.',
+        'h1'          => 'Trabajá con nosotros',
         'lead'        => 'Buscamos programadores que disfruten resolver problemas reales de empresas.',
         'sections'    => [
             [
@@ -227,18 +227,18 @@ return [
             [
                 'h2'   => 'Cómo postularse',
                 'body' => [
-                    'Escríbanos por el formulario de contacto o por WhatsApp e incluya la palabra '
-                        . '"Trabajo" en el mensaje. Cuéntenos qué perfil le interesa, con qué '
-                        . 'tecnologías trabajó y agregue un enlace a su portafolio, GitHub o proyectos.',
-                    'No hace falta título ni años de experiencia si puede mostrar lo que hizo. '
-                        . 'Respondemos cuando hay un proyecto que encaja con su perfil.',
+                    'Escribinos por el formulario de contacto o por WhatsApp e incluí la palabra '
+                        . '"Trabajo" en el mensaje. Contanos qué perfil te interesa, con qué '
+                        . 'tecnologías trabajaste y agregá un enlace a tu portafolio, GitHub o proyectos.',
+                    'No hace falta título ni años de experiencia si podés mostrar lo que hiciste. '
+                        . 'Respondemos cuando hay un proyecto que encaja con tu perfil.',
                 ],
             ],
             [
                 'h2'   => 'Ofertas de empleo en todo Paraguay',
                 'body' => [
                     'Este sitio no publica ofertas de terceros. Para ofertas de empleo en todo '
-                        . 'Paraguay, en informática y en otros rubros, visite trabajo.com.py.',
+                        . 'Paraguay, en informática y en otros rubros, visitá trabajo.com.py.',
                 ],
             ],
         ],
@@ -249,15 +249,15 @@ return [
 
     '/privacidad/' => [
         'title'       => 'Política de privacidad',
-        'description' => 'Cómo tratamos los datos personales que nos deja en el formulario y cómo '
-                       . 'puede pedir su acceso, corrección o eliminación.',
+        'description' => 'Cómo tratamos los datos personales que nos dejás en el formulario y cómo '
+                       . 'podés pedir su acceso, corrección o eliminación.',
         'h1'          => 'Política de privacidad',
-        'lead'        => 'Cómo tratamos los datos personales que nos confía.',
+        'lead'        => 'Cómo tratamos los datos personales que nos confiás.',
         'sections'    => [
             [
                 'h2'   => 'Qué datos recogemos',
                 'body' => [
-                    'Recogemos únicamente los datos que usted escribe en el formulario de contacto '
+                    'Recogemos únicamente los datos que escribís en el formulario de contacto '
                         . '—nombre, empresa, teléfono, correo y el mensaje— más los parámetros de '
                         . 'campaña que trae el enlace por el que llegó y datos de navegación '
                         . 'agregados de Google Analytics.',
@@ -266,7 +266,7 @@ return [
             [
                 'h2'   => 'Para qué los usamos',
                 'body' => [
-                    'Usamos sus datos para responder su consulta, preparar su presupuesto y dar '
+                    'Usamos tus datos para responder tu consulta, preparar tu presupuesto y dar '
                         . 'seguimiento al proyecto. Se guardan en nuestro sistema de gestión de '
                         . 'clientes. No los vendemos ni los cedemos a terceros ajenos a la '
                         . 'prestación del servicio.',
@@ -275,16 +275,16 @@ return [
             [
                 'h2'   => 'Datos de los sistemas que desarrollamos',
                 'body' => [
-                    'Cuando desarrollamos o mantenemos un sistema para su empresa, los datos que '
-                        . 'ese sistema procesa son de su empresa. Accedemos a ellos solo para '
+                    'Cuando desarrollamos o mantenemos un sistema para tu empresa, los datos que '
+                        . 'ese sistema procesa son de tu empresa. Accedemos a ellos solo para '
                         . 'cumplir el trabajo contratado y bajo confidencialidad.',
                 ],
             ],
             [
-                'h2'   => 'Sus derechos',
+                'h2'   => 'Tus derechos',
                 'body' => [
-                    'Puede pedir en cualquier momento el acceso, la corrección o la eliminación de '
-                        . 'sus datos escribiéndonos por el formulario de contacto o por WhatsApp.',
+                    'Podés pedir en cualquier momento el acceso, la corrección o la eliminación de '
+                        . 'tus datos escribiéndonos por el formulario de contacto o por WhatsApp.',
                 ],
             ],
         ],
@@ -342,8 +342,8 @@ return [
     // Served by 404.php, not by a route file.
     '/404' => [
         'title'       => 'Página no encontrada',
-        'description' => 'No encontramos la página que buscaba. Vea nuestros servicios o '
-                       . 'escríbanos y le indicamos dónde está lo que necesita.',
+        'description' => 'No encontramos la página que buscabas. Mirá nuestros servicios o '
+                       . 'escribinos por WhatsApp y te indicamos dónde está lo que necesitás.',
         'h1'          => 'No encontramos esta página',
         'lead'        => '',
         'stub'        => false,

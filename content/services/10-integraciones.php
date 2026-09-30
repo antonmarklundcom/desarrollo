@@ -17,53 +17,52 @@ return [
         'cluster'         => 'integraciones',
         'parent'          => null,
         'seoTitle'        => 'Facturación electrónica SIFEN',
-        'metaDescription' => 'Integramos SIFEN en su ERP, punto de venta o tienda web, o le armamos '
+        'metaDescription' => 'Integramos SIFEN en tu ERP, punto de venta o tienda web, o te armamos '
                            . 'un sistema de facturación electrónica a medida para Paraguay.',
         'hero' => [
             'eyebrow' => 'Facturación e integraciones',
-            'h1'      => 'Facturación electrónica SIFEN integrada a su sistema',
-            'h2'      => 'Emita facturas electrónicas desde el sistema que ya usa, sin cargar dos veces cada venta.',
-            'lead'    => 'La facturación electrónica en Paraguay pasa por SIFEN, el Sistema Integrado de '
-                       . 'Facturación Electrónica Nacional de la DNIT. Conectamos SIFEN a su ERP, punto de venta '
-                       . 'o tienda online, o le desarrollamos un sistema de facturación electrónica propio '
-                       . 'cuando el facturador gratuito ekuatia ya no alcanza para su volumen.',
+            'h1'      => 'Facturación electrónica SIFEN integrada a tu sistema',
+            'h2'      => 'Emití facturas electrónicas desde el sistema que ya usás, sin cargar dos veces cada venta.',
+            'lead'    => 'Conectamos SIFEN a tu ERP, punto de venta o tienda online, o desarrollamos un '
+                       . 'facturador propio cuando ekuatia ya no alcanza para tu volumen. Firma, envío, '
+                       . 'KuDE y eventos incluidos.',
         ],
         'includes' => [
-            'Relevamiento de su flujo de ventas, puntos de expedición y tipos de documento que emite',
+            'Relevamiento de tu flujo de ventas, puntos de expedición y tipos de documento que emitís',
             'Generación del documento electrónico (XML) según el manual técnico vigente de SIFEN',
-            'Firma digital con su certificado y envío a SIFEN por los servicios web oficiales',
+            'Firma digital con tu certificado y envío a SIFEN por los servicios web oficiales',
             'Gestión de respuestas: aprobado, rechazado, con observaciones, y reintentos',
             'Generación del KuDE (representación gráfica en PDF) con código QR y envío por correo',
             'Eventos: cancelación, inutilización de numeración y notas de crédito o débito',
             'Pruebas completas en el ambiente de pruebas de SIFEN antes de pasar a producción',
-            'Documentación técnica y capacitación para su equipo administrativo',
+            'Documentación técnica y capacitación para tu equipo administrativo',
         ],
         'excludes' => [
             'El costo del certificado de firma digital, que se compra a un prestador habilitado',
-            'La gestión contable o tributaria de su empresa (le sugerimos trabajar con su contador)',
+            'La gestión contable o tributaria de tu empresa (te sugerimos trabajar con tu contador)',
             'Licencias de ERPs comerciales de terceros',
         ],
         'weNeed' => [
             'Acceso a Marangatu o a la persona que lo administra, para la solicitud del timbrado electrónico',
-            'Su certificado de firma digital vigente (o le orientamos para obtenerlo)',
-            'Acceso técnico a su sistema actual o a la base de datos de ventas',
-            'Un ejemplo de cada documento que emite hoy: factura, nota de crédito, autofactura, remisión',
+            'Tu certificado de firma digital vigente (o te orientamos para obtenerlo)',
+            'Acceso técnico a tu sistema actual o a la base de datos de ventas',
+            'Un ejemplo de cada documento que emitís hoy: factura, nota de crédito, autofactura, remisión',
         ],
         'sections' => [
             [
-                'h2'   => 'Qué es SIFEN y por qué afecta a su sistema de ventas',
+                'h2'   => 'Qué es SIFEN y por qué afecta a tu sistema de ventas',
                 'body' => [
                     'SIFEN reemplaza la factura preimpresa por un documento electrónico que se genera en '
                         . 'formato XML, se firma digitalmente y se transmite a la DNIT. Cada documento '
                         . 'aprobado tiene un Código de Control (CDC) único y una representación gráfica, el '
-                        . 'KuDE, que es lo que usted entrega o envía al cliente.',
+                        . 'KuDE, que es lo que entregás o enviás al cliente.',
                     'Para la empresa, el cambio no es solo fiscal: la factura deja de ser un papel que se '
-                        . 'completa al final y pasa a ser un dato que su sistema tiene que producir en el '
-                        . 'momento de la venta, con el formato exacto que pide SIFEN. Si su ERP, su caja o su '
+                        . 'completa al final y pasa a ser un dato que tu sistema tiene que producir en el '
+                        . 'momento de la venta, con el formato exacto que pide SIFEN. Si tu ERP, tu caja o tu '
                         . 'tienda web no lo hacen, alguien termina cargando cada venta dos veces.',
                     'La obligación de emitir documentos electrónicos se fue extendiendo por grupos de '
-                        . 'contribuyentes según los cronogramas que publica la DNIT. Si recibió la '
-                        . 'notificación o quiere adelantarse, conviene decidir primero cómo va a emitir, y '
+                        . 'contribuyentes según los cronogramas que publica la DNIT. Si recibiste la '
+                        . 'notificación o querés adelantarte, conviene decidir primero cómo va a emitir, y '
                         . 'recién después pedir el timbrado.',
                 ],
             ],
@@ -82,15 +81,15 @@ return [
                 'items' => [
                     ['title' => 'Ekuatia alcanza', 'text' => 'Bajo volumen, una persona factura, no hay sistema de ventas que conectar.'],
                     ['title' => 'Conviene integrar', 'text' => 'Volumen diario, varias cajas o sucursales, ventas ya registradas en un sistema.'],
-                    ['title' => 'Conviene un sistema propio', 'text' => 'No tiene sistema de ventas y necesita facturar, controlar stock y cobrar en un mismo lugar.'],
+                    ['title' => 'Conviene un sistema propio', 'text' => 'No tenés sistema de ventas y necesitás facturar, controlar stock y cobrar en un mismo lugar.'],
                 ],
             ],
             [
-                'h2'   => 'Cómo integramos SIFEN a su ERP, punto de venta o web',
+                'h2'   => 'Cómo integramos SIFEN a tu ERP, punto de venta o web',
                 'body' => [
-                    'Trabajamos sobre lo que usted ya tiene. Si su sistema es propio, agregamos un módulo '
-                        . 'que arma el documento electrónico a partir de cada venta. Si usa un ERP comercial '
-                        . 'que permite extensiones, lo conectamos por su API o base de datos. Si vende por '
+                    'Trabajamos sobre lo que ya tenés. Si tu sistema es propio, agregamos un módulo '
+                        . 'que arma el documento electrónico a partir de cada venta. Si usás un ERP comercial '
+                        . 'que permite extensiones, lo conectamos por su API o base de datos. Si vendés por '
                         . 'internet, la tienda genera la factura cuando se confirma el pago.',
                     'La comunicación con SIFEN se hace por servicios web con certificado digital. '
                         . 'Resolvemos el envío individual o por lotes, la consulta del estado, los '
@@ -99,9 +98,9 @@ return [
                 ],
                 'items' => [
                     ['title' => 'Relevamiento', 'text' => 'Qué documentos emite, desde dónde, con qué volumen y qué sistema los origina.'],
-                    ['title' => 'Desarrollo', 'text' => 'Generación del XML, firma, envío, KuDE y eventos, conectados a su flujo.'],
+                    ['title' => 'Desarrollo', 'text' => 'Generación del XML, firma, envío, KuDE y eventos, conectados a tu flujo.'],
                     ['title' => 'Pruebas', 'text' => 'Validación de cada tipo de documento en el ambiente de pruebas de SIFEN.'],
-                    ['title' => 'Producción', 'text' => 'Paso a producción con su timbrado electrónico y acompañamiento las primeras semanas.'],
+                    ['title' => 'Producción', 'text' => 'Paso a producción con tu timbrado electrónico y acompañamiento las primeras semanas.'],
                 ],
             ],
             [
@@ -113,23 +112,23 @@ return [
                         . 'integración con la web o con varias cajas.',
                     'Una integración básica sobre un sistema propio bien documentado es un proyecto corto; '
                         . 'una integración con un ERP comercial cerrado, varias sucursales y notas de crédito '
-                        . 'automáticas es un proyecto más largo. Antes de cotizar puede usar nuestro cotizador '
-                        . 'orientativo para ubicar su caso.',
+                        . 'automáticas es un proyecto más largo. Antes de cotizar podés usar nuestro cotizador '
+                        . 'orientativo para ubicar tu caso.',
                 ],
             ],
         ],
         'benefits' => [
-            ['title' => 'Una sola carga por venta', 'text' => 'La factura sale del mismo sistema donde registra la venta, sin retipear datos.'],
+            ['title' => 'Una sola carga por venta', 'text' => 'La factura sale del mismo sistema donde registrás la venta, sin retipear datos.'],
             ['title' => 'Menos rechazos', 'text' => 'Los datos se validan antes de enviar, y los rechazos quedan registrados con su motivo.'],
             ['title' => 'Factura al instante', 'text' => 'El cliente recibe el KuDE por correo o WhatsApp apenas se confirma la venta.'],
-            ['title' => 'Código que usted controla', 'text' => 'Entregamos el código y la documentación; no queda atado a una plataforma cerrada.'],
+            ['title' => 'Código que controlás vos', 'text' => 'Entregamos el código y la documentación; no quedás atado a una plataforma cerrada.'],
         ],
         'faq' => [
             [
                 'q' => '¿Estoy obligado a facturar electrónicamente?',
-                'a' => 'Depende de si su RUC fue incluido en alguno de los grupos que la DNIT designó como '
-                     . 'obligados, o si usted se adhirió de forma voluntaria. Lo puede confirmar en Marangatu '
-                     . 'o con su contador. Consulte siempre la resolución vigente.',
+                'a' => 'Depende de si tu RUC fue incluido en alguno de los grupos que la DNIT designó como '
+                     . 'obligados, o si te adheriste de forma voluntaria. Lo podés confirmar en Marangatu '
+                     . 'o con tu contador. Consultá siempre la resolución vigente.',
             ],
             [
                 'q' => '¿Puedo seguir usando ekuatia y además tener un sistema integrado?',
@@ -141,7 +140,7 @@ return [
                 'q' => '¿Necesito un certificado de firma digital?',
                 'a' => 'Para emitir desde un sistema propio o integrado, sí: cada documento se firma con un '
                      . 'certificado emitido por un prestador de servicios de certificación habilitado en '
-                     . 'Paraguay. Le orientamos sobre el trámite, pero la compra la hace su empresa.',
+                     . 'Paraguay. Te orientamos sobre el trámite, pero la compra la hace tu empresa.',
             ],
             [
                 'q' => '¿Cuánto demora una integración SIFEN?',
@@ -157,8 +156,8 @@ return [
             ],
             [
                 'q' => '¿Trabajan con mi ERP?',
-                'a' => 'Si el ERP permite exportar datos, tiene API o nos da acceso a su base de datos, en '
-                     . 'general sí. Si es un sistema cerrado sin ninguna vía de integración, se lo decimos en '
+                'a' => 'Si el ERP permite exportar datos, tiene API o nos da acceso a la base de datos, en '
+                     . 'general sí. Si es un sistema cerrado sin ninguna vía de integración, te lo decimos en '
                      . 'el relevamiento antes de cotizar.',
             ],
         ],
@@ -170,7 +169,7 @@ return [
             [
                 'path'  => '/herramientas/costo-integracion-sifen/',
                 'label' => 'Cotizador de integración SIFEN',
-                'text'  => 'Responda cuatro preguntas y vea qué nivel de integración corresponde a su caso.',
+                'text'  => 'Respondé cuatro preguntas y mirá qué nivel de integración corresponde a tu caso.',
             ],
         ],
     ],
@@ -183,22 +182,22 @@ return [
         'cluster'         => 'integraciones',
         'parent'          => null,
         'seoTitle'        => 'Integración de pagos en Paraguay',
-        'metaDescription' => 'Conectamos Bancard, Pagopar y Tigo Money a su tienda online o sistema: '
+        'metaDescription' => 'Conectamos Bancard, Pagopar y Tigo Money a tu tienda online o sistema: '
                            . 'pasarela de pagos, conciliación y confirmación automática del pedido.',
         'hero' => [
             'eyebrow' => 'Facturación e integraciones',
-            'h1'      => 'Integración de pagos en Paraguay: Bancard, Pagopar y Tigo Money',
-            'h2'      => 'Cobre con tarjeta, QR o billetera y que su sistema se entere solo.',
-            'lead'    => 'Integramos la pasarela de pagos que corresponde a su negocio (Bancard, Pagopar, '
-                       . 'Tigo Money u otras) en su tienda online, sistema de gestión o app, con confirmación '
-                       . 'automática de cada cobro y conciliación contra sus pedidos y facturas.',
+            'h1'      => 'Integración de pagos: Bancard, Pagopar y Tigo Money',
+            'h2'      => 'Cobrá con tarjeta, QR o billetera y que tu sistema se entere solo.',
+            'lead'    => 'Conectamos Bancard, Pagopar o Tigo Money a tu tienda online, sistema o app, '
+                       . 'con confirmación automática de cada cobro y conciliación contra tus pedidos y '
+                       . 'facturas.',
         ],
         'includes' => [
-            'Asesoramiento para elegir pasarela según su tipo de venta, ticket promedio y medios de pago',
+            'Asesoramiento para elegir pasarela según tu tipo de venta, ticket promedio y medios de pago',
             'Integración técnica con la API de la pasarela, en entorno de pruebas y producción',
-            'Confirmación automática del pago y actualización del pedido en su sistema',
+            'Confirmación automática del pago y actualización del pedido en tu sistema',
             'Manejo de pagos rechazados, pendientes, reversas y devoluciones',
-            'Registro de cada transacción para la conciliación con su banco o procesadora',
+            'Registro de cada transacción para la conciliación con tu banco o procesadora',
             'Acompañamiento en el proceso de certificación que pida la pasarela',
         ],
         'excludes' => [
@@ -206,8 +205,8 @@ return [
             'El diseño completo de una tienda online, que se cotiza como proyecto aparte',
         ],
         'weNeed' => [
-            'Su RUC y los datos de la empresa para la afiliación con la pasarela',
-            'Acceso a su tienda, sistema o servidor',
+            'Tu RUC y los datos de la empresa para la afiliación con la pasarela',
+            'Acceso a tu tienda, sistema o servidor',
             'Las credenciales de prueba y producción que entregue la pasarela',
         ],
         'sections' => [
@@ -215,8 +214,8 @@ return [
                 'h2'   => 'Qué pasarela de pagos conviene en Paraguay',
                 'body' => [
                     'No hay una pasarela de pagos que sirva para todo. La elección depende de qué medios de '
-                        . 'pago usan sus clientes, cuánto vende, si vende en línea o en local, y cuánto '
-                        . 'trabajo técnico quiere asumir.',
+                        . 'pago usan tus clientes, cuánto vendés, si vendés en línea o en local, y cuánto '
+                        . 'trabajo técnico querés asumir.',
                     'En Paraguay las opciones más usadas por comercios son Bancard, que procesa tarjetas y '
                         . 'QR de gran parte de los bancos; Pagopar, que agrupa varios medios de pago en un '
                         . 'solo botón; y las billeteras electrónicas como Tigo Money. Muchas tiendas combinan '
@@ -264,7 +263,7 @@ return [
                     ['title' => 'Tiendas online', 'text' => 'WooCommerce, tiendas a medida y catálogos con carrito.'],
                     ['title' => 'Portales de clientes', 'text' => 'Pago de facturas o cuotas pendientes desde un enlace.'],
                     ['title' => 'Suscripciones', 'text' => 'Cobro recurrente con tarjeta guardada, cuando la pasarela lo permite.'],
-                    ['title' => 'Apps móviles', 'text' => 'Pago dentro de la app con confirmación en su servidor.'],
+                    ['title' => 'Apps móviles', 'text' => 'Pago dentro de la app con confirmación en tu servidor.'],
                     ['title' => 'Links de pago por WhatsApp', 'text' => 'El vendedor envía un enlace y el sistema se entera del pago.'],
                 ],
             ],
@@ -272,13 +271,13 @@ return [
                 'h2'   => 'Qué determina el costo de integrar pagos',
                 'body' => [
                     'Hay dos costos distintos que conviene no mezclar. El primero es la comisión de la '
-                        . 'pasarela, que se paga por cada transacción y se acuerda con ella; consulte el valor '
+                        . 'pasarela, que se paga por cada transacción y se acuerda con ella; consultá el valor '
                         . 'vigente antes de decidir. El segundo es el trabajo de integración, que se paga una '
                         . 'vez y depende de la plataforma, de la cantidad de pasarelas y de qué tiene que '
                         . 'pasar después del pago.',
                     'Instalar un plugin en una tienda WooCommerce estándar es un trabajo corto. Integrar dos '
                         . 'pasarelas en un sistema propio, con tarjeta guardada, facturación electrónica '
-                        . 'automática y conciliación, es un proyecto. Se lo cotizamos después de ver su sistema, '
+                        . 'automática y conciliación, es un proyecto. Te lo cotizamos después de ver tu sistema, '
                         . 'con el alcance por escrito.',
                 ],
             ],
@@ -286,25 +285,25 @@ return [
                 'h2'   => 'Seguridad en los pagos en línea',
                 'body' => [
                     'En las integraciones que hacemos, los datos de la tarjeta se cargan en el formulario de '
-                        . 'la pasarela y no pasan por su servidor. Su sistema recibe solo el resultado y una '
-                        . 'referencia. Eso reduce el riesgo y las obligaciones de su empresa. Además, validamos '
+                        . 'la pasarela y no pasan por tu servidor. Tu sistema recibe solo el resultado y una '
+                        . 'referencia. Eso reduce el riesgo y las obligaciones de tu empresa. Además, validamos '
                         . 'que cada confirmación venga realmente de la pasarela antes de marcar un pedido como '
                         . 'pagado.',
-                    'Si su preocupación es la seguridad general de sus sistemas, más allá de los pagos, '
-                        . 'le sugerimos consultar a especialistas como ciberseguridad.com.py.',
+                    'Si tu preocupación es la seguridad general de tus sistemas, más allá de los pagos, '
+                        . 'te sugerimos consultar a especialistas como ciberseguridad.com.py.',
                 ],
             ],
         ],
         'benefits' => [
             ['title' => 'Pedidos confirmados solos', 'text' => 'El sistema se entera del pago aunque el cliente cierre la ventana.'],
-            ['title' => 'Más medios de pago', 'text' => 'Tarjeta, QR y billetera, según lo que usen sus clientes.'],
+            ['title' => 'Más medios de pago', 'text' => 'Tarjeta, QR y billetera, según lo que usen tus clientes.'],
             ['title' => 'Conciliación ordenada', 'text' => 'Cada cobro queda con su referencia, su pedido y su factura.'],
         ],
         'faq' => [
             [
                 'q' => '¿Cuánto cobran las pasarelas de pago?',
                 'a' => 'Cada pasarela cobra una comisión por transacción que depende del medio de pago y del '
-                     . 'acuerdo comercial. Consulte el valor vigente directamente con la pasarela; nosotros '
+                     . 'acuerdo comercial. Consultá el valor vigente directamente con la pasarela; nosotros '
                      . 'cobramos solo por el trabajo de integración.',
             ],
             [
@@ -319,13 +318,13 @@ return [
             ],
             [
                 'q' => '¿Quién hace la afiliación con la pasarela?',
-                'a' => 'La afiliación comercial la firma su empresa con la pasarela. Nosotros le decimos qué '
+                'a' => 'La afiliación comercial la firma tu empresa con la pasarela. Nosotros te decimos qué '
                      . 'pedir y nos encargamos de la parte técnica.',
             ],
             [
                 'q' => '¿Pueden integrar pagos en una app móvil?',
                 'a' => 'Sí, siempre que la pasarela lo permita. En general el pago se procesa en una vista '
-                     . 'segura de la pasarela y la app recibe la confirmación desde su servidor.',
+                     . 'segura de la pasarela y la app recibe la confirmación desde tu servidor.',
             ],
         ],
         'cta'       => ['label' => 'Consultar integración de pagos', 'whatsappText' => ''],
@@ -343,21 +342,21 @@ return [
         'cluster'         => 'integraciones',
         'parent'          => 'integracion-pagos',
         'seoTitle'        => 'Integración Bancard vPOS y QR',
-        'metaDescription' => 'Integración de Bancard vPOS y Bancard QR en su tienda online, sistema o '
+        'metaDescription' => 'Integración de Bancard vPOS y Bancard QR en tu tienda online, sistema o '
                            . 'app: pagos con tarjeta, confirmación automática y certificación.',
         'hero' => [
             'eyebrow' => 'Integración de pagos',
-            'h1'      => 'Integración Bancard: vPOS y QR para su tienda o sistema',
-            'h2'      => 'Cobre con tarjeta de crédito, débito o QR, con el pedido confirmado en su sistema.',
-            'lead'    => 'Integramos Bancard vPOS y Bancard QR en su sitio web, tienda online, sistema de '
-                       . 'gestión o app. Nos ocupamos de la parte técnica: conexión con la API, pruebas en '
-                       . 'el entorno de Bancard, certificación y confirmación automática de cada pago.',
+            'h1'      => 'Integración Bancard: vPOS y QR para tu tienda o sistema',
+            'h2'      => 'Cobrá con tarjeta de crédito, débito o QR, con el pedido confirmado en tu sistema.',
+            'lead'    => 'Integramos Bancard vPOS y Bancard QR en tu web, tienda online, sistema o app: '
+                       . 'conexión con la API, pruebas en staging, certificación y confirmación '
+                       . 'automática de cada pago.',
         ],
         'includes' => [
-            'Integración de Bancard vPOS para pagos con tarjeta en su sitio o app',
-            'Integración de pagos con QR cuando su caso lo requiere',
+            'Integración de Bancard vPOS para pagos con tarjeta en tu sitio o app',
+            'Integración de pagos con QR cuando tu caso lo requiere',
             'Opcional: tarjeta guardada (catastro) para cobros recurrentes o compras en un clic',
-            'Recepción de la confirmación de Bancard en su servidor y actualización del pedido',
+            'Recepción de la confirmación de Bancard en tu servidor y actualización del pedido',
             'Rollback y reversas según el flujo que define Bancard',
             'Pruebas en el entorno de staging y acompañamiento en la certificación',
             'Registro de transacciones para conciliación',
@@ -367,16 +366,16 @@ return [
             'Terminales POS físicas',
         ],
         'weNeed' => [
-            'Su contrato o solicitud de afiliación con Bancard en curso',
+            'Tu contrato o solicitud de afiliación con Bancard en curso',
             'Las claves pública y privada de staging y, luego, de producción',
-            'Acceso a su servidor, tienda o repositorio',
+            'Acceso a tu servidor, tienda o repositorio',
         ],
         'sections' => [
             [
                 'h2'   => 'Qué es Bancard vPOS y qué es Bancard QR',
                 'body' => [
                     'Bancard vPOS es el punto de venta virtual de Bancard: permite cobrar con tarjeta en un '
-                        . 'sitio web o app sin que su sistema toque los datos de la tarjeta, porque el '
+                        . 'sitio web o app sin que tu sistema toque los datos de la tarjeta, porque el '
                         . 'cliente los ingresa en un formulario seguro provisto por Bancard.',
                     'El cobro con QR permite que el cliente pague escaneando un código desde la app de su '
                         . 'banco o billetera compatible. Sirve tanto en local como en ventas a distancia, y '
@@ -386,17 +385,17 @@ return [
             [
                 'h2'   => 'Cómo es una integración Bancard paso a paso',
                 'body' => [
-                    'Con las credenciales de staging, su sistema crea la orden de pago, abre el '
+                    'Con las credenciales de staging, tu sistema crea la orden de pago, abre el '
                         . 'formulario de Bancard y espera la confirmación. Bancard notifica el resultado al '
-                        . 'servidor de su comercio, que responde y actualiza el pedido.',
+                        . 'servidor de tu comercio, que responde y actualiza el pedido.',
                     'Una vez que todos los casos funcionan en staging, Bancard revisa la integración antes '
                         . 'de habilitar las claves de producción. Preparamos la integración para pasar esa '
                         . 'revisión sin idas y vueltas.',
                 ],
                 'items' => [
-                    ['title' => 'Orden de pago', 'text' => 'Su sistema genera el pedido y solicita el proceso de pago a Bancard.'],
-                    ['title' => 'Pago seguro', 'text' => 'El cliente paga en el formulario de Bancard, dentro de su sitio.'],
-                    ['title' => 'Confirmación', 'text' => 'Bancard avisa a su servidor y el pedido queda pagado.'],
+                    ['title' => 'Orden de pago', 'text' => 'Tu sistema genera el pedido y solicita el proceso de pago a Bancard.'],
+                    ['title' => 'Pago seguro', 'text' => 'El cliente paga en el formulario de Bancard, dentro de tu sitio.'],
+                    ['title' => 'Confirmación', 'text' => 'Bancard avisa a tu servidor y el pedido queda pagado.'],
                     ['title' => 'Certificación', 'text' => 'Revisión de Bancard y habilitación de producción.'],
                 ],
             ],
@@ -414,7 +413,7 @@ return [
                 'h2'   => 'Bancard vPOS en una app móvil',
                 'body' => [
                     'En una app, el formulario de Bancard se muestra dentro de una vista web segura. La app '
-                        . 'no procesa la tarjeta: pide a su servidor que inicie el pago, muestra el formulario '
+                        . 'no procesa la tarjeta: pide a tu servidor que inicie el pago, muestra el formulario '
                         . 'y espera la confirmación que el servidor recibe de Bancard. Así la lógica de cobro '
                         . 'queda en un solo lugar, compartida entre la web y la app.',
                 ],
@@ -423,15 +422,15 @@ return [
                 'h2'   => 'Tarjeta guardada para cobros recurrentes',
                 'body' => [
                     'Para suscripciones, cuotas o clientes que compran seguido, Bancard ofrece la opción de '
-                        . 'registrar la tarjeta del cliente para cobrar sin que la vuelva a cargar. Su sistema '
-                        . 'guarda solo una referencia, no el número de la tarjeta. Esta función depende de su '
-                        . 'afiliación, así que conviene pedirla desde el inicio si la va a necesitar.',
+                        . 'registrar la tarjeta del cliente para cobrar sin que la vuelva a cargar. Tu sistema '
+                        . 'guarda solo una referencia, no el número de la tarjeta. Esta función depende de tu '
+                        . 'afiliación, así que conviene pedirla desde el inicio si la vas a necesitar.',
                     'Diseñamos el flujo completo: alta de la tarjeta, cobro en cada vencimiento, aviso al '
                         . 'cliente cuando un cobro falla y reintento o pedido de otra tarjeta.',
                 ],
                 'items' => [
                     ['title' => 'Alta', 'text' => 'El cliente registra su tarjeta una vez, en el formulario de Bancard.'],
-                    ['title' => 'Cobro', 'text' => 'Su sistema cobra en cada vencimiento usando la referencia guardada.'],
+                    ['title' => 'Cobro', 'text' => 'Tu sistema cobra en cada vencimiento usando la referencia guardada.'],
                     ['title' => 'Fallo', 'text' => 'Si el cobro se rechaza, el cliente recibe un aviso para actualizar la tarjeta.'],
                 ],
             ],
@@ -442,32 +441,32 @@ return [
                         . 'que quedan pendientes porque solo se confirmaban en la página de retorno, '
                         . 'identificadores de pedido reutilizados que Bancard rechaza, claves de staging que '
                         . 'quedaron en producción o reversas que nunca se implementaron.',
-                    'Si ya tiene Bancard integrado y algo de esto le suena, también revisamos y corregimos '
+                    'Si ya tenés Bancard integrado y algo de esto te suena, también revisamos y corregimos '
                         . 'integraciones hechas por otros.',
                 ],
             ],
         ],
         'benefits' => [
-            ['title' => 'Sin datos de tarjeta en su servidor', 'text' => 'El cliente carga la tarjeta en el formulario de Bancard.'],
+            ['title' => 'Sin datos de tarjeta en tu servidor', 'text' => 'El cliente carga la tarjeta en el formulario de Bancard.'],
             ['title' => 'Certificación acompañada', 'text' => 'Preparamos los casos de prueba que Bancard revisa.'],
-            ['title' => 'Cobros recurrentes', 'text' => 'Con tarjeta guardada, puede cobrar suscripciones o cuotas.'],
+            ['title' => 'Cobros recurrentes', 'text' => 'Con tarjeta guardada, podés cobrar suscripciones o cuotas.'],
         ],
         'faq' => [
             [
                 'q' => '¿Cuánto cobra Bancard por transacción?',
-                'a' => 'La comisión depende del tipo de tarjeta y de su acuerdo comercial. Consulte el valor '
+                'a' => 'La comisión depende del tipo de tarjeta y de tu acuerdo comercial. Consultá el valor '
                      . 'vigente con Bancard al tramitar la afiliación.',
             ],
             [
                 'q' => '¿Cuánto demora la integración?',
                 'a' => 'La parte técnica suele ser corta; lo que más varía es el tiempo de afiliación y '
-                     . 'certificación del lado de Bancard. Le damos una estimación concreta después de ver su '
+                     . 'certificación del lado de Bancard. Te damos una estimación concreta después de ver tu '
                      . 'sistema.',
             ],
             [
                 'q' => '¿Puedo cobrar suscripciones con Bancard?',
-                'a' => 'Sí, con la opción de tarjeta guardada, si su afiliación la incluye. El cliente '
-                     . 'registra la tarjeta una vez y su sistema cobra en cada vencimiento.',
+                'a' => 'Sí, con la opción de tarjeta guardada, si tu afiliación la incluye. El cliente '
+                     . 'registra la tarjeta una vez y tu sistema cobra en cada vencimiento.',
             ],
             [
                 'q' => '¿Qué pasa si el pago se confirma pero el cliente cierra la ventana?',
@@ -503,19 +502,18 @@ return [
         'cluster'         => 'integraciones',
         'parent'          => 'integracion-pagos',
         'seoTitle'        => 'Integración Pagopar',
-        'metaDescription' => 'Integramos Pagopar en su tienda online o sistema: varios medios de pago en '
+        'metaDescription' => 'Integramos Pagopar en tu tienda online o sistema: varios medios de pago en '
                            . 'un checkout, confirmación automática y estados de pedido correctos.',
         'hero' => [
             'eyebrow' => 'Integración de pagos',
             'h1'      => 'Integración Pagopar para tiendas y sistemas',
             'h2'      => 'Varios medios de pago en un solo checkout, con el pedido actualizado solo.',
-            'lead'    => 'Pagopar reúne distintos medios de pago en una sola integración. Lo conectamos a su '
-                       . 'tienda online, WooCommerce o sistema propio, con confirmación automática de cada '
-                       . 'pago y manejo correcto de pagos pendientes, como los que se abonan en bocas de '
-                       . 'cobranza.',
+            'lead'    => 'Conectamos Pagopar a tu tienda online, WooCommerce o sistema propio, con '
+                       . 'confirmación automática de cada pago y manejo correcto de pagos pendientes en '
+                       . 'bocas de cobranza.',
         ],
         'includes' => [
-            'Integración de Pagopar por API o plugin, según su plataforma',
+            'Integración de Pagopar por API o plugin, según tu plataforma',
             'Creación del pedido y redirección al checkout de Pagopar',
             'Recepción de la notificación de pago y actualización del pedido',
             'Manejo de pagos pendientes y vencidos',
@@ -526,7 +524,7 @@ return [
             'Diseño o rediseño de la tienda',
         ],
         'weNeed' => [
-            'Su cuenta de comercio en Pagopar con las claves de integración',
+            'Tu cuenta de comercio en Pagopar con las claves de integración',
             'Acceso a la tienda o sistema',
         ],
         'sections' => [
@@ -534,7 +532,7 @@ return [
                 'h2'   => 'Qué resuelve Pagopar',
                 'body' => [
                     'Pagopar funciona como agregador: en lugar de integrar cada medio de pago por separado, '
-                        . 'su tienda se conecta una vez y el cliente elige cómo pagar entre las opciones que '
+                        . 'tu tienda se conecta una vez y el cliente elige cómo pagar entre las opciones que '
                         . 'Pagopar tenga habilitadas, como tarjetas, billeteras o bocas de cobranza.',
                     'Esto acorta los tiempos para una tienda que recién empieza a vender en línea. A cambio, '
                         . 'hay que tener en cuenta la estructura de comisiones y los plazos de acreditación, '
@@ -558,18 +556,18 @@ return [
             [
                 'h2'   => 'Cómo es la integración de Pagopar paso a paso',
                 'body' => [
-                    'El flujo general es simple: su tienda crea el pedido en Pagopar con el monto y los '
+                    'El flujo general es simple: tu tienda crea el pedido en Pagopar con el monto y los '
                         . 'datos del comprador, redirige al cliente al checkout de Pagopar, y Pagopar avisa a '
-                        . 'su servidor cuando el pago cambia de estado. Su sistema consulta ese estado y '
+                        . 'tu servidor cuando el pago cambia de estado. Tu sistema consulta ese estado y '
                         . 'actualiza el pedido.',
                     'Lo delicado está en los detalles: validar que la notificación venga de Pagopar, no '
                         . 'procesar dos veces el mismo pago, y mostrar al cliente una página de retorno clara '
                         . 'aunque el pago todavía esté pendiente.',
                 ],
                 'items' => [
-                    ['title' => 'Crear el pedido', 'text' => 'Su sistema envía monto, ítems y comprador a Pagopar.'],
+                    ['title' => 'Crear el pedido', 'text' => 'Tu sistema envía monto, ítems y comprador a Pagopar.'],
                     ['title' => 'Checkout', 'text' => 'El cliente elige el medio de pago en Pagopar.'],
-                    ['title' => 'Notificación', 'text' => 'Pagopar avisa a su servidor cada cambio de estado.'],
+                    ['title' => 'Notificación', 'text' => 'Pagopar avisa a tu servidor cada cambio de estado.'],
                     ['title' => 'Actualización', 'text' => 'El pedido pasa a pagado, pendiente o vencido.'],
                 ],
             ],
@@ -577,7 +575,7 @@ return [
                 'h2'   => 'Pagopar en WooCommerce y en sistemas propios',
                 'body' => [
                     'Para WooCommerce existe una integración que se instala como plugin. La configuramos, '
-                        . 'probamos cada medio de pago y ajustamos los estados del pedido a su forma de '
+                        . 'probamos cada medio de pago y ajustamos los estados del pedido a tu forma de '
                         . 'trabajar, incluido el envío de correos y la reserva de stock.',
                     'En sistemas propios integramos directamente con la API de Pagopar. Es habitual para '
                         . 'cobrar cuotas, inscripciones, reservas o facturas pendientes desde un portal de '
@@ -587,23 +585,23 @@ return [
             [
                 'h2'   => 'Qué revisar antes de elegir Pagopar',
                 'body' => [
-                    'Antes de integrar, compare tres cosas con sus números reales: la comisión por cada '
-                        . 'medio de pago que usarán sus clientes, el plazo en que se acredita cada uno y si '
-                        . 'hay costos fijos. Consulte el valor vigente con Pagopar. Si la mayoría de sus '
-                        . 'clientes paga con tarjeta y su volumen es alto, puede convenir sumar Bancard para '
+                    'Antes de integrar, comparé tres cosas con tus números reales: la comisión por cada '
+                        . 'medio de pago que usarán tus clientes, el plazo en que se acredita cada uno y si '
+                        . 'hay costos fijos. Consultá el valor vigente con Pagopar. Si la mayoría de tus '
+                        . 'clientes paga con tarjeta y tu volumen es alto, puede convenir sumar Bancard para '
                         . 'tarjetas y dejar Pagopar para el resto de los medios.',
                 ],
             ],
         ],
         'benefits' => [
-            ['title' => 'Una integración, varios medios', 'text' => 'El cliente elige cómo pagar sin que usted integre cada uno.'],
+            ['title' => 'Una integración, varios medios', 'text' => 'El cliente elige cómo pagar sin que integres cada uno.'],
             ['title' => 'Estados correctos', 'text' => 'Nada se despacha sin cobro confirmado.'],
             ['title' => 'Salida rápida', 'text' => 'Ideal para empezar a vender online sin un proyecto largo.'],
         ],
         'faq' => [
             [
                 'q' => '¿Cuánto cobra Pagopar?',
-                'a' => 'Pagopar cobra una comisión que varía según el medio de pago. Consulte el valor '
+                'a' => 'Pagopar cobra una comisión que varía según el medio de pago. Consultá el valor '
                      . 'vigente en Pagopar antes de decidir.',
             ],
             [
@@ -618,7 +616,7 @@ return [
             ],
             [
                 'q' => '¿Qué pasa con los pedidos que nunca se pagan?',
-                'a' => 'Se configuran para vencer después del plazo que usted defina, liberando el stock.',
+                'a' => 'Se configuran para vencer después del plazo que definas, liberando el stock.',
             ],
             [
                 'q' => '¿Integran Pagopar en sistemas que no son tiendas?',
@@ -626,11 +624,11 @@ return [
             ],
             [
                 'q' => '¿Cuánto demora una integración de Pagopar?',
-                'a' => 'En una tienda WooCommerce estándar es un trabajo corto; en un sistema propio depende del flujo de cobro. Le damos el plazo concreto después de ver su plataforma.',
+                'a' => 'En una tienda WooCommerce estándar es un trabajo corto; en un sistema propio depende del flujo de cobro. Te damos el plazo concreto después de ver tu plataforma.',
             ],
             [
                 'q' => '¿Pagopar me acredita el dinero en mi cuenta?',
-                'a' => 'Sí, según los plazos y condiciones de cada medio de pago. Consulte el valor vigente de plazos y comisiones con Pagopar.',
+                'a' => 'Sí, según los plazos y condiciones de cada medio de pago. Consultá el valor vigente de plazos y comisiones con Pagopar.',
             ],
         ],
         'cta'       => ['label' => 'Integrar Pagopar', 'whatsappText' => ''],
@@ -648,28 +646,28 @@ return [
         'cluster'         => 'integraciones',
         'parent'          => 'integracion-pagos',
         'seoTitle'        => 'Integración Tigo Money para comercios',
-        'metaDescription' => 'Cobre con Tigo Money en su tienda o sistema: integramos la billetera como '
+        'metaDescription' => 'Cobrá con Tigo Money en tu tienda o sistema: integramos la billetera como '
                            . 'medio de pago, directa o a través de un agregador, con confirmación.',
         'hero' => [
             'eyebrow' => 'Integración de pagos',
-            'h1'      => 'Tigo Money para comercios: cobros integrados a su sistema',
-            'h2'      => 'Sume a los clientes que pagan desde la billetera, sin tarjeta.',
-            'lead'    => 'Tigo Money para comercios permite cobrar a clientes que pagan desde su billetera '
-                       . 'móvil. Le ayudamos a elegir la vía de integración (directa o por un agregador '
-                       . 'como Pagopar) y la conectamos a su tienda o sistema con confirmación automática.',
+            'h1'      => 'Tigo Money para comercios: cobros integrados a tu sistema',
+            'h2'      => 'Sumá a los clientes que pagan desde la billetera, sin tarjeta.',
+            'lead'    => 'Te ayudamos a elegir la vía de integración (directa o por un agregador como '
+                       . 'Pagopar) y conectamos Tigo Money a tu tienda o sistema con confirmación '
+                       . 'automática de cada cobro.',
         ],
         'includes' => [
             'Análisis de la vía de integración: directa con Tigo o a través de un agregador',
             'Integración técnica y pruebas',
-            'Confirmación automática del pago en su sistema',
+            'Confirmación automática del pago en tu sistema',
             'Registro de transacciones para conciliación',
         ],
         'excludes' => [
             'La afiliación comercial con Tigo Money y sus comisiones',
         ],
         'weNeed' => [
-            'Su cuenta de comercio o el trámite de afiliación en curso',
-            'Acceso a su tienda o sistema',
+            'Tu cuenta de comercio o el trámite de afiliación en curso',
+            'Acceso a tu tienda o sistema',
         ],
         'sections' => [
             [
@@ -683,10 +681,10 @@ return [
             [
                 'h2'   => 'Integración directa o a través de un agregador',
                 'body' => [
-                    'La integración directa le da una relación comercial propia con Tigo, pero requiere su '
+                    'La integración directa te da una relación comercial propia con Tigo, pero requiere tu '
                         . 'propio trámite y desarrollo. Un agregador como Pagopar suele incluir billeteras '
                         . 'entre sus medios de pago, lo que simplifica la parte técnica a cambio de su '
-                        . 'propia comisión. Le mostramos las dos opciones con sus implicancias antes de '
+                        . 'propia comisión. Te mostramos las dos opciones con sus implicancias antes de '
                         . 'desarrollar.',
                 ],
                 'items' => [
@@ -702,7 +700,7 @@ return [
                         . 'tiene costos ocultos: alguien tiene que revisar cada comprobante, cruzarlo con el '
                         . 'pedido y confirmar que el dinero realmente entró. Además, una captura se puede '
                         . 'editar o reenviar.',
-                    'Con una integración, el pago se inicia desde su sistema con un monto y una referencia, '
+                    'Con una integración, el pago se inicia desde tu sistema con un monto y una referencia, '
                         . 'y la confirmación llega de la billetera o del agregador. Nadie revisa imágenes y '
                         . 'cada cobro queda asociado a su pedido.',
                 ],
@@ -710,7 +708,7 @@ return [
             [
                 'h2'   => 'Cómo trabajamos una integración de Tigo Money',
                 'body' => [
-                    'Primero confirmamos qué opciones tiene disponibles su comercio: integración directa, '
+                    'Primero confirmamos qué opciones tiene disponibles tu comercio: integración directa, '
                         . 'cobro a través de un agregador o una combinación. Después definimos el flujo de '
                         . 'pago, lo integramos en un entorno de prueba y verificamos cada estado posible: '
                         . 'pagado, rechazado, cancelado por el cliente y sin respuesta.',
@@ -719,8 +717,8 @@ return [
                         . 'electrónica en SIFEN.',
                 ],
                 'items' => [
-                    ['title' => 'Relevamiento', 'text' => 'Qué vende, dónde cobra y qué opciones tiene habilitadas.'],
-                    ['title' => 'Integración', 'text' => 'Conexión del flujo de pago con su tienda o sistema.'],
+                    ['title' => 'Relevamiento', 'text' => 'Qué vendés, dónde cobrás y qué opciones tenés habilitadas.'],
+                    ['title' => 'Integración', 'text' => 'Conexión del flujo de pago con tu tienda o sistema.'],
                     ['title' => 'Pruebas', 'text' => 'Verificación de cada estado antes de publicar.'],
                     ['title' => 'Puesta en marcha', 'text' => 'Activación en producción y seguimiento de los primeros cobros.'],
                 ],
@@ -742,23 +740,23 @@ return [
         'faq' => [
             [
                 'q' => '¿Cuánto cobra Tigo Money a los comercios?',
-                'a' => 'Las condiciones dependen del acuerdo comercial. Consulte el valor vigente con Tigo '
+                'a' => 'Las condiciones dependen del acuerdo comercial. Consultá el valor vigente con Tigo '
                      . 'Money para comercios.',
             ],
             [
                 'q' => '¿Puedo dejar de recibir pagos por transferencia y captura de pantalla?',
-                'a' => 'Esa es la idea: con la integración, el sistema recibe la confirmación y usted no '
-                     . 'tiene que verificar comprobantes a mano.',
+                'a' => 'Esa es la idea: con la integración, el sistema recibe la confirmación y no '
+                     . 'tenés que verificar comprobantes a mano.',
             ],
             [
                 'q' => '¿Conviene más la vía directa o Pagopar?',
-                'a' => 'Depende de su volumen y de los otros medios de pago que quiera ofrecer. Con poco '
+                'a' => 'Depende de tu volumen y de los otros medios de pago que quieras ofrecer. Con poco '
                      . 'volumen, un agregador suele ser más simple.',
             ],
             [
                 'q' => '¿Sirve para cobrar en el local?',
                 'a' => 'Sí, según las opciones que Tigo tenga para comercios. La integración con el sistema '
-                     . 'es útil cuando quiere que el cobro quede asociado a la venta.',
+                     . 'es útil cuando querés que el cobro quede asociado a la venta.',
             ],
             [
                 'q' => '¿Integran otras billeteras?',
@@ -766,11 +764,11 @@ return [
             ],
             [
                 'q' => '¿Puedo enviar un link de pago de Tigo Money por WhatsApp?',
-                'a' => 'Depende de las opciones habilitadas para su comercio o del agregador que use. Cuando es posible, el link se genera desde su sistema con el monto y la referencia del pedido.',
+                'a' => 'Depende de las opciones habilitadas para tu comercio o del agregador que uses. Cuando es posible, el link se genera desde tu sistema con el monto y la referencia del pedido.',
             ],
             [
                 'q' => '¿La integración emite la factura electrónica?',
-                'a' => 'Puede hacerlo si su sistema está integrado con SIFEN: al confirmarse el pago se emite el documento y se envía el KuDE al cliente.',
+                'a' => 'Puede hacerlo si tu sistema está integrado con SIFEN: al confirmarse el pago se emite el documento y se envía el KuDE al cliente.',
             ],
         ],
         'cta'       => ['label' => 'Consultar Tigo Money', 'whatsappText' => ''],
@@ -793,28 +791,27 @@ return [
         'hero' => [
             'eyebrow' => 'Facturación e integraciones',
             'h1'      => 'WhatsApp Business API y chatbots para empresas',
-            'h2'      => 'Varios agentes, un solo número, respuestas automáticas y todo conectado a su sistema.',
-            'lead'    => 'Cuando la app de WhatsApp Business queda chica, la API de WhatsApp permite atender '
-                       . 'con varios agentes desde un mismo número, sumar un chatbot de WhatsApp, enviar '
-                       . 'notificaciones y conectar las conversaciones con su CRM, su tienda o su sistema de '
-                       . 'gestión.',
+            'h2'      => 'Varios agentes, un solo número, respuestas automáticas y todo conectado a tu sistema.',
+            'lead'    => 'Implementamos la API de WhatsApp Business con bandeja para varios agentes, '
+                       . 'chatbot que deriva a una persona, notificaciones automáticas y conexión con tu '
+                       . 'CRM, tienda o sistema.',
         ],
         'includes' => [
             'Alta de la cuenta de WhatsApp Business Platform y verificación del número',
             'Configuración de plantillas de mensajes y su envío a aprobación',
-            'Bandeja compartida para varios agentes, o conexión con la que ya usa',
+            'Bandeja compartida para varios agentes, o conexión con la que ya usás',
             'Chatbot de WhatsApp con menú, preguntas frecuentes y derivación a una persona',
-            'Integración con su CRM, tienda o sistema: consultas de pedidos, turnos, saldos',
+            'Integración con tu CRM, tienda o sistema: consultas de pedidos, turnos, saldos',
             'Notificaciones automáticas: confirmaciones, recordatorios, avisos de envío',
             'Capacitación del equipo y documentación',
         ],
         'excludes' => [
-            'El costo de los mensajes que cobra Meta, que se paga directamente según su tarifa',
+            'El costo de los mensajes que cobra Meta, que se paga directamente según tu tarifa',
             'Campañas masivas a contactos que no dieron su consentimiento',
         ],
         'weNeed' => [
             'Un número de teléfono que pueda dedicar a la API',
-            'Acceso al Business Manager (Meta Business Suite) de su empresa',
+            'Acceso al Business Manager (Meta Business Suite) de tu empresa',
             'La información que el bot tiene que responder: horarios, precios, preguntas frecuentes',
         ],
         'sections' => [
@@ -823,9 +820,9 @@ return [
                 'body' => [
                     'La app gratuita de WhatsApp Business sirve para un negocio chico que atiende desde uno '
                         . 'o pocos teléfonos. La API de WhatsApp (WhatsApp Business Platform) es para cuando '
-                        . 'necesita varios agentes al mismo tiempo, automatizar respuestas o conectar '
+                        . 'necesitás varios agentes al mismo tiempo, automatizar respuestas o conectar '
                         . 'WhatsApp con otros sistemas.',
-                    'La API no tiene una app propia: se usa a través de una bandeja de atención o de su '
+                    'La API no tiene una app propia: se usa a través de una bandeja de atención o de tu '
                         . 'propio sistema. Por eso la implementación incluye elegir o construir esa '
                         . 'herramienta.',
                 ],
@@ -841,13 +838,13 @@ return [
                         . 'estado del pedido, precios de lista, turnos) y pasa a una persona cuando la '
                         . 'consulta lo requiere, con la conversación ya encaminada.',
                     'Podemos armar el bot con menús y reglas, o sumar respuestas con inteligencia artificial '
-                        . 'sobre la información de su empresa, siempre con la opción de hablar con alguien.',
+                        . 'sobre la información de tu empresa, siempre con la opción de hablar con alguien.',
                 ],
             ],
             [
-                'h2'   => 'Integración de la API de WhatsApp con su CRM y sistemas',
+                'h2'   => 'Integración de la API de WhatsApp con tu CRM y sistemas',
                 'body' => [
-                    'El valor real aparece cuando WhatsApp habla con sus sistemas: el cliente consulta su '
+                    'El valor real aparece cuando WhatsApp habla con tus sistemas: el cliente consulta su '
                         . 'pedido y el bot lo busca en la tienda; confirma un turno y queda en la agenda; '
                         . 'pide su factura y recibe el KuDE en PDF. Cada conversación puede quedar registrada '
                         . 'en el CRM como contacto y oportunidad.',
@@ -858,7 +855,7 @@ return [
                 'body' => [
                     'Hay dos componentes: lo que cobra Meta por los mensajes, según la categoría del mensaje '
                         . 'y su tarifa vigente, y el costo de implementación y de la herramienta de atención. '
-                        . 'Consulte el valor vigente de Meta; nosotros le ayudamos a estimar el volumen para '
+                        . 'Consultá el valor vigente de Meta; nosotros te ayudamos a estimar el volumen para '
                         . 'que el número no sea una sorpresa.',
                 ],
             ],
@@ -880,7 +877,7 @@ return [
             [
                 'h2'   => 'Cómo trabajamos una implementación de WhatsApp API',
                 'body' => [
-                    'Empezamos por el uso: quién atiende, qué preguntan los clientes y qué mensajes quiere '
+                    'Empezamos por el uso: quién atiende, qué preguntan los clientes y qué mensajes querés '
                         . 'enviar. Con eso definimos si alcanza con una bandeja de atención existente o si hace '
                         . 'falta desarrollo propio, y qué plantillas hay que presentar a aprobación.',
                     'Después hacemos el alta en WhatsApp Business Platform, verificamos la empresa en Meta, '
@@ -901,7 +898,7 @@ return [
         'benefits' => [
             ['title' => 'Un número, varios agentes', 'text' => 'Nadie depende de un teléfono en particular.'],
             ['title' => 'Respuestas fuera de horario', 'text' => 'El bot atiende lo repetitivo a cualquier hora.'],
-            ['title' => 'Conversaciones medibles', 'text' => 'Sabe cuántas consultas entran y cuántas se convierten.'],
+            ['title' => 'Conversaciones medibles', 'text' => 'Sabés cuántas consultas entran y cuántas se convierten.'],
         ],
         'faq' => [
             [
@@ -917,23 +914,23 @@ return [
             ],
             [
                 'q' => '¿Qué es la ventana de 24 horas?',
-                'a' => 'Cuando un cliente le escribe, se abre un período en el que puede responderle con '
-                     . 'mensajes libres. Fuera de ese período, solo puede iniciar la conversación con una '
+                'a' => 'Cuando un cliente te escribe, se abre un período en el que podés responderle con '
+                     . 'mensajes libres. Fuera de ese período, solo podés iniciar la conversación con una '
                      . 'plantilla aprobada.',
             ],
             [
                 'q' => '¿Cuánto demora la implementación?',
                 'a' => 'La puesta en marcha básica es rápida; la verificación de la empresa en Meta y las '
-                     . 'integraciones con sus sistemas son las que definen el plazo.',
+                     . 'integraciones con tus sistemas son las que definen el plazo.',
             ],
             [
                 'q' => '¿El chatbot puede usar inteligencia artificial?',
-                'a' => 'Sí, con límites claros: responde con la información de su empresa y deriva a una '
+                'a' => 'Sí, con límites claros: responde con la información de tu empresa y deriva a una '
                      . 'persona cuando no está seguro.',
             ],
             [
                 'q' => '¿Necesito verificar mi empresa en Meta?',
-                'a' => 'Para operar con volumen y acceder a todas las funciones, sí. La verificación se hace en el Business Manager con documentación de la empresa; le guiamos en el proceso.',
+                'a' => 'Para operar con volumen y acceder a todas las funciones, sí. La verificación se hace en el Business Manager con documentación de la empresa; te guiamos en el proceso.',
             ],
             [
                 'q' => '¿Pueden conectar WhatsApp con mi CRM?',
@@ -942,7 +939,7 @@ return [
         ],
         'cta'       => ['label' => 'Consultar WhatsApp API', 'whatsappText' => ''],
         'related' => ['integraciones-api', 'integracion-pagos', 'crm', 'automatizacion-ia'],
-        'guides'    => ['whatsapp-business-vs-api'],
+        'guides'    => ['whatsapp-business-vs-api', 'como-automatizar-procesos-con-ia', 'kommo-vs-odoo'],
         'articles' => ['precio-chatbot-whatsapp'],
         'toolLinks' => [],
     ],
@@ -955,20 +952,20 @@ return [
         'cluster'         => 'integraciones',
         'parent'          => null,
         'seoTitle'        => 'Integraciones y APIs a medida',
-        'metaDescription' => 'Conectamos su ERP, bancos, tienda online, CRM y otros sistemas mediante APIs '
+        'metaDescription' => 'Conectamos tu ERP, bancos, tienda online, CRM y otros sistemas mediante APIs '
                            . 'a medida, para que los datos pasen solos y sin doble carga.',
         'hero' => [
             'eyebrow' => 'Facturación e integraciones',
-            'h1'      => 'Integraciones y APIs a medida entre sus sistemas',
+            'h1'      => 'Integraciones API a medida entre tus sistemas',
             'h2'      => 'Que los datos pasen solos de un sistema a otro, sin exportar planillas.',
-            'lead'    => 'Desarrollamos integraciones y APIs a medida para conectar su ERP, su tienda online, '
-                       . 'su CRM, los extractos de sus bancos y otros servicios. El objetivo es concreto: '
-                       . 'dejar de copiar datos a mano entre sistemas.',
+            'lead'    => 'Conectamos tu ERP, tienda online, CRM, bancos y otros servicios por API, '
+                       . 'webhooks o archivos, con registro, reintentos y alertas. Se acabó copiar datos '
+                       . 'a mano entre sistemas.',
         ],
         'includes' => [
             'Relevamiento de los sistemas involucrados y del dato que tiene que viajar',
             'Desarrollo de la integración por API, archivos, base de datos o webhooks',
-            'Desarrollo de una API propia para exponer datos de su sistema a terceros',
+            'Desarrollo de una API propia para exponer datos de tu sistema a terceros',
             'Registro de cada sincronización, alertas de error y reintentos',
             'Documentación técnica de la integración',
         ],
@@ -979,7 +976,7 @@ return [
         'weNeed' => [
             'Acceso de prueba a cada sistema a integrar',
             'La documentación de las APIs disponibles, si existe',
-            'Una persona de su equipo que conozca el proceso de punta a punta',
+            'Una persona de tu equipo que conozca el proceso de punta a punta',
         ],
         'sections' => [
             [
@@ -1005,15 +1002,15 @@ return [
                         . 'automáticos y un aviso cuando algo requiere atención humana.',
                     'Cuando un sistema no tiene API, buscamos la vía más estable disponible: exportaciones '
                         . 'programadas, lectura de base de datos o archivos en una carpeta compartida. Si '
-                        . 'ninguna es confiable, se lo decimos antes de cotizar.',
+                        . 'ninguna es confiable, te lo decimos antes de cotizar.',
                 ],
             ],
             [
-                'h2'   => 'APIs propias para su empresa',
+                'h2'   => 'APIs propias para tu empresa',
                 'body' => [
                     'A veces el pedido es el inverso: un cliente, proveedor o app necesita consultar datos '
-                        . 'de su sistema. Desarrollamos una API propia con autenticación, límites de uso y '
-                        . 'documentación, para que terceros se conecten sin acceder a su base de datos.',
+                        . 'de tu sistema. Desarrollamos una API propia con autenticación, límites de uso y '
+                        . 'documentación, para que terceros se conecten sin acceder a tu base de datos.',
                     'Es el caso típico de un distribuidor que quiere que sus clientes consulten stock y '
                         . 'precios desde su propio sistema, o de una empresa que necesita que una app móvil '
                         . 'lea y escriba datos de su sistema de gestión.',
@@ -1057,13 +1054,13 @@ return [
         'benefits' => [
             ['title' => 'Menos carga manual', 'text' => 'Las horas de copiar y pegar pasan a otras tareas.'],
             ['title' => 'Datos consistentes', 'text' => 'El mismo stock, precio y cliente en todos los sistemas.'],
-            ['title' => 'Errores visibles', 'text' => 'Si algo falla, se entera por una alerta y no por un cliente.'],
+            ['title' => 'Errores visibles', 'text' => 'Si algo falla, te enterás por una alerta y no por un cliente.'],
         ],
         'faq' => [
             [
                 'q' => '¿Qué pasa si uno de los sistemas no tiene API?',
                 'a' => 'Evaluamos otras vías: exportaciones, base de datos o archivos. Si ninguna es '
-                     . 'confiable, se lo decimos en el relevamiento.',
+                     . 'confiable, te lo decimos en el relevamiento.',
             ],
             [
                 'q' => '¿Pueden integrar con bancos paraguayos?',
@@ -1091,12 +1088,12 @@ return [
             ],
             [
                 'q' => '¿Qué pasa si una integración falla un fin de semana?',
-                'a' => 'Los datos quedan en cola y se reintentan. Si el error persiste, se envía una alerta a la persona que usted defina, con el detalle de qué falló.',
+                'a' => 'Los datos quedan en cola y se reintentan. Si el error persiste, se envía una alerta a la persona que definas, con el detalle de qué falló.',
             ],
         ],
         'cta'       => ['label' => 'Consultar integración', 'whatsappText' => ''],
         'related'   => ['facturacion-electronica-sifen', 'integracion-pagos', 'whatsapp-business-api'],
-        'guides'    => [],
+        'guides'    => ['como-integrar-bancard', 'que-es-sifen', 'que-es-un-erp'],
         'articles'  => [],
         'toolLinks' => [],
     ],

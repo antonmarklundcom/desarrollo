@@ -4,8 +4,9 @@
  * in partials/ or templates/ contains a visible word; they all read from here,
  * so translating the site is this one file plus content/*.
  *
- * The strings below are neutral Spanish (formal "usted"), matching the 'py'
- * market the example content uses. A Swedish site rewrites this file in
+ * The strings below are Paraguayan Spanish with voseo (the register the
+ * services use). Guides, blog and segment pages are still "usted" and are a
+ * separate follow-up. A Swedish site rewrites this file in
  * Swedish and sets 'market' => 'se' in content/site.php; no code changes.
  *
  * Nothing here may name a month, a year, a price or a client: strings must stay
@@ -28,10 +29,10 @@ return [
 
     // One line under each cluster heading on the services hub. Keyed by cluster id.
     'cluster_leads' => [
-        'integraciones' => 'SIFEN, Bancard, Pagopar, Tigo Money y WhatsApp conectados a su sistema.',
+        'integraciones' => 'SIFEN, Bancard, Pagopar, Tigo Money y WhatsApp conectados a tu sistema.',
         'web'           => 'Sitios que cargan rápido, se encuentran en Google y generan consultas.',
         'software'      => 'Sistemas a medida, ERP, CRM, apps y automatización con IA.',
-        'infra'         => 'Todo lo que su sitio y su correo necesitan para funcionar sin sorpresas.',
+        'infra'         => 'Todo lo que tu sitio y tu correo necesitan para funcionar sin sorpresas.',
         'principal'     => 'Servicios principales.',
     ],
 
@@ -69,10 +70,10 @@ return [
     // actually reaches WhatsApp always comes from content/lead-values.php and
     // names a service, never a generic "consulta gratis".
     'whatsapp' => [
-        'menu_title' => '¿Sobre qué quiere escribirnos?',
-        'menu_note'  => 'Abrimos WhatsApp con el mensaje ya escrito. Puede cambiarlo antes de enviarlo.',
+        'menu_title' => '¿Sobre qué querés escribirnos?',
+        'menu_note'  => 'Abrimos WhatsApp con el mensaje ya escrito. Podés cambiarlo antes de enviarlo.',
         'other'      => 'Otra consulta',
-        'this_page'  => 'Lo que está viendo',
+        'this_page'  => 'Lo que estás viendo',
         'open_menu'  => 'Abrir opciones de WhatsApp',
         'close_menu' => 'Cerrar',
     ],
@@ -80,23 +81,90 @@ return [
     'home' => [
         'eyebrow'   => 'Desarrollo de software en Paraguay',
         'h1_lead'   => 'Software, páginas web e integraciones ',
-        'h1_accent' => 'que hacen crecer su empresa.',
-        'lead'      => 'Facturación electrónica SIFEN, pagos con Bancard y Pagopar, WhatsApp '
-                     . 'Business API, sistemas de gestión y sitios WordPress. Presupuesto en '
-                     . 'guaraníes, por escrito y con factura legal.',
+        'h1_accent' => 'para empresas paraguayas.',
+        'lead'      => 'SIFEN, Bancard, Pagopar y WhatsApp conectados al sistema que ya usás, '
+                     . 'o un sistema nuevo a medida. Lo hace un equipo propio que conoce cómo se '
+                     . 'factura, se cobra y se vende en Paraguay.',
 
         'services_eyebrow' => 'Servicios',
         'services_title'   => 'Lo que hacemos',
-        'services_lead'    => 'Desde una landing page hasta un ERP integrado con SIFEN: elija lo que necesita hoy.',
+        'services_lead'    => 'Los seis servicios que más nos piden. Abajo está el catálogo completo, por área.',
 
-        'unsure_title' => '¿No sabe qué necesita?',
-        'unsure_text'  => 'Cuéntenos qué quiere resolver y le proponemos la solución más simple, sin costo.',
+        'unsure_title' => '¿No sabés qué necesitás?',
+        'unsure_text'  => 'Contanos qué querés resolver y te proponemos la solución más simple, sin costo.',
+
+        // Hero: the second button opens WhatsApp with the homepage's prefill.
+        'cta_primary'  => 'Pedir presupuesto',
+        'cta_whatsapp' => 'Escribir por WhatsApp',
+
+        // The three commitments under the hero buttons and every service hero.
+        // Each one is a promise the site already makes elsewhere (ui.contact,
+        // ui.about) — never a figure nobody confirmed.
+        'trust' => [
+            'Presupuesto en guaraníes, por escrito',
+            'Factura legal',
+            'Respuesta el siguiente día hábil',
+        ],
+
+        // The six pillars shown with an image on the homepage, in order. The
+        // rest of the catalogue is listed by cluster right below them.
+        'featured' => [
+            'facturacion-electronica-sifen',
+            'integracion-pagos',
+            'paginas-web',
+            'whatsapp-business-api',
+            'sistemas-erp',
+            'desarrollo-de-software',
+        ],
+        'all_title' => 'Todos los servicios',
+
+        // Homepage FAQ → FAQPage JSON-LD. Answers restate what the site already
+        // commits to; no price, duration or client count.
+        'faq_title' => 'Preguntas frecuentes',
+        'faq' => [
+            [
+                'q' => '¿Cuánto cuesta una página web o un sistema?',
+                'a' => 'Depende del alcance. Después de una conversación de 30 minutos te pasamos un '
+                     . 'presupuesto en guaraníes, por escrito, con lo que incluye y lo que no. Para '
+                     . 'ubicar tu caso antes de escribirnos podés usar los cotizadores de la sección Herramientas.',
+            ],
+            [
+                'q' => '¿Emiten factura legal?',
+                'a' => 'Sí. Cada proyecto se factura con factura legal paraguaya, en guaraníes.',
+            ],
+            [
+                'q' => '¿Pueden integrar SIFEN, Bancard o WhatsApp al sistema que ya uso?',
+                'a' => 'En la mayoría de los casos, sí: trabajamos sobre tu ERP, punto de venta o tienda '
+                     . 'actual. Si el sistema no permite integrarse, te lo decimos en el relevamiento y '
+                     . 'te proponemos la alternativa más simple.',
+            ],
+            [
+                'q' => '¿De quién es el código y los accesos?',
+                'a' => 'Tuyos. El código, el dominio y los accesos quedan a nombre de tu empresa.',
+            ],
+            [
+                'q' => '¿Cómo es el primer paso?',
+                'a' => 'Nos escribís por WhatsApp o dejás tus datos en el formulario. Te respondemos '
+                     . 'dentro del siguiente día hábil y coordinamos una llamada de 30 minutos, sin costo.',
+            ],
+        ],
+    ],
+
+    // Sister sites. PLAN.md: cybersecurity, job listings and general AI content
+    // live there — this site only links out to them, from the footer.
+    'sister' => [
+        'title' => 'Otros sitios',
+        'items' => [
+            ['label' => 'Ciberseguridad', 'url' => 'https://ciberseguridad.com.py/', 'host' => 'ciberseguridad.com.py'],
+            ['label' => 'Empleos en Paraguay', 'url' => 'https://trabajo.com.py/', 'host' => 'trabajo.com.py'],
+            ['label' => 'Inteligencia artificial', 'url' => 'https://inteligenciaartificial.com.py/', 'host' => 'inteligenciaartificial.com.py'],
+        ],
     ],
 
     // The panel at the foot of the homepage hero. Labels only: no amounts, no
     // dates, no percentages, no client name — see partials/status-panel.php.
     'panel' => [
-        'title' => 'Su proyecto, a la vista',
+        'title' => 'Tu proyecto, a la vista',
         'badge' => 'En curso',
         'tiles' => [
             ['label' => 'Alcance y presupuesto', 'value' => 'Aprobado'],
@@ -118,9 +186,9 @@ return [
                    . 'para entregar más rápido, y cada proyecto tiene alcance y precio por escrito.',
         // Shown while content/site.php has no credentials[] of its own.
         'credentials' => [
-            'Un responsable técnico asignado a su proyecto',
+            'Un responsable técnico asignado a tu proyecto',
             'Alcance y precio en guaraníes, por escrito antes de empezar',
-            'El código y los accesos quedan a nombre de su empresa',
+            'El código y los accesos quedan a nombre de tu empresa',
         ],
         'badge_note'     => 'de experiencia',
         'badge_fallback' => 'Equipo propio',
@@ -129,11 +197,11 @@ return [
     // The four-step "cómo trabajamos" block, reused on service pages.
     'process' => [
         'eyebrow' => 'Cómo trabajamos',
-        'title'   => 'De la primera conversación a su sistema en producción, con fechas acordadas.',
+        'title'   => 'De la primera conversación a tu sistema en producción, con fechas acordadas.',
         'steps'   => [
             [
                 'title' => 'Conversación inicial',
-                'text'  => 'Media hora para entender qué quiere resolver, qué usa hoy y con qué presupuesto.',
+                'text'  => 'Media hora para entender qué querés resolver, qué usás hoy y con qué presupuesto.',
             ],
             [
                 'title' => 'Propuesta por escrito',
@@ -141,11 +209,11 @@ return [
             ],
             [
                 'title' => 'Desarrollo por etapas',
-                'text'  => 'Entregas cortas que usted prueba y aprueba antes de pasar a la siguiente.',
+                'text'  => 'Entregas cortas que vos probás y aprobás antes de pasar a la siguiente.',
             ],
             [
                 'title' => 'Puesta en producción y soporte',
-                'text'  => 'Publicamos, capacitamos a su equipo y quedamos a cargo del mantenimiento.',
+                'text'  => 'Publicamos, capacitamos a tu equipo y quedamos a cargo del mantenimiento.',
             ],
         ],
     ],
@@ -183,16 +251,16 @@ return [
     'services_hub' => [
         'eyebrow'      => 'Servicios',
         'title'        => 'Todo lo que hacemos, en un solo lugar.',
-        'lead'         => 'Contrate lo que necesita hoy y sume servicios cuando haga falta.',
-        'unsure_title' => '¿No sabe qué necesita?',
-        'unsure_text'  => 'Cuéntenos su caso y le decimos qué servicios le corresponden.',
-        'unsure_cta'   => 'Escribirnos',
+        'lead'         => 'Contratá lo que necesitás hoy y sumá servicios cuando haga falta.',
+        'unsure_title' => '¿No sabés qué necesitás?',
+        'unsure_text'  => 'Contanos tu caso y te decimos qué servicios te corresponden.',
+        'unsure_cta'   => 'Escribinos',
     ],
 
     'cta_band' => [
         'eyebrow' => 'Solicitar consulta',
         'title'   => 'Empecemos con una conversación de 30 minutos.',
-        'lead'    => 'Sin costo y sin compromiso. Le respondemos con una propuesta y un presupuesto en guaraníes.',
+        'lead'    => 'Sin costo y sin compromiso. Te respondemos con una propuesta y un presupuesto en guaraníes.',
     ],
 
     'form' => [
@@ -202,25 +270,25 @@ return [
         'phone'           => 'WhatsApp o teléfono',
         'phone_hint'      => 'Ej.: 0981 123 456',
         'email'           => 'Correo (opcional)',
-        'need'            => '¿Qué necesita?',
-        'message'         => 'Cuéntenos brevemente',
-        'message_hint'    => 'Qué quiere construir o integrar, en dos líneas…',
+        'need'            => '¿Qué necesitás?',
+        'message'         => 'Contanos brevemente',
+        'message_hint'    => 'Qué querés construir o integrar, en dos líneas…',
         'submit'          => 'Solicitar una consulta',
         'sending'         => 'Enviando…',
-        'privacy_note'    => 'Usamos sus datos solo para responderle. Ver la política de privacidad.',
-        'success_title'   => 'Recibimos su consulta.',
-        'success_text'    => 'Le respondemos dentro del siguiente día hábil. Si prefiere, escríbanos ahora.',
+        'privacy_note'    => 'Usamos tus datos solo para responderte. Ver la política de privacidad.',
+        'success_title'   => 'Recibimos tu consulta.',
+        'success_text'    => 'Te respondemos dentro del siguiente día hábil. Si preferís, escribinos ahora.',
         'error_title'     => 'No pudimos enviar el formulario.',
-        'error_text'      => 'Vuelva a intentarlo en un momento o escríbanos directamente.',
-        'error_phone'     => 'Necesitamos un teléfono o WhatsApp válido para responderle.',
+        'error_text'      => 'Volvé a intentarlo en un momento o escribinos directamente.',
+        'error_phone'     => 'Necesitamos un teléfono o WhatsApp válido para responderte.',
         'required'        => 'obligatorio',
         'thanks_next'     => 'Qué sigue',
-        'thanks_whatsapp' => 'Si prefiere no esperar, escríbanos ahora por WhatsApp.',
-        'remind_title'    => 'Que le avisemos antes de cada vencimiento',
-        'remind_text'     => 'Le anotamos su caso y le escribimos por WhatsApp unos días antes.',
-        'remind_phone'    => 'Su WhatsApp',
+        'thanks_whatsapp' => 'Si preferís no esperar, escribinos ahora por WhatsApp.',
+        'remind_title'    => 'Que te avisemos antes de cada vencimiento',
+        'remind_text'     => 'Anotamos tu caso y te escribimos por WhatsApp unos días antes.',
+        'remind_phone'    => 'Tu WhatsApp',
         'remind_submit'   => 'Quiero que me recuerden',
-        'remind_ok'       => 'Anotado. Le escribimos antes del próximo vencimiento.',
+        'remind_ok'       => 'Anotado. Te escribimos antes del próximo vencimiento.',
     ],
 
     // The chip selector in the lead form. Every key here needs a matching entry
@@ -235,8 +303,8 @@ return [
 
     'contact' => [
         'eyebrow' => 'Contacto',
-        'title'   => 'Hablemos de su caso.',
-        'lead'    => 'Escríbanos por WhatsApp o déjenos sus datos y le respondemos dentro '
+        'title'   => 'Hablemos de tu caso.',
+        'lead'    => 'Escribinos por WhatsApp o dejanos tus datos y te respondemos dentro '
                    . 'del siguiente día hábil.',
         'address' => 'Dirección',
         'hours'   => 'Horario',
@@ -244,33 +312,33 @@ return [
         'email'   => 'Correo',
         'expect'  => 'Qué pasa después',
         'steps'   => [
-            'Le respondemos dentro del siguiente día hábil.',
+            'Te respondemos dentro del siguiente día hábil.',
             'Coordinamos una llamada de 30 minutos, sin costo ni compromiso.',
-            'Recibe una propuesta con el alcance y el precio por escrito.',
+            'Recibís una propuesta con el alcance y el precio por escrito.',
         ],
     ],
 
     'service' => [
         'includes'     => 'Qué incluye',
         'excludes'     => 'Qué no incluye',
-        'we_need'      => 'Qué necesitamos de usted',
+        'we_need'      => 'Qué necesitamos de vos',
         'benefits'     => 'Beneficios',
         'faq'          => 'Preguntas frecuentes',
         'related'      => 'Servicios relacionados',
         'guides'       => 'Guía relacionada',
         'articles'     => 'Artículo relacionado',
         'form_eyebrow' => 'Presupuesto',
-        'form_lead'    => 'Déjenos sus datos y le respondemos con una propuesta concreta, '
+        'form_lead'    => 'Dejanos tus datos y te respondemos con una propuesta concreta, '
                         . 'sin costo y sin compromiso.',
         'breadcrumb'   => 'Ruta de navegación',
     ],
 
     // Segment landing pages (content/segmentos.php).
     'segment' => [
-        'traps_title'  => 'Los errores que más le cuestan en su rubro',
-        'bundle_title' => 'Lo que armamos para su rubro',
-        'form_eyebrow' => 'Presupuesto para su rubro',
-        'form_lead'    => 'Cuéntenos su rubro y su volumen; le respondemos con una propuesta concreta.',
+        'traps_title'  => 'Los errores que más cuestan en tu rubro',
+        'bundle_title' => 'Lo que armamos para tu rubro',
+        'form_eyebrow' => 'Presupuesto para tu rubro',
+        'form_lead'    => 'Contanos tu rubro y tu volumen; te respondemos con una propuesta concreta.',
     ],
 
     // Shared microcopy across the tool pages. Calculator-specific labels live in
@@ -281,18 +349,18 @@ return [
         'calculate'       => 'Calcular',
         'result_title'    => 'Resultado',
         'use_result'      => 'Usar este resultado en el formulario',
-        'need_js'         => 'Esta calculadora necesita JavaScript activado en su navegador.',
+        'need_js'         => 'Esta calculadora necesita JavaScript activado en tu navegador.',
         'restart'         => 'Volver a empezar',
     ],
 
     // Shared microcopy across the guide pages.
     'guide' => [
         'reviewed_prefix'       => 'Revisado el',
-        'orientativo'           => 'Es una guía general: para su caso puntual, confírmelo con nosotros.',
+        'orientativo'           => 'Es una guía general: para tu caso puntual, confirmalo con nosotros.',
         'delegate_eyebrow'      => 'Delegarlo',
-        'delegate_title'        => '¿Prefiere que lo hagamos nosotros?',
-        'delegate_lead'         => 'Le respondemos dentro del siguiente día hábil con los pasos exactos '
-                                 . 'para su caso.',
+        'delegate_title'        => '¿Preferís que lo hagamos nosotros?',
+        'delegate_lead'         => 'Te respondemos dentro del siguiente día hábil con los pasos exactos '
+                                 . 'para tu caso.',
         'delegate_form_heading' => 'Pedir que nos encarguemos',
         'related'               => 'Otras guías',
     ],
@@ -320,7 +388,7 @@ return [
     'placeholder' => [
         // Shown on a stub page until the phase that owns it writes the content.
         'notice' => 'Estamos preparando esta página.',
-        'action' => 'Mientras tanto, escríbanos y le respondemos por WhatsApp.',
+        'action' => 'Mientras tanto, escribinos y te respondemos por WhatsApp.',
     ],
 
     'error404' => [
@@ -329,8 +397,7 @@ return [
     ],
 
     'footer' => [
-        'blurb'   => 'Desarrollo de software, páginas web e integraciones para empresas de Paraguay. '
-                   . 'Ciberseguridad: ciberseguridad.com.py · Empleos: trabajo.com.py · IA: inteligenciaartificial.com.py',
+        'blurb'   => 'Desarrollo de software, páginas web e integraciones para empresas de Paraguay.',
         'rights'  => 'Todos los derechos reservados.',
         'contact' => 'Contacto',
     ],

@@ -13,12 +13,18 @@
 
 require __DIR__ . '/lib/bootstrap.php';
 
-$meta = page_meta('/');
+$meta     = page_meta('/');
+$homeUi   = content('ui')['home'];
+$homeHero = image_for('home');
 $page = [
     'title'       => $meta['title'],
     'description' => $meta['description'],
     'path'        => '/',
+    'faq'         => $homeUi['faq'],
 ];
+if ($homeHero !== null) {
+    $page['ogImage'] = $homeHero['base'] . '-' . max($homeHero['widths']) . '.webp';
+}
 
 /* Only real, confirmed figures reach the hero. Anything without a value and a
    label is dropped rather than padded out. */
@@ -45,6 +51,12 @@ $homeTestimonials = array_filter(
 $homeWhatsapp = whatsapp_link(whatsapp_text_for_page());
 $homePhotos   = (array) site('photos');
 
+/* Owner photographs (content/site.php) win. Until there are some, the two
+   slots show illustrative imagery from content/images.php — a workspace and a
+   planning session, neither captioned as "our team". */
+$homeAboutTall   = image_for('about', 'workspace');
+$homeAboutSquare = image_for('about', 'meeting');
+
 require ROOT_DIR . '/partials/head.php';
 require ROOT_DIR . '/partials/header.php';
 ?>
@@ -65,9 +77,15 @@ require ROOT_DIR . '/partials/header.php';
         <p class="lead hero__lead"><?= e(ui('home.lead')) ?></p>
 
         <div class="btn-row">
-          <a class="btn btn--primary" href="/contacto/"><?= e(ui('cta.consult')) ?></a>
-          <a class="btn btn--secondary" href="#servicios"><?= e(ui('cta.see_included')) ?></a>
+          <!-- The form is at the foot of this page (#contacto); WhatsApp opens
+               with the homepage's own prefill from content/lead-values.php. -->
+          <a class="btn btn--primary" href="#contacto"><?= e($homeUi['cta_primary']) ?></a>
+          <?php if ($homeWhatsapp !== null): ?>
+            <a class="btn btn--whatsapp" href="<?= e($homeWhatsapp) ?>" rel="noopener"><?= e($homeUi['cta_whatsapp']) ?></a>
+          <?php endif; ?>
         </div>
+
+        <?php require ROOT_DIR . '/partials/trust-row.php'; ?>
 
         <?php if ($homeStats !== []): ?>
           <div class="stat-row">
@@ -81,7 +99,10 @@ require ROOT_DIR . '/partials/header.php';
         <?php endif; ?>
       </div>
 
-      <div class="hero__panel">
+      <div class="hero__panel<?= $homeHero !== null ? ' hero__panel--media' : '' ?>">
+        <?php if ($homeHero !== null): ?>
+          <?= picture($homeHero, 'media-frame media-frame--hero', '(min-width: 56rem) 40rem, 100vw', true) ?>
+        <?php endif; ?>
         <?php require ROOT_DIR . '/partials/status-panel.php'; ?>
       </div>
 
@@ -100,12 +121,44 @@ require ROOT_DIR . '/partials/header.php';
       </div>
 
       <?php
-      /* Every service, in content/services.php order — a service added there
-         appears here with no edit to this file. */
-      $gridSlugs    = array_keys(services());
-      $gridNumbered = true;
-      require ROOT_DIR . '/partials/service-card-grid.php';
+      /* Six pillars with a photograph, then the whole catalogue as links by
+         cluster — a service added to content/services.php appears in the list
+         below with no edit to this file. */
       ?>
+      <div class="grid grid--3 pillars">
+        <?php foreach ($homeUi['featured'] as $homeSlug): ?>
+          <?php if (($homeSvc = services($homeSlug)) === null) { continue; } ?>
+          <?php $homeImg = image_for('service', $homeSlug); ?>
+          <a class="card card--link card--media" href="<?= e($homeSvc['path']) ?>">
+            <?php if ($homeImg !== null): ?>
+              <?= picture($homeImg, 'card__media', '(min-width: 64rem) 24rem, (min-width: 40rem) 50vw, 100vw') ?>
+            <?php endif; ?>
+            <div class="card__body">
+              <h3 class="card-title"><?= e($homeSvc['navLabel']) ?></h3>
+              <p class="card__text"><?= e($homeSvc['hero']['h2'] !== '' ? $homeSvc['hero']['h2'] : $homeSvc['metaDescription']) ?></p>
+              <span class="card__more" aria-hidden="true"><?= e(ui('cta.see_included')) ?> &rarr;</span>
+            </div>
+          </a>
+        <?php endforeach; ?>
+      </div>
+
+      <h3 class="catalog__title"><?= e($homeUi['all_title']) ?></h3>
+      <div class="catalog">
+        <?php foreach (clusters() as $homeCluster => $homeClusterLabel): ?>
+          <?php
+          $homeClusterSvcs = array_filter(services(), static fn ($x) => $x['cluster'] === $homeCluster);
+          if ($homeClusterSvcs === []) { continue; }
+          ?>
+          <div class="catalog__col">
+            <p class="catalog__head"><?= e($homeClusterLabel) ?></p>
+            <ul>
+              <?php foreach ($homeClusterSvcs as $homeClusterSvc): ?>
+                <li><a href="<?= e($homeClusterSvc['path']) ?>"><?= e($homeClusterSvc['navLabel']) ?></a></li>
+              <?php endforeach; ?>
+            </ul>
+          </div>
+        <?php endforeach; ?>
+      </div>
 
       <div class="unsure">
         <div class="unsure__copy">
@@ -117,7 +170,6 @@ require ROOT_DIR . '/partials/header.php';
         </a>
       </div>
 
-      <p class="mt-4"><a href="<?= e(services_hub_path()) ?>"><?= e(ui('nav.all_services')) ?> &rarr;</a></p>
     </div>
   </section>
 
@@ -130,12 +182,15 @@ require ROOT_DIR . '/partials/header.php';
          texture on desktop, where they hold the composition together; on a
          phone they would be a screenful of nothing, so .figures--empty drops
          them there and keeps only the badge. */
-      $homeHasPhotos = !empty($homePhotos['portrait']['src']) || !empty($homePhotos['team']['src']);
+      $homeHasPhotos = !empty($homePhotos['portrait']['src']) || !empty($homePhotos['team']['src'])
+          || $homeAboutTall !== null || $homeAboutSquare !== null;
       ?>
       <div class="figures<?= $homeHasPhotos ? '' : ' figures--empty' ?>">
         <?php if (!empty($homePhotos['portrait']['src'])): ?>
           <img class="figures__tall" src="<?= e(asset($homePhotos['portrait']['src'])) ?>"
                alt="<?= e($homePhotos['portrait']['alt'] ?? '') ?>" width="420" height="560" loading="lazy">
+        <?php elseif ($homeAboutTall !== null): ?>
+          <?= picture($homeAboutTall, 'figures__tall', '(min-width: 56rem) 18rem, 50vw') ?>
         <?php else: ?>
           <div class="figures__tall figures__slot" aria-hidden="true"></div>
         <?php endif; ?>
@@ -144,6 +199,8 @@ require ROOT_DIR . '/partials/header.php';
           <?php if (!empty($homePhotos['team']['src'])): ?>
             <img class="figures__square" src="<?= e(asset($homePhotos['team']['src'])) ?>"
                  alt="<?= e($homePhotos['team']['alt'] ?? '') ?>" width="420" height="420" loading="lazy">
+          <?php elseif ($homeAboutSquare !== null): ?>
+            <?= picture($homeAboutSquare, 'figures__square', '(min-width: 56rem) 18rem, 50vw') ?>
           <?php else: ?>
             <div class="figures__square figures__slot" aria-hidden="true"></div>
           <?php endif; ?>
@@ -182,6 +239,14 @@ require ROOT_DIR . '/partials/header.php';
   <?php else: ?>
     <?php require ROOT_DIR . '/partials/industries.php'; ?>
   <?php endif; ?>
+
+  <!-- Preguntas frecuentes (→ FAQPage JSON-LD via $page['faq']) --------- -->
+  <section class="section">
+    <div class="container">
+      <?php $faqItems = $homeUi['faq']; ?>
+      <?php require ROOT_DIR . '/partials/faq.php'; ?>
+    </div>
+  </section>
 
   <!-- Contacto ---------------------------------------------------------- -->
   <section class="section" id="contacto">

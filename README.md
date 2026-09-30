@@ -81,7 +81,7 @@ is open. Budget: about 30 minutes.
     `--font-display` / `--font-body` tokens in `assets/css/site.css`, and the two `<link
     rel="preload">` lines in `partials/head.php`. Then `./deploy/subset-fonts.sh` (needs
     `pyftsubset`), editing its `LATIN_EXT` list for this market's currency symbol.
-15. **Brand images.** Replace `assets/img/favicon.svg` and `assets/img/og-default.png` (1200×630).
+15. **Brand images.** Replace `assets/img/favicon.svg` and `assets/img/og-default.jpg` (1200×630).
     Both ship as neutral placeholders.
 16. **Regenerate the minified CSS.** `node deploy/minify-css.mjs` — the deploy zip ships
     `site.min.css` in place of the source.
