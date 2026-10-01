@@ -31,7 +31,7 @@ return [
         'steps' => [
             ['title' => 'Ingresá a ekuatia con tu usuario', 'body' => ['Accedé al portal de ekuatia de la DNIT con las credenciales de tu RUC, las mismas que habilitaste para facturación electrónica.']],
             ['title' => 'Abra el facturador gratuito', 'body' => ['Buscá la opción del facturador y elegí el tipo de documento: factura electrónica, nota de crédito u otro que tengas habilitado.']],
-            ['title' => 'Elija establecimiento y punto de expedición', 'body' => ['Seleccioná el establecimiento y el punto de expedición asociados a tu timbrado electrónico.']],
+            ['title' => 'Elegí establecimiento y punto de expedición', 'body' => ['Seleccioná el establecimiento y el punto de expedición asociados a tu timbrado electrónico.']],
             ['title' => 'Cargue los datos del receptor', 'body' => ['Ingresá el RUC o documento del cliente. Si es contribuyente, el sistema suele completar la razón social a partir del RUC.']],
             ['title' => 'Agregue los ítems', 'body' => ['Cargá descripción, cantidad, precio unitario y la tasa de IVA de cada ítem. Revisá la condición de la operación: contado o crédito.']],
             ['title' => 'Revisá y firmá el documento', 'body' => ['Verificá totales e impuestos antes de confirmar. Una vez aprobado, el documento no se edita: se corrige con una nota de crédito o, en los plazos permitidos, se cancela.']],
@@ -308,7 +308,7 @@ return [
                 . 'de forma manual y tener el cobro integrado a tu sistema.',
         ],
         'steps' => [
-            ['title' => 'Definí dónde vas a cobrar', 'body' => ['En el local, en su tienda online o en ambos. Cambia la solución adecuada.']],
+            ['title' => 'Definí dónde vas a cobrar', 'body' => ['En el local, en tu tienda online o en ambos. Cambia la solución adecuada.']],
             ['title' => 'Consultá la afiliación comercial', 'body' => ['Contactá a Tigo Money para comercios para conocer requisitos y condiciones vigentes.']],
             ['title' => 'Evaluá un agregador', 'body' => ['Si vendés en línea, un agregador como Pagopar puede incluir billeteras entre sus medios, con menos desarrollo.']],
             ['title' => 'Integrá la confirmación', 'body' => ['Evitá verificar capturas de pantalla: con la integración, tu sistema recibe la confirmación del pago.']],

@@ -61,7 +61,7 @@ $sections = [
     [
         'h2'   => 'Cómo rehacer sin perder lo ganado',
         'body' => [
-            'El riesgo principal de rehacer un sitio es perder visitas que llegaban desde Google. Para evitarlo, hacé un inventario de las páginas actuales con sus direcciones, identifique las que reciben tráfico, mantené las mismas direcciones cuando sea posible y, cuando cambien, configurá redirecciones permanentes de las direcciones viejas a las nuevas. Después de publicar, revisá en Search Console que no aparezcan errores.',
+            'El riesgo principal de rehacer un sitio es perder visitas que llegaban desde Google. Para evitarlo, hacé un inventario de las páginas actuales con sus direcciones, identificá las que reciben tráfico, mantené las mismas direcciones cuando sea posible y, cuando cambien, configurá redirecciones permanentes de las direcciones viejas a las nuevas. Después de publicar, revisá en Search Console que no aparezcan errores.',
             'También conservá el contenido que funciona. Reescribir todo por reescribir puede hacer perder posiciones ganadas con años.',
         ],
     ],

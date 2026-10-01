@@ -90,7 +90,7 @@ $sections = [
 
 $faq = [
     ['q' => '¿Necesito inglés para trabajar en remoto?', 'a' => 'Para empresas locales no siempre. Para equipos internacionales, un inglés funcional para reuniones y escritura es prácticamente indispensable.'],
-    ['q' => '¿Cómo facturo servicios a un cliente del exterior?', 'a' => 'En general tenés que estar inscripto como contribuyente y emitir comprobantes. Consultá con un contador y revise el régimen vigente en la DNIT.'],
+    ['q' => '¿Cómo facturo servicios a un cliente del exterior?', 'a' => 'En general tenés que estar inscripto como contribuyente y emitir comprobantes. Consultá con un contador y revisá el régimen vigente en la DNIT.'],
     ['q' => '¿Dónde busco empleos remotos locales?', 'a' => 'En portales de empleo como trabajo.com.py, filtrando por modalidad remota o híbrida.'],
 ];
 

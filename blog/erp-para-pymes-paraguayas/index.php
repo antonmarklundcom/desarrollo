@@ -14,7 +14,7 @@ $sections = [
         ],
     ],
     [
-        'h2'   => 'Señales de que su pyme necesita un ERP',
+        'h2'   => 'Señales de que tu pyme necesita un ERP',
         'body' => [
             'No todas las empresas necesitan un ERP desde el primer día. Estas señales indican que puede ser el momento.',
         ],
@@ -44,47 +44,47 @@ $sections = [
     [
         'h2'   => 'Opciones disponibles',
         'body' => [
-            'Hay tres grandes caminos. Un ERP enlatado local, pensado para el mercado paraguayo, suele traer resueltos los requisitos impositivos y la facturación electrónica, con menos flexibilidad. Un ERP internacional, de código abierto o comercial, ofrece muchos módulos y una comunidad amplia, pero requiere adaptación a la normativa local. Un ERP a medida, o una adaptación profunda de una base existente, se ajusta exactamente a sus procesos, con una inversión mayor.',
+            'Hay tres grandes caminos. Un ERP enlatado local, pensado para el mercado paraguayo, suele traer resueltos los requisitos impositivos y la facturación electrónica, con menos flexibilidad. Un ERP internacional, de código abierto o comercial, ofrece muchos módulos y una comunidad amplia, pero requiere adaptación a la normativa local. Un ERP a medida, o una adaptación profunda de una base existente, se ajusta exactamente a tus procesos, con una inversión mayor.',
             'También es posible combinar: un ERP estándar para contabilidad y facturación, y desarrollos a medida para procesos que lo diferencian, conectados por API.',
         ],
     ],
     [
         'h2'   => 'Cómo elegir',
         'body' => [
-            'Antes de ver demostraciones, escriba sus procesos principales y los problemas que quiere resolver. Luego, en cada demostración, pida que le muestren esos procesos con sus propios ejemplos, no con los ejemplos preparados del proveedor. Pregunte cómo se emite una factura electrónica, cómo se hace una nota de crédito, cómo se transfiere stock entre sucursales y cómo se obtiene un reporte de margen.',
-            'Evalúe también el soporte: quién lo atiende, en qué horario, con qué tiempos de respuesta. Un ERP es tan bueno como el soporte que lo acompaña. Y confirme que sus datos le pertenecen y que puede exportarlos si decide cambiar.',
+            'Antes de ver demostraciones, escribí tus procesos principales y los problemas que querés resolver. Luego, en cada demostración, pedí que te muestren esos procesos con tus propios ejemplos, no con los ejemplos preparados del proveedor. Preguntá cómo se emite una factura electrónica, cómo se hace una nota de crédito, cómo se transfiere stock entre sucursales y cómo se obtiene un reporte de margen.',
+            'Evaluá también el soporte: quién lo atiende, en qué horario, con qué tiempos de respuesta. Un ERP es tan bueno como el soporte que lo acompaña. Y confirmá que tus datos te pertenecen y que podés exportarlos si decidís cambiar.',
         ],
     ],
     [
         'h2'   => 'Implementar por etapas',
         'body' => [
             'La implementación es donde más proyectos fallan. No por el software, sino por la organización. Algunas prácticas que reducen el riesgo:',
-            'Designe un responsable interno con tiempo real para el proyecto. Limpie los datos antes de migrarlos: clientes con RUC correcto, productos sin duplicados, saldos conciliados. Empiece con un módulo o una sucursal piloto. Capacite al personal antes del arranque y acompañe los primeros días. Defina una fecha de corte clara para dejar de usar las planillas anteriores; mantener ambos sistemas en paralelo por mucho tiempo genera confusión.',
+            'Designá un responsable interno con tiempo real para el proyecto. Limpiá los datos antes de migrarlos: clientes con RUC correcto, productos sin duplicados, saldos conciliados. Empezá con un módulo o una sucursal piloto. Capacitá al personal antes del arranque y acompañá los primeros días. Definí una fecha de corte clara para dejar de usar las planillas anteriores; mantener ambos sistemas en paralelo por mucho tiempo genera confusión.',
         ],
     ],
     [
         'h2'   => 'Integraciones que suman valor',
         'body' => [
-            'Un ERP rinde más cuando se conecta con el resto del ecosistema: la tienda en línea que descuenta stock automáticamente, la pasarela de pagos que marca facturas como cobradas, el CRM que ve el historial de compras del cliente, o WhatsApp para enviar comprobantes y avisos de vencimiento. Al elegir, verifique que el ERP tenga una API o mecanismos de integración documentados.',
+            'Un ERP rinde más cuando se conecta con el resto del ecosistema: la tienda en línea que descuenta stock automáticamente, la pasarela de pagos que marca facturas como cobradas, el CRM que ve el historial de compras del cliente, o WhatsApp para enviar comprobantes y avisos de vencimiento. Al elegir, verificá que el ERP tenga una API o mecanismos de integración documentados.',
         ],
     ],
     [
         'h2'   => 'Qué determina el costo',
         'body' => [
-            'El costo de un ERP para pymes depende del tipo de solución, la cantidad de usuarios y sucursales, los módulos implementados, la migración de datos, las adaptaciones necesarias, las integraciones y el soporte. Además del costo inicial, considere licencias o suscripciones recurrentes, hosting y el tiempo interno que exigirá la implementación.',
+            'El costo de un ERP para pymes depende del tipo de solución, la cantidad de usuarios y sucursales, los módulos implementados, la migración de datos, las adaptaciones necesarias, las integraciones y el soporte. Además del costo inicial, considerá licencias o suscripciones recurrentes, hosting y el tiempo interno que exigirá la implementación. No publicamos un precio fijo porque depende de esos factores: después de una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
         ],
     ],
     [
         'h2'   => 'Medir el resultado',
         'body' => [
-            'Defina antes de empezar qué quiere mejorar y cómo lo medirá: días para cerrar el mes, diferencias de stock en inventarios, tiempo para emitir un reporte, deudas vencidas. Medir antes y después permite saber si la inversión cumplió su objetivo y dónde ajustar.',
+            'Definí antes de empezar qué querés mejorar y cómo lo vas a medir: días para cerrar el mes, diferencias de stock en inventarios, tiempo para emitir un reporte, deudas vencidas. Medir antes y después permite saber si la inversión cumplió su objetivo y dónde ajustar.',
         ],
     ],
     [
         'h2'   => 'Migrar datos sin perder información',
         'body' => [
-            'La migración es una de las partes más delicadas. Antes de cargar datos en el ERP, defina qué información se traslada: clientes activos, productos vigentes, saldos a una fecha de corte y documentos pendientes. No siempre conviene migrar todo el historial; a veces basta con saldos iniciales y dejar el historial consultable en el sistema anterior o en archivos.',
-            'Haga una prueba de migración antes del arranque definitivo y verifique totales: cantidad de clientes, saldos por cobrar, valor del stock. Si los números coinciden con los del sistema anterior, la migración está bien hecha.',
+            'La migración es una de las partes más delicadas. Antes de cargar datos en el ERP, definí qué información se traslada: clientes activos, productos vigentes, saldos a una fecha de corte y documentos pendientes. No siempre conviene migrar todo el historial; a veces basta con saldos iniciales y dejar el historial consultable en el sistema anterior o en archivos.',
+            'Hacé una prueba de migración antes del arranque definitivo y verificá totales: cantidad de clientes, saldos por cobrar, valor del stock. Si los números coinciden con los del sistema anterior, la migración está bien hecha.',
         ],
     ],
     [
@@ -97,7 +97,7 @@ $sections = [
 
 $faq = [
     ['q' => '¿Una pyme pequeña necesita un ERP?', 'a' => 'No siempre. Si el volumen es bajo y los procesos son simples, un sistema de facturación y planillas ordenadas pueden alcanzar. El ERP conviene cuando la información no cierra o el crecimiento lo exige.'],
-    ['q' => '¿El ERP debe emitir facturas electrónicas?', 'a' => 'Si su empresa está obligada a SIFEN, lo más eficiente es que el ERP emita los documentos electrónicos directamente o esté integrado con una solución que lo haga.'],
+    ['q' => '¿El ERP debe emitir facturas electrónicas?', 'a' => 'Si tu empresa está obligada a SIFEN, lo más eficiente es que el ERP emita los documentos electrónicos directamente o esté integrado con una solución que lo haga.'],
     ['q' => '¿Cuánto tarda implementar un ERP?', 'a' => 'Depende de los módulos, los datos y la organización. Implementar por etapas, empezando por lo urgente, reduce plazos y riesgos.'],
 ];
 
