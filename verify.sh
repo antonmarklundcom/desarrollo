@@ -158,7 +158,7 @@ step "metadata"
 META=$(mktemp)
 while IFS=$'\t' read -r path expected; do
   [ "$expected" = "200" ] || continue
-  case "$path" in /robots.txt|/sitemap.xml) continue ;; esac
+  case "$path" in /robots.txt|/sitemap.xml|/llms.txt) continue ;; esac
 
   html=$(curl -s "${BASE}${path}")
   title=$(printf '%s' "$html" | grep -oP '(?<=<title>).*?(?=</title>)' | head -1)
@@ -187,6 +187,20 @@ else
   ok "$(grep -c '^T' "$META") pages, every title and description unique and non-empty"
 fi
 rm -f "$META"
+
+# ------------------------------------------------------------- 6b. seo lint ---
+# One h1, canonical, JSON-LD that parses, images with alt + size, and no broken
+# internal link on any indexable page. See deploy/seo-lint.php.
+step "seo lint"
+lint_out=$(printf '%s\n' "$ROUTE_LIST" | php "$ROOT/deploy/seo-lint.php" "$BASE" "$SITE_ROOT")
+lint_rc=$?
+while IFS= read -r lint_line; do
+  case "$lint_line" in
+    FAIL\ *) fail "${lint_line#FAIL }" ;;
+    OK\ *)   ok "${lint_line#OK }" ;;
+  esac
+done <<< "$lint_out"
+[ "$lint_rc" -ne 0 ] && [ -z "$lint_out" ] && fail "deploy/seo-lint.php produced no output"
 
 # ------------------------------------------------------------ 7. lead form ----
 step "enviar.php"
@@ -368,7 +382,7 @@ fi
 generic=0
 while IFS=$'\t' read -r path expected; do
   [ "$expected" = "200" ] || continue
-  case "$path" in /robots.txt|/sitemap.xml) continue ;; esac
+  case "$path" in /robots.txt|/sitemap.xml|/llms.txt) continue ;; esac
 
   html=$(curl -s "${BASE}${path}")
   bad=$(printf '%s' "$html" \

@@ -60,6 +60,13 @@ $page = [
     'faq'      => $guide['faq'],
     'leadSlug' => $delegateSlug,
     'jsonld'   => [$howTo],
+    /* The guide's own review date is the only date we can state truthfully. */
+    'ogType'   => 'article',
+    'article'  => array_filter([
+        'headline'     => $guide['title'],
+        'description'  => $guide['metaDescription'],
+        'dateModified' => $guide['lastReviewed'] ?? null,
+    ]),
 ];
 
 require ROOT_DIR . '/partials/head.php';

@@ -1,13 +1,15 @@
 /**
- * Analytics helper.
+ * Analytics helper. No Google products.
  *
- * track(event, params) pushes to dataLayer only when a GA4 id is configured;
- * with no id it is a silent no-op, so every phase can call it freely and
- * nothing breaks or leaks before the tags are configured.
+ * track(event, params) sends a custom event to Plausible when the page loaded
+ * it (config.php PLAUSIBLE_DOMAIN → <body data-analytics="plausible">). With no
+ * provider, or with Cloudflare Web Analytics (page views only, no custom
+ * events), it is a silent no-op, so every phase can call it freely and nothing
+ * breaks or leaks before analytics is configured.
  *
- * The id arrives from PHP as <body data-ga4="G-XXXX"> (empty until config.php
- * sets GA4_ID). Wires whatsapp_click on every wa.me link and phone_click on
- * every tel: link. Tool pages add tool_used; the lead form adds lead_submit.
+ * Wires whatsapp_click on every wa.me link and phone_click on every tel: link.
+ * Tool pages add tool_used; the lead form adds lead_submit. In Plausible,
+ * create a custom-event goal with each of those names to see them.
  *
  * whatsapp_click carries the `service` the link is for,
  * read from the link's own data-service. Every wa.me link on the site renders
@@ -18,17 +20,14 @@
 (function (window, document) {
   "use strict";
 
-  var gaId = (document.body && document.body.dataset.ga4) || "";
-  var enabled = gaId !== "";
+  var provider = (document.body && document.body.dataset.analytics) || "";
+  var enabled = provider === "plausible";
 
   function track(event, params) {
-    if (!enabled || !event) {
+    if (!enabled || !event || typeof window.plausible !== "function") {
       return;
     }
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push(
-      Object.assign({ event: event }, params || {})
-    );
+    window.plausible(event, { props: params || {} });
   }
 
   /** Where the click happened, so events are attributable per page. */

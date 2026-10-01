@@ -20,9 +20,23 @@ DirectoryIndex index.php index.html
   #   RewriteRule ^$ /privacidad/? [R=301,L]
   #   RewriteRule ^wp-sitemap\.xml$ /sitemap.xml [R=301,L]
 
+  # --- one canonical host: https://desarrollo.com.py ---------------------
+  # http:// and www. both 301 to the canonical origin, so search engines see one
+  # site, not four. Only the production host is touched (localhost and a staging
+  # subdomain pass through), and X-Forwarded-Proto keeps a TLS-terminating proxy
+  # (Cloudflare) from looping. router.php does not mirror this: it is host-
+  # conditional and the local server never answers to these hostnames.
+  RewriteCond %{HTTP_HOST} ^(www\.)?desarrollo\.com\.py$ [NC]
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^ https://desarrollo.com.py%{REQUEST_URI} [R=301,L]
+  RewriteCond %{HTTP_HOST} ^www\.desarrollo\.com\.py$ [NC]
+  RewriteRule ^ https://desarrollo.com.py%{REQUEST_URI} [R=301,L]
+
   # --- generated text endpoints -------------------------------------------
   RewriteRule ^sitemap\.xml$ /sitemap.php [L]
   RewriteRule ^robots\.txt$  /robots.php  [L]
+  RewriteRule ^llms\.txt$    /llms.php    [L]
 
   # --- trailing slash -----------------------------------------------------
   # Every page URL is a directory, so /contacto → /contacto/ (301, once).

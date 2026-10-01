@@ -16,8 +16,13 @@ declare(strict_types=1);
 /** @var array $page */
 $page        = $page ?? [];
 $currentPath = $page['path'] ?? '/';
-$ga4         = cfg('GA4_ID', '');
-$ads         = cfg('ADS_ID', '');
+/* Analytics: none of it is Google. Plausible (cookieless, EU-hosted or
+   self-hosted) and Cloudflare Web Analytics (free, cookieless) are supported;
+   both stay off until config.php names them. */
+$plausibleDomain = cfg('PLAUSIBLE_DOMAIN', '');
+$plausibleSrc    = cfg('PLAUSIBLE_SRC', 'https://plausible.io/js/script.js');
+$cfBeaconToken   = cfg('CF_BEACON_TOKEN', '');
+$analyticsKind   = $plausibleDomain !== '' ? 'plausible' : ($cfBeaconToken !== '' ? 'cloudflare' : '');
 $htmlLang    = $page['lang'] ?? market_locale();
 ?>
 <!doctype html>
@@ -60,19 +65,12 @@ $htmlLang    = $page['lang'] ?? market_locale();
 <script type="application/ld+json"><?= json_ld($block) ?></script>
 <?php endforeach; ?>
 
-<?php if ($ga4 !== '' || $ads !== ''): ?>
-<!-- GA4 / Google Ads. No-op until config.php sets GA4_ID/ADS_ID;
-     assets/js/analytics.js's dataLayer.push() calls are inert until this
-     snippet is present, so filling in the ids here is what turns them on. -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<?= e($ga4 !== '' ? $ga4 : $ads) ?>"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  <?php if ($ga4 !== ''): ?>gtag('config', '<?= e($ga4) ?>');<?php endif; ?>
-  <?php if ($ads !== ''): ?>gtag('config', '<?= e($ads) ?>');<?php endif; ?>
-</script>
+<?php if ($plausibleDomain !== ''): ?>
+<script defer data-domain="<?= e($plausibleDomain) ?>" src="<?= e($plausibleSrc) ?>"></script>
+<script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script>
+<?php elseif ($cfBeaconToken !== ''): ?>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "<?= e($cfBeaconToken) ?>"}'></script>
 <?php endif; ?>
 </head>
-<body data-ga4="<?= e($ga4 ?? '') ?>">
+<body data-analytics="<?= e($analyticsKind) ?>">
 <a class="skip-link" href="#main"><?= e(ui('nav.skip')) ?></a>

@@ -6,7 +6,7 @@
  *
  * Nothing else on the site decides a tier, a conversion value or a WhatsApp
  * prefill: pages read this through lib/helpers.php's lead_value() and
- * whatsapp_text_for_page(), so retuning the model after a few weeks of GA4 data
+ * whatsapp_text_for_page(), so retuning the model after a few weeks of analytics data
  * is one edit here and no page changes.
  *
  * Record shape (every key required unless noted):

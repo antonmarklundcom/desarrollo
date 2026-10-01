@@ -50,6 +50,11 @@ if ($path === '/robots.txt') {
     return true;
 }
 
+if ($path === '/llms.txt') {
+    require $root . '/llms.php';
+    return true;
+}
+
 // --- denied directories and files ------------------------------------------
 if (preg_match('#^/(content|lib|partials|templates|docs|prompts|tests|deploy|logs)(/|$)#', $path)
     || preg_match('#^/\.#', $path)
