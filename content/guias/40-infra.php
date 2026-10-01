@@ -21,22 +21,22 @@ return [
         'intro' => [
             'Los dominios terminados en .py los administra NIC Paraguay (nic.py). El proceso general es '
                 . 'verificar que el nombre esté libre, cargar los datos del titular y de los contactos, pagar '
-                . 'el registro y apuntar el dominio a los servidores DNS de su hosting.',
+                . 'el registro y apuntar el dominio a los servidores DNS de tu hosting.',
             'Los requisitos exactos por tipo de dominio (.com.py, .org.py, .edu.py y otros), el precio y la '
-                . 'forma de pago los define NIC Paraguay y pueden cambiar: consulte el valor vigente en su '
+                . 'forma de pago los define NIC Paraguay y pueden cambiar: consultá el valor vigente en su '
                 . 'sitio antes de iniciar.',
         ],
         'steps' => [
             [
-                'title' => 'Elija el nombre y verifique que esté libre',
+                'title' => 'Elegí el nombre y verificá que esté libre',
                 'body'  => [
-                    'Prefiera un nombre corto, fácil de dictar por teléfono y sin guiones. Consulte la '
-                        . 'disponibilidad en el buscador de NIC Paraguay. Revise también si el .com está libre, '
+                    'Preferí un nombre corto, fácil de dictar por teléfono y sin guiones. Consultá la '
+                        . 'disponibilidad en el buscador de NIC Paraguay. Revisá también si el .com está libre, '
                         . 'para registrarlo y proteger la marca.',
                 ],
             ],
             [
-                'title' => 'Defina quién será el titular',
+                'title' => 'Definí quién será el titular',
                 'body'  => [
                     'El titular debe ser la empresa (con su razón social y RUC) o la persona dueña del negocio, '
                         . 'nunca el empleado o la agencia que arma el sitio. Quien figura como titular es quien '
@@ -44,62 +44,62 @@ return [
                 ],
             ],
             [
-                'title' => 'Cree la cuenta y cargue los contactos',
+                'title' => 'Creá la cuenta y cargá los contactos',
                 'body'  => [
                     'En el sistema de NIC Paraguay se registran contactos titular, administrativo, técnico y '
-                        . 'de facturación. Use correos de la empresa que no dependan de una sola persona, por '
+                        . 'de facturación. Usá correos de la empresa que no dependan de una sola persona, por '
                         . 'ejemplo administracion@.',
                 ],
             ],
             [
-                'title' => 'Indique los servidores DNS',
+                'title' => 'Indicá los servidores DNS',
                 'body'  => [
-                    'Su proveedor de hosting le da los nombres de servidor (ns1, ns2). Cárguelos en el '
-                        . 'registro. Si todavía no tiene hosting, puede usar un servicio de DNS y cambiarlo después.',
+                    'Tu proveedor de hosting te da los nombres de servidor (ns1, ns2). Cargalos en el '
+                        . 'registro. Si todavía no tenés hosting, podés usar un servicio de DNS y cambiarlo después.',
                 ],
             ],
             [
                 'title' => 'Pague el registro y guarde el comprobante',
                 'body'  => [
-                    'Realice el pago por los medios que indique NIC Paraguay y guarde el comprobante junto con '
+                    'Hacé el pago por los medios que indique NIC Paraguay y guardá el comprobante junto con '
                         . 'los accesos. El registro suele ser anual o por varios años según la opción elegida.',
                 ],
             ],
             [
-                'title' => 'Configure sitio y correo',
+                'title' => 'Configurá sitio y correo',
                 'body'  => [
-                    'Con el dominio activo, cargue en el DNS los registros del sitio (A o CNAME) y del correo '
-                        . '(MX, SPF, DKIM y DMARC). Espere la propagación, que puede tardar algunas horas.',
+                    'Con el dominio activo, cargá en el DNS los registros del sitio (A o CNAME) y del correo '
+                        . '(MX, SPF, DKIM y DMARC). Esperá la propagación, que puede tardar algunas horas.',
                 ],
             ],
             [
-                'title' => 'Agende la renovación',
+                'title' => 'Agendá la renovación',
                 'body'  => [
-                    'Un dominio vencido deja sin sitio ni correo a la empresa. Anote la fecha de vencimiento en '
-                        . 'un calendario compartido y verifique que el correo de avisos sea de uso diario.',
+                    'Un dominio vencido deja sin sitio ni correo a la empresa. Anotá la fecha de vencimiento en '
+                        . 'un calendario compartido y verificá que el correo de avisos sea de uso diario.',
                 ],
             ],
         ],
         'faq' => [
             [
                 'q' => '¿Cuánto cuesta un dominio .com.py?',
-                'a' => 'El precio lo fija NIC Paraguay y se actualiza periódicamente. Consulte el valor vigente '
+                'a' => 'El precio lo fija NIC Paraguay y se actualiza periódicamente. Consultá el valor vigente '
                      . 'en nic.py antes de registrar.',
             ],
             [
                 'q' => '¿Puedo registrar un .com.py siendo persona física?',
-                'a' => 'Los requisitos varían según el tipo de dominio. Revise en NIC Paraguay qué documentación '
+                'a' => 'Los requisitos varían según el tipo de dominio. Revisá en NIC Paraguay qué documentación '
                      . 'pide cada categoría antes de iniciar el trámite.',
             ],
             [
                 'q' => '¿Qué hago si mi dominio lo registró otra persona?',
-                'a' => 'Solicite al titular actual el cambio de titularidad a nombre de la empresa. Si no '
-                     . 'responde, consulte a NIC Paraguay el procedimiento aplicable.',
+                'a' => 'Solicitá al titular actual el cambio de titularidad a nombre de la empresa. Si no '
+                     . 'responde, consultá a NIC Paraguay el procedimiento aplicable.',
             ],
             [
                 'q' => '¿Comprar dominio .com o .com.py?',
-                'a' => 'Si su público es paraguayo, el .com.py genera confianza local. Si puede, registre ambos y '
-                     . 'redirija uno al otro.',
+                'a' => 'Si tu público es paraguayo, el .com.py genera confianza local. Si podés, registrá ambos y '
+                     . 'redirigí uno al otro.',
             ],
         ],
         'relatedService' => 'hosting',
@@ -125,33 +125,33 @@ return [
                 . 'anual. Los planes para empresas se llaman Business Starter, Business Standard, Business Plus '
                 . 'y Enterprise, y se diferencian por almacenamiento, funciones de Meet y controles de seguridad.',
             'Google ajusta sus precios y la moneda de facturación varía según el país y el medio de pago. Por '
-                . 'eso esta guía no publica cifras: consulte el valor vigente en la página oficial de Google '
-                . 'Workspace antes de decidir.',
+                . 'eso esta guía no publica cifras: consultá la lista de precios vigente de Google Workspace para '
+                . 'Paraguay en la página oficial de Google antes de decidir.',
         ],
         'steps' => [
             [
-                'title' => 'Cuente los usuarios reales',
+                'title' => 'Contá los usuarios reales',
                 'body'  => [
-                    'Liste quién necesita una casilla propia. Las direcciones compartidas como ventas@ o '
+                    'Listá quién necesita una casilla propia. Las direcciones compartidas como ventas@ o '
                         . 'info@ pueden ser grupos o alias sin licencia adicional.',
                 ],
             ],
             [
-                'title' => 'Estime el almacenamiento',
+                'title' => 'Estimá el almacenamiento',
                 'body'  => [
-                    'Business Starter ofrece menos espacio por usuario que Business Standard. Si su equipo '
+                    'Business Starter ofrece menos espacio por usuario que Business Standard. Si tu equipo '
                         . 'guarda planos, fotos o videos en Drive, el plan de entrada se queda corto rápido.',
                 ],
             ],
             [
-                'title' => 'Revise qué necesita de Meet',
+                'title' => 'Revisá qué necesitás de Meet',
                 'body'  => [
                     'Grabación de reuniones, más participantes y seminarios web aparecen a partir de Business '
-                        . 'Standard. Si solo hace videollamadas internas breves, el plan básico puede alcanzar.',
+                        . 'Standard. Si solo hacés videollamadas internas breves, el plan básico puede alcanzar.',
                 ],
             ],
             [
-                'title' => 'Evalúe seguridad y retención',
+                'title' => 'Evaluá seguridad y retención',
                 'body'  => [
                     'Business Plus agrega Vault (retención y búsqueda legal de correos) y controles de '
                         . 'dispositivos. Es útil para estudios jurídicos, contables o empresas con requisitos de '
@@ -159,16 +159,16 @@ return [
                 ],
             ],
             [
-                'title' => 'Compare pago mensual y anual',
+                'title' => 'Compará pago mensual y anual',
                 'body'  => [
                     'El plan flexible permite sumar y quitar usuarios cada mes; el anual suele ser más barato '
                         . 'por usuario pero compromete la cantidad de licencias durante el año.',
                 ],
             ],
             [
-                'title' => 'Verifique medio de pago y facturación',
+                'title' => 'Verificá medio de pago y facturación',
                 'body'  => [
-                    'Google cobra con tarjeta a nombre de la empresa. Confirme con su contador cómo se '
+                    'Google cobra con tarjeta a nombre de la empresa. Confirmá con tu contador cómo se '
                         . 'registra el gasto de un servicio del exterior.',
                 ],
             ],
@@ -176,12 +176,12 @@ return [
         'faq' => [
             [
                 'q' => '¿Hay una prueba gratuita?',
-                'a' => 'Google suele ofrecer un período de prueba para cuentas nuevas. Verifique las condiciones '
-                     . 'vigentes al registrarse.',
+                'a' => 'Google suele ofrecer un período de prueba para cuentas nuevas. Verificá las condiciones '
+                     . 'vigentes al registrarte.',
             ],
             [
                 'q' => '¿Puedo mezclar planes dentro de la misma empresa?',
-                'a' => 'En algunos casos Google permite combinar ediciones, con restricciones. Consulte las '
+                'a' => 'En algunos casos Google permite combinar ediciones, con restricciones. Consultá las '
                      . 'condiciones vigentes antes de planificarlo.',
             ],
             [
@@ -191,7 +191,7 @@ return [
             ],
             [
                 'q' => '¿Incluye el dominio?',
-                'a' => 'No necesariamente. Si ya tiene dominio, se usa ese. Si no, puede registrarlo aparte, por '
+                'a' => 'No necesariamente. Si ya tenés dominio, se usa ese. Si no, podés registrarlo aparte, por '
                      . 'ejemplo un .com.py ante NIC Paraguay.',
             ],
         ],
@@ -205,12 +205,12 @@ return [
         'title'           => 'Cómo crear un correo corporativo',
         'navLabel'        => 'Crear correo corporativo',
         'seoTitle'        => 'Cómo crear un correo corporativo',
-        'metaDescription' => 'Pasos para crear un correo corporativo con su dominio: elegir proveedor, '
+        'metaDescription' => 'Pasos para crear un correo corporativo con tu dominio: elegir proveedor, '
                            . 'verificar el dominio, registros MX, SPF, DKIM, DMARC y crear usuarios.',
         'lastReviewed'    => '2026-09-25',
         'hero' => [
             'eyebrow' => 'Guías',
-            'h1'      => 'Cómo crear un correo corporativo con su propio dominio',
+            'h1'      => 'Cómo crear un correo corporativo con tu propio dominio',
             'lead'    => 'Para empresas que quieren pasar de una casilla genérica a direcciones con su dominio que lleguen a la bandeja de entrada.',
         ],
         'intro' => [
@@ -222,42 +222,42 @@ return [
         ],
         'steps' => [
             [
-                'title' => 'Asegure el dominio',
-                'body'  => ['Verifique que el dominio esté a nombre de la empresa y que tenga acceso a su panel de DNS.'],
+                'title' => 'Asegurá el dominio',
+                'body'  => ['Verificá que el dominio esté a nombre de la empresa y que tengas acceso al panel de DNS.'],
             ],
             [
-                'title' => 'Elija el proveedor de correo',
+                'title' => 'Elegí el proveedor de correo',
                 'body'  => [
                     'Las casillas del hosting sirven para pocos usuarios. Para un equipo, Google Workspace o '
                         . 'Microsoft 365 ofrecen más espacio, mejor filtro de spam y administración centralizada.',
                 ],
             ],
             [
-                'title' => 'Verifique el dominio en el proveedor',
-                'body'  => ['El proveedor le pedirá agregar un registro TXT en el DNS para demostrar que el dominio es suyo.'],
+                'title' => 'Verificá el dominio en el proveedor',
+                'body'  => ['El proveedor te va a pedir agregar un registro TXT en el DNS para demostrar que el dominio es tuyo.'],
             ],
             [
-                'title' => 'Cambie los registros MX',
+                'title' => 'Cambiá los registros MX',
                 'body'  => [
-                    'Los MX indican a dónde se entregan los correos. Reemplace los anteriores por los del nuevo '
+                    'Los MX indican a dónde se entregan los correos. Reemplazá los anteriores por los del nuevo '
                         . 'proveedor, preferentemente en un horario de poco movimiento.',
                 ],
             ],
             [
-                'title' => 'Configure SPF, DKIM y DMARC',
+                'title' => 'Configurá SPF, DKIM y DMARC',
                 'body'  => [
-                    'SPF lista los servidores autorizados a enviar por su dominio; DKIM firma cada mensaje; '
-                        . 'DMARC indica qué hacer con los correos que fallan. Incluya en SPF todo servicio que '
-                        . 'envíe en su nombre: formulario web, CRM, sistema de facturación.',
+                    'SPF lista los servidores autorizados a enviar por tu dominio; DKIM firma cada mensaje; '
+                        . 'DMARC indica qué hacer con los correos que fallan. Incluí en SPF todo servicio que '
+                        . 'envíe en tu nombre: formulario web, CRM, sistema de facturación.',
                 ],
             ],
             [
-                'title' => 'Cree usuarios, alias y grupos',
+                'title' => 'Creá usuarios, alias y grupos',
                 'body'  => ['Una casilla por persona, y direcciones como ventas@ o info@ como grupos o alias para no pagar licencias de más.'],
             ],
             [
-                'title' => 'Pruebe el envío y la recepción',
-                'body'  => ['Envíe correos a Gmail y Outlook y revise en los encabezados que SPF, DKIM y DMARC figuren como aprobados.'],
+                'title' => 'Probá el envío y la recepción',
+                'body'  => ['Enviá correos a Gmail y Outlook y revisá en los encabezados que SPF, DKIM y DMARC figuren como aprobados.'],
             ],
         ],
         'faq' => [
@@ -268,13 +268,13 @@ return [
             ],
             [
                 'q' => '¿Pierdo correos al cambiar los MX?',
-                'a' => 'Durante la propagación algunos mensajes pueden llegar a la casilla vieja. Manténgala activa '
-                     . 'unos días y revísela.',
+                'a' => 'Durante la propagación algunos mensajes pueden llegar a la casilla vieja. Mantenela activa '
+                     . 'unos días y revisala.',
             ],
             [
                 'q' => '¿Qué política de DMARC conviene al principio?',
-                'a' => 'Empiece con p=none para observar los reportes, y endurezca a quarantine o reject cuando '
-                     . 'confirme que todos sus envíos legítimos pasan la autenticación.',
+                'a' => 'Empezá con p=none para observar los reportes, y endurecé a quarantine o reject cuando '
+                     . 'confirmes que todos tus envíos legítimos pasan la autenticación.',
             ],
         ],
         'relatedService' => 'correo-corporativo',
@@ -296,41 +296,41 @@ return [
             'lead'    => 'Para empresas con un sitio o tienda en WordPress que quieren que cargue rápido y no se caiga.',
         ],
         'intro' => [
-            'No existe un único mejor hosting: existe el adecuado para su sitio. Un sitio institucional, una '
+            'No existe un único mejor hosting: existe el adecuado para tu sitio. Un sitio institucional, una '
                 . 'tienda WooCommerce y un portal con mucho contenido tienen necesidades distintas.',
-            'Estos criterios le permiten comparar planes con datos técnicos en lugar de promesas comerciales.',
+            'Estos criterios te permiten comparar planes con datos técnicos en lugar de promesas comerciales.',
         ],
         'steps' => [
             [
-                'title' => 'Defina el tipo de sitio',
-                'body'  => ['Anote cuántas páginas y productos tiene, cuántas visitas espera por mes y si procesa pagos en línea.'],
+                'title' => 'Definí el tipo de sitio',
+                'body'  => ['Anotá cuántas páginas y productos tenés, cuántas visitas esperás por mes y si procesás pagos en línea.'],
             ],
             [
-                'title' => 'Verifique la versión de PHP y la base de datos',
+                'title' => 'Verificá la versión de PHP y la base de datos',
                 'body'  => ['El plan debe ofrecer versiones de PHP con soporte vigente y permitir elegirlas desde el panel.'],
             ],
             [
-                'title' => 'Revise memoria y límites',
+                'title' => 'Revisá memoria y límites',
                 'body'  => [
-                    'Elementor y WooCommerce consumen memoria. Pregunte por el límite de memoria de PHP, los '
+                    'Elementor y WooCommerce consumen memoria. Preguntá por el límite de memoria de PHP, los '
                         . 'procesos simultáneos y si hay límites de visitas que suspendan el sitio.',
                 ],
             ],
             [
-                'title' => 'Pida caché a nivel servidor',
+                'title' => 'Pedí caché a nivel servidor',
                 'body'  => ['LiteSpeed, Nginx con caché o un CDN reducen el tiempo de carga más que cualquier plugin.'],
             ],
             [
-                'title' => 'Exija copias de seguridad restaurables',
-                'body'  => ['Copias diarias, guardadas fuera del mismo servidor, y la posibilidad de restaurar usted mismo desde el panel.'],
+                'title' => 'Exigí copias de seguridad restaurables',
+                'body'  => ['Copias diarias, guardadas fuera del mismo servidor, y la posibilidad de restaurar vos mismo desde el panel.'],
             ],
             [
-                'title' => 'Considere la ubicación del servidor',
+                'title' => 'Considerá la ubicación del servidor',
                 'body'  => ['Para un público en Paraguay, un servidor en Sudamérica o con buena conexión regional reduce la latencia.'],
             ],
             [
-                'title' => 'Pruebe el soporte antes de contratar',
-                'body'  => ['Haga una consulta técnica previa: el tiempo y la calidad de la respuesta dicen mucho del servicio.'],
+                'title' => 'Probá el soporte antes de contratar',
+                'body'  => ['Hacé una consulta técnica previa: el tiempo y la calidad de la respuesta dicen mucho del servicio.'],
             ],
         ],
         'faq' => [
@@ -346,7 +346,7 @@ return [
             ],
             [
                 'q' => '¿Cuándo conviene un VPS?',
-                'a' => 'Cuando la tienda o el sitio superan lo que permite un plan compartido, o cuando necesita '
+                'a' => 'Cuando la tienda o el sitio superan lo que permite un plan compartido, o cuando necesitás '
                      . 'correr integraciones propias en el servidor.',
             ],
         ],

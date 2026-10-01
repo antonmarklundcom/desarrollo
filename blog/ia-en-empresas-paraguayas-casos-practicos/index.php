@@ -81,7 +81,7 @@ $sections = [
     [
         'h2'   => 'Cómo elegir el primer caso',
         'body' => [
-            'Haga una lista de tareas repetitivas en su empresa y anote, para cada una, cuántas veces ocurre por semana, cuánto tiempo lleva y qué pasa si se comete un error. El mejor primer caso combina volumen alto, tiempo significativo y errores detectables. Por ejemplo, responder preguntas frecuentes o cargar datos de comprobantes suele cumplir esas condiciones; decidir precios especiales, no.',
+            'Hacé una lista de tareas repetitivas en tu empresa y anotá, para cada una, cuántas veces ocurre por semana, cuánto tiempo lleva y qué pasa si se comete un error. El mejor primer caso combina volumen alto, tiempo significativo y errores detectables. Por ejemplo, responder preguntas frecuentes o cargar datos de comprobantes suele cumplir esas condiciones; decidir precios especiales, no.',
         ],
     ],
     [
@@ -94,7 +94,7 @@ $sections = [
 
 $faq = [
     ['q' => '¿La IA reemplaza al personal de atención?', 'a' => 'En estos casos prácticos, la IA se ocupa de lo repetitivo y deriva lo complejo a personas. El objetivo es liberar tiempo, no eliminar la atención humana.'],
-    ['q' => '¿Dónde aprendo sobre IA en general?', 'a' => 'Para contenido general sobre inteligencia artificial puede consultar sitios especializados como inteligenciaartificial.com.py. Aquí nos enfocamos en implementaciones concretas.'],
+    ['q' => '¿Dónde aprendo sobre IA en general?', 'a' => 'Para contenido general sobre inteligencia artificial podés consultar sitios especializados como inteligenciaartificial.com.py. Aquí nos enfocamos en implementaciones concretas.'],
     ['q' => '¿Es seguro enviar datos de clientes a un servicio de IA?', 'a' => 'Depende del proveedor y de la configuración. Conviene definir qué datos se envían, revisar las condiciones del servicio y limitar la información sensible.'],
 ];
 

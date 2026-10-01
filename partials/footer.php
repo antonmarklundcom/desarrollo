@@ -93,6 +93,11 @@ $footSocials = nav('socials');
 
 <?php require ROOT_DIR . '/partials/whatsapp-fab.php'; ?>
 
+<?php if (($footCrm = cfg('VENDERCRM_URL')) !== null): ?>
+<?php /* First-touch attribution (utm_*, gclid, fbclid) in a 90-day cookie that
+         enviar.php reads, so a lead is credited to the campaign that brought it. */ ?>
+<script src="<?= e(rtrim($footCrm, '/') . '/vc-attribution.js') ?>" defer></script>
+<?php endif; unset($footCrm); ?>
 <script src="<?= e(asset('/assets/js/analytics.js')) ?>" defer></script>
 <script src="<?= e(asset('/assets/js/site.js')) ?>" defer></script>
 <script src="<?= e(asset('/assets/js/whatsapp-menu.js')) ?>" defer></script>

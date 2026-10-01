@@ -53,7 +53,7 @@ ob_start();
       <dt>Costo ahorrado por año</dt>
       <dd id="roi-costo-anio"></dd>
     </dl>
-    <p class="note">Ahorro bruto estimado. Réstele el costo de desarrollo y de operación de la automatización.</p>
+    <p class="note">Ahorro bruto estimado. Restale el costo de desarrollo y de operación de la automatización.</p>
     <div class="btn-row mt-3">
       <button class="btn btn--secondary" type="button" id="roi-use-result"><?= e(ui('tools.use_result')) ?></button>
     </div>

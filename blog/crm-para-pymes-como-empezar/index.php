@@ -14,21 +14,21 @@ $sections = [
         ],
     ],
     [
-        'h2'   => 'Señales de que necesita un CRM',
+        'h2'   => 'Señales de que necesitás un CRM',
         'body' => [
         ],
         'items' => [
             ['title' => 'Consultas que se pierden', 'text' => 'Llegan por WhatsApp, redes, correo y teléfono, y no hay un lugar único donde verlas.'],
             ['title' => 'Seguimiento irregular', 'text' => 'Se envían presupuestos y nadie vuelve a contactar al cliente.'],
             ['title' => 'Dependencia del vendedor', 'text' => 'Si alguien se va, se lleva los contactos y el historial.'],
-            ['title' => 'Sin datos de origen', 'text' => 'No sabe qué canal o campaña trae clientes.'],
-            ['title' => 'Previsión imposible', 'text' => 'No puede estimar cuánto venderá el próximo mes.'],
+            ['title' => 'Sin datos de origen', 'text' => 'No sabés qué canal o campaña trae clientes.'],
+            ['title' => 'Previsión imposible', 'text' => 'No podés estimar cuánto vas a vender el próximo mes.'],
         ],
     ],
     [
-        'h2'   => 'Empiece por el proceso, no por la herramienta',
+        'h2'   => 'Empezá por el proceso, no por la herramienta',
         'body' => [
-            'El error más común es elegir un CRM antes de definir cómo vende la empresa. Antes de mirar opciones, dibuje su embudo de ventas: las etapas por las que pasa una oportunidad desde la primera consulta hasta el cierre. Para muchas pymes alcanza con cinco o seis etapas.',
+            'El error más común es elegir un CRM antes de definir cómo vende la empresa. Antes de mirar opciones, dibujá tu embudo de ventas: las etapas por las que pasa una oportunidad desde la primera consulta hasta el cierre. Para muchas pymes alcanza con cinco o seis etapas.',
         ],
         'items' => [
             ['title' => 'Nueva consulta', 'text' => 'Llegó el contacto y todavía no se respondió.'],
@@ -49,7 +49,7 @@ $sections = [
     [
         'h2'   => 'Elegir la herramienta',
         'body' => [
-            'Hay CRMs en la nube listos para usar, con planes por usuario, y CRMs a medida o adaptados. Para empezar, muchas pymes pueden usar una herramienta existente. Al compararlas, mire la facilidad de uso en el celular, la posibilidad de personalizar etapas y campos, la integración con WhatsApp y correo, los reportes disponibles, el costo por usuario a medida que crezca el equipo y la posibilidad de exportar sus datos.',
+            'Hay CRMs en la nube listos para usar, con planes por usuario, y CRMs a medida o adaptados. Para empezar, muchas pymes pueden usar una herramienta existente. Al compararlas, mirá la facilidad de uso en el celular, la posibilidad de personalizar etapas y campos, la integración con WhatsApp y correo, los reportes disponibles, el costo por usuario a medida que crezca el equipo y la posibilidad de exportar tus datos.',
             'Un CRM a medida tiene sentido cuando el proceso de venta es muy particular, cuando se necesita integrar con sistemas propios como un ERP o una plataforma de reservas, o cuando el costo por usuario de las herramientas estándar se vuelve alto.',
         ],
     ],
@@ -63,7 +63,7 @@ $sections = [
     [
         'h2'   => 'Lograr que el equipo lo use',
         'body' => [
-            'Un CRM vale lo que el equipo carga en él. Para lograr adopción, involucre a los vendedores en la definición de etapas y campos, capacite con casos reales, use el CRM en las reuniones de ventas en lugar de pedir reportes aparte y muestre a cada vendedor cómo le ahorra trabajo: recordatorios, historial a mano, menos preguntas repetidas.',
+            'Un CRM vale lo que el equipo carga en él. Para lograr adopción, involucrá a los vendedores en la definición de etapas y campos, capacitá con casos reales, usá el CRM en las reuniones de ventas en lugar de pedir reportes aparte y mostrale a cada vendedor cómo le ahorra trabajo: recordatorios, historial a mano, menos preguntas repetidas.',
             'La gerencia también debe usarlo. Si los reportes se siguen pidiendo por WhatsApp o en planillas, el mensaje implícito es que el CRM es opcional.',
         ],
     ],
@@ -76,7 +76,7 @@ $sections = [
     [
         'h2'   => 'Qué determina el costo',
         'body' => [
-            'El costo de un CRM depende de si se usa una herramienta en la nube o una solución a medida, la cantidad de usuarios, las integraciones con WhatsApp, sitio web, ERP o facturación, la migración de contactos existentes y la capacitación. Empezar simple y sumar integraciones por etapas permite controlar la inversión.',
+            'El costo de un CRM depende de si se usa una herramienta en la nube o una solución a medida, la cantidad de usuarios, las integraciones con WhatsApp, sitio web, ERP o facturación, la migración de contactos existentes y la capacitación. Empezar simple y sumar integraciones por etapas permite controlar la inversión. No publicamos un precio fijo porque depende de esos factores: después de una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
         ],
     ],
     [
@@ -94,7 +94,7 @@ $sections = [
 ];
 
 $faq = [
-    ['q' => '¿Cuál es el mejor CRM para una pyme?', 'a' => 'El que su equipo realmente use. Priorice facilidad de uso, integración con WhatsApp y la posibilidad de adaptar etapas a su proceso.'],
+    ['q' => '¿Cuál es el mejor CRM para una pyme?', 'a' => 'El que tu equipo realmente use. Priorizá facilidad de uso, integración con WhatsApp y la posibilidad de adaptar etapas a tu proceso.'],
     ['q' => '¿Un CRM reemplaza a WhatsApp?', 'a' => 'No, lo complementa. Integrado con la API de WhatsApp Business, registra las conversaciones y las asocia a clientes y oportunidades.'],
     ['q' => '¿Cuánto tiempo lleva empezar a usar un CRM?', 'a' => 'Una configuración básica con etapas y campos esenciales puede estar lista en poco tiempo; las integraciones se suman por etapas.'],
 ];

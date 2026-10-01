@@ -14,10 +14,10 @@ $sections = [
         ],
     ],
     [
-        'h2'   => 'Paso 1: verificar si Google conoce su sitio',
+        'h2'   => 'Paso 1: verificar si Google conoce tu sitio',
         'body' => [
-            'Lo primero es saber si Google indexó su sitio, es decir, si lo tiene registrado. Una forma rápida es buscar en Google el operador site seguido de su dominio. Si no aparece ningún resultado, Google todavía no indexó el sitio o algo lo está impidiendo.',
-            'La herramienta indicada para diagnosticar es Google Search Console, un servicio gratuito donde se verifica la propiedad del sitio, se envía el mapa del sitio y se ven los errores de indexación. Si su sitio no está registrado allí, ese es el primer paso.',
+            'Lo primero es saber si Google indexó tu sitio, es decir, si lo tiene registrado. Una forma rápida es buscar en Google el operador site seguido de tu dominio. Si no aparece ningún resultado, Google todavía no indexó el sitio o algo lo está impidiendo.',
+            'La herramienta indicada para diagnosticar es Google Search Console, un servicio gratuito donde se verifica la propiedad del sitio, se envía el mapa del sitio y se ven los errores de indexación. Si tu sitio no está registrado allí, ese es el primer paso.',
         ],
     ],
     [
@@ -34,23 +34,23 @@ $sections = [
         ],
     ],
     [
-        'h2'   => 'Paso 3: aparece por su nombre pero no por su rubro',
+        'h2'   => 'Paso 3: aparece por tu nombre pero no por tu rubro',
         'body' => [
-            'Si al buscar el nombre de su empresa aparece, pero no al buscar lo que ofrece, por ejemplo un servicio en su ciudad, el problema ya no es técnico sino de relevancia y competencia. Google muestra primero las páginas que considera más útiles para cada búsqueda, y otras empresas pueden tener páginas más completas sobre ese tema.',
+            'Si al buscar el nombre de tu empresa aparece, pero no al buscar lo que ofrecés, por ejemplo un servicio en tu ciudad, el problema ya no es técnico sino de relevancia y competencia. Google muestra primero las páginas que considera más útiles para cada búsqueda, y otras empresas pueden tener páginas más completas sobre ese tema.',
             'Para competir, cada servicio importante necesita una página propia con contenido específico: qué incluye, a quién sirve, cómo funciona, preguntas frecuentes. Una única página de inicio con una lista de servicios difícilmente posicione para búsquedas concretas.',
         ],
     ],
     [
         'h2'   => 'Paso 4: contenido que responde lo que se busca',
         'body' => [
-            'El contenido debe estar escrito para las personas que buscan, con las palabras que ellas usan. Si sus clientes buscan un término y su sitio usa otro, Google tendrá menos razones para mostrarlo. Investigue cómo se busca su servicio, incluya esos términos de forma natural en títulos y textos, y responda las preguntas que un cliente se haría antes de contratar.',
-            'Evite copiar textos de otros sitios o de proveedores. El contenido duplicado aporta poco y puede perjudicar.',
+            'El contenido debe estar escrito para las personas que buscan, con las palabras que ellas usan. Si tus clientes buscan un término y tu sitio usa otro, Google tendrá menos razones para mostrarlo. Investigá cómo se busca tu servicio, incluí esos términos de forma natural en títulos y textos, y respondé las preguntas que un cliente se haría antes de contratar.',
+            'Evitá copiar textos de otros sitios o de proveedores. El contenido duplicado aporta poco y puede perjudicar.',
         ],
     ],
     [
         'h2'   => 'Paso 5: velocidad y experiencia en celulares',
         'body' => [
-            'La mayoría de las búsquedas se hacen desde celulares. Un sitio lento, con textos pequeños o botones difíciles de tocar ofrece una mala experiencia y eso influye en su visibilidad. Revise cuánto tarda en cargar su página principal con datos móviles, optimice imágenes pesadas y elimine complementos innecesarios.',
+            'La mayoría de las búsquedas se hacen desde celulares. Un sitio lento, con textos pequeños o botones difíciles de tocar ofrece una mala experiencia y eso influye en su visibilidad. Revisá cuánto tarda en cargar tu página principal con datos móviles, optimizá imágenes pesadas y eliminá complementos innecesarios.',
         ],
     ],
     [
@@ -62,19 +62,19 @@ $sections = [
     [
         'h2'   => 'Paso 7: enlaces y reputación',
         'body' => [
-            'Google también considera cuántos sitios confiables enlazan al suyo. Directorios empresariales serios, cámaras de comercio, proveedores, medios locales y socios comerciales pueden aportar enlaces legítimos. Evite comprar enlaces masivos o participar en esquemas artificiales; pueden perjudicar más que ayudar.',
+            'Google también considera cuántos sitios confiables enlazan al tuyo. Directorios empresariales serios, cámaras de comercio, proveedores, medios locales y socios comerciales pueden aportar enlaces legítimos. Evitá comprar enlaces masivos o participar en esquemas artificiales; pueden perjudicar más que ayudar.',
         ],
     ],
     [
         'h2'   => 'Cuánto tarda en verse un resultado',
         'body' => [
-            'El posicionamiento orgánico no es inmediato. Corregir problemas técnicos puede reflejarse en semanas; mejorar la posición en búsquedas competidas suele llevar meses de trabajo constante en contenido y reputación. Si necesita visibilidad inmediata, los anuncios pagos son una alternativa complementaria, no un reemplazo.',
+            'El posicionamiento orgánico no es inmediato. Corregir problemas técnicos puede reflejarse en semanas; mejorar la posición en búsquedas competidas suele llevar meses de trabajo constante en contenido y reputación. Si necesitás visibilidad inmediata, los anuncios pagos son una alternativa complementaria, no un reemplazo.',
         ],
     ],
     [
         'h2'   => 'Qué determina el costo de mejorar el SEO',
         'body' => [
-            'El costo de un trabajo de SEO depende del estado técnico del sitio, la cantidad de páginas y servicios, la competencia en su rubro, la necesidad de crear contenido nuevo y la gestión del perfil local. Un diagnóstico inicial permite priorizar lo que más impacto tendrá antes de invertir en todo.',
+            'El costo de un trabajo de SEO depende del estado técnico del sitio, la cantidad de páginas y servicios, la competencia en tu rubro, la necesidad de crear contenido nuevo y la gestión del perfil local. Un diagnóstico inicial permite priorizar lo que más impacto tendrá antes de invertir en todo. No publicamos un precio fijo porque depende del alcance: después de una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
         ],
     ],
     [
@@ -86,7 +86,7 @@ $sections = [
     [
         'h2'   => 'Medir el progreso',
         'body' => [
-            'Search Console muestra para qué búsquedas aparece su sitio, en qué posición promedio y cuántos clics recibe. Revise esos datos cada mes para ver si las correcciones dan resultado y qué páginas conviene reforzar. Sin medición, es imposible saber qué cambio funcionó.',
+            'Search Console muestra para qué búsquedas aparece tu sitio, en qué posición promedio y cuántos clics recibe. Revisá esos datos cada mes para ver si las correcciones dan resultado y qué páginas conviene reforzar. Sin medición, es imposible saber qué cambio funcionó.',
         ],
     ],
     [

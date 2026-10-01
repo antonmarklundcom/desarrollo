@@ -38,8 +38,8 @@ return [
         ],
         'weNeed' => [
             'Cantidad de propiedades activas y de agentes',
-            'Portales y redes donde publica hoy',
-            'Si administra alquileres, cómo cobra y liquida actualmente',
+            'Portales y redes donde publicás hoy',
+            'Si administrás alquileres, cómo cobrás y liquidás actualmente',
         ],
         'faq' => [
             ['q' => '¿Pueden importar mis propiedades actuales?', 'a' => 'Sí, desde una planilla o desde el sitio existente, si los datos están ordenados.'],
@@ -75,7 +75,7 @@ return [
         'weNeed' => [
             'Cantidad de profesionales, especialidades y sedes',
             'Cómo se agenda y confirma hoy',
-            'Si trabaja con seguros o prepagas y cómo factura',
+            'Si trabajás con seguros o prepagas y cómo facturás',
         ],
         'faq' => [
             ['q' => '¿Los pacientes pueden sacar turno solos?', 'a' => 'Sí, desde el sitio web o por WhatsApp, con disponibilidad real de cada profesional.'],
@@ -111,12 +111,12 @@ return [
         ],
         'weNeed' => [
             'Cantidad de clientes y tipo (personas, pymes, empresas)',
-            'Sistema contable que usa hoy',
+            'Sistema contable que usás hoy',
             'Tareas que más horas consumen cada mes',
         ],
         'faq' => [
-            ['q' => '¿Reemplazan mi sistema contable?', 'a' => 'No necesariamente. Lo habitual es integrar con el sistema que ya usa y automatizar lo que está alrededor.'],
-            ['q' => '¿Pueden ayudar a clientes del estudio con SIFEN?', 'a' => 'Sí, podemos integrar los sistemas de sus clientes con la facturación electrónica.'],
+            ['q' => '¿Reemplazan mi sistema contable?', 'a' => 'No necesariamente. Lo habitual es integrar con el sistema que ya usás y automatizar lo que está alrededor.'],
+            ['q' => '¿Pueden ayudar a clientes del estudio con SIFEN?', 'a' => 'Sí, podemos integrar los sistemas de esos clientes con la facturación electrónica.'],
             ['q' => '¿Los datos de los clientes quedan seguros?', 'a' => 'Se accede con usuario por cliente y permisos por rol, en servidores con copias de seguridad.'],
         ],
     ],
@@ -148,7 +148,7 @@ return [
         'weNeed' => [
             'Cantidad de abogados y áreas de práctica',
             'Cómo registra hoy expedientes y plazos',
-            'Si necesita portal para que el cliente consulte su caso',
+            'Si necesitás un portal para que el cliente consulte su caso',
         ],
         'faq' => [
             ['q' => '¿El correo puede conservar mensajes para auditoría?', 'a' => 'Sí, algunos planes de Google Workspace incluyen retención y búsqueda de correos con Vault.'],
@@ -184,7 +184,7 @@ return [
         'weNeed' => [
             'Cantidad de locales, cajas y mesas',
             'Canales de pedido actuales (salón, delivery, apps)',
-            'Sistema de caja y facturación que usa hoy',
+            'Sistema de caja y facturación que usás hoy',
         ],
         'faq' => [
             ['q' => '¿Funciona si se corta internet?', 'a' => 'Un punto de venta bien diseñado sigue operando y sincroniza al volver la conexión; lo definimos en el alcance.'],
@@ -219,7 +219,7 @@ return [
         ],
         'weNeed' => [
             'Cantidad de vehículos, choferes y envíos diarios',
-            'Cómo registra hoy los estados y las entregas',
+            'Cómo registrás hoy los estados y las entregas',
             'Sistema de gestión y facturación actual',
         ],
         'faq' => [
@@ -234,7 +234,7 @@ return [
         'navLabel'        => 'Agro y ganadería',
         'seoTitle'        => 'Software para el agro y la ganadería',
         'metaDescription' => 'Software para el agro en Paraguay: gestión de campo, lotes, hacienda, acopio, '
-                           . 'apps sin conexión, facturación electrónica e integración con su ERP.',
+                           . 'apps sin conexión, facturación electrónica e integración con tu ERP.',
         'hero' => [
             'eyebrow' => 'Soluciones por rubro',
             'h1'      => 'Software para el agro y la ganadería',
@@ -261,7 +261,7 @@ return [
         'faq' => [
             ['q' => '¿Funciona sin internet en el campo?', 'a' => 'Sí, las apps pueden guardar los datos en el teléfono y sincronizar al recuperar señal.'],
             ['q' => '¿Se integra con mi sistema contable?', 'a' => 'Sí, integramos con el sistema existente en lugar de reemplazarlo cuando conviene.'],
-            ['q' => '¿Emite facturas electrónicas por ventas de granos o hacienda?', 'a' => 'El sistema puede integrarse con SIFEN; los tipos de documento se definen según su operación y su contador.'],
+            ['q' => '¿Emite facturas electrónicas por ventas de granos o hacienda?', 'a' => 'El sistema puede integrarse con SIFEN; los tipos de documento se definen según tu operación y tu contador.'],
         ],
     ],
 
@@ -296,7 +296,7 @@ return [
         ],
         'faq' => [
             ['q' => '¿Los padres pueden pagar en línea?', 'a' => 'Sí, con pasarelas locales de pago, y la factura se emite automáticamente.'],
-            ['q' => '¿Pueden configurar correos institucionales?', 'a' => 'Sí, con Google Workspace y su dominio, con casillas para personal y, si lo desea, para alumnos.'],
+            ['q' => '¿Pueden configurar correos institucionales?', 'a' => 'Sí, con Google Workspace y el dominio del colegio, con casillas para el personal y, si querés, para alumnos.'],
             ['q' => '¿Se puede avisar deudas automáticamente?', 'a' => 'Sí, con recordatorios por WhatsApp o correo antes y después del vencimiento.'],
         ],
     ],
@@ -327,8 +327,8 @@ return [
         ],
         'weNeed' => [
             'Cantidad de socios, sedes y tipos de plan',
-            'Cómo controla hoy el acceso y los pagos',
-            'Si ofrece clases con cupo',
+            'Cómo controlás hoy el acceso y los pagos',
+            'Si ofrecés clases con cupo',
         ],
         'faq' => [
             ['q' => '¿Se puede cobrar la cuota automáticamente?', 'a' => 'Sí, con débito recurrente a tarjeta a través de pasarelas locales, según lo que cada una ofrezca.'],
@@ -364,7 +364,7 @@ return [
         'weNeed' => [
             'Cantidad de sucursales, cajas y productos',
             'Sistema de caja y stock actual',
-            'Si vende o quiere vender en línea',
+            'Si vendés o querés vender en línea',
         ],
         'faq' => [
             ['q' => '¿Pueden migrar mis productos actuales?', 'a' => 'Sí, desde el sistema anterior o desde planillas.'],
@@ -400,7 +400,7 @@ return [
         'weNeed' => [
             'Cantidad de socios y servicios ofrecidos',
             'Sistema central (core) y si expone una API',
-            'Qué trámites quiere llevar a canales digitales',
+            'Qué trámites querés llevar a canales digitales',
         ],
         'faq' => [
             ['q' => '¿Reemplazan el sistema central?', 'a' => 'No, normalmente construimos los canales digitales integrados al core existente.'],
@@ -436,7 +436,7 @@ return [
         'weNeed' => [
             'Cantidad de vehículos en stock y vendedores',
             'De dónde llegan hoy las consultas',
-            'Si tiene taller y cómo agenda los turnos',
+            'Si tenés taller y cómo agendás los turnos',
         ],
         'faq' => [
             ['q' => '¿Se puede asignar cada consulta a un vendedor?', 'a' => 'Sí, automáticamente por rotación o por marca, con alertas si no se responde.'],

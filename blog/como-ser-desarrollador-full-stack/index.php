@@ -30,7 +30,7 @@ $sections = [
         'h2'   => 'Paso 2: elegir un stack y quedarse con él',
         'body' => [
             'El error más común es saltar de tecnología en tecnología. Es mejor elegir un stack razonable y profundizar. Algunas combinaciones habituales en el mercado local son JavaScript o TypeScript con Node.js y React, PHP con Laravel, o Python con Django. Cualquiera de ellas permite conseguir trabajo si se domina bien.',
-            'Para decidir, mire qué piden las ofertas publicadas en portales como trabajo.com.py y en empresas que le interesen. Si la mayoría de las búsquedas que le atraen piden una tecnología, esa es una buena señal.',
+            'Para decidir, mirá qué piden las ofertas publicadas en portales como trabajo.com.py y en empresas que te interesen. Si la mayoría de las búsquedas que te atraen piden una tecnología, esa es una buena señal.',
         ],
     ],
     [
@@ -43,7 +43,7 @@ $sections = [
     [
         'h2'   => 'Paso 4: despliegue y operación',
         'body' => [
-            'Una aplicación que solo funciona en su computadora no sirve a nadie. Aprenda a publicar un proyecto en un hosting o en un servidor, configurar un dominio, un certificado SSL y variables de entorno. Luego sume lo básico de operación: logs, copias de seguridad y cómo actualizar sin romper lo que ya funciona.',
+            'Una aplicación que solo funciona en tu computadora no sirve a nadie. Aprendé a publicar un proyecto en un hosting o en un servidor, configurar un dominio, un certificado SSL y variables de entorno. Después sumá lo básico de operación: logs, copias de seguridad y cómo actualizar sin romper lo que ya funciona.',
         ],
         'items' => [
             ['title' => 'Hosting compartido o gestionado', 'text' => 'Suficiente para muchos proyectos pequeños y útil para aprender.'],
@@ -55,7 +55,7 @@ $sections = [
     [
         'h2'   => 'Paso 5: proyectos que demuestran lo aprendido',
         'body' => [
-            'Un empleador quiere ver que usted puede terminar algo. Tres proyectos completos valen más que diez tutoriales a medio hacer. Elija problemas reales, idealmente cercanos al contexto paraguayo: un sistema de turnos para un consultorio, un catálogo con pedidos por WhatsApp, un pequeño control de stock o un tablero que consuma una API pública.',
+            'Un empleador quiere ver que podés terminar algo. Tres proyectos completos valen más que diez tutoriales a medio hacer. Elegí problemas reales, idealmente cercanos al contexto paraguayo: un sistema de turnos para un consultorio, un catálogo con pedidos por WhatsApp, un pequeño control de stock o un tablero que consuma una API pública.',
             'Cada proyecto debería tener un README claro, instrucciones para ejecutarlo, una versión publicada si es posible y una explicación de las decisiones técnicas. Eso muestra criterio, que es lo que más se evalúa en una entrevista.',
         ],
     ],
@@ -82,13 +82,13 @@ $sections = [
         'h2'   => 'Cómo organizar el estudio semana a semana',
         'body' => [
             'Una forma práctica de avanzar es dividir el tiempo en bloques. Una parte de la semana para aprender un concepto nuevo, otra para aplicarlo en el proyecto en curso y otra para revisar y documentar lo hecho. Llevar un registro breve de lo aprendido ayuda a ver el progreso y sirve como material para entrevistas.',
-            'También conviene buscar retroalimentación: pedir a alguien con más experiencia que revise su código, participar en comunidades y leer el código de proyectos abiertos bien mantenidos. Aprender a leer código ajeno es tan importante como escribir el propio, porque en el trabajo la mayor parte del tiempo se modifica código existente.',
+            'También conviene buscar retroalimentación: pedir a alguien con más experiencia que revise tu código, participar en comunidades y leer el código de proyectos abiertos bien mantenidos. Aprender a leer código ajeno es tan importante como escribir el propio, porque en el trabajo la mayor parte del tiempo se modifica código existente.',
         ],
     ],
     [
-        'h2'   => 'Cómo saber si ya está listo para postularse',
+        'h2'   => 'Cómo saber si ya estás listo para postularte',
         'body' => [
-            'Una señal práctica es poder construir, sin seguir un tutorial, una aplicación pequeña con registro de usuarios, una base de datos, algunas pantallas y una versión publicada. Si puede explicar cada parte y corregir errores por su cuenta, ya tiene un nivel suficiente para postularse a puestos junior. No espere a sentirse experto; esa sensación rara vez llega antes del primer empleo.',
+            'Una señal práctica es poder construir, sin seguir un tutorial, una aplicación pequeña con registro de usuarios, una base de datos, algunas pantallas y una versión publicada. Si podés explicar cada parte y corregir errores por tu cuenta, ya tenés un nivel suficiente para postularte a puestos junior. No esperes a sentirte experto; esa sensación rara vez llega antes del primer empleo.',
         ],
     ],
 ];

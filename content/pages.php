@@ -259,8 +259,9 @@ return [
                 'body' => [
                     'Recogemos únicamente los datos que escribís en el formulario de contacto '
                         . '—nombre, empresa, teléfono, correo y el mensaje— más los parámetros de '
-                        . 'campaña que trae el enlace por el que llegó y datos de navegación '
-                        . 'agregados de Google Analytics.',
+                        . 'campaña que trae el enlace por el que llegó. Si medimos las visitas con una '
+                        . 'herramienta de analítica (por ejemplo Google Analytics), usamos solo datos '
+                        . 'de navegación agregados.',
                 ],
             ],
             [

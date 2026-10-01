@@ -11,8 +11,8 @@ return [
         'slug'        => 'cuanto-cuesta-una-pagina-web-en-paraguay',
         'title'       => '¿Cuánto cuesta una página web en Paraguay? Qué mueve el precio',
         'seoTitle'    => 'Precio de una página web en Paraguay',
-        'description' => 'Qué determina el precio de una página web en Paraguay, rangos orientativos '
-                       . 'del mercado en guaraníes y qué preguntar antes de contratar.',
+        'description' => 'Qué determina el costo de una página web en Paraguay: alcance, funciones y '
+                       . 'contenido, y qué preguntar antes de contratar para no llevarte sorpresas.',
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'Páginas web'],
@@ -23,7 +23,7 @@ return [
         'title'       => '¿Cuánto cuesta desarrollar una app en Paraguay?',
         'seoTitle'    => 'Cuánto cuesta una app en Paraguay',
         'description' => 'Costo de desarrollar una aplicación móvil o web en Paraguay: qué la encarece, '
-                       . 'rangos orientativos en guaraníes y cómo reducir el riesgo.',
+                       . 'por qué conviene un presupuesto escrito y cómo reducir el riesgo.',
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'Aplicaciones'],
@@ -33,8 +33,8 @@ return [
         'slug'        => 'costo-de-integrar-sifen',
         'title'       => 'Costo de integrar la facturación electrónica SIFEN',
         'seoTitle'    => 'Costo de integrar SIFEN',
-        'description' => 'Qué cuesta integrar su sistema con la facturación electrónica SIFEN de la DNIT: '
-                       . 'opciones, qué mueve el precio y rangos orientativos del mercado.',
+        'description' => 'Qué cuesta integrar tu sistema con la facturación electrónica SIFEN de la DNIT: '
+                       . 'opciones, qué mueve el costo y cómo pedir un presupuesto claro.',
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'SIFEN', 'Facturación electrónica'],
@@ -44,8 +44,8 @@ return [
         'slug'        => 'precio-chatbot-whatsapp',
         'title'       => 'Precio de un chatbot de WhatsApp para empresas en Paraguay',
         'seoTitle'    => 'Precio de un chatbot de WhatsApp',
-        'description' => 'Cuánto cuesta un chatbot de WhatsApp Business: costos de desarrollo, costos '
-                       . 'de la plataforma de Meta y rangos orientativos para Paraguay.',
+        'description' => 'Cuánto cuesta un chatbot de WhatsApp Business: qué entra en el desarrollo, qué '
+                       . 'cobra la plataforma de Meta y qué tenés que definir antes.',
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'WhatsApp'],
@@ -56,7 +56,7 @@ return [
         'title'       => 'Costo de una tienda online (ecommerce) en Paraguay',
         'seoTitle'    => 'Costo de un ecommerce en Paraguay',
         'description' => 'Cuánto cuesta montar una tienda online en Paraguay: plataforma, pasarela de '
-                       . 'pagos, envíos, costos mensuales y rangos orientativos en guaraníes.',
+                       . 'pagos, envíos, costos mensuales y qué hace subir o bajar el total.',
         'date'        => '2026-09-25',
         'updated'     => null,
         'tags'        => ['Precios', 'Ecommerce'],

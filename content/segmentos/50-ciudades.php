@@ -26,26 +26,26 @@ $__city = static function (string $slug, string $name, string $meta, string $lea
         'traps'    => $traps,
         'sections' => [
             [
-                'h2'   => 'Páginas web en ' . $name . ' pensadas para su mercado',
+                'h2'   => 'Páginas web en ' . $name . ' pensadas para tu mercado',
                 'body' => $angle,
             ],
             [
                 'h2'   => 'Desarrollo de software en ' . $name . ': cómo trabajamos a distancia',
                 'body' => [
                     'Trabajamos de forma remota: las reuniones son por videollamada o WhatsApp, el '
-                        . 'avance se muestra en un sitio de pruebas que usted puede abrir desde el '
+                        . 'avance se muestra en un sitio de pruebas que podés abrir desde el '
                         . 'celular y cada entrega queda documentada por escrito. No tenemos oficina en '
                         . $name . '; cuando el proyecto lo justifica, coordinamos una visita presencial '
                         . 'con anticipación.',
-                    'Antes de empezar recibe una propuesta con el alcance, los plazos y el precio en '
-                        . 'guaraníes. Lo que no está en la propuesta no se cobra sin su aprobación previa.',
+                    'Antes de empezar recibís una propuesta con el alcance, los plazos y el precio en '
+                        . 'guaraníes. Lo que no está en la propuesta no se cobra sin tu aprobación previa.',
                 ],
             ],
         ],
         'weNeed' => [
             'Nombre del negocio, rubro y qué vende o qué servicio presta',
-            'Qué quiere lograr con la página o el sistema (consultas, ventas, facturación, orden interno)',
-            'Dominio y hosting actuales, si ya los tiene',
+            'Qué querés lograr con la página o el sistema (consultas, ventas, facturación, orden interno)',
+            'Dominio y hosting actuales, si ya los tenés',
             'Logo, fotos y textos disponibles, aunque sean borradores',
             'Un número de WhatsApp para recibir las consultas',
         ],
@@ -57,9 +57,9 @@ $__city = static function (string $slug, string $name, string $meta, string $lea
             ],
             [
                 'q' => '¿Cuánto cuesta una página web en ' . $name . '?',
-                'a' => 'Depende de la cantidad de secciones, si necesita tienda o integraciones y quién '
-                     . 'carga los contenidos. Le enviamos un presupuesto por escrito en guaraníes '
-                     . 'después de una conversación corta.',
+                'a' => 'Depende de la cantidad de secciones, si necesitás tienda o integraciones y quién '
+                     . 'carga los contenidos. No publicamos un precio fijo: después de una conversación corta '
+                     . 'te pasamos un presupuesto por escrito en guaraníes.',
             ],
         ], $faqExtra),
     ];
@@ -89,7 +89,7 @@ return [
             ['title' => 'Sistemas que no se hablan', 'text' => 'Facturación, ventas y consultas en planillas separadas obligan a cargar lo mismo dos o tres veces.'],
         ],
         [
-            ['q' => '¿Pueden integrar mi sistema con SIFEN?', 'a' => 'Sí. Evaluamos su sistema actual y le proponemos la integración con la facturación electrónica de la DNIT o un sistema nuevo si el actual no lo permite.'],
+            ['q' => '¿Pueden integrar mi sistema con SIFEN?', 'a' => 'Sí. Evaluamos tu sistema actual y te proponemos la integración con la facturación electrónica de la DNIT o un sistema nuevo si el actual no lo permite.'],
         ]
     ),
 
@@ -136,12 +136,12 @@ return [
                 . 'facturación electrónica.',
         ],
         [
-            ['title' => 'Depender solo de plataformas de reserva', 'text' => 'Sin sitio propio cada reserva paga comisión y el cliente no queda en su base de contactos.'],
+            ['title' => 'Depender solo de plataformas de reserva', 'text' => 'Sin sitio propio cada reserva paga comisión y el cliente no queda en tu base de contactos.'],
             ['title' => 'Página sin información de temporada', 'text' => 'Fechas, tarifas y horarios viejos generan consultas repetidas y desconfianza.'],
             ['title' => 'No aparecer en el mapa', 'text' => 'Un perfil de Google incompleto hace que el turista elija al vecino que sí muestra fotos y horarios.'],
         ],
         [
-            ['q' => '¿Pueden agregar reservas o cobro de seña?', 'a' => 'Sí. Podemos sumar un formulario de reserva y, si lo necesita, cobro en línea con una pasarela de pagos local.'],
+            ['q' => '¿Pueden agregar reservas o cobro de seña?', 'a' => 'Sí. Podemos sumar un formulario de reserva y, si lo necesitás, cobro en línea con una pasarela de pagos local.'],
         ]
     ),
 
@@ -167,7 +167,7 @@ return [
             ['title' => 'Página que nadie actualiza', 'text' => 'Si cambiar un precio requiere llamar al programador, la web queda vieja en semanas.'],
         ],
         [
-            ['q' => '¿Puedo actualizar yo mismo la página?', 'a' => 'Sí. Le dejamos un panel para editar textos, fotos y productos, y una guía corta de uso.'],
+            ['q' => '¿Puedo actualizar yo mismo la página?', 'a' => 'Sí. Te dejamos un panel para editar textos, fotos y productos, y una guía corta de uso.'],
         ]
     ),
 
@@ -212,10 +212,10 @@ return [
         [
             ['title' => 'Pedidos por audio y foto', 'text' => 'Tomar pedidos de mayoristas por mensajes sueltos genera errores de cantidad y de precio.'],
             ['title' => 'Stock en una planilla aparte', 'text' => 'Si ventas y depósito no comparten el mismo dato, se vende lo que no hay.'],
-            ['title' => 'Competir con la capital sin diferenciarse', 'text' => 'Una página genérica no explica por qué conviene comprarle a usted y no a un proveedor de Asunción.'],
+            ['title' => 'Competir con la capital sin diferenciarse', 'text' => 'Una página genérica no explica por qué conviene comprarte a vos y no a un proveedor de Asunción.'],
         ],
         [
-            ['q' => '¿Pueden hacer un sistema de pedidos para mis clientes mayoristas?', 'a' => 'Sí. Evaluamos su proceso actual y le proponemos un portal de pedidos o un sistema a medida con stock y facturación.'],
+            ['q' => '¿Pueden hacer un sistema de pedidos para mis clientes mayoristas?', 'a' => 'Sí. Evaluamos tu proceso actual y te proponemos un portal de pedidos o un sistema a medida con stock y facturación.'],
         ]
     ),
 
@@ -234,12 +234,12 @@ return [
                 . 'grande.',
         ],
         [
-            ['title' => 'No figurar en "cerca de mí"', 'text' => 'Sin perfil de Google coherente con la web, el vecino que busca en el celular no lo encuentra.'],
+            ['title' => 'No figurar en "cerca de mí"', 'text' => 'Sin perfil de Google coherente con la web, el vecino que busca en el celular no te encuentra.'],
             ['title' => 'Menú o lista de precios en imagen', 'text' => 'Un menú en foto no se lee bien en el celular y Google no lo indexa.'],
             ['title' => 'Pagar por una web más grande de lo necesario', 'text' => 'Un negocio de barrio muchas veces necesita una página de una sola pantalla bien hecha, no diez secciones.'],
         ],
         [
-            ['q' => '¿Me sirve una landing page de una sola página?', 'a' => 'Para muchos negocios de barrio sí: una página rápida con servicios, ubicación y WhatsApp. Le decimos con franqueza si alcanza.'],
+            ['q' => '¿Me sirve una landing page de una sola página?', 'a' => 'Para muchos negocios de barrio sí: una página rápida con servicios, ubicación y WhatsApp. Te decimos con franqueza si alcanza.'],
         ]
     ),
 
@@ -263,7 +263,7 @@ return [
             ['title' => 'Procesos que dependen de una sola persona', 'text' => 'Cuando solo una persona sabe cómo funciona la planilla, cualquier ausencia frena la operación.'],
         ],
         [
-            ['q' => '¿Hacen sistemas de gestión para fábricas o depósitos?', 'a' => 'Sí. Relevamos su proceso y le proponemos un sistema a medida o la integración de sus herramientas actuales, con facturación electrónica si la necesita.'],
+            ['q' => '¿Hacen sistemas de gestión para fábricas o depósitos?', 'a' => 'Sí. Relevamos tu proceso y te proponemos un sistema a medida o la integración de tus herramientas actuales, con facturación electrónica si la necesitás.'],
         ]
     ),
 

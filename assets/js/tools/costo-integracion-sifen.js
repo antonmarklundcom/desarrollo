@@ -18,7 +18,7 @@
   var LEVELS = {
     ekuatia: {
       label: "Ekuatia probablemente alcanza",
-      text: "Con este volumen y sin un sistema de ventas que conectar, el facturador gratuito de la DNIT suele ser suficiente. Si prefiere automatizar igual, el punto de partida sería una integración básica.",
+      text: "Con este volumen y sin un sistema de ventas que conectar, el facturador gratuito de la DNIT suele ser suficiente. Si preferís automatizar igual, el punto de partida sería una integración básica.",
       items: ["Uso del facturador gratuito de ekuatia", "Orientación para habilitarse en Marangatu", "Revisión cuando el volumen crezca"]
     },
     basica: {
@@ -29,7 +29,7 @@
     media: {
       label: "Media",
       text: "Integración con un sistema existente o varios puntos de expedición, con manejo de eventos y reintentos.",
-      items: ["Todo lo de la integración básica", "Conexión con su sistema o migración desde planillas", "Varios puntos de expedición con numeración propia", "Cancelaciones, inutilizaciones y reintentos automáticos"]
+      items: ["Todo lo de la integración básica", "Conexión con tu sistema o migración desde planillas", "Varios puntos de expedición con numeración propia", "Cancelaciones, inutilizaciones y reintentos automáticos"]
     },
     compleja: {
       label: "Compleja",
