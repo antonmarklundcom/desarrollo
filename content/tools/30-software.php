@@ -9,14 +9,14 @@ return [
         'path'            => '/herramientas/cotizador-app/',
         'title'           => 'Cotizador orientativo de apps',
         'navLabel'        => 'Cotizador de apps',
-        'seoTitle'        => 'Cuánto cuesta una app: cotizador',
+        'seoTitle'        => 'Cotizador de apps por complejidad',
         'metaDescription' => 'Cotizador orientativo de apps: marque plataformas, login, pagos, panel e '
-                           . 'integraciones y vea el nivel de complejidad y un rango de mercado.',
+                           . 'integraciones y vea en qué nivel de complejidad se ubica su proyecto.',
         'hero' => [
             'eyebrow' => 'Herramientas',
-            'h1'      => 'Cotizador orientativo: cuánto cuesta una app',
-            'lead'    => 'Marque las funciones de su app y vea en qué nivel de complejidad se ubica, con un '
-                       . 'rango orientativo del mercado paraguayo.',
+            'h1'      => 'Cotizador orientativo de apps',
+            'lead'    => 'Marque las funciones de su app y vea en qué nivel de complejidad se ubica, y qué '
+                       . 'suele influir en el alcance.',
         ],
         'intro' => [
             'El costo de una app depende mucho menos de su nombre que de sus funciones. Dos apps de delivery '
@@ -25,16 +25,16 @@ return [
             'Este cotizador suma puntos por cada decisión que agrega trabajo: publicar en una o dos tiendas, '
                 . 'registrar usuarios, cobrar dentro de la app, administrar contenidos desde un panel, conectarse '
                 . 'con otros sistemas y la cantidad de pantallas. Con el puntaje ubica su idea en uno de cuatro '
-                . 'niveles de complejidad y muestra un rango orientativo.',
-            'El resultado no es un presupuesto. Son rangos orientativos del mercado, a confirmar con '
-                . 'presupuesto después de una reunión de definición, donde también aparecen detalles que '
+                . 'niveles de complejidad y lo muestra sin montos.',
+            'El resultado no es un presupuesto: el presupuesto sale '
+                . 'por escrito después de una reunión de definición, donde también aparecen detalles que '
                 . 'ningún formulario captura: diseño a medida, funcionamiento sin conexión o requisitos de '
                 . 'seguridad particulares.',
         ],
         'faq' => [
             ['q' => '¿Por qué una web app suma menos puntos?', 'a' => 'Porque no pasa por la revisión de las tiendas ni requiere probar en dos sistemas operativos. Para muchas ideas es un buen primer paso.'],
             ['q' => '¿Qué cuenta como integración?', 'a' => 'Cualquier conexión con otro sistema: facturación electrónica, ERP, CRM, mapas, mensajería o servicios de terceros.'],
-            ['q' => '¿El rango incluye mantenimiento?', 'a' => 'No. El mantenimiento anual y los costos de servidores y cuentas de las tiendas se suman aparte.'],
+            ['q' => '¿El nivel incluye mantenimiento?', 'a' => 'No. El mantenimiento anual y los costos de servidores y cuentas de las tiendas se presupuestan aparte.'],
         ],
         'related'       => ['desarrollo-de-apps', 'desarrollo-mvp'],
         'ctaWhatsapp'   => '',

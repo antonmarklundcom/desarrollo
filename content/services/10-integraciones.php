@@ -1074,8 +1074,9 @@ return [
             ],
             [
                 'q' => '¿Cuánto cuesta una integración?',
-                'a' => 'Depende de cuántos sistemas, qué datos y con qué frecuencia. Lo cotizamos después de '
-                     . 'un relevamiento corto.',
+                'a' => 'No publicamos un precio fijo porque depende de cuántos sistemas hay que conectar, qué datos '
+                     . 'se mueven, con qué frecuencia y en cuántas direcciones. Después de un relevamiento corto te '
+                     . 'pasamos un presupuesto en guaraníes, por escrito.',
             ],
             [
                 'q' => '¿La integración es en tiempo real?',

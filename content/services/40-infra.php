@@ -110,11 +110,10 @@ return [
                         . 'anual del dominio) y el trabajo de configuración, migración y mantenimiento. El primero '
                         . 'depende del tipo de plan y de la moneda en que factura el proveedor; el segundo, de '
                         . 'cuántos sitios y casillas hay que mover y del estado en que está hoy la instalación.',
-                    'Como referencia, en el mercado un hosting compartido de calidad para una pyme suele '
-                        . 'ubicarse en un rango orientativo de Gs. 300.000 a Gs. 1.500.000 al año, y un VPS '
-                        . 'administrado bastante más; son rangos orientativos del mercado, a confirmar con '
-                        . 'presupuesto. El precio del dominio .com.py lo fija NIC Paraguay: consultá el valor '
-                        . 'vigente.',
+                    'Un hosting compartido y un VPS administrado son servicios de otra escala, y el plan '
+                        . 'lo cobra el proveedor. El precio del dominio .com.py lo fija NIC Paraguay: consultá el '
+                        . 'valor vigente. Nuestro trabajo no tiene un precio fijo publicado: después de una '
+                        . 'conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
                 ],
             ],
         ],

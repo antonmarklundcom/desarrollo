@@ -105,10 +105,10 @@ return [
 
     '/nosotros/' => [
         'title'       => 'Nosotros',
-        'description' => 'Quiénes somos y cómo trabajamos: un equipo de desarrollo enfocado en '
-                       . 'empresas paraguayas, con alcance y precio por escrito en cada proyecto.',
+        'description' => 'Cómo trabajamos: software, páginas web e integraciones para empresas '
+                       . 'paraguayas, con alcance y presupuesto por escrito en cada proyecto.',
         'h1'          => 'Nosotros',
-        'lead'        => 'Un equipo de desarrollo que conoce cómo se factura, se cobra y se vende en Paraguay.',
+        'lead'        => 'Desarrollo pensado para cómo se factura, se cobra y se vende en Paraguay.',
         'sections'    => [
             [
                 'h2'   => 'Qué construimos',

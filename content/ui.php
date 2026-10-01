@@ -83,8 +83,8 @@ return [
         'h1_lead'   => 'Software, páginas web e integraciones ',
         'h1_accent' => 'para empresas paraguayas.',
         'lead'      => 'SIFEN, Bancard, Pagopar y WhatsApp conectados al sistema que ya usás, '
-                     . 'o un sistema nuevo a medida. Lo hace un equipo propio que conoce cómo se '
-                     . 'factura, se cobra y se vende en Paraguay.',
+                     . 'o un sistema nuevo a medida, pensado para cómo se factura, se cobra y se '
+                     . 'vende en Paraguay.',
 
         'services_eyebrow' => 'Servicios',
         'services_title'   => 'Lo que hacemos',
@@ -180,7 +180,7 @@ return [
     // need the owner's confirmation and belong in content/site.php.
     'about' => [
         'eyebrow' => 'Quiénes somos',
-        'title'   => 'Programadores que entienden cómo se factura y se cobra en Paraguay.',
+        'title'   => 'Software hecho para cómo se factura y se cobra en Paraguay.',
         'text'    => 'Construimos software para empresas paraguayas: conocemos SIFEN, los pagos '
                    . 'locales y cómo se vende por WhatsApp. Usamos herramientas modernas e IA '
                    . 'para entregar más rápido, y cada proyecto tiene alcance y precio por escrito.',
@@ -191,7 +191,7 @@ return [
             'El código y los accesos quedan a nombre de tu empresa',
         ],
         'badge_note'     => 'de experiencia',
-        'badge_fallback' => 'Equipo propio',
+        'badge_fallback' => 'Alcance por escrito',
     ],
 
     // The four-step "cómo trabajamos" block, reused on service pages.

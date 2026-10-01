@@ -103,10 +103,9 @@ return [
                         . 'veces el trabajo. Lo que más pesa en el presupuesto es la cantidad de pantallas y roles, '
                         . 'la complejidad de las reglas de negocio, las integraciones con otros sistemas y la '
                         . 'calidad de los datos que hay que migrar.',
-                    'Como referencia, en el mercado paraguayo un sistema interno acotado suele empezar en '
-                        . 'algunas decenas de millones de guaraníes y un sistema con varios módulos e integraciones '
-                        . 'puede superar los cien millones. Son rangos orientativos del mercado, a confirmar con '
-                        . 'presupuesto después del relevamiento.',
+                    'Un sistema interno acotado y uno con varios módulos e integraciones son proyectos de '
+                        . 'otra escala. Después del relevamiento te pasamos un presupuesto en guaraníes, por '
+                        . 'escrito, con el alcance detallado.',
                 ],
             ],
             [
@@ -269,12 +268,11 @@ return [
                 'body' => [
                     'Las variables que más mueven el presupuesto son: en cuántas plataformas se publica, si hay '
                         . 'registro de usuarios, si hay pagos, cuántas pantallas tiene, qué integraciones necesita '
-                        . 'y cuán completo debe ser el panel de administración. Nuestro cotizador orientativo te '
+                        . 'y cuán completo debe ser el panel de administración. Nuestro cotizador te '
                         . 'ayuda a ubicar tu idea antes de hablar con nosotros.',
-                    'Como referencia, en el mercado paraguayo una app sencilla con panel básico suele partir de '
-                        . 'algunas decenas de millones de guaraníes, y una app con pagos, varios roles e '
-                        . 'integraciones puede superar holgadamente los cien millones. Rangos orientativos del '
-                        . 'mercado, a confirmar con presupuesto.',
+                    'Una app sencilla con panel básico y una con pagos, varios roles e integraciones se '
+                        . 'cotizan muy distinto. No publicamos un precio fijo: después de una conversación de 30 '
+                        . 'minutos te pasamos el presupuesto en guaraníes, por escrito.',
                 ],
             ],
         ],
@@ -419,10 +417,10 @@ return [
                         . 'implementación (configuración, migración, capacitación) y las adaptaciones a medida. La '
                         . 'cantidad de usuarios, de módulos, de sucursales y el estado de tus datos actuales son lo '
                         . 'que más mueve la cifra.',
-                    'Como referencia, en el mercado paraguayo la implementación de un ERP para una pyme con '
-                        . 'pocos módulos suele ubicarse entre unos pocos y algunas decenas de millones de '
-                        . 'guaraníes, sin contar licencias. Rangos orientativos del mercado, a confirmar con '
-                        . 'presupuesto.',
+                    'Una implementación para una pyme con pocos módulos es un proyecto bastante más acotado '
+                        . 'que uno con varias sucursales y adaptaciones. La licencia, si la hay, se cotiza '
+                        . 'aparte; el trabajo de implementación te lo presupuestamos en guaraníes, por escrito, '
+                        . 'cuando conocemos tu caso.',
                 ],
             ],
         ],
@@ -563,9 +561,9 @@ return [
                 'h2'   => 'Qué determina el costo de un sistema contable',
                 'body' => [
                     'Influyen el volumen de comprobantes mensuales, la cantidad de empresas o razones sociales, '
-                        . 'las integraciones necesarias y la licencia del software elegido. Como referencia, una '
-                        . 'implementación acotada suele ubicarse en el rango de pocos millones a algunas decenas '
-                        . 'de millones de guaraníes. Rangos orientativos del mercado, a confirmar con presupuesto.',
+                        . 'las integraciones necesarias y la licencia del software elegido. No publicamos un '
+                        . 'precio fijo porque depende de ese alcance: te pasamos un presupuesto en guaraníes, '
+                        . 'por escrito, después de ver tu caso.',
                 ],
             ],
         ],
@@ -698,10 +696,9 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Pesan la cantidad de productos y depósitos, si hay lotes o series, las integraciones con '
-                        . 'ventas y tienda online, y si se usa un sistema existente o un desarrollo propio. Como '
-                        . 'referencia, una implementación sobre un sistema existente suele ubicarse en el rango '
-                        . 'de pocos millones de guaraníes, y un desarrollo propio, bastante más. Rangos '
-                        . 'orientativos del mercado, a confirmar con presupuesto.',
+                        . 'ventas y tienda online, y si se usa un sistema existente o un desarrollo propio. Implementar '
+                        . 'sobre un sistema existente lleva menos trabajo que un desarrollo propio. Con el '
+                        . 'alcance claro te pasamos un presupuesto en guaraníes, por escrito.',
                 ],
             ],
         ],
@@ -832,10 +829,10 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Influyen la cantidad de cajas y sucursales, la licencia o suscripción del sistema, la '
-                        . 'integración con facturación electrónica y con el ERP, y el hardware. Como referencia, '
-                        . 'muchos sistemas POS se contratan por una suscripción mensual por caja, y la '
-                        . 'implementación inicial suele ubicarse en el rango de pocos millones de guaraníes. '
-                        . 'Rangos orientativos del mercado, a confirmar con presupuesto.',
+                        . 'integración con facturación electrónica y con el ERP, y el hardware. Muchos '
+                        . 'sistemas POS se contratan por una suscripción mensual por caja, que paga el negocio al '
+                        . 'proveedor; la implementación inicial la presupuestamos aparte, en guaraníes y por '
+                        . 'escrito, después de conocer tu local.',
                 ],
             ],
         ],
@@ -966,10 +963,10 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Influyen la cantidad de usuarios (las herramientas suelen cobrar por usuario al mes), las '
-                        . 'integraciones, las automatizaciones y la migración de datos. Como referencia, una '
-                        . 'implementación sobre una herramienta existente suele ubicarse en el rango de pocos '
-                        . 'millones de guaraníes, más la suscripción. Rangos orientativos del mercado, a confirmar '
-                        . 'con presupuesto.',
+                        . 'integraciones, las automatizaciones y la migración de datos. La '
+                        . 'suscripción de la herramienta es un costo aparte del proveedor; la implementación la '
+                        . 'cotizamos según ese alcance, en guaraníes y por escrito, tras una conversación de 30 '
+                        . 'minutos.',
                 ],
             ],
         ],
@@ -1114,9 +1111,9 @@ return [
                 'body' => [
                     'Pesan la cantidad de sistemas a conectar, la calidad de los datos de entrada, el volumen '
                         . 'de ejecuciones y cuánta revisión humana se necesita. Además del desarrollo hay un costo '
-                        . 'de operación mensual por las plataformas y el uso de modelos de IA. Como referencia, '
-                        . 'una automatización acotada suele ubicarse en el rango de pocos millones de guaraníes. '
-                        . 'Rangos orientativos del mercado, a confirmar con presupuesto. Nuestra calculadora de '
+                        . 'de operación mensual por las plataformas y el uso de modelos de IA. Una '
+                        . 'automatización acotada es un trabajo mucho menor que un flujo con varios sistemas. '
+                        . 'Te pasamos un presupuesto por escrito en guaraníes, y nuestra calculadora de '
                         . 'retorno te ayuda a estimar si el ahorro lo justifica.',
                 ],
             ],
@@ -1146,7 +1143,7 @@ return [
             [
                 'q' => '¿Cuánto cuesta mantenerlo funcionando?',
                 'a' => 'Depende del volumen. Hay un costo mensual de plataformas y de uso de IA que estimamos en la '
-                     . 'propuesta, más el mantenimiento si lo contrata.',
+                     . 'propuesta por escrito, más el mantenimiento si lo contrata.',
             ],
             [
                 'q' => '¿Puede atender clientes por WhatsApp?',
@@ -1208,7 +1205,7 @@ return [
         ],
         'sections' => [
             [
-                'h2'   => 'Tres formas de trabajar con nuestros programadores',
+                'h2'   => 'Tres formas de trabajar con programadores',
                 'body' => [
                     'Contratar programadores no es una sola cosa. Según lo que ya tengas en tu empresa, conviene '
                         . 'una modalidad u otra.',
@@ -1254,10 +1251,9 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Se cotiza por hora o por dedicación mensual y varía según el perfil (junior, semi senior o '
-                        . 'senior), la tecnología y la cantidad de horas comprometidas. Como referencia, en el '
-                        . 'mercado paraguayo la hora de desarrollo profesional suele ubicarse entre cien mil y '
-                        . 'varios cientos de miles de guaraníes según el perfil. Rangos orientativos del mercado, '
-                        . 'a confirmar con presupuesto.',
+                        . 'senior), la tecnología y la cantidad de horas comprometidas. No publicamos '
+                        . 'una tarifa fija: la definimos con vos según el perfil que necesites y el tiempo de '
+                        . 'dedicación, y te la pasamos en guaraníes, por escrito.',
                 ],
             ],
         ],
@@ -1376,8 +1372,8 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Depende de cuántas funciones quedan en el recorte, si hay pagos o integraciones y si es web '
-                        . 'o móvil. Como referencia, un MVP acotado suele ubicarse en el rango de algunas decenas '
-                        . 'de millones de guaraníes. Rangos orientativos del mercado, a confirmar con presupuesto.',
+                        . 'o móvil. Cuanto más acotado el recorte, menos trabajo. Después de '
+                        . 'una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
                 ],
             ],
         ],

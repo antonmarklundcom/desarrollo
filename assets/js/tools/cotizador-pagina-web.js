@@ -1,6 +1,6 @@
 /**
  * Cotizador de página web: scores type + options into a complexity tier and
- * shows an orientative market range label (not a quote) and what it includes.
+ * shows what it includes. No amount is shown: the budget is given in writing.
  */
 (function (window, document) {
   "use strict";
@@ -11,13 +11,13 @@
   }
 
   var TIERS = [
-    { name: "Básico", range: "rango bajo del mercado: alrededor de 1,5 a 4 millones de guaraníes",
+    { name: "Básico", note: "Es un proyecto acotado. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos.",
       incluye: ["Una página o pocas secciones", "Diseño adaptado al celular", "WhatsApp y formulario", "Medición básica"] },
-    { name: "Intermedio", range: "rango medio del mercado: alrededor de 4 a 10 millones de guaraníes",
+    { name: "Intermedio", note: "Lo que más lo mueve es la cantidad de páginas y los textos. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos.",
       incluye: ["Sitio institucional de varias páginas", "Una página por servicio", "SEO técnico básico", "Capacitación para editar"] },
-    { name: "Avanzado", range: "rango alto del mercado: alrededor de 10 a 25 millones de guaraníes",
+    { name: "Avanzado", note: "Pagos, idiomas y blog son lo que más suma. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos.",
       incluye: ["Catálogo o tienda con carrito", "Integración de pasarela de pago", "Varios idiomas o blog", "Medición de conversiones y ventas"] },
-    { name: "A medida", range: "desde unos 25 millones de guaraníes, según alcance",
+    { name: "A medida", note: "El alcance se define con vos antes de hablar de números. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos.",
       incluye: ["Funciones y diseño a medida", "Integraciones con sistemas internos", "Relevamiento técnico detallado", "Presupuesto por etapas"] }
   ];
 
@@ -51,7 +51,7 @@
     var tier = TIERS[idx];
 
     document.getElementById("cpw-nivel").textContent = tier.name;
-    document.getElementById("cpw-rango").textContent = tier.range;
+    document.getElementById("cpw-rango").textContent = tier.note;
     var ul = document.getElementById("cpw-incluye");
     ul.innerHTML = "";
     tier.incluye.forEach(function (txt) {

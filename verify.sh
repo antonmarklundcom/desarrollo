@@ -336,11 +336,12 @@ rm -f "$SITE_ROOT/logs/leads.log"
 missing_service_field=0
 while IFS=$'\t' read -r slug path; do
   [ -z "$path" ] && continue
-  # Buffer the body first: under `set -o pipefail`, `curl | grep -q` reports a
-  # failed pipeline because grep closes the pipe on its first match and curl
-  # dies of SIGPIPE — which would fail every page that actually passes.
+  # Buffer the body, then match it in the shell: under `set -o pipefail`, any
+  # `producer | grep -q` reports a failed pipeline because grep closes the pipe
+  # on its first match and the producer (curl, or even printf) dies of SIGPIPE.
+  # The earlier the form sits in the page, the likelier that race — so no pipe.
   html=$(curl -s "${BASE}${path}")
-  if ! printf '%s' "$html" | grep -q "name=\"service\" value=\"${slug}\""; then
+  if [[ "$html" != *"name=\"service\" value=\"${slug}\""* ]]; then
     fail "$path — form has no name=\"service\" value=\"$slug\""
     missing_service_field=1
   fi
@@ -356,7 +357,7 @@ expected_step=$(php -r '
   require "'"$SITE_ROOT"'/lib/bootstrap.php";
   echo htmlspecialchars(lead_value($argv[1])["nextStep"][0], ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8");
 ' "$FIXTURE_SLUG")
-if printf '%s' "$thanks" | grep -qF "$expected_step"; then
+if grep -qF -- "$expected_step" <<<"$thanks"; then
   ok "/contacto/?enviado=1&s=${FIXTURE_SLUG} renders that service's next step"
 else
   fail "/contacto/?enviado=1&s=${FIXTURE_SLUG} did not render that service's next step"

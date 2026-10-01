@@ -110,11 +110,10 @@ return [
                         . 'online o integraciones, y de quién escribe los textos. Un sitio institucional de '
                         . 'cinco páginas y un sitio con catálogo de doscientos productos son trabajos muy '
                         . 'distintos.',
-                    'Como referencia general, en el mercado paraguayo un sitio institucional simple suele '
-                        . 'ubicarse en un rango bajo de millones de guaraníes y un desarrollo a medida con '
-                        . 'integraciones puede multiplicar ese valor. Son rangos orientativos del mercado, a '
-                        . 'confirmar con presupuesto. Para una estimación según tu caso, usá el cotizador de '
-                        . 'página web.',
+                    'No publicamos un precio fijo porque depende del alcance: un sitio institucional simple '
+                        . 'y un desarrollo a medida con integraciones no se parecen en nada. Después de una '
+                        . 'conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito. Para '
+                        . 'ubicar tu caso antes de hablar, podés usar el cotizador de página web.',
                 ],
             ],
             [
@@ -176,7 +175,7 @@ return [
             [
                 'path'  => '/herramientas/cotizador-pagina-web/',
                 'label' => 'Cotizador de página web',
-                'text'  => 'Elegí el tipo de sitio y las funciones que necesitás y mirá un rango orientativo.',
+                'text'  => 'Elegí el tipo de sitio y las funciones que necesitás y y ubicá tu caso antes de hablar con nosotros.',
             ],
         ],
     ],
@@ -285,8 +284,8 @@ return [
                     'Influyen la cantidad de secciones, si el diseño parte de una plantilla o es original, si '
                         . 'hay que escribir los textos, las integraciones (CRM, pasarela de pago, calendario) y '
                         . 'si se necesitan varias versiones. Es normalmente el tipo de proyecto web más '
-                        . 'económico y rápido; el cotizador de página web te da un rango orientativo del '
-                        . 'mercado, a confirmar con presupuesto.',
+                        . 'rápido de producir; con esos datos armamos un presupuesto cerrado en guaraníes, por '
+                        . 'escrito, después de una breve conversación.',
                 ],
             ],
         ],
@@ -330,7 +329,7 @@ return [
             [
                 'path'  => '/herramientas/cotizador-pagina-web/',
                 'label' => 'Cotizador de página web',
-                'text'  => 'Elija "landing page" y vea un rango orientativo del mercado.',
+                'text'  => 'Elija "landing page" y ubique su caso antes de pedir presupuesto.',
             ],
         ],
     ],
@@ -584,8 +583,8 @@ return [
                     'Influyen la cantidad de productos y variantes, la pasarela de pago, las reglas de envío, '
                         . 'las integraciones con stock o facturación, el diseño y si se hace sobre WooCommerce o '
                         . 'a medida. Una tienda online es un proyecto mayor que un sitio institucional; usá el '
-                        . 'cotizador de página web con la opción tienda online para ver un rango orientativo del '
-                        . 'mercado, a confirmar con presupuesto.',
+                        . 'cotizador de página web con la opción tienda online para ubicar tu caso. El presupuesto '
+                        . 'final lo pasamos en guaraníes y por escrito, una vez definido el alcance.',
                 ],
             ],
         ],
@@ -638,7 +637,7 @@ return [
             [
                 'path'  => '/herramientas/cotizador-pagina-web/',
                 'label' => 'Cotizador de página web',
-                'text'  => 'Elija "tienda online" y active pagos online para ver un rango orientativo.',
+                'text'  => 'Elija "tienda online" y active pagos online para ubicar su caso.',
             ],
         ],
     ],
@@ -750,9 +749,9 @@ return [
                 'body' => [
                     'Cantidad de productos y variantes, pasarela de pago, reglas de envío, extensiones pagas, '
                         . 'diseño y si hay que migrar datos. Una tienda con pocas decenas de productos y una sola '
-                        . 'pasarela es mucho más simple que un catálogo mayorista con listas de precios. Para '
-                        . 'orientarte, usá el cotizador de página web; los rangos son orientativos del mercado, '
-                        . 'a confirmar con presupuesto.',
+                        . 'pasarela es mucho más simple que un catálogo mayorista con listas de precios. Con '
+                        . 'el alcance definido te pasamos un presupuesto en guaraníes, por escrito; si querés '
+                        . 'ubicar tu caso antes, usá el cotizador de página web.',
                 ],
             ],
         ],

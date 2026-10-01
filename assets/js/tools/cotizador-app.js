@@ -1,7 +1,7 @@
 /**
  * Cotizador orientativo de apps: suma puntos por plataforma, funciones,
- * integraciones y pantallas, y devuelve un nivel de complejidad con un rango
- * orientativo del mercado (texto, no un presupuesto).
+ * integraciones y pantallas, y devuelve un nivel de complejidad. No muestra
+ * montos: el presupuesto se pasa por escrito.
  */
 (function (window, document) {
   "use strict";
@@ -14,10 +14,10 @@
   var PLATFORM_POINTS = { web: 0, android: 2, ios: 2, ambas: 4 };
   var SCREEN_POINTS = { 5: 0, 10: 2, 20: 4, 30: 7 };
   var TIERS = [
-    { max: 4,  name: "Básica", range: "aprox. Gs 15 a 40 millones" },
-    { max: 9,  name: "Intermedia", range: "aprox. Gs 40 a 90 millones" },
-    { max: 15, name: "Avanzada", range: "aprox. Gs 90 a 180 millones" },
-    { max: Infinity, name: "Compleja", range: "más de Gs 180 millones" }
+    { max: 4,  name: "Básica", note: "Una app acotada. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos." },
+    { max: 9,  name: "Intermedia", note: "Las funciones y las integraciones son lo que más pesa. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos." },
+    { max: 15, name: "Avanzada", note: "Pagos, panel e integraciones empujan el alcance hacia arriba. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos." },
+    { max: Infinity, name: "Compleja", note: "Conviene definir el alcance por etapas. El presupuesto en guaraníes te lo pasamos por escrito después de una conversación de 30 minutos." }
   ];
 
   var resultBox = document.getElementById("capp-result");
@@ -51,13 +51,13 @@
     }
 
     nivelLine.textContent = tier.name;
-    rangoLine.textContent = tier.range;
+    rangoLine.textContent = tier.note;
     detalle.textContent = "Puntaje " + points + ". Plataforma: " + plataforma +
       (parts.length ? "; funciones: " + parts.join(", ") : "") +
       "; integraciones: " + integraciones + "; pantallas: hasta " + pantallas + ".";
     resultBox.hidden = false;
 
-    lastResult = "App nivel " + tier.name + " (" + tier.range + "). " + detalle.textContent;
+    lastResult = "App nivel " + tier.name + ". " + detalle.textContent;
 
     if (window.ToolsShared) {
       window.ToolsShared.trackToolUsed("cotizador_app", { tier: tier.name });
