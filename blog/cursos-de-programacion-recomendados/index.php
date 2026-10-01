@@ -65,7 +65,7 @@ $sections = [
     [
         'h2'   => 'Certificados: cuánto valen',
         'body' => [
-            'Los certificados de cursos en línea tienen un valor limitado para las empresas técnicas. Sirven como señal de interés y constancia, pero en una entrevista se evalúa lo que sabe hacer. Un certificado acompañado de un proyecto sólido vale mucho más que varios certificados sin nada construido.',
+            'Los certificados de cursos en línea tienen un valor limitado para las empresas técnicas. Sirven como señal de interés y constancia, pero en una entrevista se evalúa lo que sabés hacer. Un certificado acompañado de un proyecto sólido vale mucho más que varios certificados sin nada construido.',
             'Algunas certificaciones de proveedores de nube o de tecnologías específicas sí tienen peso en ciertos puestos. Revisá si las búsquedas que te interesan, por ejemplo en trabajo.com.py, las mencionan como requisito o como ventaja antes de invertir en ellas.',
         ],
     ],

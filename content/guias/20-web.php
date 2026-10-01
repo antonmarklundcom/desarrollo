@@ -331,7 +331,7 @@ return [
             ['q' => '¿Cuánto demora abrir una tienda online?', 'a' => 'Suele depender más de la aprobación de la '
                 . 'pasarela y de la carga del catálogo que del desarrollo.'],
             ['q' => '¿Shopify sirve en Paraguay?', 'a' => 'Puede usarse, pero verificá que acepte las pasarelas '
-                . 'locales que necesita antes de elegirla.'],
+                . 'locales que necesitás antes de elegirla.'],
         ],
         'relatedService' => 'ecommerce',
         'toolLink'       => $cotizador,
@@ -359,7 +359,7 @@ return [
             'Recorré estos pasos en orden; los primeros son los que más impacto tienen.',
         ],
         'steps' => [
-            ['title' => 'Verifique la indexación', 'body' => [
+            ['title' => 'Verificá la indexación', 'body' => [
                 'Dá de alta el sitio en Google Search Console, enviá el sitemap y revisá el informe de páginas '
                     . 'indexadas y excluidas.',
             ]],

@@ -52,7 +52,7 @@ $sections = [
         'h2'   => 'Precio: qué comparar',
         'body' => [
             'Comparar solo el precio total es engañoso. Dos propuestas con montos distintos pueden incluir alcances muy diferentes. Compará qué incluye cada una, cuántas horas estimadas implica, cuánto cuesta el soporte posterior y qué pasa con los cambios. Una propuesta más barata que excluye pruebas, documentación o capacitación puede terminar costando más.',
-            'El costo de un desarrollo depende de la complejidad de las reglas de negocio, las integraciones, la cantidad de pantallas y usuarios, y los requisitos de disponibilidad. Pida siempre que la estimación se base en un relevamiento.',
+            'El costo de un desarrollo depende de la complejidad de las reglas de negocio, las integraciones, la cantidad de pantallas y usuarios, y los requisitos de disponibilidad. Pedí siempre que la estimación se base en un relevamiento.',
         ],
     ],
     [
@@ -97,7 +97,7 @@ $sections = [
 $faq = [
     ['q' => '¿Conviene una empresa grande o un programador independiente?', 'a' => 'Depende del tamaño y criticidad del proyecto. Una empresa ofrece continuidad y más perfiles; un independiente puede ser suficiente para proyectos acotados si asegura documentación y acceso.'],
     ['q' => '¿Qué debe decir el contrato sobre el código?', 'a' => 'Quién es dueño del código fuente, dónde se aloja, qué documentación se entrega y cómo se transfieren accesos si la relación termina.'],
-    ['q' => '¿Cómo comparo presupuestos muy distintos?', 'a' => 'Compare alcance, exclusiones, horas estimadas, soporte y manejo de cambios, no solo el precio total.'],
+    ['q' => '¿Cómo comparo presupuestos muy distintos?', 'a' => 'Compará alcance, exclusiones, horas estimadas, soporte y manejo de cambios, no solo el precio total.'],
 ];
 
 require ROOT_DIR . '/templates/article.php';
