@@ -38,6 +38,7 @@ SHIP=(
   enviar.php
   sitemap.php
   robots.php
+  llms.php
   router.php
   .htaccess
   config.example.php

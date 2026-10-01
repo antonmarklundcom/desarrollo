@@ -105,6 +105,13 @@ function jsonld_organization(): array
     }
     if (site('phone')) {
         $data['telephone'] = site('phone');
+        $data['contactPoint'] = [
+            '@type'             => 'ContactPoint',
+            'contactType'       => 'sales',
+            'telephone'         => site('whatsapp') ?: site('phone'),
+            'availableLanguage' => ['es'],
+            'areaServed'        => site('country') ?? market_country(),
+        ];
     }
     if (site('email')) {
         $data['email'] = site('email');

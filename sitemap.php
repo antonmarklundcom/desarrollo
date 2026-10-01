@@ -3,18 +3,39 @@
  * sitemap.xml, generated from the content arrays. Served at /sitemap.xml by the
  * rewrite in .htaccess (and by router.php locally).
  *
- * Pages still marked 'stub' in content/pages.php are excluded: they are noindex
- * until the phase that owns them writes the content, and a sitemap should not
- * advertise a placeholder. Blog articles, tools, guides and segment
- * pages appear automatically as they are added to their content arrays.
+ * <lastmod> is only written when the content says when it really changed (a
+ * blog article's "updated", a guide's "lastReviewed"). A page with no recorded
+ * date gets no <lastmod> at all: stamping every URL with today's date teaches
+ * search engines to ignore the field. <changefreq> and <priority> are omitted
+ * on purpose — Google ignores both and Bing treats them as hints at best.
+ *
+ * Pages still marked 'stub' or 'noindex' in content/pages.php are excluded.
+ * Pages with a photograph (content/images.php) carry an <image:image> entry so
+ * the photos can appear in image search.
  */
 
 declare(strict_types=1);
 
 require __DIR__ . '/lib/bootstrap.php';
 
-$today = date('Y-m-d');
-$urls  = [];
+$urls = [];
+
+/** One sitemap entry: ['loc' => ..., 'lastmod' => ?string, 'image' => ?array]. */
+$add = static function (string $path, ?string $lastmod = null, ?array $image = null) use (&$urls): void {
+    $urls[] = ['loc' => url($path), 'lastmod' => $lastmod, 'image' => $image];
+};
+
+/** The image record's largest file, absolute, with its alt text. */
+$imageEntry = static function (?array $img): ?array {
+    if ($img === null) {
+        return null;
+    }
+
+    return [
+        'loc'   => url($img['base'] . '-' . max($img['widths']) . '.webp'),
+        'title' => (string) $img['alt'],
+    ];
+};
 
 foreach (content('pages') as $path => $meta) {
     /* Stubs are noindex until the phase that owns them writes the content, and
@@ -22,52 +43,47 @@ foreach (content('pages') as $path => $meta) {
     if (!empty($meta['stub']) || !empty($meta['noindex'])) {
         continue;
     }
-    $urls[] = [
-        'loc'        => url($path),
-        'changefreq' => $meta['changefreq'] ?? 'monthly',
-        'priority'   => $meta['priority'] ?? '0.5',
-    ];
+    $add($path, null, $path === '/' ? $imageEntry(image_for('home')) : null);
 }
 
-foreach (services() as $service) {
-    $urls[] = [
-        'loc'        => url($service['path']),
-        'changefreq' => 'monthly',
-        'priority'   => '0.8',
-    ];
+foreach (services() as $slug => $service) {
+    $img = image_for('service', $slug)
+        ?? (!empty($service['parent']) ? image_for('service', $service['parent']) : null);
+    $add($service['path'], null, $imageEntry($img));
 }
 
-foreach (nav('tools') as $tool) {
-    $urls[] = ['loc' => url($tool['path']), 'changefreq' => 'monthly', 'priority' => '0.7'];
+foreach (content('tools') as $tool) {
+    $add($tool['path'], $tool['lastReviewed'] ?? null);
 }
 
-foreach (nav('guias') as $guide) {
-    $urls[] = ['loc' => url($guide['path']), 'changefreq' => 'monthly', 'priority' => '0.6'];
+foreach (content('guias') as $guide) {
+    $add($guide['path'], $guide['lastReviewed'] ?? null);
 }
 
 foreach (content('blog') as $article) {
-    $urls[] = [
-        'loc'        => url('/blog/' . $article['slug'] . '/'),
-        'lastmod'    => $article['updated'] ?? $article['date'] ?? null,
-        'changefreq' => 'yearly',
-        'priority'   => '0.6',
-    ];
+    $add('/blog/' . $article['slug'] . '/', $article['updated'] ?? $article['date'] ?? null);
 }
 
-foreach (content('segmentos') as $segmento) {
-    $urls[] = ['loc' => url($segmento['path']), 'changefreq' => 'monthly', 'priority' => '0.7'];
+foreach (content('segmentos') as $slug => $segmento) {
+    $add($segmento['path'], null, $imageEntry(image_for('segment', (string) $slug)));
 }
 
 header('Content-Type: application/xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="UTF-8"?>', "\n";
 ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <?php foreach ($urls as $url): ?>
   <url>
     <loc><?= e($url['loc']) ?></loc>
-    <lastmod><?= e($url['lastmod'] ?? $today) ?></lastmod>
-    <changefreq><?= e($url['changefreq']) ?></changefreq>
-    <priority><?= e($url['priority']) ?></priority>
+<?php if (!empty($url['lastmod'])): ?>
+    <lastmod><?= e($url['lastmod']) ?></lastmod>
+<?php endif; ?>
+<?php if (!empty($url['image'])): ?>
+    <image:image>
+      <image:loc><?= e($url['image']['loc']) ?></image:loc>
+      <image:title><?= e($url['image']['title']) ?></image:title>
+    </image:image>
+<?php endif; ?>
   </url>
 <?php endforeach; ?>
 </urlset>

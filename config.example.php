@@ -34,7 +34,13 @@ return [
     'LEAD_NOTIFY_TO' => '',                       // e.g. 'contacto@example.com'
     'LEAD_FROM'      => '',                       // e.g. 'Example S.A. <no-reply@example.com>'
 
-    // Analytics. assets/js/analytics.js is a no-op until GA4_ID is set.
-    'GA4_ID' => '',
-    'ADS_ID' => '',
+    // Analytics — none of it is Google. Leave both empty for no analytics.
+    //   PLAUSIBLE_DOMAIN  the site as registered in Plausible, e.g. 'desarrollo.com.py'
+    //                     (cookieless; page views plus the whatsapp_click, phone_click,
+    //                     lead_submit and tool_used events). PLAUSIBLE_SRC overrides the
+    //                     script URL for a self-hosted Plausible.
+    //   CF_BEACON_TOKEN   Cloudflare Web Analytics token (free, cookieless, page views only).
+    'PLAUSIBLE_DOMAIN' => '',
+    'PLAUSIBLE_SRC'    => '',
+    'CF_BEACON_TOKEN'  => '',
 ];

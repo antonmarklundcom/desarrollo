@@ -213,6 +213,11 @@ the per-service thank-you, no generic wa.me message), and checks the content arr
 slugs and missing route files. GitHub Actions runs the same script on every PR, then rebuilds the
 deploy zip and runs it again against the unzipped artifact.
 
+`deploy/seo-lint.php` runs inside it: on every indexable page it fails on anything other than one `<h1>`,
+a canonical that is not the page's own path, JSON-LD that does not parse (or a service page without `Service`),
+an `<img>` without `alt`/`width`/`height` or whose file is missing, and any broken internal link. A content
+edit that breaks internal linking or markup therefore cannot reach `main`.
+
 Screenshots for a PR body:
 
 ```sh
@@ -253,7 +258,7 @@ place, so the repository keeps the readable source.
 | `SITE_URL` | canonical/OG URLs fall back to the request host |
 | `VENDERCRM_URL`, `VENDERCRM_API_KEY` | the lead form runs in degraded mode: submissions are appended to `logs/leads.log` and the visitor still gets a success state |
 | `RESEND_API_KEY`, `LEAD_NOTIFY_TO`, `LEAD_FROM` | no lead notification email |
-| `GA4_ID`, `ADS_ID` | `assets/js/analytics.js` is a silent no-op |
+| `PLAUSIBLE_DOMAIN` (+ optional `PLAUSIBLE_SRC`), or `CF_BEACON_TOKEN` | no analytics; `assets/js/analytics.js` is a silent no-op. No Google products |
 
 Fill `content/site.php` (WhatsApp, phone, email, address, hours) **before** building the zip:
 those values ship inside it, not in `config.php`, so a site published with them empty has no
