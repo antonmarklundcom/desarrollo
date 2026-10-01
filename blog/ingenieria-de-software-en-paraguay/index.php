@@ -30,8 +30,8 @@ $sections = [
             ['title' => 'Horarios', 'text' => 'Si son compatibles con trabajar, algo habitual en estudiantes de sistemas.'],
             ['title' => 'Proyectos y prácticas', 'text' => 'Si hay trabajos integradores, pasantías o convenios con empresas.'],
             ['title' => 'Cuerpo docente', 'text' => 'Si hay profesionales activos en la industria además de académicos.'],
-            ['title' => 'Costo total', 'text' => 'Aranceles, materiales y tiempo, comparado con su situación personal.'],
-            ['title' => 'Reconocimiento', 'text' => 'Cómo es percibida la carrera por empresas donde le gustaría trabajar.'],
+            ['title' => 'Costo total', 'text' => 'Aranceles, materiales y tiempo, comparado con tu situación personal.'],
+            ['title' => 'Reconocimiento', 'text' => 'Cómo es percibida la carrera por empresas donde te gustaría trabajar.'],
         ],
     ],
     [
@@ -45,26 +45,26 @@ $sections = [
         'h2'   => 'Qué valoran las empresas',
         'body' => [
             'En el mercado paraguayo, las empresas de software y los equipos de sistemas suelen evaluar capacidad práctica demostrable, además de la formación. En entrevistas es común un ejercicio técnico y preguntas sobre proyectos. Un estudiante de primeros años con buenos proyectos puede conseguir trabajo antes de recibirse, y es frecuente que así sea.',
-            'Para algunos cargos, como posiciones en el sector público o en grandes corporaciones, el título puede ser requisito formal. Si apunta a ese tipo de empleo, verifique los requisitos de las búsquedas que le interesan en portales como trabajo.com.py.',
+            'Para algunos cargos, como posiciones en el sector público o en grandes corporaciones, el título puede ser requisito formal. Si apuntás a ese tipo de empleo, verificá los requisitos de las búsquedas que te interesan en portales como trabajo.com.py.',
         ],
     ],
     [
         'h2'   => 'Estudiar y trabajar al mismo tiempo',
         'body' => [
-            'Buena parte de los estudiantes de carreras informáticas en Paraguay trabaja durante la carrera. Es exigente, pero tiene ventajas: aplica lo aprendido, gana experiencia y aclara qué área le interesa. La clave es no descuidar las materias de base, como algoritmos y bases de datos, que luego marcan la diferencia en puestos más complejos.',
+            'Buena parte de los estudiantes de carreras informáticas en Paraguay trabaja durante la carrera. Es exigente, pero tiene ventajas: aplicás lo aprendido, ganás experiencia y se aclara qué área te interesa. La clave es no descuidar las materias de base, como algoritmos y bases de datos, que luego marcan la diferencia en puestos más complejos.',
         ],
     ],
     [
         'h2'   => 'Cómo decidir',
         'body' => [
-            'Si le atrae la parte teórica, quiere un título reconocido y puede dedicar varios años, una carrera universitaria es una buena elección. Si necesita trabajar pronto, puede empezar con formación práctica y considerar una carrera más adelante. En ambos casos, lo que sostiene la carrera profesional es seguir aprendiendo y construir proyectos reales.',
+            'Si te atrae la parte teórica, querés un título reconocido y podés dedicar varios años, una carrera universitaria es una buena elección. Si necesitás trabajar pronto, podés empezar con formación práctica y considerar una carrera más adelante. En ambos casos, lo que sostiene la carrera profesional es seguir aprendiendo y construir proyectos reales.',
         ],
     ],
     [
         'h2'   => 'Materias que conviene aprovechar a fondo',
         'body' => [
             'Algunas materias de la carrera parecen alejadas del trabajo diario, pero son las que después permiten crecer hacia roles más complejos. Algoritmos y estructuras de datos enseñan a razonar sobre eficiencia. Bases de datos enseña a modelar información y escribir consultas correctas, algo que se usa en casi cualquier sistema. Sistemas operativos y redes ayudan a entender qué pasa cuando una aplicación se ejecuta en un servidor. Ingeniería de requisitos y gestión de proyectos preparan para conversar con clientes y estimar trabajo.',
-            'Si durante la carrera ya trabaja como programador, aproveche para conectar lo que ve en clase con lo que hace en la empresa. Esa conexión acelera el aprendizaje en ambos lados.',
+            'Si durante la carrera ya trabajás como programador, aprovechá para conectar lo que ve en clase con lo que hace en la empresa. Esa conexión acelera el aprendizaje en ambos lados.',
         ],
     ],
     [
@@ -76,15 +76,15 @@ $sections = [
     [
         'h2'   => 'Una comparación rápida de caminos',
         'body' => [
-            'La carrera universitaria ofrece base teórica, título y red de contactos, con una inversión de varios años. La tecnicatura o el instituto ofrecen foco práctico y un plazo más corto. El bootcamp ofrece intensidad y acompañamiento en pocos meses, con alta exigencia de tiempo. El aprendizaje autodidacta ofrece flexibilidad y bajo costo, con mucha disciplina personal. Ninguno es mejor en abstracto; el adecuado es el que puede sostener hasta el final con sus recursos y su situación.',
-            'Si todavía duda, empiece con un curso corto y gratuito para confirmar que la programación le interesa antes de comprometerse con una carrera larga.',
+            'La carrera universitaria ofrece base teórica, título y red de contactos, con una inversión de varios años. La tecnicatura o el instituto ofrecen foco práctico y un plazo más corto. El bootcamp ofrece intensidad y acompañamiento en pocos meses, con alta exigencia de tiempo. El aprendizaje autodidacta ofrece flexibilidad y bajo costo, con mucha disciplina personal. Ninguno es mejor en abstracto; el adecuado es el que podés sostener hasta el final con tus recursos y tu situación.',
+            'Si todavía dudás, empezá con un curso corto y gratuito para confirmar que la programación te interesa antes de comprometerse con una carrera larga.',
         ],
     ],
 ];
 
 $faq = [
-    ['q' => '¿Es obligatorio el título para trabajar como programador?', 'a' => 'En muchas empresas privadas no, si puede demostrar capacidad práctica. Algunos cargos públicos o corporativos sí lo exigen.'],
-    ['q' => '¿Cuál es la mejor universidad para estudiar sistemas?', 'a' => 'Depende de sus objetivos, horarios y presupuesto. Compare planes de estudio y converse con estudiantes de cada institución.'],
+    ['q' => '¿Es obligatorio el título para trabajar como programador?', 'a' => 'En muchas empresas privadas no, si podés demostrar capacidad práctica. Algunos cargos públicos o corporativos sí lo exigen.'],
+    ['q' => '¿Cuál es la mejor universidad para estudiar sistemas?', 'a' => 'Depende de tus objetivos, horarios y presupuesto. Compará planes de estudio y converse con estudiantes de cada institución.'],
     ['q' => '¿Puedo trabajar mientras estudio?', 'a' => 'Sí, es habitual en carreras informáticas. Conviene elegir horarios compatibles y no descuidar las materias de base.'],
 ];
 

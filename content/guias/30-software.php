@@ -155,11 +155,11 @@ return [
                 'Cuántas cajas, cuántas ventas por día, si usás balanza, si vendés a crédito, si hay delivery o '
                     . 'mesas. Esa lista define qué funciones son indispensables.',
             ]],
-            ['title' => 'Confirme la facturación electrónica', 'body' => [
+            ['title' => 'Confirmá la facturación electrónica', 'body' => [
                 'Verificá que el sistema emita documentos electrónicos del SIFEN o se conecte con un proveedor '
                     . 'habilitado. Consultá con tu contador si ya está obligado y desde cuándo.',
             ]],
-            ['title' => 'Decida nube, instalado o mixto', 'body' => [
+            ['title' => 'Decidí nube, instalado o mixto', 'body' => [
                 'Si tu conexión a internet es inestable, priorizá sistemas que sigan vendiendo sin conexión. '
                     . 'Si tenés varias sucursales, la nube simplifica ver todo junto.',
             ]],
@@ -246,7 +246,7 @@ return [
         'toolLink'       => [
             'path'  => '/herramientas/roi-automatizacion/',
             'label' => 'Calculá el retorno',
-            'text'  => 'Estime las horas y los guaraníes que recupera al automatizar una tarea.',
+            'text'  => 'Estimá las horas y los guaraníes que recuperás al automatizar una tarea.',
         ],
         'related'        => ['kommo-vs-odoo', 'como-contratar-programadores'],
     ],

@@ -11,12 +11,12 @@ $sections = [
         'body' => [
             'El precio de un chatbot de WhatsApp tiene dos partes que conviene separar desde el '
                 . 'principio. Una es el costo de construirlo: diseñar las conversaciones, programar las '
-                . 'respuestas y conectarlo con sus sistemas. La otra es el costo de usar la plataforma '
+                . 'respuestas y conectarlo con tus sistemas. La otra es el costo de usar la plataforma '
                 . 'oficial de WhatsApp Business de Meta, que cobra por las conversaciones o mensajes '
                 . 'según su política vigente.',
             'Muchos presupuestos solo hablan de la primera parte, y el cliente descubre la segunda '
                 . 'cuando llega la primera factura de Meta o del proveedor intermediario. Este artículo '
-                . 'explica las dos para que pueda calcular el costo total antes de decidir.',
+                . 'explica las dos para que puedas calcular el costo total antes de decidir.',
         ],
     ],
     [
@@ -34,14 +34,14 @@ $sections = [
     [
         'h2'   => 'Qué mueve el precio del desarrollo',
         'body' => [
-            'Un chatbot de menú —elija 1 para precios, 2 para horarios, 3 para hablar con alguien— es '
+            'Un chatbot de menú —elegí 1 para precios, 2 para horarios, 3 para hablar con alguien— es '
                 . 'lo más sencillo de construir. Cuando el bot tiene que entender texto libre, '
-                . 'consultar información de su sistema o completar una operación, el trabajo crece.',
+                . 'consultar información de tu sistema o completar una operación, el trabajo crece.',
             'Las integraciones son el factor más grande. Un bot que consulta el stock, toma un pedido '
-                . 'y lo registra en su sistema, genera un link de pago o agenda un turno necesita '
-                . 'conectarse con cada una de esas herramientas. Cuanto más ordenado esté su sistema, '
+                . 'y lo registra en tu sistema, genera un link de pago o agenda un turno necesita '
+                . 'conectarse con cada una de esas herramientas. Cuanto más ordenado esté tu sistema, '
                 . 'más fácil es.',
-            'También cuenta la bandeja compartida: si varias personas de su equipo atienden por el '
+            'También cuenta la bandeja compartida: si varias personas de tu equipo atienden por el '
                 . 'mismo número, hace falta una herramienta para repartir conversaciones, ver el '
                 . 'historial y medir tiempos de respuesta. Puede ser un CRM con WhatsApp integrado o '
                 . 'una plataforma de atención.',
@@ -51,19 +51,21 @@ $sections = [
         ],
     ],
     [
-        'h2'   => 'Rangos orientativos del mercado en guaraníes',
+        'h2'   => 'Qué hace subir o bajar el costo',
         'body' => [
-            'Los siguientes rangos son orientativos del mercado paraguayo y deben confirmarse con un '
-                . 'presupuesto; no son nuestros precios.',
-            'Chatbot de menú con respuestas a preguntas frecuentes y derivación a una persona, sobre '
-                . 'una plataforma ya existente: en el mercado suele verse desde alrededor de 2.000.000 '
-                . 'hasta 6.000.000 de guaraníes de implementación.',
-            'Chatbot con toma de pedidos o turnos y conexión a un sistema propio: con frecuencia entre '
-                . '6.000.000 y 20.000.000 de guaraníes, según las integraciones.',
-            'Soluciones con inteligencia artificial, varias integraciones y bandeja para un equipo de '
-                . 'atención: desde 20.000.000 de guaraníes en adelante.',
+            'No damos montos en este artículo: el precio cambia mucho según lo que el bot tenga que '
+                . 'hacer. Como referencia de alcance, un chatbot de menú con respuestas a preguntas '
+                . 'frecuentes y derivación a una persona, sobre una plataforma ya existente, es lo más '
+                . 'acotado.',
+            'El trabajo crece cuando el bot toma pedidos o turnos y se conecta a un sistema propio, y '
+                . 'más todavía si suma inteligencia artificial, varias integraciones y una bandeja para '
+                . 'un equipo de atención.',
             'A esto se suma el costo mensual de la plataforma de atención o CRM, si se usa uno, que '
-                . 'suele cobrarse por usuario o por volumen.',
+                . 'suele cobrarse por usuario o por volumen; consultá la lista de precios vigente del '
+                . 'proveedor elegido.',
+            'No publicamos un precio fijo porque depende del alcance: después de una conversación de '
+                . '30 minutos te pasamos un presupuesto en guaraníes, por escrito, que separa '
+                . 'implementación y costos mensuales.',
         ],
     ],
     [
@@ -72,38 +74,38 @@ $sections = [
             'La WhatsApp Business Platform cobra según el tipo de mensaje o conversación: marketing, '
                 . 'utilidad (por ejemplo, confirmaciones de pedido), autenticación y servicio al '
                 . 'cliente. Las tarifas varían por país y Meta las actualiza periódicamente, por lo '
-                . 'que conviene consultar el valor vigente en su documentación oficial antes de '
-                . 'presupuestar.',
-            'Como regla general, responder a un cliente que le escribió primero dentro de la ventana '
+                . 'que conviene consultar la lista de precios vigente de Meta antes de '
+                . 'presupuestar; en este artículo no damos montos.',
+            'Como regla general, responder a un cliente que te escribió primero dentro de la ventana '
                 . 'de atención suele ser lo más económico, mientras que los mensajes de marketing que '
-                . 'usted inicia son los más caros. Un bot bien diseñado aprovecha esa diferencia: '
+                . 'iniciás vos son los más caros. Un bot bien diseñado aprovecha esa diferencia: '
                 . 'invita al cliente a escribir primero y usa plantillas pagas solo cuando aportan '
                 . 'valor.',
-            'Si trabaja con un proveedor intermediario, pregunte si le traslada el costo de Meta tal '
+            'Si trabajás con un proveedor intermediario, preguntale si te traslada el costo de Meta tal '
                 . 'cual o si le agrega un margen por mensaje.',
         ],
     ],
     [
         'h2'    => 'Cuándo conviene un chatbot y cuándo no',
         'body'  => [
-            'Un chatbot rinde cuando recibe muchas consultas repetidas. Si su equipo responde veinte '
+            'Un chatbot rinde cuando recibe muchas consultas repetidas. Si tu equipo responde veinte '
                 . 'veces por día lo mismo, automatizarlo libera tiempo. Si recibe pocas consultas y '
                 . 'cada una es distinta, la app gratuita con respuestas rápidas puede alcanzar.',
         ],
         'items' => [
             ['title' => 'Conviene', 'text' => 'Muchas consultas repetidas, pedidos o turnos fuera de horario, varios agentes en un mismo número.'],
             ['title' => 'Puede esperar', 'text' => 'Pocas consultas diarias, cada una distinta, atendidas por una sola persona.'],
-            ['title' => 'Primero ordenar', 'text' => 'Si sus precios o stock no están en un sistema, el bot no tiene de dónde leer; empiece por ahí.'],
+            ['title' => 'Primero ordenar', 'text' => 'Si tus precios o stock no están en un sistema, el bot no tiene de dónde leer; empezá por ahí.'],
         ],
     ],
     [
         'h2'   => 'Cómo pedir un presupuesto claro',
         'body' => [
-            'Haga una lista de las diez preguntas que más recibe por WhatsApp y marque cuáles podría '
-                . 'responder una máquina. Indique cuántas personas atienden el número, en qué horario, '
+            'Hacé una lista de las diez preguntas que más recibís por WhatsApp y marcá cuáles podría '
+                . 'responder una máquina. Indicá cuántas personas atienden el número, en qué horario, '
                 . 'y con qué sistemas debería conectarse el bot.',
-            'Con esa lista, pida que el presupuesto separe la implementación, el costo mensual de la '
-                . 'plataforma y el costo estimado de mensajes de Meta. Así puede comparar ofertas y '
+            'Con esa lista, pedí que el presupuesto separe la implementación, el costo mensual de la '
+                . 'plataforma y el costo estimado de mensajes de Meta. Así podés comparar ofertas y '
                 . 'calcular el costo total del primer año.',
         ],
     ],
@@ -116,7 +118,7 @@ $faq = [
     ],
     [
         'q' => '¿Meta cobra por cada mensaje?',
-        'a' => 'La plataforma cobra según el tipo de mensaje o conversación y el país, con reglas que Meta actualiza. Consulte las tarifas vigentes en su documentación oficial.',
+        'a' => 'La plataforma cobra según el tipo de mensaje o conversación y el país, con reglas que Meta actualiza. Consultá la lista de precios vigente de Meta, porque cambia.',
     ],
     [
         'q' => '¿Mi número actual sirve para la API?',

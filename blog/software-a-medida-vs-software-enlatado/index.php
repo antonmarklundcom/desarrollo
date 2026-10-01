@@ -9,7 +9,7 @@ $sections = [
     [
         'h2'   => 'Dos caminos para el mismo problema',
         'body' => [
-            'Cuando una empresa necesita un sistema para vender, facturar, controlar stock o gestionar clientes, tiene dos caminos: comprar o suscribirse a un software enlatado, es decir, un producto estándar que usan muchas empresas, o desarrollar un software a medida, construido para sus procesos. La elección entre software a medida vs software enlatado no tiene una respuesta universal; depende de qué tan particular es su operación y de cuánto le cuesta adaptarse a una herramienta existente.',
+            'Cuando una empresa necesita un sistema para vender, facturar, controlar stock o gestionar clientes, tiene dos caminos: comprar o suscribirse a un software enlatado, es decir, un producto estándar que usan muchas empresas, o desarrollar un software a medida, construido para sus procesos. La elección entre software a medida vs software enlatado no tiene una respuesta universal; depende de qué tan particular es tu operación y de cuánto te cuesta adaptarte a una herramienta existente.',
             'Este artículo ordena las diferencias y propone criterios concretos para decidir.',
         ],
     ],
@@ -43,14 +43,14 @@ $sections = [
     [
         'h2'   => 'Cuándo conviene el software enlatado',
         'body' => [
-            'El enlatado es la mejor opción cuando su proceso es estándar y la herramienta lo resuelve bien. Por ejemplo, la contabilidad general de una pyme, un punto de venta simple o un correo corporativo. También conviene cuando necesita empezar ya, cuando el presupuesto es acotado o cuando todavía no tiene claro cómo quiere trabajar y prefiere aprender con una herramienta existente.',
-            'Antes de elegir un enlatado en Paraguay, verifique que cumpla con los requisitos locales, por ejemplo la emisión de comprobantes electrónicos según SIFEN, y que el soporte esté disponible en su horario e idioma.',
+            'El enlatado es la mejor opción cuando tu proceso es estándar y la herramienta lo resuelve bien. Por ejemplo, la contabilidad general de una pyme, un punto de venta simple o un correo corporativo. También conviene cuando necesitás empezar ya, cuando el presupuesto es acotado o cuando todavía no tenés claro cómo querés trabajar y preferís aprender con una herramienta existente.',
+            'Antes de elegir un enlatado en Paraguay, verificá que cumpla con los requisitos locales, por ejemplo la emisión de comprobantes electrónicos según SIFEN, y que el soporte esté disponible en tu horario e idioma.',
         ],
     ],
     [
         'h2'   => 'Cuándo conviene el software a medida',
         'body' => [
-            'El a medida tiene sentido cuando su proceso es una ventaja competitiva o es tan particular que ninguna herramienta lo cubre sin forzarlo. También cuando necesita integrar varios sistemas, cuando las licencias por usuario de un enlatado se vuelven más caras que mantener un sistema propio o cuando la empresa depende de planillas paralelas que generan errores.',
+            'El a medida tiene sentido cuando tu proceso es una ventaja competitiva o es tan particular que ninguna herramienta lo cubre sin forzarlo. También cuando necesitás integrar varios sistemas, cuando las licencias por usuario de un enlatado se vuelven más caras que mantener un sistema propio o cuando la empresa depende de planillas paralelas que generan errores.',
             'Un caso frecuente es el de empresas que ya usan un enlatado para la contabilidad pero necesitan un sistema propio para su operación: gestión de pedidos con reglas específicas, cálculo de comisiones, control de producción o un portal para clientes.',
         ],
     ],
@@ -63,19 +63,19 @@ $sections = [
     [
         'h2'   => 'Qué determina el costo de un software a medida',
         'body' => [
-            'El costo de un desarrollo a medida depende de la cantidad de pantallas y reglas de negocio, las integraciones con otros sistemas, la cantidad de usuarios y roles, los requisitos de disponibilidad y la calidad de la documentación previa. Los rangos varían mucho; lo razonable es pedir un presupuesto basado en un relevamiento y dividir el proyecto en etapas para validar antes de invertir todo.',
+            'El costo de un desarrollo a medida depende de la cantidad de pantallas y reglas de negocio, las integraciones con otros sistemas, la cantidad de usuarios y roles, los requisitos de disponibilidad y la calidad de la documentación previa. Lo razonable es pedir un presupuesto basado en un relevamiento y dividir el proyecto en etapas para validar antes de invertir todo. No publicamos un precio fijo porque depende del alcance: después de una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
         ],
     ],
     [
         'h2'   => 'Preguntas para decidir',
         'body' => [
-            'Hágase estas preguntas antes de elegir. ¿Cuántas planillas paralelas usa hoy para completar lo que el sistema no hace? ¿Cuánto paga por licencias al año y cómo crecerá ese costo con más usuarios? ¿Su forma de trabajar es lo que lo diferencia de la competencia? ¿Necesita que el sistema hable con otros? Si la mayoría de las respuestas apuntan a necesidades particulares, el software a medida merece una evaluación seria.',
+            'Hacete estas preguntas antes de elegir. ¿Cuántas planillas paralelas usás hoy para completar lo que el sistema no hace? ¿Cuánto pagás por licencias al año y cómo crecerá ese costo con más usuarios? ¿Tu forma de trabajar es lo que te diferencia de la competencia? ¿Necesitás que el sistema hable con otros? Si la mayoría de las respuestas apuntan a necesidades particulares, el software a medida merece una evaluación seria.',
         ],
     ],
     [
         'h2'   => 'Cómo evaluar un enlatado antes de comprarlo',
         'body' => [
-            'Pida una prueba con sus propios datos y procesos, no con los ejemplos del proveedor. Pregunte cómo se exportan los datos si decide cambiar, qué integraciones ofrece, cómo se cobran los usuarios adicionales y qué pasa con las actualizaciones. Hable con otras empresas de su rubro que lo usen. Si para usarlo tiene que cambiar demasiados procesos o mantener planillas paralelas, es una señal de que no encaja.',
+            'Pedí una prueba con tus propios datos y procesos, no con los ejemplos del proveedor. Preguntá cómo se exportan los datos si decidís cambiar, qué integraciones ofrece, cómo se cobran los usuarios adicionales y qué pasa con las actualizaciones. Hablá con otras empresas de tu rubro que lo usen. Si para usarlo tenés que cambiar demasiados procesos o mantener planillas paralelas, es una señal de que no encaja.',
         ],
     ],
 ];

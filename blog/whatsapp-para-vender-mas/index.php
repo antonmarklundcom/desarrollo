@@ -39,7 +39,7 @@ $sections = [
         'h2'   => 'Nivel 2: la API oficial de WhatsApp Business',
         'body' => [
             'La API de WhatsApp Business, provista por Meta directamente o a través de proveedores autorizados, permite conectar WhatsApp con software. Con ella, varios agentes pueden atender el mismo número desde una bandeja compartida, las conversaciones quedan registradas en un sistema de la empresa y se pueden automatizar respuestas, notificaciones y flujos.',
-            'La API tiene reglas propias. Los mensajes que la empresa inicia fuera de la ventana de atención deben usar plantillas aprobadas, y existen cargos por conversación o por mensaje según la categoría y el país. Las condiciones y tarifas cambian; conviene consultar el valor vigente en la documentación oficial de Meta o con el proveedor antes de estimar costos.',
+            'La API tiene reglas propias. Los mensajes que la empresa inicia fuera de la ventana de atención deben usar plantillas aprobadas, y existen cargos por conversación o por mensaje según la categoría y el país. Las condiciones y tarifas cambian; conviene consultar la lista de precios vigente de Meta o al proveedor antes de estimar costos.',
         ],
     ],
     [
@@ -57,7 +57,7 @@ $sections = [
         ],
     ],
     [
-        'h2'   => 'Integrar WhatsApp con su CRM',
+        'h2'   => 'Integrar WhatsApp con tu CRM',
         'body' => [
             'El mayor salto ocurre cuando WhatsApp deja de ser una isla. Integrado con un CRM, cada conversación queda asociada a un contacto, con su historial de compras y el estado de su negocio. El vendedor ve con quién está hablando, qué compró antes y qué presupuesto tiene pendiente. La gerencia ve cuántas consultas llegan, cuántas se convierten y cuánto se tarda en responder.',
             'La integración también permite asignar conversaciones a vendedores de forma automática, repartir la carga y evitar que un cliente quede sin respuesta. Y si un vendedor deja la empresa, los contactos y el historial quedan en el sistema.',
@@ -73,25 +73,25 @@ $sections = [
     [
         'h2'   => 'Cuidar la relación con el cliente',
         'body' => [
-            'WhatsApp es un canal personal. Enviar mensajes masivos sin consentimiento, con demasiada frecuencia o con contenido irrelevante genera bloqueos y reportes, que pueden afectar la calidad del número y, en el caso de la API, sus límites de envío. Pida permiso para enviar novedades, segmente los mensajes y ofrezca siempre una forma simple de dejar de recibirlos.',
+            'WhatsApp es un canal personal. Enviar mensajes masivos sin consentimiento, con demasiada frecuencia o con contenido irrelevante genera bloqueos y reportes, que pueden afectar la calidad del número y, en el caso de la API, sus límites de envío. Pedí permiso para enviar novedades, segmentá los mensajes y ofrecé siempre una forma simple de dejar de recibirlos.',
         ],
     ],
     [
         'h2'   => 'Qué determina el costo de una solución',
         'body' => [
-            'El costo de una implementación depende de la cantidad de números y agentes, el proveedor de la API elegido, la complejidad de los flujos automatizados, las integraciones con CRM, ERP o facturación y el volumen de mensajes. Una implementación puede empezar simple, con bandeja compartida y respuestas básicas, y crecer por etapas.',
+            'El costo de una implementación depende de la cantidad de números y agentes, el proveedor de la API elegido, la complejidad de los flujos automatizados, las integraciones con CRM, ERP o facturación y el volumen de mensajes. Una implementación puede empezar simple, con bandeja compartida y respuestas básicas, y crecer por etapas. Las tarifas de Meta no se incluyen en este artículo: consultá su lista de precios vigente. No publicamos un precio fijo porque depende del alcance: después de una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
         ],
     ],
     [
         'h2'   => 'Por dónde empezar',
         'body' => [
-            'Si hoy atiende desde un teléfono con la aplicación común, empiece por configurar WhatsApp Business y medir cuántas consultas recibe por día. Si el volumen o la cantidad de personas que atienden lo justifica, evalúe la API con una bandeja compartida. Cuando tenga eso funcionando, el siguiente paso es la integración con su CRM y la automatización de lo repetitivo.',
+            'Si hoy atendés desde un teléfono con la aplicación común, empezá por configurar WhatsApp Business y medir cuántas consultas recibís por día. Si el volumen o la cantidad de personas que atienden lo justifica, evaluá la API con una bandeja compartida. Cuando tengas eso funcionando, el siguiente paso es la integración con tu CRM y la automatización de lo repetitivo.',
         ],
     ],
     [
         'h2'   => 'Métricas que conviene seguir',
         'body' => [
-            'Tiempo de primera respuesta, cantidad de conversaciones por día, porcentaje que termina en venta y motivos de pérdida son indicadores simples que revelan dónde mejorar. Revíselos cada semana con el equipo.',
+            'Tiempo de primera respuesta, cantidad de conversaciones por día, porcentaje que termina en venta y motivos de pérdida son indicadores simples que revelan dónde mejorar. Revisalos cada semana con el equipo.',
         ],
     ],
 ];

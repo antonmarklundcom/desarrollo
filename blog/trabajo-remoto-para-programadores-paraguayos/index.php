@@ -16,14 +16,14 @@ $sections = [
     [
         'h2'   => 'Remoto local o remoto internacional',
         'body' => [
-            'Hay dos escenarios distintos. En el remoto local, una empresa paraguaya lo contrata con las mismas condiciones que a un empleado presencial, pero trabaja desde su casa. En el remoto internacional, una empresa del exterior lo contrata directamente, a través de una plataforma intermediaria o como contratista independiente.',
-            'El primero es más sencillo en lo administrativo: se aplican las reglas laborales locales. El segundo suele ofrecer rangos distintos, pero implica gestionar cobros del exterior, facturación e impuestos por cuenta propia, sin los beneficios automáticos de la relación de dependencia.',
+            'Hay dos escenarios distintos. En el remoto local, una empresa paraguaya te contrata con las mismas condiciones que a un empleado presencial, pero trabajás desde tu casa. En el remoto internacional, una empresa del exterior te contrata directamente, a través de una plataforma intermediaria o como contratista independiente.',
+            'El primero es más sencillo en lo administrativo: se aplican las reglas laborales locales. El segundo suele ofrecer condiciones de pago distintas, pero implica gestionar cobros del exterior, facturación e impuestos por cuenta propia, sin los beneficios automáticos de la relación de dependencia.',
         ],
     ],
     [
         'h2'   => 'Habilidades que exige el trabajo remoto',
         'body' => [
-            'Un equipo remoto no puede ver lo que usted hace. Solo ve lo que entrega y lo que comunica. Por eso, estas habilidades pesan tanto como el conocimiento técnico.',
+            'Un equipo remoto no puede ver lo que hacés. Solo ve lo que entrega y lo que comunica. Por eso, estas habilidades pesan tanto como el conocimiento técnico.',
         ],
         'items' => [
             ['title' => 'Comunicación escrita clara', 'text' => 'Explicar avances, bloqueos y decisiones en mensajes breves y precisos.'],
@@ -44,21 +44,21 @@ $sections = [
     [
         'h2'   => 'Cobrar desde el exterior',
         'body' => [
-            'Si trabaja para una empresa del exterior, necesitará una forma de recibir pagos. Las opciones más comunes son transferencias bancarias internacionales a una cuenta local, plataformas de pago internacionales y servicios intermediarios de contratación que pagan en nombre de la empresa. Cada una tiene comisiones, plazos y tipos de cambio distintos.',
-            'Antes de aceptar, pregunte cómo y cuándo le pagarán, en qué moneda y quién asume las comisiones. Compare el monto neto que llegará a su cuenta, no el bruto acordado.',
+            'Si trabajás para una empresa del exterior, necesitarás una forma de recibir pagos. Las opciones más comunes son transferencias bancarias internacionales a una cuenta local, plataformas de pago internacionales y servicios intermediarios de contratación que pagan en nombre de la empresa. Cada una tiene comisiones, plazos y tipos de cambio distintos.',
+            'Antes de aceptar, preguntá cómo y cuándo te pagarán, en qué moneda y quién asume las comisiones. Comparé el monto neto que llegará a tu cuenta, no el bruto acordado.',
         ],
     ],
     [
         'h2'   => 'Facturación e impuestos',
         'body' => [
-            'Como contratista independiente, en general deberá estar inscripto como contribuyente y emitir comprobantes por sus servicios, incluso si el cliente está en el exterior. Las reglas sobre exportación de servicios, IVA e impuesto a la renta personal tienen particularidades y cambian con el tiempo. Lo recomendable es consultar con un contador antes de empezar a facturar y revisar el régimen vigente en la DNIT.',
+            'Como contratista independiente, en general deberás estar inscripto como contribuyente y emitir comprobantes por tus servicios, incluso si el cliente está en el exterior. Las reglas sobre exportación de servicios, IVA e impuesto a la renta personal tienen particularidades y cambian con el tiempo. Lo recomendable es consultar con un contador antes de empezar a facturar y revisar el régimen vigente en la DNIT.',
             'Llevar un registro ordenado de ingresos, comprobantes y gastos desde el primer mes evita problemas y facilita la declaración.',
         ],
     ],
     [
         'h2'   => 'Cuidado con las ofertas dudosas',
         'body' => [
-            'El trabajo remoto también atrae fraudes. Desconfíe de ofertas que piden pagar por capacitación, equipos o inscripción, que prometen sueldos muy altos por tareas simples, que se comunican solo por mensajería sin una empresa verificable o que piden datos bancarios completos antes de firmar nada. Investigue la empresa, busque a sus empleados en redes profesionales y pida un contrato por escrito.',
+            'El trabajo remoto también atrae fraudes. Desconfiá de ofertas que piden pagar por capacitación, equipos o inscripción, que prometen sueldos muy altos por tareas simples, que se comunican solo por mensajería sin una empresa verificable o que piden datos bancarios completos antes de firmar nada. Investigá la empresa, buscá a sus empleados en redes profesionales y pedí un contrato por escrito.',
         ],
     ],
     [
@@ -70,27 +70,27 @@ $sections = [
     [
         'h2'   => 'Crecer trabajando en remoto',
         'body' => [
-            'El riesgo del trabajo remoto es quedar aislado. Participe activamente en las reuniones del equipo, pida revisiones de código, ofrezca ayuda a colegas y proponga mejoras. Documentar lo que hace y compartir aprendizajes le da visibilidad dentro de la empresa, lo que en un entorno remoto es clave para acceder a más responsabilidad.',
+            'El riesgo del trabajo remoto es quedar aislado. Participá activamente en las reuniones del equipo, pedí revisiones de código, ofrecé ayuda a colegas y proponé mejoras. Documentar lo que hacés y compartir aprendizajes te da visibilidad dentro de la empresa, lo que en un entorno remoto es clave para acceder a más responsabilidad.',
         ],
     ],
     [
         'h2'   => 'Preparar el perfil para empresas del exterior',
         'body' => [
-            'Para postularse a empresas internacionales, conviene tener el currículum y el perfil profesional en inglés, con logros concretos y enlaces a proyectos. Prepare una breve presentación oral de su experiencia, de uno o dos minutos, porque suele ser la primera pregunta en las entrevistas. Practique también ejercicios técnicos en inglés, explicando su razonamiento en voz alta.',
-            'Indique su zona horaria y su disponibilidad de solapamiento con distintas regiones. Para muchas empresas, la posibilidad de trabajar en horario compatible es un factor decisivo al elegir entre candidatos.',
+            'Para postularse a empresas internacionales, conviene tener el currículum y el perfil profesional en inglés, con logros concretos y enlaces a proyectos. Preparate una breve presentación oral de tu experiencia, de uno o dos minutos, porque suele ser la primera pregunta en las entrevistas. Practicá también ejercicios técnicos en inglés, explicando tu razonamiento en voz alta.',
+            'Indicá tu zona horaria y tu disponibilidad de solapamiento con distintas regiones. Para muchas empresas, la posibilidad de trabajar en horario compatible es un factor decisivo al elegir entre candidatos.',
         ],
     ],
     [
         'h2'   => 'Contratos y acuerdos por escrito',
         'body' => [
-            'Aunque la relación sea a distancia, todo acuerdo debe quedar por escrito: tareas, horario esperado, forma y fecha de pago, moneda, propiedad del trabajo y condiciones de terminación. Lea con atención las cláusulas de exclusividad y confidencialidad antes de firmar.',
+            'Aunque la relación sea a distancia, todo acuerdo debe quedar por escrito: tareas, horario esperado, forma y fecha de pago, moneda, propiedad del trabajo y condiciones de terminación. Leé con atención las cláusulas de exclusividad y confidencialidad antes de firmar.',
         ],
     ],
 ];
 
 $faq = [
     ['q' => '¿Necesito inglés para trabajar en remoto?', 'a' => 'Para empresas locales no siempre. Para equipos internacionales, un inglés funcional para reuniones y escritura es prácticamente indispensable.'],
-    ['q' => '¿Cómo facturo servicios a un cliente del exterior?', 'a' => 'En general debe estar inscripto como contribuyente y emitir comprobantes. Consulte con un contador y revise el régimen vigente en la DNIT.'],
+    ['q' => '¿Cómo facturo servicios a un cliente del exterior?', 'a' => 'En general tenés que estar inscripto como contribuyente y emitir comprobantes. Consultá con un contador y revise el régimen vigente en la DNIT.'],
     ['q' => '¿Dónde busco empleos remotos locales?', 'a' => 'En portales de empleo como trabajo.com.py, filtrando por modalidad remota o híbrida.'],
 ];
 

@@ -44,14 +44,14 @@ $sections = [
         'h2'   => 'Cómo se estima un proyecto',
         'body' => [
             'Una estimación seria se basa en un relevamiento. Se divide el sistema en funcionalidades, se estima cada una y se suma un margen para imprevistos, pruebas y coordinación. Cuanto más detallado es el relevamiento, más confiable es la estimación.',
-            'Desconfíe de estimaciones dadas en una primera reunión sin detalle. No es que el proveedor mienta; es que no tiene suficiente información. Es razonable pedir primero un relevamiento, que en proyectos medianos puede ser un trabajo pago en sí mismo, y luego una estimación basada en él.',
+            'Desconfiá de estimaciones dadas en una primera reunión sin detalle. No es que el proveedor mienta; es que no tiene suficiente información. Es razonable pedir primero un relevamiento, que en proyectos medianos puede ser un trabajo pago en sí mismo, y luego una estimación basada en él.',
         ],
     ],
     [
-        'h2'   => 'Rangos orientativos por tipo de proyecto',
+        'h2'   => 'Qué plazo esperar según el tipo de proyecto',
         'body' => [
-            'Con la advertencia de que cada caso es distinto, se pueden mencionar rangos orientativos. Un sitio institucional o una aplicación sencilla con pocas pantallas suele medirse en semanas. Un sistema de gestión para un área específica, con algunas integraciones, suele medirse en unos pocos meses. Un sistema que abarca varias áreas de la empresa, con muchas reglas e integraciones, puede llevar varios meses y conviene planificarlo por etapas.',
-            'Estos rangos sirven para ordenar expectativas, no para presupuestar. El plazo real surge del relevamiento.',
+            'Con la advertencia de que cada caso es distinto, se pueden dar referencias generales. Un sitio institucional o una aplicación sencilla con pocas pantallas suele medirse en semanas. Un sistema de gestión para un área específica, con algunas integraciones, suele medirse en unos pocos meses. Un sistema que abarca varias áreas de la empresa, con muchas reglas e integraciones, puede llevar varios meses y conviene planificarlo por etapas.',
+            'Estas referencias sirven para ordenar expectativas, no para presupuestar. El plazo real surge del relevamiento.',
         ],
     ],
     [
@@ -87,14 +87,14 @@ $sections = [
     [
         'h2'   => 'Cómo seguir el avance del proyecto',
         'body' => [
-            'Pida entregas funcionando cada pocas semanas, no solo informes de avance. Ver el sistema en funcionamiento permite detectar malentendidos a tiempo y da una medida real del progreso. Acuerde reuniones breves y periódicas, un canal único para decisiones y un registro de cambios solicitados con su impacto en plazo. Si una entrega se atrasa, pregunte qué la frenó y qué se hará distinto en la siguiente.',
-            'Tenga en cuenta que las semanas finales suelen consumir más tiempo del esperado: pruebas con usuarios reales, ajustes de último momento y migración de datos. Planificar un margen para esa etapa evita que la fecha de lanzamiento se corra.',
+            'Pedí entregas funcionando cada pocas semanas, no solo informes de avance. Ver el sistema en funcionamiento permite detectar malentendidos a tiempo y da una medida real del progreso. Acordá reuniones breves y periódicas, un canal único para decisiones y un registro de cambios solicitados con su impacto en plazo. Si una entrega se atrasa, preguntá qué la frenó y qué se hará distinto en la siguiente.',
+            'Tené en cuenta que las semanas finales suelen consumir más tiempo del esperado: pruebas con usuarios reales, ajustes de último momento y migración de datos. Planificar un margen para esa etapa evita que la fecha de lanzamiento se corra.',
         ],
     ],
     [
         'h2'   => 'Señales de que el plazo está en riesgo',
         'body' => [
-            'Entregas que se postergan sin explicación, funcionalidades que se muestran incompletas, preguntas que quedan sin responder de su lado y cambios de alcance que se acumulan sin registrarse. Detectarlas temprano permite renegociar alcance o plazo antes de que el problema crezca.',
+            'Entregas que se postergan sin explicación, funcionalidades que se muestran incompletas, preguntas que quedan sin responder de tu lado y cambios de alcance que se acumulan sin registrarse. Detectarlas temprano permite renegociar alcance o plazo antes de que el problema crezca.',
         ],
     ],
 ];

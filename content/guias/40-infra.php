@@ -36,7 +36,7 @@ return [
                 ],
             ],
             [
-                'title' => 'Defina quién será el titular',
+                'title' => 'Definí quién será el titular',
                 'body'  => [
                     'El titular debe ser la empresa (con su razón social y RUC) o la persona dueña del negocio, '
                         . 'nunca el empleado o la agencia que arma el sitio. Quien figura como titular es quien '

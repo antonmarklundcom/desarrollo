@@ -9,8 +9,8 @@ $sections = [
     [
         'h2'   => 'La pregunta de fondo',
         'body' => [
-            'Cuando una empresa decide crear o renovar su página web, una de las primeras preguntas es si usar WordPress o encargar un sitio a medida. Ambos caminos son válidos y ambos pueden salir mal. La diferencia está en qué necesita el sitio, quién lo va a actualizar y cuánto quiere invertir en mantenimiento.',
-            'Este artículo compara las dos opciones con criterios prácticos para que pueda decidir con información.',
+            'Cuando una empresa decide crear o renovar su página web, una de las primeras preguntas es si usar WordPress o encargar un sitio a medida. Ambos caminos son válidos y ambos pueden salir mal. La diferencia está en qué necesita el sitio, quién lo va a actualizar y cuánto querés invertir en mantenimiento.',
+            'Este artículo compara las dos opciones con criterios prácticos para que puedas decidir con información.',
         ],
     ],
     [
@@ -23,7 +23,7 @@ $sections = [
     [
         'h2'   => 'Qué es un sitio a medida',
         'body' => [
-            'Un sitio a medida se programa específicamente para su empresa, con el código justo para lo que necesita. Puede ser un sitio estático muy liviano, una aplicación con lógica propia o una combinación. No depende de plugins de terceros y suele ser más rápido y más simple de asegurar.',
+            'Un sitio a medida se programa específicamente para tu empresa, con el código justo para lo que necesita. Puede ser un sitio estático muy liviano, una aplicación con lógica propia o una combinación. No depende de plugins de terceros y suele ser más rápido y más simple de asegurar.',
             'A cambio, editar contenido puede requerir un programador, salvo que se construya un panel de administración a propósito, lo que suma costo.',
         ],
     ],
@@ -43,14 +43,14 @@ $sections = [
     [
         'h2'   => 'Cuándo conviene WordPress',
         'body' => [
-            'WordPress es una buena elección cuando su equipo publica contenido con frecuencia, como noticias, artículos o productos, y necesita hacerlo sin depender de un programador. También cuando necesita funciones estándar que existen como plugins confiables, o cuando quiere una tienda en línea básica con WooCommerce.',
+            'WordPress es una buena elección cuando tu equipo publica contenido con frecuencia, como noticias, artículos o productos, y necesitás hacerlo sin depender de un programador. También cuando necesitás funciones estándar que existen como plugins confiables, o cuando querés una tienda en línea básica con WooCommerce.',
             'La condición es contratar o asignar mantenimiento: actualizaciones periódicas, copias de seguridad, monitoreo y revisión de plugins. Sin eso, el ahorro inicial se pierde en problemas posteriores.',
         ],
     ],
     [
         'h2'   => 'Cuándo conviene un sitio a medida',
         'body' => [
-            'Un sitio a medida conviene cuando el contenido cambia poco, cuando la velocidad y la seguridad son prioritarias, cuando necesita lógica específica que ningún plugin resuelve bien o cuando el sitio debe integrarse con sistemas propios, por ejemplo un catálogo conectado a su ERP o un formulario que alimenta su CRM.',
+            'Un sitio a medida conviene cuando el contenido cambia poco, cuando la velocidad y la seguridad son prioritarias, cuando necesitás lógica específica que ningún plugin resuelve bien o cuando el sitio debe integrarse con sistemas propios, por ejemplo un catálogo conectado a tu ERP o un formulario que alimenta tu CRM.',
             'Muchos sitios institucionales de empresas paraguayas, con una decena de páginas y un formulario de contacto, funcionan mejor como sitios a medida livianos que como instalaciones de WordPress con muchos plugins.',
         ],
     ],
@@ -58,19 +58,19 @@ $sections = [
         'h2'   => 'El mito de que WordPress es gratis',
         'body' => [
             'El software WordPress es gratuito, pero el sitio no. Hay costos de hosting, dominio, tema premium en muchos casos, plugins pagos, diseño, carga de contenido y mantenimiento. Del mismo modo, un sitio a medida no es necesariamente caro: un sitio institucional simple bien planificado puede tener un costo comparable.',
-            'Lo que determina el costo en ambos casos es la cantidad de páginas, el diseño, las funciones especiales, las integraciones y el mantenimiento acordado.',
+            'Lo que determina el costo en ambos casos es la cantidad de páginas, el diseño, las funciones especiales, las integraciones y el mantenimiento acordado. No publicamos un precio fijo porque depende del alcance: después de una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
         ],
     ],
     [
-        'h2'   => 'Qué preguntar a su proveedor',
+        'h2'   => 'Qué preguntar a tu proveedor',
         'body' => [
-            'Pregunte quién va a actualizar el contenido y cómo. Pregunte qué plugins se usarán y quién los mantendrá. Pregunte cuánto pesa la página principal y cuánto tarda en cargar en un celular con datos móviles. Pregunte si el sitio y el dominio quedarán a nombre de su empresa. Las respuestas le dirán más que la elección de tecnología.',
+            'Preguntá quién va a actualizar el contenido y cómo. Preguntá qué plugins se usarán y quién los mantendrá. Preguntá cuánto pesa la página principal y cuánto tarda en cargar en un celular con datos móviles. Preguntá si el sitio y el dominio quedarán a nombre de tu empresa. Las respuestas te dirán más que la elección de tecnología.',
         ],
     ],
     [
-        'h2'   => 'Si ya tiene un WordPress',
+        'h2'   => 'Si ya tenés un WordPress',
         'body' => [
-            'Si su sitio actual está en WordPress y funciona bien, no hace falta cambiarlo por moda. Si está lento, desactualizado o con problemas recurrentes, evalúe primero un mantenimiento a fondo: actualizar, eliminar plugins innecesarios y optimizar imágenes. Si aun así no alcanza, puede considerar una migración.',
+            'Si tu sitio actual está en WordPress y funciona bien, no hace falta cambiarlo por moda. Si está lento, desactualizado o con problemas recurrentes, evaluá primero un mantenimiento a fondo: actualizar, eliminar plugins innecesarios y optimizar imágenes. Si aun así no alcanza, podés considerar una migración.',
         ],
     ],
     [
@@ -82,15 +82,15 @@ $sections = [
     [
         'h2'   => 'Cómo decidir en cinco preguntas',
         'body' => [
-            '¿Con qué frecuencia cambiará el contenido? ¿Quién lo cambiará? ¿Necesita funciones especiales o integraciones? ¿Quién hará el mantenimiento técnico? ¿Qué presupuesto tiene para el primer año, incluido el mantenimiento? Si el contenido cambia a diario y lo edita personal no técnico, WordPress suele ganar. Si cambia poco y la prioridad es velocidad y seguridad, un sitio a medida suele ser mejor.',
-            'Con esas respuestas por escrito, cualquier proveedor serio podrá recomendarle una opción justificada en lugar de la que prefiere vender.',
+            '¿Con qué frecuencia cambiará el contenido? ¿Quién lo cambiará? ¿Necesitás funciones especiales o integraciones? ¿Quién hará el mantenimiento técnico? ¿Qué presupuesto tenés para el primer año, incluido el mantenimiento? Si el contenido cambia a diario y lo edita personal no técnico, WordPress suele ganar. Si cambia poco y la prioridad es velocidad y seguridad, un sitio a medida suele ser mejor.',
+            'Con esas respuestas por escrito, cualquier proveedor serio podrá recomendarte una opción justificada en lugar de la que prefiere vender.',
         ],
     ],
 ];
 
 $faq = [
     ['q' => '¿WordPress es inseguro?', 'a' => 'No por sí mismo, pero por su popularidad es blanco de ataques automatizados. Con actualizaciones, pocos plugins confiables y copias de seguridad, el riesgo baja mucho.'],
-    ['q' => '¿Puedo editar un sitio a medida sin programador?', 'a' => 'Solo si se construye un panel de administración para eso. Defínalo desde el inicio si lo necesita.'],
+    ['q' => '¿Puedo editar un sitio a medida sin programador?', 'a' => 'Solo si se construye un panel de administración para eso. Definilo desde el inicio si lo necesitás.'],
     ['q' => '¿Cuál es más rápido?', 'a' => 'Un sitio a medida liviano suele ser más rápido, aunque un WordPress bien optimizado también puede cargar rápido.'],
 ];
 
