@@ -46,11 +46,11 @@ ob_start();
       <legend>Funciones</legend>
       <div class="chip-row">
         <input class="chip-radio" type="checkbox" name="blog" id="cpw-blog" value="1">
-        <label class="chip" for="cpw-blog">Necesita blog</label>
+        <label class="chip" for="cpw-blog">Necesito blog</label>
         <input class="chip-radio" type="checkbox" name="pagos" id="cpw-pagos" value="1">
         <label class="chip" for="cpw-pagos">Pagos online</label>
         <input class="chip-radio" type="checkbox" name="textos" id="cpw-textos" value="1">
-        <label class="chip" for="cpw-textos">Necesita que escribamos los textos</label>
+        <label class="chip" for="cpw-textos">Necesito que escriban los textos</label>
       </div>
     </fieldset>
 

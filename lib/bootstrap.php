@@ -25,8 +25,19 @@ function cfg(string $key, ?string $default = null): ?string
 
     if ($config === null) {
         $defaults = require ROOT_DIR . '/config.example.php';
-        $local    = is_file(ROOT_DIR . '/config.php') ? require ROOT_DIR . '/config.php' : [];
-        $config   = array_merge($defaults, is_array($local) ? $local : []);
+
+        /* Two places, so a Git redeploy can never lose the secrets: config.php
+           next to index.php (gitignored, never touched by a pull), or one folder
+           ABOVE the web root (public_html/../config.php), which no deploy ever
+           writes to and no URL can reach. The one next to index.php wins. */
+        $merged = $defaults;
+        foreach ([dirname(ROOT_DIR) . '/config.php', ROOT_DIR . '/config.php'] as $file) {
+            if (is_file($file)) {
+                $local = require $file;
+                $merged = array_merge($merged, is_array($local) ? $local : []);
+            }
+        }
+        $config = $merged;
     }
 
     $value = $config[$key] ?? '';

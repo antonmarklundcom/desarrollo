@@ -4,7 +4,11 @@
  *
  *   cp config.example.php config.php
  *
- * config.php is gitignored and never committed. Every value here is optional:
+ * config.php is gitignored and never committed. Put it EITHER next to index.php
+ * OR one folder above public_html (lib/bootstrap.php reads both; the one next to
+ * index.php wins). The folder above is the safest: a Git redeploy, a zip upload
+ * or a "delete everything in public_html" can never remove it, and no URL can
+ * reach it. Every value here is optional:
  * the site renders and the lead form still accepts submissions when they are
  * empty — see "degraded mode" in enviar.php.
  */

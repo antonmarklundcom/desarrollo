@@ -14,10 +14,10 @@ $sections = [
                 . 'electrónicos firmados digitalmente, se envían al sistema de la DNIT para su '
                 . 'aprobación y se entregan al cliente con una representación gráfica (KuDE) que '
                 . 'incluye un código QR de verificación.',
-            'Integrar SIFEN significa que su sistema de ventas —el que ya usa o uno nuevo— genere esos '
+            'Integrar SIFEN significa que tu sistema de ventas —el que ya usás o uno nuevo— genere esos '
                 . 'documentos en el formato exigido, los firme, los envíe, reciba la respuesta y '
                 . 'guarde todo de forma ordenada. El costo de hacerlo depende sobre todo de desde '
-                . 'dónde parte su empresa.',
+                . 'dónde parte tu empresa.',
         ],
     ],
     [
@@ -27,15 +27,15 @@ $sections = [
                 . 'integración a medida. Hay tres caminos principales, cada uno con su lógica de costo.',
         ],
         'items' => [
-            ['title' => 'Herramienta gratuita de la DNIT', 'text' => 'Para pocas facturas, la DNIT ofrece una solución de facturación gratuita desde su portal. No se integra con su stock ni con su sistema.'],
+            ['title' => 'Herramienta gratuita de la DNIT', 'text' => 'Para pocas facturas, la DNIT ofrece una solución de facturación gratuita desde su portal. No se integra con tu stock ni con tu sistema.'],
             ['title' => 'Sistema de facturación de un proveedor', 'text' => 'Un software ya listo que emite documentos electrónicos, con un abono mensual o por volumen.'],
-            ['title' => 'Integración con su sistema propio', 'text' => 'Su sistema de ventas o ERP emite directamente, conectado a SIFEN mediante desarrollo propio o una API intermediaria.'],
+            ['title' => 'Integración con tu sistema propio', 'text' => 'Tu sistema de ventas o ERP emite directamente, conectado a SIFEN mediante desarrollo propio o una API intermediaria.'],
         ],
     ],
     [
-        'h2'   => 'Qué mueve el precio de una integración',
+        'h2'   => 'Qué mueve el costo de una integración',
         'body' => [
-            'El primer factor es el estado de su sistema actual. Si su software de ventas es propio y '
+            'El primer factor es el estado de tu sistema actual. Si tu software de ventas es propio y '
                 . 'tiene el código disponible, se le puede agregar la emisión electrónica. Si es un '
                 . 'sistema cerrado de un proveedor que no ofrece SIFEN, puede ser más barato '
                 . 'reemplazarlo que intentar conectarlo.',
@@ -51,21 +51,22 @@ $sections = [
         ],
     ],
     [
-        'h2'   => 'Rangos orientativos del mercado en guaraníes',
+        'h2'   => 'Qué hace subir o bajar el costo',
         'body' => [
-            'Los siguientes rangos son orientativos del mercado paraguayo y deben confirmarse con un '
-                . 'presupuesto; no son nuestros precios ni valores oficiales.',
-            'Sistema de facturación electrónica de un proveedor, listo para usar: suele cobrarse como '
-                . 'abono mensual, que en el mercado se ve desde alrededor de 150.000 hasta 1.000.000 de '
-                . 'guaraníes por mes según el volumen de documentos y los módulos incluidos.',
-            'Integración de un sistema propio mediante una API intermediaria que se encarga de la firma '
-                . 'y el envío: el desarrollo suele ubicarse entre 5.000.000 y 20.000.000 de guaraníes, '
-                . 'más el costo mensual del servicio intermediario.',
-            'Integración directa con SIFEN desde cero, con firma, envío, eventos y contingencia '
-                . 'resueltos en su propio sistema: con frecuencia desde 20.000.000 de guaraníes en '
-                . 'adelante, según los tipos de documento y la cantidad de puntos de emisión.',
+            'Según el camino que elijas, el costo se arma de forma distinta. Un sistema de facturación '
+                . 'de un proveedor, listo para usar, se cobra normalmente como abono mensual, que varía '
+                . 'con el volumen de documentos y los módulos incluidos. Pedí al proveedor su lista de '
+                . 'precios vigente por escrito.',
+            'Integrar un sistema propio mediante una API intermediaria que se encarga de la firma y el '
+                . 'envío implica un desarrollo puntual más el costo recurrente del servicio intermediario, '
+                . 'que también define cada proveedor.',
+            'La integración directa con SIFEN desde cero, con firma, envío, eventos y contingencia '
+                . 'resueltos en tu propio sistema, es la más laboriosa: crece con los tipos de documento '
+                . 'y con la cantidad de puntos de emisión.',
             'A cualquiera de estas opciones hay que sumarle el certificado de firma digital, cuyo '
-                . 'costo y vigencia dependen del prestador; consulte el valor vigente.',
+                . 'costo y vigencia dependen del prestador; consultá el valor vigente con él.',
+            'No publicamos un precio fijo porque depende del punto de partida y del alcance: después de '
+                . 'una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
         ],
     ],
     [
@@ -77,7 +78,7 @@ $sections = [
                 . 'propio desarrollo.',
             'También hay que prever el mantenimiento. La DNIT publica actualizaciones del manual '
                 . 'técnico y de las validaciones, y el sistema debe adaptarse a ellas para seguir '
-                . 'emitiendo sin rechazos. Pregunte a su proveedor quién se hace cargo de esas '
+                . 'emitiendo sin rechazos. Preguntale a tu proveedor quién se hace cargo de esas '
                 . 'actualizaciones y con qué costo.',
             'Finalmente, está el almacenamiento: los documentos electrónicos deben conservarse y poder '
                 . 'consultarse durante los plazos que establece la normativa tributaria.',
@@ -89,25 +90,25 @@ $sections = [
             'Si emite pocas facturas y no necesita conectarlas con stock ni con reportes, la '
                 . 'herramienta gratuita de la DNIT o un sistema sencillo de un proveedor suelen '
                 . 'alcanzar.',
-            'Si su empresa ya trabaja con un sistema de ventas propio y emite muchos documentos, la '
+            'Si tu empresa ya trabaja con un sistema de ventas propio y emite muchos documentos, la '
                 . 'integración ahorra la doble carga y los errores de copiar datos de un sistema a '
                 . 'otro. Ahí el costo del desarrollo se compara con las horas que se dejan de perder.',
-            'Si su sistema actual es viejo, cerrado o no tiene soporte, este es buen momento para '
-                . 'evaluar un reemplazo que ya incluya la facturación electrónica y le ordene otros '
+            'Si tu sistema actual es viejo, cerrado o no tiene soporte, este es buen momento para '
+                . 'evaluar un reemplazo que ya incluya la facturación electrónica y te ordene otros '
                 . 'procesos al mismo tiempo.',
         ],
     ],
     [
         'h2'    => 'Qué tener listo antes de pedir presupuesto',
         'body'  => [
-            'Con esta información cualquier proveedor puede darle una cotización precisa.',
+            'Con esta información cualquier proveedor puede darte una cotización precisa.',
         ],
         'items' => [
-            ['title' => 'Qué sistema usa hoy', 'text' => 'Nombre, quién lo hizo y si tiene acceso al código o a una API.'],
+            ['title' => 'Qué sistema usás hoy', 'text' => 'Nombre, quién lo hizo y si tenés acceso al código o a una API.'],
             ['title' => 'Qué documentos emite', 'text' => 'Facturas, notas de crédito, remisiones, autofacturas.'],
             ['title' => 'Cuántos puntos de emisión', 'text' => 'Sucursales, cajas y vendedores que facturan.'],
             ['title' => 'Volumen mensual aproximado', 'text' => 'Cantidad de documentos por mes.'],
-            ['title' => 'Estado de su habilitación', 'text' => 'Si ya fue designado o solicitó ser facturador electrónico ante la DNIT.'],
+            ['title' => 'Estado de tu habilitación', 'text' => 'Si ya fue designado o solicitó ser facturador electrónico ante la DNIT.'],
         ],
     ],
 ];
@@ -115,11 +116,11 @@ $sections = [
 $faq = [
     [
         'q' => '¿Puedo facturar electrónicamente sin pagar un sistema?',
-        'a' => 'Sí, la DNIT ofrece una herramienta gratuita para emitir desde su portal. Sirve para volúmenes bajos, pero no se integra con su sistema de ventas ni con el stock.',
+        'a' => 'Sí, la DNIT ofrece una herramienta gratuita para emitir desde su portal. Sirve para volúmenes bajos, pero no se integra con tu sistema de ventas ni con el stock.',
     ],
     [
         'q' => '¿Necesito firma digital para SIFEN?',
-        'a' => 'Sí, los documentos electrónicos se firman con un certificado digital emitido por un prestador habilitado. Consulte los requisitos y el costo vigentes.',
+        'a' => 'Sí, los documentos electrónicos se firman con un certificado digital emitido por un prestador habilitado. Consultá los requisitos y el costo vigentes.',
     ],
     [
         'q' => '¿Cuánto tarda una integración con SIFEN?',

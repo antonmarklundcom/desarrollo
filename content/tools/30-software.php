@@ -10,12 +10,12 @@ return [
         'title'           => 'Cotizador orientativo de apps',
         'navLabel'        => 'Cotizador de apps',
         'seoTitle'        => 'Cotizador de apps por complejidad',
-        'metaDescription' => 'Cotizador orientativo de apps: marque plataformas, login, pagos, panel e '
-                           . 'integraciones y vea en qué nivel de complejidad se ubica su proyecto.',
+        'metaDescription' => 'Cotizador orientativo de apps: marcá plataformas, login, pagos, panel e '
+                           . 'integraciones y mirá en qué nivel de complejidad se ubica tu proyecto.',
         'hero' => [
             'eyebrow' => 'Herramientas',
             'h1'      => 'Cotizador orientativo de apps',
-            'lead'    => 'Marque las funciones de su app y vea en qué nivel de complejidad se ubica, y qué '
+            'lead'    => 'Marcá las funciones de tu app y mirá en qué nivel de complejidad se ubica, y qué '
                        . 'suele influir en el alcance.',
         ],
         'intro' => [
@@ -24,7 +24,7 @@ return [
                 . 'real, panel para comercios o integración con el sistema de facturación.',
             'Este cotizador suma puntos por cada decisión que agrega trabajo: publicar en una o dos tiendas, '
                 . 'registrar usuarios, cobrar dentro de la app, administrar contenidos desde un panel, conectarse '
-                . 'con otros sistemas y la cantidad de pantallas. Con el puntaje ubica su idea en uno de cuatro '
+                . 'con otros sistemas y la cantidad de pantallas. Con el puntaje ubica tu idea en uno de cuatro '
                 . 'niveles de complejidad y lo muestra sin montos.',
             'El resultado no es un presupuesto: el presupuesto sale '
                 . 'por escrito después de una reunión de definición, donde también aparecen detalles que '
@@ -47,12 +47,12 @@ return [
         'title'           => 'Calculadora de ahorro por automatización',
         'navLabel'        => 'Ahorro por automatizar',
         'seoTitle'        => 'Calculadora de ahorro por automatizar',
-        'metaDescription' => 'Calcule cuántas horas y guaraníes ahorra por mes y por año al automatizar una '
+        'metaDescription' => 'Calculá cuántas horas y guaraníes ahorrás por mes y por año al automatizar una '
                            . 'tarea manual, según horas, personas, costo por hora y porcentaje.',
         'hero' => [
             'eyebrow' => 'Herramientas',
             'h1'      => 'Calculadora de ahorro por automatización',
-            'lead'    => 'Estime las horas y el costo que recupera al automatizar una tarea repetitiva de su '
+            'lead'    => 'Estimá las horas y el costo que recuperás al automatizar una tarea repetitiva de tu '
                        . 'empresa.',
         ],
         'intro' => [
@@ -60,18 +60,18 @@ return [
                 . 'horas semanales que lleva una tarea por la cantidad de personas que la hacen y por el costo de '
                 . 'cada hora, y aplica el porcentaje que razonablemente se puede automatizar.',
             'El costo por hora debería incluir el salario, las cargas sociales y los beneficios, no solo el '
-                . 'sueldo neto. Para el porcentaje automatizable, sea conservador: casi siempre queda una parte '
+                . 'sueldo neto. Para el porcentaje automatizable, sé conservador: casi siempre queda una parte '
                 . 'de revisión o de excepciones que sigue siendo manual. Para pasar de semanas a meses usamos '
                 . 'el promedio de 4,33 semanas por mes.',
-            'Compare el ahorro anual con el costo de construir y operar la automatización. Si el ahorro de uno '
+            'Compará el ahorro anual con el costo de construir y operar la automatización. Si el ahorro de uno '
                 . 'o dos años cubre la inversión, es un buen candidato. Las horas recuperadas no siempre se '
                 . 'traducen en menos gasto: muchas veces se reasignan a tareas que hoy no se hacen por falta '
                 . 'de tiempo.',
         ],
         'faq' => [
-            ['q' => '¿Qué porcentaje es realista?', 'a' => 'Para tareas de carga de datos con reglas claras, porcentajes altos son posibles; con muchas excepciones, bastante menos. Si duda, use un valor moderado.'],
-            ['q' => '¿Incluye el costo de la automatización?', 'a' => 'No. Muestra el ahorro bruto; réstele el costo de desarrollo y el costo mensual de operación.'],
-            ['q' => '¿Cómo calculo el costo por hora?', 'a' => 'Divida el costo mensual total del puesto (salario más cargas y beneficios) por las horas trabajadas en el mes.'],
+            ['q' => '¿Qué porcentaje es realista?', 'a' => 'Para tareas de carga de datos con reglas claras, porcentajes altos son posibles; con muchas excepciones, bastante menos. Si dudás, usá un valor moderado.'],
+            ['q' => '¿Incluye el costo de la automatización?', 'a' => 'No. Muestra el ahorro bruto; restale el costo de desarrollo y el costo mensual de operación.'],
+            ['q' => '¿Cómo calculo el costo por hora?', 'a' => 'Dividí el costo mensual total del puesto (salario más cargas y beneficios) por las horas trabajadas en el mes.'],
         ],
         'related'       => ['automatizacion-ia', 'desarrollo-de-software'],
         'ctaWhatsapp'   => '',

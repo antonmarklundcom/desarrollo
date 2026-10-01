@@ -269,6 +269,23 @@ It curls every URL in the route contract against the live site, asserts the same
 `verify.sh` does locally, and checks that `config.php`, `lib/` and `logs/` are not publicly
 readable.
 
+### Deploying with Hostinger Git (hPanel → Advanced → Git)
+
+The repository root is the web root: connect the repo, branch `main`, and every
+pull writes only tracked files. The two things that must **not** live in Git are
+handled for you:
+
+- **`config.php`** (keys, CRM address): create it once in File Manager, either
+  next to `index.php` or — safest — one folder **above** `public_html/`
+  (`lib/bootstrap.php` reads both, the one next to `index.php` wins). A pull,
+  a zip upload or an emptied `public_html/` can never remove the one above it.
+  Start from `config.example.php`.
+- **`logs/`** holds `leads.log` when the CRM is unreachable. It is gitignored,
+  so a pull leaves it alone; `.htaccess` answers 404 for `/logs/`.
+
+`docs/`, `tests/`, `deploy/`, `prompts/`, `content/`, `lib/`, `partials/` and
+`templates/` are in the repository but answered with a 404 by `.htaccess`.
+
 ### Replacing an existing site on the same domain
 
 The zip does not remove what is already in `public_html/`. For a WordPress replacement: take a

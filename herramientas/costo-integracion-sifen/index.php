@@ -24,7 +24,7 @@ ob_start();
       </label>
     </div>
     <label class="field">
-      <span>¿Con qué registra hoy sus ventas?</span>
+      <span>¿Con qué registrás hoy tus ventas?</span>
       <select name="sistema" id="sifen-sistema">
         <option value="ninguno">Ningún sistema</option>
         <option value="excel">Planillas Excel</option>
@@ -58,7 +58,7 @@ ob_start();
     </dl>
     <p id="sifen-resumen"></p>
     <ul id="sifen-incluye"></ul>
-    <p class="note">Resultado orientativo, no es un presupuesto. El costo real se confirma después de revisar su sistema.</p>
+    <p class="note">Resultado orientativo, no es un presupuesto. El costo real se confirma después de revisar tu sistema.</p>
     <div class="btn-row mt-3">
       <button class="btn btn--secondary" type="button" id="sifen-use-result"><?= e(ui('tools.use_result')) ?></button>
     </div>
