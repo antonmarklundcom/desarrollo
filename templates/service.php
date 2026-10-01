@@ -39,7 +39,16 @@ $page = [
     /* Names this page in the lead value model: the WhatsApp menu,
        the CTA band, the lead form and the thank-you all resolve from it. */
     'leadSlug'    => $slug,
+    'service'     => $service,
 ];
+
+/* The service's own photograph, or its parent's for a sub-page that has none
+   (Bancard borrows Integración de pagos). No image → the hero stays one column. */
+$svcImage = image_for('service', $slug)
+    ?? (!empty($service['parent']) ? image_for('service', $service['parent']) : null);
+if ($svcImage !== null) {
+    $page['ogImage'] = $svcImage['base'] . '-' . max($svcImage['widths']) . '.webp';
+}
 
 $hero        = $service['hero'];
 $ctaWhatsapp = whatsapp_text_for_page($page);
@@ -49,28 +58,39 @@ require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main">
 
-  <section class="page-hero">
+  <section class="page-hero<?= $svcImage !== null ? ' page-hero--media' : '' ?>">
     <div class="container">
       <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
-      <div class="page-hero__inner">
-        <p class="eyebrow"><?= e($hero['eyebrow'] !== '' ? $hero['eyebrow'] : $clusterLabel) ?></p>
-        <h1><?= e($hero['h1'] !== '' ? $hero['h1'] : $service['title']) ?></h1>
-        <?php if ($hero['h2'] !== ''): ?>
-          <p class="lead"><?= e($hero['h2']) ?></p>
-        <?php endif; ?>
-        <?php if ($hero['lead'] !== ''): ?>
-          <p class="lead"><?= e($hero['lead']) ?></p>
-        <?php elseif ($hero['h2'] === ''): ?>
-          <p class="lead"><?= e($service['metaDescription']) ?></p>
-        <?php endif; ?>
-        <div class="btn-row">
-          <a class="btn btn--primary" href="/contacto/">
-            <?= e($service['cta']['label'] !== '' ? $service['cta']['label'] : ui('cta.consult')) ?>
-          </a>
-          <?php if (($wa = whatsapp_link($ctaWhatsapp)) !== null): ?>
-            <a class="btn btn--secondary" href="<?= e($wa) ?>" rel="noopener"><?= e(ui('cta.whatsapp')) ?></a>
+      <div class="page-hero__grid">
+        <div class="page-hero__inner">
+          <p class="eyebrow"><?= e($hero['eyebrow'] !== '' ? $hero['eyebrow'] : $clusterLabel) ?></p>
+          <h1><?= e($hero['h1'] !== '' ? $hero['h1'] : $service['title']) ?></h1>
+          <?php if ($hero['h2'] !== ''): ?>
+            <p class="lead page-hero__h2"><?= e($hero['h2']) ?></p>
           <?php endif; ?>
+          <?php if ($hero['lead'] !== ''): ?>
+            <p class="page-hero__lead"><?= e($hero['lead']) ?></p>
+          <?php elseif ($hero['h2'] === ''): ?>
+            <p class="lead"><?= e($service['metaDescription']) ?></p>
+          <?php endif; ?>
+          <div class="btn-row">
+            <!-- The form is on this page (#solicitar): sending the visitor to
+                 /contacto/ would drop the service they came for. -->
+            <a class="btn btn--primary" href="#solicitar">
+              <?= e($service['cta']['label'] !== '' ? $service['cta']['label'] : ui('cta.consult')) ?>
+            </a>
+            <?php if (($wa = whatsapp_link($ctaWhatsapp)) !== null): ?>
+              <a class="btn btn--whatsapp" href="<?= e($wa) ?>" rel="noopener"><?= e(ui('cta.whatsapp_long')) ?></a>
+            <?php endif; ?>
+          </div>
+          <?php $trustItems = content('ui')['home']['trust']; ?>
+          <?php require ROOT_DIR . '/partials/trust-row.php'; ?>
         </div>
+        <?php if ($svcImage !== null): ?>
+          <div class="page-hero__media">
+            <?= picture($svcImage, 'media-frame', '(min-width: 64rem) 36rem, 100vw', true) ?>
+          </div>
+        <?php endif; ?>
       </div>
     </div>
   </section>
@@ -175,8 +195,37 @@ require ROOT_DIR . '/partials/header.php';
     </section>
   <?php endif; ?>
 
+  <!-- Solicitar: the service's own lead form. Every service page
+       needs one, because a lead is only worth routing if it arrives carrying
+       the service it came from — the CTA band above sends people to WhatsApp,
+       this sends the ones who would rather write. -->
+  <section class="section section--surface" id="solicitar">
+    <div class="container split split--top">
+      <div class="stack">
+        <p class="eyebrow"><?= e(ui('service.form_eyebrow')) ?></p>
+        <h2><?= e($service['cta']['label'] !== '' ? $service['cta']['label'] : ui('form.legend')) ?></h2>
+        <p class="lead"><?= e(ui('service.form_lead')) ?></p>
+        <ul class="checklist">
+          <?php foreach (content('ui')['contact']['steps'] as $svcStep): ?>
+            <li><span><?= e($svcStep) ?></span></li>
+          <?php endforeach; ?>
+        </ul>
+      </div>
+
+      <div>
+        <?php
+        $formId      = $slug;
+        $formService = $slug;
+        $formNeed    = lead_value($slug)['need'];
+        $formHeading = '';
+        require ROOT_DIR . '/partials/lead-form.php';
+        ?>
+      </div>
+    </div>
+  </section>
+
   <?php if ($service['faq'] !== []): ?>
-    <section class="section section--surface">
+    <section class="section">
       <div class="container">
         <?php $faqItems = $service['faq']; ?>
         <?php require ROOT_DIR . '/partials/faq.php'; ?>
@@ -248,35 +297,6 @@ require ROOT_DIR . '/partials/header.php';
       </div>
     </section>
   <?php endif; ?>
-
-  <!-- Solicitar: the service's own lead form. Every service page
-       needs one, because a lead is only worth routing if it arrives carrying
-       the service it came from — the CTA band above sends people to WhatsApp,
-       this sends the ones who would rather write. -->
-  <section class="section section--surface" id="solicitar">
-    <div class="container split split--top">
-      <div class="stack">
-        <p class="eyebrow"><?= e(ui('service.form_eyebrow')) ?></p>
-        <h2><?= e($service['cta']['label'] !== '' ? $service['cta']['label'] : ui('form.legend')) ?></h2>
-        <p class="lead"><?= e(ui('service.form_lead')) ?></p>
-        <ul class="checklist">
-          <?php foreach (content('ui')['contact']['steps'] as $svcStep): ?>
-            <li><span><?= e($svcStep) ?></span></li>
-          <?php endforeach; ?>
-        </ul>
-      </div>
-
-      <div>
-        <?php
-        $formId      = $slug;
-        $formService = $slug;
-        $formNeed    = lead_value($slug)['need'];
-        $formHeading = '';
-        require ROOT_DIR . '/partials/lead-form.php';
-        ?>
-      </div>
-    </div>
-  </section>
 
   <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
 </main>

@@ -71,8 +71,8 @@ $__base = [
         'tier'         => 'C',
         'whatsappText' => 'Hola, quisiera hacer una consulta.',
         'nextStep'     => [
-            'Le respondemos dentro del siguiente día hábil.',
-            'Tenga a mano una descripción breve de su situación.',
+            'Te respondemos dentro del siguiente día hábil.',
+            'Tené a mano una descripción breve de tu situación.',
         ],
         'crmTag'       => 'consulta-general',
         'nextLink'     => null,

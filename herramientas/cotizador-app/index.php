@@ -67,11 +67,11 @@ ob_start();
     <dl class="tool-result__lines">
       <dt>Nivel de complejidad</dt>
       <dd id="capp-nivel"></dd>
-      <dt>Rango orientativo del mercado</dt>
+      <dt>Presupuesto</dt>
       <dd id="capp-rango"></dd>
     </dl>
     <p class="note" id="capp-detalle"></p>
-    <p class="note">Rangos orientativos del mercado, a confirmar con presupuesto. No incluye mantenimiento, servidores ni cuentas de las tiendas.</p>
+    <p class="note">El nivel es orientativo y no es un presupuesto. No incluye mantenimiento, servidores ni cuentas de las tiendas.</p>
     <div class="btn-row mt-3">
       <button class="btn btn--secondary" type="button" id="capp-use-result"><?= e(ui('tools.use_result')) ?></button>
     </div>

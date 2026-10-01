@@ -20,12 +20,11 @@ return [
                            . 'e integraciones para empresas, con alcance por etapas y código propio.',
         'hero' => [
             'eyebrow' => 'Software a medida',
-            'h1'      => 'Desarrollo de software a medida para empresas en Paraguay',
-            'h2'      => 'Sistemas que siguen su proceso, no al revés.',
-            'lead'    => 'El desarrollo de software a medida tiene sentido cuando ninguna planilla ni '
-                       . 'programa enlatado resuelve bien cómo trabaja su empresa. Diseñamos, programamos '
-                       . 'y ponemos en producción sistemas web y portales internos, con el alcance '
-                       . 'dividido en etapas para que usted vea resultados antes de invertir en la siguiente.',
+            'h1'      => 'Desarrollo de software a medida para tu empresa',
+            'h2'      => 'Sistemas que siguen tu proceso, no al revés.',
+            'lead'    => 'Diseñamos, programamos y ponemos en producción sistemas web y portales '
+                       . 'internos, con SIFEN, pagos o WhatsApp integrados cuando hace falta. Entregamos '
+                       . 'por etapas: ves resultados antes de invertir en la siguiente.',
         ],
         'includes' => [
             'Relevamiento del proceso con las personas que lo usan todos los días',
@@ -35,15 +34,15 @@ return [
             'Base de datos, panel de administración y permisos por rol',
             'Integraciones con facturación electrónica SIFEN, pasarelas de pago o WhatsApp cuando corresponde',
             'Puesta en producción, copias de seguridad automáticas y manual de uso',
-            'Entrega del código fuente y de los accesos a su nombre',
+            'Entrega del código fuente y de los accesos a tu nombre',
         ],
         'excludes' => [
             'Licencias de software de terceros (por ejemplo, APIs pagas o servicios en la nube)',
             'Carga masiva de datos históricos desde fuentes desordenadas, que se cotiza aparte',
-            'Auditorías de seguridad o pruebas de penetración (vea ciberseguridad.com.py)',
+            'Auditorías de seguridad o pruebas de penetración (mirá ciberseguridad.com.py)',
         ],
         'weNeed' => [
-            'Una persona de su empresa que conozca el proceso y pueda decidir',
+            'Una persona de tu empresa que conozca el proceso y pueda decidir',
             'Ejemplos reales: planillas, formularios, comprobantes y reportes que usan hoy',
             'Acceso a los sistemas con los que el nuevo software debe conectarse',
             'Una hora por semana para revisar cada entrega',
@@ -52,22 +51,22 @@ return [
             [
                 'h2'   => 'Cuándo conviene el software a medida y cuándo no',
                 'body' => [
-                    'Un software a medida no siempre es la respuesta. Si su necesidad es la de muchas '
+                    'Un software a medida no siempre es la respuesta. Si tu necesidad es la de muchas '
                         . 'empresas (facturar, llevar un inventario simple, vender en mostrador), un sistema '
-                        . 'existente suele ser más barato y más rápido de implementar. Se lo decimos antes de '
+                        . 'existente suele ser más barato y más rápido de implementar. Te lo decimos antes de '
                         . 'cotizar.',
-                    'El desarrollo a medida se justifica cuando su forma de trabajar es parte de su ventaja: '
+                    'El desarrollo a medida se justifica cuando tu forma de trabajar es parte de tu ventaja: '
                         . 'un circuito de aprobaciones propio, un cálculo de precios que ningún programa hace, '
-                        . 'un portal para sus clientes o proveedores, o la necesidad de unir en un solo lugar '
+                        . 'un portal para tus clientes o proveedores, o la necesidad de unir en un solo lugar '
                         . 'datos que hoy viven en tres planillas y dos sistemas que no se hablan.',
                     'También se justifica cuando el costo de las licencias por usuario de un sistema enlatado, '
-                        . 'multiplicado por varios años, supera lo que cuesta construir algo propio que usted '
-                        . 'controla.',
+                        . 'multiplicado por varios años, supera lo que cuesta construir algo propio que vos '
+                        . 'controlás.',
                 ],
                 'items' => [
                     ['title' => 'Conviene', 'text' => 'Procesos propios, integraciones entre sistemas, portales para clientes, reglas de negocio que cambian seguido.'],
                     ['title' => 'No conviene', 'text' => 'Necesidades estándar que un ERP, CRM o sistema de punto de venta ya resuelve bien.'],
-                    ['title' => 'Mixto', 'text' => 'Un sistema existente más un módulo a medida que cubre lo que le falta.'],
+                    ['title' => 'Mixto', 'text' => 'Un sistema existente más un módulo a medida que cubre lo que te falta.'],
                 ],
             ],
             [
@@ -75,7 +74,7 @@ return [
                 'body' => [
                     'Las empresas de desarrollo de software que entregan todo al final corren un riesgo alto: '
                         . 'lo que se entrega ya no coincide con lo que el cliente necesitaba. Por eso dividimos '
-                        . 'el trabajo en etapas cortas y cada una termina con algo que usted puede usar o probar.',
+                        . 'el trabajo en etapas cortas y cada una termina con algo que podés usar o probar.',
                 ],
                 'items' => [
                     ['title' => '1. Relevamiento', 'text' => 'Entrevistas con los usuarios, revisión de planillas y documentos, y un mapa del proceso actual.'],
@@ -86,14 +85,14 @@ return [
                 ],
             ],
             [
-                'h2'   => 'Tecnología: elegimos lo que usted pueda mantener',
+                'h2'   => 'Tecnología: elegimos lo que puedas mantener',
                 'body' => [
                     'Los desarrolladores de software tienden a elegir la herramienta de moda. Nosotros '
                         . 'priorizamos tecnologías conocidas y con muchos profesionales disponibles en Paraguay '
                         . '(por ejemplo PHP, JavaScript y TypeScript, Python, bases de datos MySQL o PostgreSQL), '
-                        . 'para que el día de mañana otro equipo pueda continuar el trabajo si usted lo decide.',
-                    'El sistema se aloja en un servidor o servicio en la nube a nombre de su empresa, con copias '
-                        . 'de seguridad automáticas. El código queda en un repositorio al que usted tiene acceso '
+                        . 'para que el día de mañana otro equipo pueda continuar el trabajo si vos lo decidís.',
+                    'El sistema se aloja en un servidor o servicio en la nube a nombre de tu empresa, con copias '
+                        . 'de seguridad automáticas. El código queda en un repositorio al que tenés acceso '
                         . 'desde el primer día.',
                 ],
             ],
@@ -104,10 +103,9 @@ return [
                         . 'veces el trabajo. Lo que más pesa en el presupuesto es la cantidad de pantallas y roles, '
                         . 'la complejidad de las reglas de negocio, las integraciones con otros sistemas y la '
                         . 'calidad de los datos que hay que migrar.',
-                    'Como referencia, en el mercado paraguayo un sistema interno acotado suele empezar en '
-                        . 'algunas decenas de millones de guaraníes y un sistema con varios módulos e integraciones '
-                        . 'puede superar los cien millones. Son rangos orientativos del mercado, a confirmar con '
-                        . 'presupuesto después del relevamiento.',
+                    'Un sistema interno acotado y uno con varios módulos e integraciones son proyectos de '
+                        . 'otra escala. Después del relevamiento te pasamos un presupuesto en guaraníes, por '
+                        . 'escrito, con el alcance detallado.',
                 ],
             ],
             [
@@ -115,16 +113,16 @@ return [
                 'body' => [
                     'La mayoría de los sistemas que construimos necesitan hablar con algo más: la facturación '
                         . 'electrónica del SIFEN, una pasarela de pagos local, WhatsApp para notificar a clientes, '
-                        . 'el sistema contable que ya usa su estudio, o una planilla que no se puede abandonar de '
+                        . 'el sistema contable que ya usa tu estudio, o una planilla que no se puede abandonar de '
                         . 'un día para otro. Esas conexiones se definen en el alcance y se prueban con datos reales '
                         . 'antes de la puesta en producción.',
                 ],
             ],
         ],
         'benefits' => [
-            ['title' => 'El sistema es suyo', 'text' => 'Código, base de datos y accesos quedan a nombre de su empresa.'],
-            ['title' => 'Sin licencias por usuario', 'text' => 'Puede sumar usuarios sin que suba un costo mensual por cabeza.'],
-            ['title' => 'Resultados por etapas', 'text' => 'Usted ve y prueba cada entrega antes de aprobar la siguiente.'],
+            ['title' => 'El sistema es tuyo', 'text' => 'Código, base de datos y accesos quedan a nombre de tu empresa.'],
+            ['title' => 'Sin licencias por usuario', 'text' => 'Podés sumar usuarios sin que suba un costo mensual por cabeza.'],
+            ['title' => 'Resultados por etapas', 'text' => 'Ves y probás cada entrega antes de aprobar la siguiente.'],
             ['title' => 'Mantenible por terceros', 'text' => 'Tecnologías conocidas y documentación para que no dependa de una sola persona.'],
         ],
         'faq' => [
@@ -136,27 +134,27 @@ return [
             ],
             [
                 'q' => '¿El código fuente queda a mi nombre?',
-                'a' => 'Sí. El repositorio, el servidor y el dominio quedan a nombre de su empresa y le entregamos '
-                     . 'los accesos. Si en el futuro decide trabajar con otro equipo, puede hacerlo.',
+                'a' => 'Sí. El repositorio, el servidor y el dominio quedan a nombre de tu empresa y te entregamos '
+                     . 'los accesos. Si en el futuro decidís trabajar con otro equipo, podés hacerlo.',
             ],
             [
                 'q' => '¿Qué pasa si durante el proyecto cambian los requisitos?',
                 'a' => 'Es normal. Los cambios se anotan, se estiman y se ubican en la etapa que corresponda. Lo '
-                     . 'que ya está aprobado no se rehace sin que usted lo decida.',
+                     . 'que ya está aprobado no se rehace sin que vos lo decidas.',
             ],
             [
                 'q' => '¿Pueden continuar un sistema que hizo otra empresa?',
                 'a' => 'Sí, después de revisar el código y la documentación disponible. A veces conviene '
-                     . 'continuarlo y a veces rehacer partes; se lo explicamos con el diagnóstico en la mano.',
+                     . 'continuarlo y a veces rehacer partes; te lo explicamos con el diagnóstico en la mano.',
             ],
             [
                 'q' => '¿Ofrecen mantenimiento después de la entrega?',
                 'a' => 'Sí, con un plan mensual que cubre correcciones, actualizaciones y un número acordado de '
-                     . 'horas para mejoras. También puede contratar mantenimiento solo cuando lo necesite.',
+                     . 'horas para mejoras. También podés contratar mantenimiento solo cuando lo necesites.',
             ],
             [
                 'q' => '¿El sistema funciona en el celular?',
-                'a' => 'Los sistemas web que desarrollamos se adaptan a la pantalla del celular. Si necesita una '
+                'a' => 'Los sistemas web que desarrollamos se adaptan a la pantalla del celular. Si necesitás una '
                      . 'aplicación instalable con funciones del teléfono, lo evaluamos como desarrollo de app.',
             ],
         ],
@@ -167,8 +165,8 @@ return [
         'toolLinks' => [
             [
                 'path'  => '/herramientas/roi-automatizacion/',
-                'label' => 'Calcule el ahorro',
-                'text'  => 'Estime cuántas horas y guaraníes le ahorra automatizar una tarea manual.',
+                'label' => 'Calculá el ahorro',
+                'text'  => 'Estime cuántas horas y guaraníes te ahorra automatizar una tarea manual.',
             ],
         ],
     ],
@@ -185,11 +183,10 @@ return [
         'hero' => [
             'eyebrow' => 'Apps móviles',
             'h1'      => 'Desarrollo de apps móviles para Android e iOS',
-            'h2'      => 'Crear una app que la gente use más de una vez.',
-            'lead'    => 'Si quiere crear una app para sus clientes, su equipo de campo o un nuevo negocio, '
-                       . 'nos ocupamos del desarrollo de apps de punta a punta: definición, diseño, '
-                       . 'programación de aplicaciones móviles para Android e iOS, panel de administración '
-                       . 'y publicación en Google Play y App Store.',
+            'h2'      => 'Una app que tus clientes usen más de una vez.',
+            'lead'    => 'Diseñamos, programamos y publicamos tu app en Google Play y App Store, con '
+                       . 'login, pagos locales y panel de administración. Para tus clientes, tu equipo '
+                       . 'de campo o un negocio nuevo.',
         ],
         'includes' => [
             'Definición de funciones y del flujo principal del usuario',
@@ -199,27 +196,27 @@ return [
             'Panel web de administración para gestionar contenidos, usuarios y pedidos',
             'Notificaciones push',
             'Integración con pasarelas de pago locales cuando la app cobra',
-            'Publicación en Google Play y App Store con las cuentas de su empresa',
+            'Publicación en Google Play y App Store con las cuentas de tu empresa',
         ],
         'excludes' => [
-            'Costos de las cuentas de desarrollador de Google y Apple (se pagan a su nombre)',
+            'Costos de las cuentas de desarrollador de Google y Apple (se pagan a tu nombre)',
             'Campañas de marketing para conseguir descargas',
             'Producción de fotos, videos o textos de catálogo',
         ],
         'weNeed' => [
             'Una descripción de quién usará la app y para qué',
-            'Su logo y la identidad visual de la marca',
+            'Tu logo y la identidad visual de la marca',
             'Cuentas de desarrollador de Google Play y Apple a nombre de la empresa',
             'Acceso a los sistemas o datos con los que la app debe conectarse',
         ],
         'sections' => [
             [
-                'h2'   => 'Antes de crear una app: ¿la necesita?',
+                'h2'   => 'Antes de crear una app: ¿la necesitás?',
                 'body' => [
                     'Muchas ideas de app funcionan igual de bien como una web app: una página que se abre en el '
                         . 'navegador del celular, se puede agregar a la pantalla de inicio y no pasa por la '
                         . 'aprobación de las tiendas. Cuesta menos y se actualiza al instante.',
-                    'Una app instalable se justifica cuando necesita funciones del teléfono (cámara, ubicación '
+                    'Una app instalable se justifica cuando necesitás funciones del teléfono (cámara, ubicación '
                         . 'en segundo plano, funcionamiento sin conexión, notificaciones frecuentes), cuando el '
                         . 'usuario la abre muchas veces por semana, o cuando estar en Google Play y App Store es '
                         . 'parte de la propuesta.',
@@ -238,7 +235,7 @@ return [
                 ],
                 'items' => [
                     ['title' => 'Definición', 'text' => 'Usuarios, funciones indispensables, pantallas y datos que se guardan.'],
-                    ['title' => 'Diseño', 'text' => 'Prototipo navegable que usted puede probar en su propio celular.'],
+                    ['title' => 'Diseño', 'text' => 'Prototipo navegable que podés probar en tu propio celular.'],
                     ['title' => 'Desarrollo', 'text' => 'App, servidor y panel de administración, con versiones de prueba periódicas.'],
                     ['title' => 'Publicación', 'text' => 'Preparación de fichas, capturas y políticas para la revisión de las tiendas.'],
                     ['title' => 'Evolución', 'text' => 'Actualizaciones del sistema operativo, correcciones y nuevas funciones.'],
@@ -247,22 +244,22 @@ return [
             [
                 'h2'   => 'Aplicaciones móviles con pagos, login y panel de administración',
                 'body' => [
-                    'Detrás de casi toda app hay un servidor que guarda los datos y un panel para que su equipo '
+                    'Detrás de casi toda app hay un servidor que guarda los datos y un panel para que tu equipo '
                         . 'administre usuarios, productos, pedidos o contenidos. Lo construimos junto con la app, '
                         . 'no como un agregado posterior.',
                     'Si la app cobra, la integramos con una pasarela de pagos que opere en Paraguay y acepte '
-                        . 'tarjetas y billeteras locales. Tenga en cuenta que Apple y Google tienen reglas sobre '
+                        . 'tarjetas y billeteras locales. Tené en cuenta que Apple y Google tienen reglas sobre '
                         . 'qué pagos deben pasar por sus propios sistemas de compra dentro de la app; lo revisamos '
                         . 'al definir el modelo de negocio.',
                 ],
             ],
             [
-                'h2'   => 'Apps Android: la mayoría de sus usuarios',
+                'h2'   => 'Apps Android: la mayoría de tus usuarios',
                 'body' => [
                     'En Paraguay la gran mayoría de los teléfonos usa Android, y muchos son equipos de gama '
                         . 'media o baja. Diseñamos pensando en eso: pantallas livianas, consumo de datos moderado '
                         . 'y pruebas en equipos reales, no solo en el teléfono más nuevo del mercado.',
-                    'Si su público es principalmente corporativo o de alto poder adquisitivo, la proporción de '
+                    'Si tu público es principalmente corporativo o de alto poder adquisitivo, la proporción de '
                         . 'iPhone sube y conviene lanzar en ambas tiendas desde el primer día.',
                 ],
             ],
@@ -271,19 +268,18 @@ return [
                 'body' => [
                     'Las variables que más mueven el presupuesto son: en cuántas plataformas se publica, si hay '
                         . 'registro de usuarios, si hay pagos, cuántas pantallas tiene, qué integraciones necesita '
-                        . 'y cuán completo debe ser el panel de administración. Nuestro cotizador orientativo le '
-                        . 'ayuda a ubicar su idea antes de hablar con nosotros.',
-                    'Como referencia, en el mercado paraguayo una app sencilla con panel básico suele partir de '
-                        . 'algunas decenas de millones de guaraníes, y una app con pagos, varios roles e '
-                        . 'integraciones puede superar holgadamente los cien millones. Rangos orientativos del '
-                        . 'mercado, a confirmar con presupuesto.',
+                        . 'y cuán completo debe ser el panel de administración. Nuestro cotizador te '
+                        . 'ayuda a ubicar tu idea antes de hablar con nosotros.',
+                    'Una app sencilla con panel básico y una con pagos, varios roles e integraciones se '
+                        . 'cotizan muy distinto. No publicamos un precio fijo: después de una conversación de 30 '
+                        . 'minutos te pasamos el presupuesto en guaraníes, por escrito.',
                 ],
             ],
         ],
         'benefits' => [
             ['title' => 'Una base de código', 'text' => 'El desarrollo multiplataforma reduce el costo de mantener Android e iOS.'],
-            ['title' => 'Cuentas a su nombre', 'text' => 'La app se publica con las cuentas de su empresa, no de un tercero.'],
-            ['title' => 'Panel incluido', 'text' => 'Su equipo administra la app sin depender de un programador para cada cambio.'],
+            ['title' => 'Cuentas a tu nombre', 'text' => 'La app se publica con las cuentas de tu empresa, no de un tercero.'],
+            ['title' => 'Panel incluido', 'text' => 'Tu equipo administra la app sin depender de un programador para cada cambio.'],
             ['title' => 'Pensada para el mercado local', 'text' => 'Pagos locales, equipos Android de gama media y conexiones inestables.'],
         ],
         'faq' => [
@@ -300,7 +296,7 @@ return [
             [
                 'q' => '¿Quién publica la app en las tiendas?',
                 'a' => 'Nosotros preparamos y enviamos la publicación, pero desde las cuentas de desarrollador de '
-                     . 'su empresa, para que la app sea suya.',
+                     . 'tu empresa, para que la app sea tuya.',
             ],
             [
                 'q' => '¿La app puede funcionar sin internet?',
@@ -315,7 +311,7 @@ return [
             ],
             [
                 'q' => '¿Me firman un acuerdo de confidencialidad?',
-                'a' => 'Sí, antes de que nos cuente los detalles de su idea si así lo prefiere.',
+                'a' => 'Sí, antes de que nos cuentes los detalles de tu idea, si así lo preferís.',
             ],
         ],
         'cta'       => ['label' => 'Cotizar mi app', 'whatsappText' => ''],
@@ -326,7 +322,7 @@ return [
             [
                 'path'  => '/herramientas/cotizador-app/',
                 'label' => 'Cotizador orientativo de apps',
-                'text'  => 'Marque las funciones de su app y vea en qué nivel de complejidad se ubica.',
+                'text'  => 'Marcá las funciones de tu app y mirá en qué nivel de complejidad se ubica.',
             ],
         ],
     ],
@@ -344,10 +340,9 @@ return [
             'eyebrow' => 'ERP y sistemas de gestión',
             'h1'      => 'ERP y sistemas de gestión para empresas paraguayas',
             'h2'      => 'Ventas, compras, stock y contabilidad en un solo lugar.',
-            'lead'    => 'Un ERP es el software de gestión que une las áreas de su empresa en una misma '
-                       . 'base de datos. Implementamos sistemas ERP para pymes, con Odoo o con desarrollo '
-                       . 'propio según el caso, conectados con la facturación electrónica SIFEN y con los '
-                       . 'datos que su contador necesita.',
+            'lead'    => 'Implementamos ERP para pymes con Odoo o desarrollo propio, conectado con la '
+                       . 'facturación electrónica SIFEN y con los datos que tu contador necesita para '
+                       . 'los cierres.',
         ],
         'includes' => [
             'Diagnóstico de procesos: ventas, compras, stock, cobranzas, pagos y contabilidad',
@@ -360,14 +355,14 @@ return [
         ],
         'excludes' => [
             'Licencias o suscripciones del ERP elegido, cuando las tenga',
-            'Servicios contables o impositivos (los sigue haciendo su contador)',
+            'Servicios contables o impositivos (los sigue haciendo tu contador)',
             'Hardware: computadoras, impresoras, lectores o balanzas',
         ],
         'weNeed' => [
-            'Un responsable del proyecto por su empresa, con tiempo asignado',
+            'Un responsable del proyecto por tu empresa, con tiempo asignado',
             'Listados actuales de clientes, proveedores, productos y precios',
-            'Los reportes que usa hoy para decidir',
-            'Contacto con su contador para acordar el plan de cuentas y los cierres',
+            'Los reportes que usás hoy para decidir',
+            'Contacto con tu contador para acordar el plan de cuentas y los cierres',
         ],
         'sections' => [
             [
@@ -384,8 +379,8 @@ return [
             [
                 'h2'   => 'Sistemas ERP: Odoo, otro sistema o desarrollo propio',
                 'body' => [
-                    'No vendemos un único producto. Recomendamos según su tamaño, su rubro y su presupuesto, y '
-                        . 'le explicamos por qué.',
+                    'No vendemos un único producto. Recomendamos según tu tamaño, tu rubro y tu presupuesto, y '
+                        . 'te explicamos por qué.',
                 ],
                 'items' => [
                     ['title' => 'Odoo', 'text' => 'ERP modular de código abierto con versión comunitaria y versión con suscripción. Flexible y con muchos módulos.'],
@@ -399,7 +394,7 @@ return [
                     'Un ERP para pymes no se implementa todo de una vez. Empezamos por el módulo donde está el '
                         . 'mayor problema, casi siempre ventas y stock o facturación, y sumamos compras, '
                         . 'cobranzas, contabilidad o producción en etapas siguientes.',
-                    'Así su equipo aprende de a poco, los datos se ordenan antes de pasar al siguiente módulo y '
+                    'Así tu equipo aprende de a poco, los datos se ordenan antes de pasar al siguiente módulo y '
                         . 'la inversión se reparte en el tiempo.',
                 ],
             ],
@@ -410,9 +405,9 @@ return [
                         . 'la DNIT: IVA en sus tasas vigentes, timbrado, numeración y, para los contribuyentes '
                         . 'obligados o adheridos, la facturación electrónica del SIFEN. Configuramos el ERP para '
                         . 'que emita documentos electrónicos o se conecte con el servicio de facturación que '
-                        . 'usted ya tenga.',
-                    'También acordamos con su contador el plan de cuentas y los reportes que necesita para las '
-                        . 'declaraciones, de modo que el sistema le entregue información útil y no un problema más.',
+                        . 'ya tengas.',
+                    'También acordamos con tu contador el plan de cuentas y los reportes que necesita para las '
+                        . 'declaraciones, de modo que el sistema te entregue información útil y no un problema más.',
                 ],
             ],
             [
@@ -420,19 +415,19 @@ return [
                 'body' => [
                     'El costo total tiene tres partes: la licencia o suscripción del sistema (si la tiene), la '
                         . 'implementación (configuración, migración, capacitación) y las adaptaciones a medida. La '
-                        . 'cantidad de usuarios, de módulos, de sucursales y el estado de sus datos actuales son lo '
+                        . 'cantidad de usuarios, de módulos, de sucursales y el estado de tus datos actuales son lo '
                         . 'que más mueve la cifra.',
-                    'Como referencia, en el mercado paraguayo la implementación de un ERP para una pyme con '
-                        . 'pocos módulos suele ubicarse entre unos pocos y algunas decenas de millones de '
-                        . 'guaraníes, sin contar licencias. Rangos orientativos del mercado, a confirmar con '
-                        . 'presupuesto.',
+                    'Una implementación para una pyme con pocos módulos es un proyecto bastante más acotado '
+                        . 'que uno con varias sucursales y adaptaciones. La licencia, si la hay, se cotiza '
+                        . 'aparte; el trabajo de implementación te lo presupuestamos en guaraníes, por escrito, '
+                        . 'cuando conocemos tu caso.',
                 ],
             ],
         ],
         'benefits' => [
             ['title' => 'Un solo dato, cargado una vez', 'text' => 'La venta actualiza stock, cuentas a cobrar y contabilidad.'],
             ['title' => 'Stock confiable', 'text' => 'Existencias por depósito y sucursal, con historial de movimientos.'],
-            ['title' => 'Cierres más cortos', 'text' => 'Su contador recibe información ordenada y a tiempo.'],
+            ['title' => 'Cierres más cortos', 'text' => 'Tu contador recibe información ordenada y a tiempo.'],
             ['title' => 'Decisiones con datos', 'text' => 'Márgenes por producto, cliente y vendedor sin armar planillas.'],
         ],
         'faq' => [
@@ -444,7 +439,7 @@ return [
             [
                 'q' => '¿Odoo sirve para Paraguay?',
                 'a' => 'Sí, con configuración local: impuestos, formatos de comprobante, plan de cuentas y, cuando '
-                     . 'corresponde, la conexión con el SIFEN. Evaluamos qué versión y qué módulos le convienen.',
+                     . 'corresponde, la conexión con el SIFEN. Evaluamos qué versión y qué módulos te convienen.',
             ],
             [
                 'q' => '¿Puedo seguir usando mi sistema contable actual?',
@@ -453,7 +448,7 @@ return [
             ],
             [
                 'q' => '¿Qué pasa con mis datos actuales?',
-                'a' => 'Migramos clientes, proveedores, productos y saldos iniciales. Antes los revisamos con usted, '
+                'a' => 'Migramos clientes, proveedores, productos y saldos iniciales. Antes los revisamos con vos, '
                      . 'porque cargar datos desordenados en un sistema nuevo repite los problemas de antes.',
             ],
             [
@@ -486,14 +481,14 @@ return [
             'eyebrow' => 'ERP y gestión',
             'h1'      => 'Sistema contable y software contable para empresas',
             'h2'      => 'Asientos que se generan solos a partir de la operación.',
-            'lead'    => 'Un sistema contable bien implementado recibe ventas, compras, cobros y pagos sin '
-                       . 'volver a cargarlos. Implementamos software contable para empresas y estudios '
-                       . 'contables en Paraguay, o lo conectamos con el sistema de gestión que usted ya usa.',
+            'lead'    => 'Implementamos sistema contable para empresas y estudios contables en Paraguay, '
+                       . 'integrado con ventas, compras, cobros y pagos, o conectado con el sistema de '
+                       . 'gestión que ya usás.',
         ],
         'includes' => [
             'Revisión de cómo se registra hoy la información contable',
             'Selección o configuración del software contable',
-            'Plan de cuentas acordado con su contador',
+            'Plan de cuentas acordado con tu contador',
             'Integración con ventas, compras, bancos y facturación electrónica',
             'Libros de compras y ventas y reportes para las declaraciones',
             'Importación de extractos bancarios y reglas de conciliación',
@@ -505,10 +500,10 @@ return [
             'Regularización de ejercicios anteriores',
         ],
         'weNeed' => [
-            'El plan de cuentas actual y los reportes que prepara su contador',
+            'El plan de cuentas actual y los reportes que prepara tu contador',
             'Exportaciones de ventas y compras de los últimos meses',
             'Acceso a los extractos bancarios en formato digital',
-            'Una reunión con su contador al inicio',
+            'Una reunión con tu contador al inicio',
         ],
         'sections' => [
             [
@@ -529,12 +524,12 @@ return [
                 'h2'   => 'Software contable: las opciones habituales',
                 'body' => [
                     'Hay tres caminos habituales y el correcto depende del tamaño de la empresa, del volumen '
-                        . 'de comprobantes y de cómo trabaja su estudio contable. No existe una respuesta única, '
-                        . 'y le explicamos las ventajas y límites de cada uno antes de decidir.',
+                        . 'de comprobantes y de cómo trabaja tu estudio contable. No existe una respuesta única, '
+                        . 'y te explicamos las ventajas y límites de cada uno antes de decidir.',
                 ],
                 'items' => [
-                    ['title' => 'Módulo contable del ERP', 'text' => 'Si ya usa o va a usar un ERP como Odoo, el módulo contable evita integraciones.'],
-                    ['title' => 'Software contable del estudio', 'text' => 'Muchos estudios usan un sistema propio; conectamos su operación con ese sistema mediante exportaciones o una integración.'],
+                    ['title' => 'Módulo contable del ERP', 'text' => 'Si ya usás o vas a usar un ERP como Odoo, el módulo contable evita integraciones.'],
+                    ['title' => 'Software contable del estudio', 'text' => 'Muchos estudios usan un sistema propio; conectamos tu operación con ese sistema mediante exportaciones o una integración.'],
                     ['title' => 'Integración a medida', 'text' => 'Cuando la operación vive en un sistema propio, desarrollamos el puente hacia el software contable.'],
                 ],
             ],
@@ -542,12 +537,12 @@ return [
                 'h2'   => 'Normativa paraguaya y reportes para la DNIT',
                 'body' => [
                     'El sistema debe reflejar las reglas locales: IVA con sus tasas vigentes, el régimen del '
-                        . 'impuesto a la renta que corresponda a su empresa, comprobantes con timbrado y, si '
+                        . 'impuesto a la renta que corresponda a tu empresa, comprobantes con timbrado y, si '
                         . 'aplica, documentos electrónicos del SIFEN. Configuramos los libros de compras y ventas '
-                        . 'y los reportes que su contador usa para preparar las declaraciones en el sistema de '
+                        . 'y los reportes que tu contador usa para preparar las declaraciones en el sistema de '
                         . 'la DNIT.',
-                    'Las reglas impositivas cambian. Por eso dejamos las tasas y parámetros configurables y le '
-                        . 'recomendamos confirmar siempre con su contador los valores vigentes antes de cada cierre.',
+                    'Las reglas impositivas cambian. Por eso dejamos las tasas y parámetros configurables y te '
+                        . 'recomendamos confirmar siempre con tu contador los valores vigentes antes de cada cierre.',
                 ],
             ],
             [
@@ -566,9 +561,9 @@ return [
                 'h2'   => 'Qué determina el costo de un sistema contable',
                 'body' => [
                     'Influyen el volumen de comprobantes mensuales, la cantidad de empresas o razones sociales, '
-                        . 'las integraciones necesarias y la licencia del software elegido. Como referencia, una '
-                        . 'implementación acotada suele ubicarse en el rango de pocos millones a algunas decenas '
-                        . 'de millones de guaraníes. Rangos orientativos del mercado, a confirmar con presupuesto.',
+                        . 'las integraciones necesarias y la licencia del software elegido. No publicamos un '
+                        . 'precio fijo porque depende de ese alcance: te pasamos un presupuesto en guaraníes, '
+                        . 'por escrito, después de ver tu caso.',
                 ],
             ],
         ],
@@ -576,17 +571,17 @@ return [
             ['title' => 'Menos transcripción', 'text' => 'Los asientos nacen de la operación, no de una planilla.'],
             ['title' => 'Cierres más rápidos', 'text' => 'El contador recibe la información completa y ordenada.'],
             ['title' => 'Menos errores', 'text' => 'Cuentas y tasas definidas una vez, aplicadas siempre igual.'],
-            ['title' => 'Trabajo en conjunto con su contador', 'text' => 'El sistema se configura con el estudio, no a sus espaldas.'],
+            ['title' => 'Trabajo en conjunto con tu contador', 'text' => 'El sistema se configura con el estudio, no a tus espaldas.'],
         ],
         'faq' => [
             [
-                'q' => '¿Ustedes llevan la contabilidad?',
+                'q' => '¿Llevan la contabilidad?',
                 'a' => 'No. Implementamos y conectamos el sistema. La contabilidad y las declaraciones siguen a '
-                     . 'cargo de su contador o estudio.',
+                     . 'cargo de tu contador o estudio.',
             ],
             [
                 'q' => '¿Qué sistema contable recomiendan?',
-                'a' => 'Depende de si ya tiene un ERP, del sistema que usa su estudio y del volumen de operaciones. '
+                'a' => 'Depende de si ya tenés un ERP, del sistema que usa tu estudio y del volumen de operaciones. '
                      . 'Lo definimos después de una reunión de diagnóstico.',
             ],
             [
@@ -596,7 +591,7 @@ return [
             ],
             [
                 'q' => '¿Sirve para un estudio contable con varios clientes?',
-                'a' => 'Sí, hay sistemas multiempresa pensados para estudios. Evaluamos cuál se ajusta a su forma '
+                'a' => 'Sí, hay sistemas multiempresa pensados para estudios. Evaluamos cuál se ajusta a tu forma '
                      . 'de trabajo.',
             ],
             [
@@ -607,7 +602,7 @@ return [
         ],
         'cta'       => ['label' => 'Consultar por un sistema contable', 'whatsappText' => ''],
         'related'   => ['sistemas-erp', 'sistema-de-inventario', 'punto-de-venta'],
-        'guides'    => ['que-es-un-erp'],
+        'guides'    => ['que-es-un-erp', 'ekuatia-vs-sistema-de-facturacion'],
         'articles'  => [],
         'toolLinks' => [],
     ],
@@ -623,12 +618,11 @@ return [
                            . 'Paraguay: stock por sucursal, códigos de barras, lotes y reposición.',
         'hero' => [
             'eyebrow' => 'ERP y gestión',
-            'h1'      => 'Sistema de inventario para controlar su stock',
-            'h2'      => 'Saber qué tiene, dónde está y cuándo reponer.',
-            'lead'    => 'Un sistema de inventario registra cada entrada, salida y traslado de mercadería '
-                       . 'para que el stock del sistema coincida con el del depósito. Implementamos '
-                       . 'software de inventario para comercios, distribuidoras y depósitos, solo o como '
-                       . 'parte de un ERP.',
+            'h1'      => 'Sistema de inventario para controlar tu stock',
+            'h2'      => 'Saber qué tenés, dónde está y cuándo reponer.',
+            'lead'    => 'Implementamos software de inventario para comercios, distribuidoras y '
+                       . 'depósitos: stock por sucursal, códigos de barras y lotes, solo o dentro de un '
+                       . 'ERP.',
         ],
         'includes' => [
             'Relevamiento de depósitos, sucursales y flujo de mercadería',
@@ -640,13 +634,13 @@ return [
             'Reportes de rotación, valorización y diferencias',
         ],
         'excludes' => [
-            'Lectores de código de barras, impresoras de etiquetas y colectores (le ayudamos a elegirlos)',
+            'Lectores de código de barras, impresoras de etiquetas y colectores (te ayudamos a elegirlos)',
             'El conteo físico del inventario inicial',
         ],
         'weNeed' => [
             'Listado de productos con código, descripción y costo',
             'Cantidad de depósitos y sucursales',
-            'Cómo registra hoy compras, ventas y traslados',
+            'Cómo registrás hoy compras, ventas y traslados',
         ],
         'sections' => [
             [
@@ -659,13 +653,13 @@ return [
                     'Un software de inventario no corrige esto solo. Lo que hace es obligar a que cada '
                         . 'movimiento tenga un documento y un responsable, y así las diferencias se detectan y se '
                         . 'explican. El resto es proceso: quién recibe la mercadería, quién autoriza un ajuste y '
-                        . 'cada cuánto se cuenta. Esas reglas las definimos con usted durante la implementación.',
+                        . 'cada cuánto se cuenta. Esas reglas las definimos con vos durante la implementación.',
                 ],
             ],
             [
                 'h2'   => 'Funciones de un sistema de inventario',
                 'body' => [
-                    'Configuramos solo lo que su operación necesita. Un comercio con un depósito no necesita '
+                    'Configuramos solo lo que tu operación necesita. Un comercio con un depósito no necesita '
                         . 'lo mismo que una distribuidora con varias sucursales y vendedores en la calle, y cada '
                         . 'función de más es un campo que alguien tiene que completar.',
                 ],
@@ -674,18 +668,18 @@ return [
                     ['title' => 'Código de barras', 'text' => 'Carga y venta con lector, y etiquetas impresas desde el sistema.'],
                     ['title' => 'Lotes y vencimientos', 'text' => 'Para alimentos, farmacia, veterinaria o insumos con fecha.'],
                     ['title' => 'Reposición', 'text' => 'Stock mínimo por producto y sugerencia de compra.'],
-                    ['title' => 'Valorización', 'text' => 'Costo del inventario para la gestión y para su contador.'],
+                    ['title' => 'Valorización', 'text' => 'Costo del inventario para la gestión y para tu contador.'],
                 ],
             ],
             [
                 'h2'   => 'Software de inventario solo o dentro de un ERP',
                 'body' => [
-                    'Si su problema es solo el stock, un sistema de inventario independiente puede ser '
+                    'Si tu problema es solo el stock, un sistema de inventario independiente puede ser '
                         . 'suficiente. Pero en cuanto el inventario tiene que conectarse con la facturación, las '
                         . 'compras y la contabilidad, conviene que forme parte de un ERP o sistema de gestión, '
                         . 'para no mantener integraciones entre programas separados.',
-                    'También lo conectamos con su tienda online o su punto de venta, para que el stock publicado '
-                        . 'sea el real y no venda por internet un producto que ya no tiene.',
+                    'También lo conectamos con tu tienda online o tu punto de venta, para que el stock publicado '
+                        . 'sea el real y no vendas por internet un producto que ya no tenés.',
                 ],
             ],
             [
@@ -694,7 +688,7 @@ return [
                     'Empezamos ordenando el maestro de productos: códigos únicos, descripciones claras, unidades '
                         . 'de medida y costos. Después cargamos el inventario inicial a partir de un conteo físico '
                         . 'y activamos los movimientos de a uno: primero ventas y compras, luego traslados y '
-                        . 'ajustes. Durante el primer mes revisamos con usted las diferencias que aparezcan para '
+                        . 'ajustes. Durante el primer mes revisamos con vos las diferencias que aparezcan para '
                         . 'corregir el proceso, no solo el número.',
                 ],
             ],
@@ -702,16 +696,15 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Pesan la cantidad de productos y depósitos, si hay lotes o series, las integraciones con '
-                        . 'ventas y tienda online, y si se usa un sistema existente o un desarrollo propio. Como '
-                        . 'referencia, una implementación sobre un sistema existente suele ubicarse en el rango '
-                        . 'de pocos millones de guaraníes, y un desarrollo propio, bastante más. Rangos '
-                        . 'orientativos del mercado, a confirmar con presupuesto.',
+                        . 'ventas y tienda online, y si se usa un sistema existente o un desarrollo propio. Implementar '
+                        . 'sobre un sistema existente lleva menos trabajo que un desarrollo propio. Con el '
+                        . 'alcance claro te pasamos un presupuesto en guaraníes, por escrito.',
                 ],
             ],
         ],
         'benefits' => [
             ['title' => 'Menos quiebres de stock', 'text' => 'Alertas de reposición antes de quedarse sin producto.'],
-            ['title' => 'Menos capital inmovilizado', 'text' => 'Sabe qué productos no rotan y deja de comprarlos.'],
+            ['title' => 'Menos capital inmovilizado', 'text' => 'Sabés qué productos no rotan y dejás de comprarlos.'],
             ['title' => 'Diferencias explicables', 'text' => 'Cada movimiento tiene documento, fecha y responsable.'],
         ],
         'faq' => [
@@ -722,7 +715,7 @@ return [
             ],
             [
                 'q' => '¿Cómo cargamos el inventario inicial?',
-                'a' => 'Con un conteo físico y una planilla que importamos al sistema. Le damos el formato y las '
+                'a' => 'Con un conteo físico y una planilla que importamos al sistema. Te damos el formato y las '
                      . 'instrucciones para hacerlo ordenado.',
             ],
             [
@@ -760,30 +753,29 @@ return [
             'eyebrow' => 'ERP y gestión',
             'h1'      => 'Sistema de punto de venta con factura electrónica',
             'h2'      => 'Vender, cobrar y facturar desde el mostrador.',
-            'lead'    => 'Un sistema de punto de venta (sistema POS) registra la venta, descuenta el stock, '
-                       . 'cobra y emite el comprobante en un solo paso. Implementamos sistemas de ventas para '
-                       . 'negocios en Paraguay con factura electrónica SIFEN, apertura y cierre de caja y '
-                       . 'reportes por cajero y sucursal.',
+            'lead'    => 'Implementamos sistemas de punto de venta (POS) para negocios en Paraguay: '
+                       . 'caja, stock y factura electrónica SIFEN en un solo paso, con reportes por '
+                       . 'cajero y sucursal.',
         ],
         'includes' => [
-            'Selección del sistema de punto de venta adecuado a su rubro',
+            'Selección del sistema de punto de venta adecuado a tu rubro',
             'Configuración de productos, precios, listas de precios y promociones',
-            'Emisión de factura electrónica SIFEN o conexión con su proveedor de facturación',
+            'Emisión de factura electrónica SIFEN o conexión con tu proveedor de facturación',
             'Apertura, arqueo y cierre de caja por cajero',
             'Cobro en efectivo, tarjeta, transferencia y billeteras',
             'Integración con el stock y, si corresponde, con el ERP',
             'Capacitación de cajeros y encargados',
         ],
         'excludes' => [
-            'Computadoras, cajones, impresoras térmicas y lectores (le indicamos qué comprar)',
+            'Computadoras, cajones, impresoras térmicas y lectores (te indicamos qué comprar)',
             'Contratos con procesadoras de tarjetas o bancos',
             'El trámite de habilitación como facturador electrónico ante la DNIT, salvo que lo contrate aparte',
         ],
         'weNeed' => [
             'Listado de productos con precios',
             'Cantidad de cajas y sucursales',
-            'Datos de su timbrado y su situación ante el SIFEN',
-            'Los medios de cobro que acepta hoy',
+            'Datos de tu timbrado y tu situación ante el SIFEN',
+            'Los medios de cobro que aceptás hoy',
         ],
         'sections' => [
             [
@@ -805,16 +797,16 @@ return [
                         . 'o adheridos emiten documentos electrónicos que se validan con la administración y '
                         . 'pueden consultarse en el portal e-Kuatia. El sistema de punto de venta debe generar '
                         . 'esos documentos, firmarlos y enviarlos, o conectarse con un proveedor que lo haga.',
-                    'Si su comercio todavía no es facturador electrónico, lo tenemos en cuenta al elegir el '
-                        . 'sistema para que el cambio no obligue a reemplazarlo. Consulte con su contador el '
-                        . 'calendario de obligatoriedad vigente para su caso.',
+                    'Si tu comercio todavía no es facturador electrónico, lo tenemos en cuenta al elegir el '
+                        . 'sistema para que el cambio no obligue a reemplazarlo. Consultá con tu contador el '
+                        . 'calendario de obligatoriedad vigente para tu caso.',
                 ],
             ],
             [
                 'h2'   => 'Sistema de ventas para negocio según el rubro',
                 'body' => [
                     'No es lo mismo un sistema de ventas para un minimercado que para una farmacia, una '
-                        . 'ferretería o un local de comidas. Elegimos y configuramos pensando en cómo atiende su '
+                        . 'ferretería o un local de comidas. Elegimos y configuramos pensando en cómo atendés tu '
                         . 'mostrador.',
                 ],
                 'items' => [
@@ -830,17 +822,17 @@ return [
                     'Un sistema en la nube permite ver ventas y stock desde cualquier lugar y simplifica tener '
                         . 'varias sucursales. Un sistema instalado en la computadora sigue funcionando si se corta '
                         . 'internet. Hay soluciones que combinan ambos: venden sin conexión y sincronizan cuando '
-                        . 'vuelve. Evaluamos la calidad de la conexión de su local antes de recomendar.',
+                        . 'vuelve. Evaluamos la calidad de la conexión de tu local antes de recomendar.',
                 ],
             ],
             [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Influyen la cantidad de cajas y sucursales, la licencia o suscripción del sistema, la '
-                        . 'integración con facturación electrónica y con el ERP, y el hardware. Como referencia, '
-                        . 'muchos sistemas POS se contratan por una suscripción mensual por caja, y la '
-                        . 'implementación inicial suele ubicarse en el rango de pocos millones de guaraníes. '
-                        . 'Rangos orientativos del mercado, a confirmar con presupuesto.',
+                        . 'integración con facturación electrónica y con el ERP, y el hardware. Muchos '
+                        . 'sistemas POS se contratan por una suscripción mensual por caja, que paga el negocio al '
+                        . 'proveedor; la implementación inicial la presupuestamos aparte, en guaraníes y por '
+                        . 'escrito, después de conocer tu local.',
                 ],
             ],
         ],
@@ -860,26 +852,26 @@ return [
                 'q' => '¿Qué pasa si se corta internet?',
                 'a' => 'Depende del sistema. Algunos permiten seguir vendiendo y envían los comprobantes cuando '
                      . 'vuelve la conexión, dentro de los plazos que admite la normativa. Lo definimos según la '
-                     . 'conectividad de su local.',
+                     . 'conectividad de tu local.',
             ],
             [
                 'q' => '¿Puedo cobrar con tarjeta desde el sistema?',
-                'a' => 'Sí, registrando el cobro con el terminal de su procesadora. Algunas integraciones permiten '
+                'a' => 'Sí, registrando el cobro con el terminal de tu procesadora. Algunas integraciones permiten '
                      . 'enviar el monto al terminal automáticamente; depende de la procesadora.',
             ],
             [
                 'q' => '¿Sirve para varias sucursales?',
-                'a' => 'Sí. Cada sucursal tiene sus cajas y su stock, y usted ve todo consolidado.',
+                'a' => 'Sí. Cada sucursal tiene sus cajas y su stock, y ves todo consolidado.',
             ],
             [
                 'q' => '¿Qué hardware necesito?',
                 'a' => 'Como mínimo una computadora o tablet, una impresora de comprobantes y un lector de códigos '
-                     . 'de barras. Le damos una lista según el sistema elegido.',
+                     . 'de barras. Te damos una lista según el sistema elegido.',
             ],
         ],
         'cta'       => ['label' => 'Consultar por un sistema POS', 'whatsappText' => ''],
         'related' => ['sistema-de-inventario', 'sistemas-erp', 'sistema-contable', 'facturacion-electronica-sifen'],
-        'guides'    => ['como-elegir-un-sistema-punto-de-venta'],
+        'guides'    => ['como-elegir-un-sistema-punto-de-venta', 'que-es-sifen'],
         'articles'  => [],
         'toolLinks' => [],
     ],
@@ -897,12 +889,12 @@ return [
             'eyebrow' => 'CRM',
             'h1'      => 'CRM para empresas: ventas y clientes en orden',
             'h2'      => 'Ningún cliente potencial olvidado en un chat.',
-            'lead'    => 'Un CRM registra cada contacto, conversación y oportunidad de venta para que su equipo '
-                       . 'sepa a quién llamar hoy. Implementamos un sistema CRM para pymes con Kommo, Odoo CRM '
-                       . 'o desarrollo a medida, conectado con WhatsApp y con su página web.',
+            'lead'    => 'Implementamos CRM para pymes con Kommo, Odoo CRM o desarrollo a medida, '
+                       . 'conectado con WhatsApp y tu página web, para que tu equipo sepa a quién llamar '
+                       . 'hoy.',
         ],
         'includes' => [
-            'Diseño del embudo de ventas con sus etapas reales',
+            'Diseño del embudo de ventas con tus etapas reales',
             'Implementación de Kommo CRM, Odoo CRM u otra herramienta, o un CRM a medida',
             'Conexión con WhatsApp, formularios de la web y redes sociales',
             'Importación de contactos y oportunidades existentes',
@@ -916,7 +908,7 @@ return [
             'Envíos masivos que no cumplan las políticas de WhatsApp',
         ],
         'weNeed' => [
-            'Una descripción de cómo vende hoy, paso a paso',
+            'Una descripción de cómo vendés hoy, paso a paso',
             'Listado de contactos y oportunidades abiertas',
             'Acceso a la cuenta de WhatsApp Business y a la página web',
             'El responsable comercial disponible para definir etapas y reportes',
@@ -936,23 +928,23 @@ return [
             [
                 'h2'   => 'Kommo CRM, Odoo CRM o sistema CRM a medida',
                 'body' => [
-                    'Recomendamos la herramienta según cómo vende su empresa, no según cuál conocemos mejor. '
-                        . 'Las tres opciones funcionan; lo que cambia es cuánto se ajustan a su forma de trabajo.',
+                    'Recomendamos la herramienta según cómo vende tu empresa, no según cuál conocemos mejor. '
+                        . 'Las tres opciones funcionan; lo que cambia es cuánto se ajustan a tu forma de trabajo.',
                 ],
                 'items' => [
                     ['title' => 'Kommo CRM', 'text' => 'Muy orientado a la venta por mensajería. Buena opción cuando WhatsApp es el canal principal.'],
-                    ['title' => 'Odoo CRM', 'text' => 'Conviene si también usa o usará Odoo como ERP: la oportunidad pasa a presupuesto, venta y factura.'],
+                    ['title' => 'Odoo CRM', 'text' => 'Conviene si también usás o vas a usar Odoo como ERP: la oportunidad pasa a presupuesto, venta y factura.'],
                     ['title' => 'CRM a medida', 'text' => 'Para procesos comerciales muy particulares o cuando hay que integrarlo con sistemas propios.'],
                 ],
             ],
             [
                 'h2'   => 'CRM para pymes conectado con WhatsApp',
                 'body' => [
-                    'En Paraguay buena parte de las ventas se conversa por WhatsApp. Conectamos su número '
+                    'En Paraguay buena parte de las ventas se conversa por WhatsApp. Conectamos tu número '
                         . 'mediante la API oficial de WhatsApp Business o las integraciones que ofrece cada CRM, '
                         . 'para que varios vendedores atiendan desde un mismo número y cada conversación quede '
                         . 'asociada al contacto.',
-                    'También conectamos los formularios de su página web y los anuncios, para que cada contacto '
+                    'También conectamos los formularios de tu página web y los anuncios, para que cada contacto '
                         . 'nuevo entre al embudo con su origen registrado.',
                 ],
             ],
@@ -960,10 +952,10 @@ return [
                 'h2'   => 'Implementación: primero el proceso, después la herramienta',
                 'body' => [
                     'Un CRM mal configurado se abandona a las pocas semanas. Por eso empezamos definiendo las '
-                        . 'etapas reales de su venta, qué dato es obligatorio en cada una y qué reporte necesita '
+                        . 'etapas reales de tu venta, qué dato es obligatorio en cada una y qué reporte necesita '
                         . 'el responsable. Recién ahí configuramos la herramienta, importamos los datos y '
                         . 'capacitamos al equipo.',
-                    'Durante las primeras semanas revisamos con usted cómo se está usando y ajustamos lo que '
+                    'Durante las primeras semanas revisamos con vos cómo se está usando y ajustamos lo que '
                         . 'genera fricción.',
                 ],
             ],
@@ -971,10 +963,10 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Influyen la cantidad de usuarios (las herramientas suelen cobrar por usuario al mes), las '
-                        . 'integraciones, las automatizaciones y la migración de datos. Como referencia, una '
-                        . 'implementación sobre una herramienta existente suele ubicarse en el rango de pocos '
-                        . 'millones de guaraníes, más la suscripción. Rangos orientativos del mercado, a confirmar '
-                        . 'con presupuesto.',
+                        . 'integraciones, las automatizaciones y la migración de datos. La '
+                        . 'suscripción de la herramienta es un costo aparte del proveedor; la implementación la '
+                        . 'cotizamos según ese alcance, en guaraníes y por escrito, tras una conversación de 30 '
+                        . 'minutos.',
                 ],
             ],
         ],
@@ -982,19 +974,19 @@ return [
             ['title' => 'Seguimiento sin olvidos', 'text' => 'Tareas y recordatorios para cada oportunidad.'],
             ['title' => 'La información queda en la empresa', 'text' => 'Contactos y conversaciones no dependen del celular de nadie.'],
             ['title' => 'Embudo visible', 'text' => 'El responsable ve cuántas oportunidades hay y dónde se traban.'],
-            ['title' => 'Origen de cada venta', 'text' => 'Sabe qué canal trae clientes y cuál no.'],
+            ['title' => 'Origen de cada venta', 'text' => 'Sabés qué canal trae clientes y cuál no.'],
         ],
         'faq' => [
             [
                 'q' => '¿Kommo o Odoo?',
-                'a' => 'Si vende principalmente por WhatsApp y no necesita un ERP, Kommo suele ser más directo. Si '
-                     . 'usa o va a usar Odoo para facturación y stock, Odoo CRM evita integraciones. Tenemos una '
+                'a' => 'Si vendés principalmente por WhatsApp y no necesitás un ERP, Kommo suele ser más directo. Si '
+                     . 'usás o vas a usar Odoo para facturación y stock, Odoo CRM evita integraciones. Tenemos una '
                      . 'guía que compara ambos.',
             ],
             [
                 'q' => '¿Puedo usar mi número de WhatsApp actual?',
                 'a' => 'Generalmente sí, pero migrarlo a la API oficial tiene condiciones. Lo revisamos antes de '
-                     . 'empezar para no perder el número ni el historial que necesite.',
+                     . 'empezar para no perder el número ni el historial que necesites.',
             ],
             [
                 'q' => '¿Cuánto tarda la implementación?',
@@ -1013,7 +1005,7 @@ return [
         ],
         'cta'       => ['label' => 'Implementar un CRM', 'whatsappText' => ''],
         'related' => ['sistemas-erp', 'automatizacion-ia', 'desarrollo-de-software', 'whatsapp-business-api'],
-        'guides'    => ['kommo-vs-odoo'],
+        'guides'    => ['kommo-vs-odoo', 'whatsapp-business-vs-api'],
         'articles'  => [],
         'toolLinks' => [],
     ],
@@ -1031,23 +1023,22 @@ return [
             'eyebrow' => 'Automatización',
             'h1'      => 'Automatización y agentes de IA para empresas',
             'h2'      => 'Que el trabajo repetitivo lo haga el sistema.',
-            'lead'    => 'Construimos automatizaciones y agentes de IA que ejecutan tareas concretas de su '
-                       . 'empresa: pasar datos entre sistemas, leer comprobantes, responder consultas '
-                       . 'frecuentes o preparar reportes. Automatizar procesos libera horas de su equipo para '
-                       . 'el trabajo que sí necesita criterio humano.',
+            'lead'    => 'Construimos automatizaciones y agentes de IA para tareas concretas: pasar '
+                       . 'datos entre sistemas, leer comprobantes, responder consultas por WhatsApp o '
+                       . 'armar reportes.',
         ],
         'includes' => [
             'Relevamiento de tareas repetitivas y cálculo del ahorro esperado',
             'Diseño del flujo: disparador, pasos, validaciones y excepciones',
-            'Integraciones entre sus sistemas, planillas, correo y WhatsApp',
-            'Agentes de IA para clasificar, extraer datos o responder con información de su empresa',
+            'Integraciones entre tus sistemas, planillas, correo y WhatsApp',
+            'Agentes de IA para clasificar, extraer datos o responder con información de tu empresa',
             'Revisión humana en los pasos sensibles',
             'Registro de cada ejecución y alertas cuando algo falla',
             'Documentación y capacitación del equipo',
         ],
         'excludes' => [
             'Costos de uso de los modelos de IA y de las plataformas de automatización',
-            'Cursos o capacitación general sobre inteligencia artificial (vea inteligenciaartificial.com.py)',
+            'Cursos o capacitación general sobre inteligencia artificial (mirá inteligenciaartificial.com.py)',
             'Decisiones automáticas sin supervisión en temas legales, médicos o financieros',
         ],
         'weNeed' => [
@@ -1068,7 +1059,7 @@ return [
                 ],
                 'items' => [
                     ['title' => 'Carga de comprobantes', 'text' => 'Leer facturas recibidas en PDF o correo y cargar los datos en el sistema.'],
-                    ['title' => 'Atención de consultas', 'text' => 'Responder preguntas frecuentes en WhatsApp con la información de su empresa y derivar a una persona.'],
+                    ['title' => 'Atención de consultas', 'text' => 'Responder preguntas frecuentes en WhatsApp con la información de tu empresa y derivar a una persona.'],
                     ['title' => 'Reportes', 'text' => 'Armar y enviar el reporte semanal a partir de varios sistemas.'],
                     ['title' => 'Seguimiento comercial', 'text' => 'Recordatorios de cobro, confirmaciones de turnos y avisos de pedidos.'],
                     ['title' => 'Sincronización', 'text' => 'Mantener iguales los datos entre la tienda, el ERP y el CRM.'],
@@ -1084,9 +1075,9 @@ return [
                     'No es un empleado autónomo. Funciona bien cuando tiene instrucciones precisas, acceso solo '
                         . 'a lo que necesita y una persona que revisa los casos dudosos. Diseñamos los agentes con '
                         . 'esos límites desde el principio.',
-                    'Si busca información general sobre inteligencia artificial, cursos o novedades, le '
+                    'Si buscás información general sobre inteligencia artificial, cursos o novedades, te '
                         . 'recomendamos inteligenciaartificial.com.py. Nosotros nos enfocamos en construir '
-                        . 'soluciones para su operación.',
+                        . 'soluciones para tu operación.',
                 ],
             ],
             [
@@ -1108,10 +1099,10 @@ return [
             [
                 'h2'   => 'Datos y privacidad',
                 'body' => [
-                    'Automatizar implica que un sistema lea información de su empresa y, a veces, de sus '
+                    'Automatizar implica que un sistema lea información de tu empresa y, a veces, de tus '
                         . 'clientes. Definimos qué datos se envían a servicios externos, elegimos proveedores con '
                         . 'condiciones de uso adecuadas y limitamos los accesos de cada automatización a lo '
-                        . 'indispensable. Para evaluaciones de seguridad específicas, le sugerimos consultar a '
+                        . 'indispensable. Para evaluaciones de seguridad específicas, te sugerimos consultar a '
                         . 'especialistas como ciberseguridad.com.py.',
                 ],
             ],
@@ -1120,15 +1111,15 @@ return [
                 'body' => [
                     'Pesan la cantidad de sistemas a conectar, la calidad de los datos de entrada, el volumen '
                         . 'de ejecuciones y cuánta revisión humana se necesita. Además del desarrollo hay un costo '
-                        . 'de operación mensual por las plataformas y el uso de modelos de IA. Como referencia, '
-                        . 'una automatización acotada suele ubicarse en el rango de pocos millones de guaraníes. '
-                        . 'Rangos orientativos del mercado, a confirmar con presupuesto. Nuestra calculadora de '
-                        . 'retorno le ayuda a estimar si el ahorro lo justifica.',
+                        . 'de operación mensual por las plataformas y el uso de modelos de IA. Una '
+                        . 'automatización acotada es un trabajo mucho menor que un flujo con varios sistemas. '
+                        . 'Te pasamos un presupuesto por escrito en guaraníes, y nuestra calculadora de '
+                        . 'retorno te ayuda a estimar si el ahorro lo justifica.',
                 ],
             ],
         ],
         'benefits' => [
-            ['title' => 'Horas recuperadas', 'text' => 'Su equipo deja de copiar y pegar y se dedica a atender y decidir.'],
+            ['title' => 'Horas recuperadas', 'text' => 'Tu equipo deja de copiar y pegar y se dedica a atender y decidir.'],
             ['title' => 'Menos errores de carga', 'text' => 'Las reglas se aplican siempre igual.'],
             ['title' => 'Respuesta más rápida', 'text' => 'Consultas y documentos procesados en minutos, también fuera de horario.'],
             ['title' => 'Retorno medible', 'text' => 'Medimos antes y después para saber si valió la pena.'],
@@ -1146,34 +1137,34 @@ return [
             ],
             [
                 'q' => '¿Necesito cambiar mis sistemas?',
-                'a' => 'No necesariamente. La mayoría de las automatizaciones se conectan con lo que ya usa, '
+                'a' => 'No necesariamente. La mayoría de las automatizaciones se conectan con lo que ya usás, '
                      . 'mediante APIs, correo, planillas o exportaciones.',
             ],
             [
                 'q' => '¿Cuánto cuesta mantenerlo funcionando?',
                 'a' => 'Depende del volumen. Hay un costo mensual de plataformas y de uso de IA que estimamos en la '
-                     . 'propuesta, más el mantenimiento si lo contrata.',
+                     . 'propuesta por escrito, más el mantenimiento si lo contrata.',
             ],
             [
                 'q' => '¿Puede atender clientes por WhatsApp?',
-                'a' => 'Sí, respondiendo preguntas frecuentes con información aprobada por usted y derivando a una '
+                'a' => 'Sí, respondiendo preguntas frecuentes con información aprobada por vos y derivando a una '
                      . 'persona cuando la consulta lo requiere.',
             ],
             [
                 'q' => '¿Dan cursos de inteligencia artificial?',
-                'a' => 'No. Construimos soluciones. Para aprender sobre IA en general, consulte '
+                'a' => 'No. Construimos soluciones. Para aprender sobre IA en general, consultá '
                      . 'inteligenciaartificial.com.py.',
             ],
         ],
         'cta'       => ['label' => 'Automatizar un proceso', 'whatsappText' => ''],
         'related'   => ['desarrollo-de-software', 'crm', 'sistemas-erp'],
-        'guides'    => ['como-automatizar-procesos-con-ia'],
+        'guides'    => ['como-automatizar-procesos-con-ia', 'whatsapp-business-vs-api'],
         'articles'  => [],
         'toolLinks' => [
             [
                 'path'  => '/herramientas/roi-automatizacion/',
-                'label' => 'Calcule el retorno',
-                'text'  => 'Horas y guaraníes que recupera por mes y por año al automatizar una tarea.',
+                'label' => 'Calculá el retorno',
+                'text'  => 'Horas y guaraníes que recuperás por mes y por año al automatizar una tarea.',
             ],
         ],
     ],
@@ -1185,16 +1176,15 @@ return [
         'cluster'         => 'software',
         'parent'          => null,
         'seoTitle'        => 'Programadores y outsourcing',
-        'metaDescription' => 'Programadores para su proyecto: desarrollador web, full stack o equipo por '
-                           . 'outsourcing de software, con horas asignadas y código a su nombre.',
+        'metaDescription' => 'Programadores para tu proyecto: desarrollador web, full stack o equipo por '
+                           . 'outsourcing de software, con horas asignadas y código a tu nombre.',
         'hero' => [
             'eyebrow' => 'Programadores',
             'h1'      => 'Programadores y outsourcing de desarrollo de software',
             'h2'      => 'Capacidad de desarrollo sin armar un equipo desde cero.',
-            'lead'    => 'Si necesita programadores para avanzar un proyecto, sumar un desarrollador web o full '
-                       . 'stack a su equipo, o tercerizar el desarrollo completo, le ofrecemos outsourcing de '
-                       . 'software con horas asignadas, seguimiento semanal y el código siempre en sus '
-                       . 'repositorios.',
+            'lead'    => 'Sumamos programadores a tu proyecto: desarrollador web o full stack para '
+                       . 'reforzar tu equipo, o el desarrollo completo tercerizado, con horas asignadas '
+                       . 'y seguimiento semanal.',
         ],
         'includes' => [
             'Entrevista para entender el proyecto, la tecnología y el ritmo esperado',
@@ -1202,11 +1192,11 @@ return [
             'Planificación por tareas con estimaciones',
             'Reunión de seguimiento semanal e informe de horas',
             'Revisión de código y buenas prácticas',
-            'Trabajo en sus repositorios y herramientas de gestión',
+            'Trabajo en tus repositorios y herramientas de gestión',
         ],
         'excludes' => [
-            'Búsquedas laborales para contratar empleados en relación de dependencia (vea trabajo.com.py)',
-            'Proyectos sin una persona de su lado que priorice y valide',
+            'Búsquedas laborales para contratar empleados en relación de dependencia (mirá trabajo.com.py)',
+            'Proyectos sin una persona de tu lado que priorice y valide',
         ],
         'weNeed' => [
             'Descripción del proyecto y de la tecnología actual',
@@ -1215,27 +1205,27 @@ return [
         ],
         'sections' => [
             [
-                'h2'   => 'Tres formas de trabajar con nuestros programadores',
+                'h2'   => 'Tres formas de trabajar con programadores',
                 'body' => [
-                    'Contratar programadores no es una sola cosa. Según lo que ya tenga en su empresa, conviene '
+                    'Contratar programadores no es una sola cosa. Según lo que ya tengas en tu empresa, conviene '
                         . 'una modalidad u otra.',
                 ],
                 'items' => [
-                    ['title' => 'Refuerzo de equipo', 'text' => 'Un desarrollador web o full stack se suma a su equipo técnico y trabaja con sus procesos.'],
+                    ['title' => 'Refuerzo de equipo', 'text' => 'Un desarrollador web o full stack se suma a tu equipo técnico y trabaja con tus procesos.'],
                     ['title' => 'Bolsa de horas', 'text' => 'Horas mensuales para mantenimiento y mejoras de sistemas existentes.'],
                     ['title' => 'Proyecto tercerizado', 'text' => 'Nos hacemos cargo del desarrollo completo con alcance y entregas definidas.'],
                 ],
             ],
             [
-                'h2'   => 'Desarrollador web y desarrollador full stack: qué perfil necesita',
+                'h2'   => 'Desarrollador web y desarrollador full stack: qué perfil necesitás',
                 'body' => [
                     'Un desarrollador web trabaja sobre sitios y aplicaciones que se usan desde el navegador. '
                         . 'Un desarrollador full stack cubre tanto la parte visible (frontend) como el servidor, '
                         . 'la base de datos y las integraciones (backend). Para un proyecto chico, un perfil full '
                         . 'stack suele ser más eficiente; en proyectos grandes conviene separar roles.',
                     'También hay perfiles específicos: desarrollo móvil, integraciones con facturación '
-                        . 'electrónica y pagos, bases de datos o infraestructura. Le ayudamos a definir qué '
-                        . 'necesita antes de asignar a alguien.',
+                        . 'electrónica y pagos, bases de datos o infraestructura. Te ayudamos a definir qué '
+                        . 'necesitás antes de asignar a alguien.',
                 ],
             ],
             [
@@ -1245,40 +1235,39 @@ return [
                         . 'constante por años y alguien en la empresa puede liderarlo técnicamente. Si el trabajo '
                         . 'es por proyecto, variable o necesita varios perfiles, el outsourcing reduce el tiempo '
                         . 'de búsqueda y el riesgo de depender de una sola persona.',
-                    'Si lo que busca es publicar una búsqueda laboral o encontrar empleo como programador, '
+                    'Si lo que buscás es publicar una búsqueda laboral o encontrar empleo como programador, '
                         . 'trabajo.com.py es el lugar indicado.',
                 ],
             ],
             [
                 'h2'   => 'Cómo cuidamos la continuidad',
                 'body' => [
-                    'El código se escribe en sus repositorios, con documentación y revisiones. Si un '
-                        . 'desarrollador cambia, el reemplazo tiene de dónde partir. Usted conserva todos los '
-                        . 'accesos y puede auditar el trabajo en cualquier momento.',
+                    'El código se escribe en tus repositorios, con documentación y revisiones. Si un '
+                        . 'desarrollador cambia, el reemplazo tiene de dónde partir. Vos conservás todos los '
+                        . 'accesos y podés auditar el trabajo en cualquier momento.',
                 ],
             ],
             [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Se cotiza por hora o por dedicación mensual y varía según el perfil (junior, semi senior o '
-                        . 'senior), la tecnología y la cantidad de horas comprometidas. Como referencia, en el '
-                        . 'mercado paraguayo la hora de desarrollo profesional suele ubicarse entre cien mil y '
-                        . 'varios cientos de miles de guaraníes según el perfil. Rangos orientativos del mercado, '
-                        . 'a confirmar con presupuesto.',
+                        . 'senior), la tecnología y la cantidad de horas comprometidas. No publicamos '
+                        . 'una tarifa fija: la definimos con vos según el perfil que necesites y el tiempo de '
+                        . 'dedicación, y te la pasamos en guaraníes, por escrito.',
                 ],
             ],
         ],
         'benefits' => [
             ['title' => 'Arranque rápido', 'text' => 'Sin procesos de selección largos.'],
             ['title' => 'Flexibilidad', 'text' => 'Más o menos horas según la etapa del proyecto.'],
-            ['title' => 'Varios perfiles', 'text' => 'Acceso a frontend, backend, móvil e integraciones según lo necesite.'],
-            ['title' => 'Sin dependencia de una persona', 'text' => 'Código documentado y en sus repositorios.'],
+            ['title' => 'Varios perfiles', 'text' => 'Acceso a frontend, backend, móvil e integraciones según lo necesites.'],
+            ['title' => 'Sin dependencia de una persona', 'text' => 'Código documentado y en tus repositorios.'],
         ],
         'faq' => [
             [
                 'q' => '¿Con qué tecnologías trabajan?',
                 'a' => 'Principalmente PHP, JavaScript y TypeScript, Python, frameworks móviles multiplataforma y '
-                     . 'bases de datos MySQL y PostgreSQL. Si su proyecto usa otra tecnología, lo evaluamos.',
+                     . 'bases de datos MySQL y PostgreSQL. Si tu proyecto usa otra tecnología, lo evaluamos.',
             ],
             [
                 'q' => '¿Cuál es el mínimo de horas?',
@@ -1287,15 +1276,15 @@ return [
             ],
             [
                 'q' => '¿Puedo entrevistar al desarrollador?',
-                'a' => 'Sí, en la modalidad de refuerzo de equipo le presentamos el perfil antes de empezar.',
+                'a' => 'Sí, en la modalidad de refuerzo de equipo te presentamos el perfil antes de empezar.',
             ],
             [
                 'q' => '¿Quién es dueño del código?',
-                'a' => 'Su empresa. El trabajo se hace en sus repositorios y se cede de acuerdo con el contrato.',
+                'a' => 'Tu empresa. El trabajo se hace en tus repositorios y se cede de acuerdo con el contrato.',
             ],
             [
                 'q' => '¿Publican búsquedas de empleo?',
-                'a' => 'No. Para búsquedas laborales y ofertas de empleo, consulte trabajo.com.py.',
+                'a' => 'No. Para búsquedas laborales y ofertas de empleo, consultá trabajo.com.py.',
             ],
         ],
         'cta'       => ['label' => 'Consultar disponibilidad', 'whatsappText' => ''],
@@ -1313,14 +1302,14 @@ return [
         'parent'          => null,
         'seoTitle'        => 'Desarrollo de MVP para startups',
         'metaDescription' => 'Desarrollo de MVP para startups y nuevos negocios en Paraguay: la versión '
-                           . 'mínima de su producto, lista para validar con usuarios reales.',
+                           . 'mínima de tu producto, lista para validar con usuarios reales.',
         'hero' => [
             'eyebrow' => 'MVP',
             'h1'      => 'Desarrollo de MVP para startups y nuevos negocios',
-            'h2'      => 'Validar la idea antes de construir todo.',
-            'lead'    => 'Un MVP (producto mínimo viable) es la versión más chica de su producto que permite '
-                       . 'comprobar si alguien lo usa y lo paga. Le ayudamos a recortar la idea a lo '
-                       . 'indispensable, construirla rápido y medir qué pasa con usuarios reales.',
+            'h2'      => 'Validar tu idea antes de construir todo.',
+            'lead'    => 'Recortamos tu idea a lo indispensable, construimos la web app o app móvil '
+                       . 'mínima y medimos el uso con usuarios reales, para saber si alguien la usa y la '
+                       . 'paga antes de invertir más.',
         ],
         'includes' => [
             'Taller para definir la hipótesis principal y el usuario objetivo',
@@ -1344,7 +1333,7 @@ return [
                 'h2'   => 'Qué es un MVP y qué no es',
                 'body' => [
                     'Un MVP no es una versión mal hecha del producto final. Es una versión completa de una '
-                        . 'sola cosa: la que valida si su propuesta resuelve un problema por el que alguien está '
+                        . 'sola cosa: la que valida si tu propuesta resuelve un problema por el que alguien está '
                         . 'dispuesto a pagar o a cambiar de hábito.',
                     'A veces el MVP ni siquiera requiere programar: una página de inscripción, un formulario y '
                         . 'un proceso manual detrás pueden validar la demanda antes de invertir en software.',
@@ -1374,8 +1363,8 @@ return [
                 'h2'   => 'Después del MVP',
                 'body' => [
                     'Si los datos confirman la idea, el MVP evoluciona hacia un producto completo. Por eso lo '
-                        . 'construimos con tecnologías que se pueden escalar y con el código a su nombre. Si los '
-                        . 'datos no la confirman, usted habrá gastado mucho menos que construyendo el producto '
+                        . 'construimos con tecnologías que se pueden escalar y con el código a tu nombre. Si los '
+                        . 'datos no la confirman, vos habrás gastado mucho menos que construyendo el producto '
                         . 'entero.',
                 ],
             ],
@@ -1383,13 +1372,13 @@ return [
                 'h2'   => 'Qué determina el costo',
                 'body' => [
                     'Depende de cuántas funciones quedan en el recorte, si hay pagos o integraciones y si es web '
-                        . 'o móvil. Como referencia, un MVP acotado suele ubicarse en el rango de algunas decenas '
-                        . 'de millones de guaraníes. Rangos orientativos del mercado, a confirmar con presupuesto.',
+                        . 'o móvil. Cuanto más acotado el recorte, menos trabajo. Después de '
+                        . 'una conversación de 30 minutos te pasamos un presupuesto en guaraníes, por escrito.',
                 ],
             ],
         ],
         'benefits' => [
-            ['title' => 'Menos riesgo', 'text' => 'Invierte en construir después de validar, no antes.'],
+            ['title' => 'Menos riesgo', 'text' => 'Invertís en construir después de validar, no antes.'],
             ['title' => 'Velocidad', 'text' => 'Usuarios reales usando el producto en pocas semanas.'],
             ['title' => 'Base escalable', 'text' => 'Si funciona, se sigue construyendo sobre lo mismo.'],
         ],
@@ -1400,7 +1389,7 @@ return [
             ],
             [
                 'q' => '¿Firman un acuerdo de confidencialidad?',
-                'a' => 'Sí, antes de conocer los detalles de su idea si lo prefiere.',
+                'a' => 'Sí, antes de conocer los detalles de tu idea, si lo preferís.',
             ],
             [
                 'q' => '¿Trabajan a cambio de participación en la empresa?',
@@ -1422,8 +1411,8 @@ return [
         'toolLinks' => [
             [
                 'path'  => '/herramientas/cotizador-app/',
-                'label' => 'Ubique su MVP',
-                'text'  => 'El cotizador orientativo muestra en qué nivel de complejidad está su idea.',
+                'label' => 'Ubicá tu MVP',
+                'text'  => 'El cotizador orientativo muestra en qué nivel de complejidad está tu idea.',
             ],
         ],
     ],

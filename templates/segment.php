@@ -43,24 +43,38 @@ $page = [
 $hero        = $record['hero'];
 $ctaWhatsapp = whatsapp_text_for_page($page);
 
+/* The rubro's photograph (city pages have none and keep a one-column hero). */
+$segImage = image_for('segment', $slug);
+if ($segImage !== null) {
+    $page['ogImage'] = $segImage['base'] . '-' . max($segImage['widths']) . '.webp';
+}
+
 require ROOT_DIR . '/partials/head.php';
 require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main">
 
-  <section class="page-hero">
+  <section class="page-hero<?= $segImage !== null ? ' page-hero--media' : '' ?>">
     <div class="container">
       <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
-      <div class="page-hero__inner">
-        <p class="eyebrow"><?= e($hero['eyebrow']) ?></p>
-        <h1><?= e($hero['h1']) ?></h1>
-        <p class="lead"><?= e($hero['lead']) ?></p>
-        <div class="btn-row">
-          <a class="btn btn--primary" href="#solicitar"><?= e(ui('cta.consult')) ?></a>
-          <?php if (($wa = whatsapp_link($ctaWhatsapp)) !== null): ?>
-            <a class="btn btn--secondary" href="<?= e($wa) ?>" rel="noopener"><?= e(ui('cta.whatsapp')) ?></a>
-          <?php endif; ?>
+      <div class="page-hero__grid">
+        <div class="page-hero__inner">
+          <p class="eyebrow"><?= e($hero['eyebrow']) ?></p>
+          <h1><?= e($hero['h1']) ?></h1>
+          <p class="lead"><?= e($hero['lead']) ?></p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="#solicitar"><?= e(ui('cta.consult')) ?></a>
+            <?php if (($wa = whatsapp_link($ctaWhatsapp)) !== null): ?>
+              <a class="btn btn--whatsapp" href="<?= e($wa) ?>" rel="noopener"><?= e(ui('cta.whatsapp_long')) ?></a>
+            <?php endif; ?>
+          </div>
+          <?php require ROOT_DIR . '/partials/trust-row.php'; ?>
         </div>
+        <?php if ($segImage !== null): ?>
+          <div class="page-hero__media">
+            <?= picture($segImage, 'media-frame', '(min-width: 64rem) 36rem, 100vw', true) ?>
+          </div>
+        <?php endif; ?>
       </div>
     </div>
   </section>

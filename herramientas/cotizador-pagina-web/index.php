@@ -1,6 +1,6 @@
 <?php
 /**
- * Cotizador de página web: complexity tier + orientative market range.
+ * Cotizador de página web: complexity tier (no amount shown).
  * The scoring lives in assets/js/tools/cotizador-pagina-web.js.
  */
 
@@ -64,10 +64,10 @@ ob_start();
     <dl class="tool-result__lines">
       <dt>Nivel de complejidad</dt>
       <dd id="cpw-nivel"></dd>
-      <dt>Rango orientativo del mercado</dt>
+      <dt>Presupuesto</dt>
       <dd id="cpw-rango"></dd>
     </dl>
-    <p class="note">Rangos orientativos del mercado, a confirmar con presupuesto. No incluye dominio, hosting ni licencias.</p>
+    <p class="note">El nivel es orientativo y no es un presupuesto. No incluye dominio, hosting ni licencias.</p>
     <p><strong>Suele incluir:</strong></p>
     <ul id="cpw-incluye"></ul>
     <div class="btn-row mt-3">

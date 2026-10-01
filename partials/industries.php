@@ -49,8 +49,18 @@ if ($industriesItems !== []) :
           $industryPath  = is_array($industry) ? ($industry['path']  ?? '') : '';
         ?>
         <li>
+          <?php
+            /* A /soluciones/<slug>/ tile carries that page's photograph when
+               content/images.php has one. */
+            $industryImg = $industryPath !== '' ? image_for('segment', basename(rtrim($industryPath, '/'))) : null;
+          ?>
           <?php if ($industryPath !== ''): ?>
-            <a class="industries__item" href="<?= e($industryPath) ?>"><?= e($industryLabel) ?></a>
+            <a class="industries__item<?= $industryImg !== null ? ' industries__item--media' : '' ?>" href="<?= e($industryPath) ?>">
+              <?php if ($industryImg !== null): ?>
+                <?= picture(['alt' => ''] + $industryImg, 'industries__thumb', '6rem') ?>
+              <?php endif; ?>
+              <span><?= e($industryLabel) ?></span>
+            </a>
           <?php else: ?>
             <span class="industries__item"><?= e($industryLabel) ?></span>
           <?php endif; ?>
@@ -63,5 +73,5 @@ if ($industriesItems !== []) :
 <?php
 unset(
     $industriesEyebrow, $industriesTitle, $industriesLead, $industriesItems, $industriesSurface,
-    $industry, $industryLabel, $industryPath
+    $industry, $industryLabel, $industryPath, $industryImg
 );

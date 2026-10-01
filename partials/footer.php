@@ -24,6 +24,15 @@ $footSocials = nav('socials');
           <span class="wordmark__text"><?= e(site('domain') ?: site('name')) ?></span>
         </a>
         <p class="site-footer__blurb mt-3"><?= e(ui('footer.blurb')) ?></p>
+        <?php $footSister = content('ui')['sister'] ?? []; ?>
+        <?php if (!empty($footSister['items'])): ?>
+          <h2 class="mt-4"><?= e($footSister['title']) ?></h2>
+          <ul class="site-footer__sister">
+            <?php foreach ($footSister['items'] as $footSisterItem): ?>
+              <li><a href="<?= e($footSisterItem['url']) ?>" rel="noopener"><?= e($footSisterItem['label']) ?> · <?= e($footSisterItem['host']) ?></a></li>
+            <?php endforeach; ?>
+          </ul>
+        <?php endif; ?>
       </div>
 
       <div>
