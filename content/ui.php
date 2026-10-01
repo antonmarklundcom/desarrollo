@@ -5,8 +5,7 @@
  * so translating the site is this one file plus content/*.
  *
  * The strings below are Paraguayan Spanish with voseo (the register the
- * services use). Guides, blog and segment pages are still "usted" and are a
- * separate follow-up. A Swedish site rewrites this file in
+ * services, guides, blog and segment pages use). A Swedish site rewrites this file in
  * Swedish and sets 'market' => 'se' in content/site.php; no code changes.
  *
  * Nothing here may name a month, a year, a price or a client: strings must stay

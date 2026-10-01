@@ -329,7 +329,7 @@ return [
             [
                 'path'  => '/herramientas/cotizador-pagina-web/',
                 'label' => 'Cotizador de página web',
-                'text'  => 'Elija "landing page" y ubique su caso antes de pedir presupuesto.',
+                'text'  => 'Elegí "landing page" y ubicá tu caso antes de pedir presupuesto.',
             ],
         ],
     ],
@@ -637,7 +637,7 @@ return [
             [
                 'path'  => '/herramientas/cotizador-pagina-web/',
                 'label' => 'Cotizador de página web',
-                'text'  => 'Elija "tienda online" y active pagos online para ubicar su caso.',
+                'text'  => 'Elegí "tienda online" y activá pagos online para ubicar tu caso.',
             ],
         ],
     ],
@@ -914,7 +914,7 @@ return [
         ],
         'faq' => [
             [
-                'q' => '¿Pueden mantener un sitio que no hicieron ustedes?',
+                'q' => '¿Pueden mantener un sitio que no hicieron ellos?',
                 'a' => 'Sí. Primero hacemos una revisión inicial para conocer el sitio y corregir lo urgente; luego '
                      . 'entra en el plan mensual.',
             ],
@@ -1090,7 +1090,7 @@ return [
                      . 'muy directa de clientes para negocios con atención presencial.',
             ],
             [
-                'q' => '¿Pueden trabajar sobre un sitio que no hicieron ustedes?',
+                'q' => '¿Pueden trabajar sobre un sitio que no hicimos nosotros?',
                 'a' => 'Sí. Empezamos con una auditoría y te indicamos qué cambios hacen falta y quién puede '
                      . 'aplicarlos.',
             ],
